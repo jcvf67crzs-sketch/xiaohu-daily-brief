@@ -15,8 +15,17 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+
+// Mirror deploy stdout/stderr into the daily log instead of the parent
+// stdio (which the scheduler swallowed anyway). Returns the spawnSync result.
+function spawnSyncShim(cmd, args, opts) {
+  const r = spawnSync(cmd, args, { ...opts, stdio: "pipe", shell: true });
+  const out = (r.stdout?.toString("utf8") ?? "") + (r.stderr?.toString("utf8") ?? "");
+  if (out) fs.appendFileSync(logFile, out);
+  return r;
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -53,6 +62,24 @@ child.stderr.pipe(logStream);
 child.on("close", (code) => {
   if (code === 0) {
     fs.appendFileSync(logFile, `\n[${now()}] OK\n`);
+
+    // Deploy to remote host (no-op if DEPLOY_HOST not set in .env.local).
+    // Runs synchronously so the log captures the outcome, but a failure
+    // here is non-fatal — daily.html is on disk, the user can rerun
+    // `npm run deploy` later.
+    fs.appendFileSync(logFile, `[${now()}] deploying…\n`);
+    const deployResult = spawnSyncShim("node", ["scripts/deploy.mjs"], {
+      cwd: projectRoot,
+    });
+    if (deployResult.status === 0) {
+      fs.appendFileSync(logFile, `[${now()}] deploy OK\n`);
+    } else {
+      fs.appendFileSync(
+        logFile,
+        `[${now()}] deploy FAILED (exit ${deployResult.status}) — non-fatal, run \`npm run deploy\` to retry\n`,
+      );
+    }
+
     // Detached so we don't block on Chrome's lifetime. Errors here are
     // cosmetic — the report exists on disk regardless.
     const opener = spawn("npm", ["run", "open"], {

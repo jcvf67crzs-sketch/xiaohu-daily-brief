@@ -9,6 +9,7 @@
     "regen-trading": "tsx scripts/regen-trading.ts",
     "regen-enrich": "tsx scripts/regen-enrich.ts",
     "quota-report": "tsx scripts/quota-report.ts",
+    "deploy": "node scripts/deploy.mjs",
     "open": "node scripts/open-report.mjs"
   },
   "dependencies": {
