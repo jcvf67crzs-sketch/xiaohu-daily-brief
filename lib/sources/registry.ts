@@ -1,547 +1,101 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import type { SourceDef } from "./types";
 
 /**
- * 数据源中心配置。
+ * Source registry — loaded at module-init time from sources.config.json
+ * at the project root. The JSON file is the **single source of truth**;
+ * edit it (or use `npm run sources` to inspect) rather than hard-coding
+ * sources here.
  *
- * 增加源：在数组里追加一项即可。
- * - 普通 RSS / Atom 源直接走 lib/sources/rss.ts；如果该源被 Cloudflare
- *   或同类反爬 TLS-fingerprint 拦了 Node 的 undici（症状：Just a moment…），
- *   加上 `useCurl: true` 让 fetcher 走 curl 子进程。
- * - 特殊源（HN / V2EX / GitHub Trending / LinuxDo）在
- *   lib/sources/dispatch.ts 里加分支。
+ * Locale filtering:
+ *   - `REPORT_LOCALE=zh` (default) — keeps sources whose `locales` includes "zh"
+ *   - `REPORT_LOCALE=en`           — keeps sources whose `locales` includes "en"
+ *   Sources without an explicit `locales` field default to both ["zh", "en"].
  *
- * `enabled: false` 的源会被跳过。
+ * Adding a source:
+ *   - Plain RSS / Atom: add a JSON entry with type=rss. If the host blocks
+ *     Node's undici TLS fingerprint (Cloudflare "Just a moment…"), set
+ *     useCurl=true so rss.ts shells out to curl.
+ *   - Special source (HN / V2EX / GitHub Trending / LinuxDo): add a branch
+ *     in lib/sources/dispatch.ts pointing to your fetcher.
  *
- * subcategory 在 tech / finance 下决定 L2 分组：
- *   tech    → github-trending / ai-news / x-viral    （cn-community 升级到 L1）
+ * `enabled: false` entries stay in the config for visibility; disable
+ * rather than delete so the "why we don't use this" history is preserved.
+ *
+ * Subcategory determines L2 grouping in the rendered HTML:
+ *   tech    → github-trending / ai-news / x-viral (cn-community renders as L1)
  *   finance → news
- *   politics 当前不分二级（subcategory 不设）
- *
- * cn-community 在 registry 里仍挂在 category=tech 下，但渲染时被
- * 拆到独立 L1 panel "community" 显示（lib/output/render.ts）。
- *
- * 2026-05-15 复核可达性：见各源注释。
+ *   politics → no L2 split (subcategory omitted)
  */
-export const sources: SourceDef[] = [
-  // ============================================================
-  // 技术动态 — 二级：GitHub Trending
-  // ============================================================
-  {
-    id: "github-trending",
-    name: "GitHub Trending",
-    type: "scrape",
-    url: "https://github.com/trending",
-    category: "tech",
-    subcategory: "github-trending",
-    enabled: true,
-  },
 
-  // ============================================================
-  // 技术动态 — 二级：中文社区（V2EX / LinuxDo）
-  // ============================================================
-  {
-    id: "v2ex-hot",
-    name: "V2EX",
-    type: "api",
-    url: "https://www.v2ex.com/api/topics/show.json", // 实际抓 8 个技术节点 + replies 排序
-    category: "tech",
-    subcategory: "cn-community",
-    enabled: true,
-  },
-  {
-    id: "linuxdo",
-    name: "LinuxDo",
-    type: "api",
-    url: "https://linux.do/top.json?period=daily",
-    category: "tech",
-    subcategory: "cn-community",
-    enabled: true, // 2026-05-20 重启 — Cloudflare challenge 当前 IP 已放行
-  },
-  {
-    id: "juejin",
-    name: "掘金",
-    type: "rss",
-    url: "https://juejin.cn/rss",
-    category: "tech",
-    subcategory: "cn-community",
-    enabled: false, // 内容质量与 V2EX/LinuxDo 重合度低，剔除以提升信噪比
-  },
+export const REPORT_LOCALE: "zh" | "en" =
+  process.env.REPORT_LOCALE === "en" ? "en" : "zh";
 
-  // ============================================================
-  // 技术动态 — 二级：海外社区（已禁用 — 用户偏好换成 AI 资讯）
-  // ============================================================
-  {
-    id: "hackernews",
-    name: "Hacker News",
-    type: "api",
-    url: "https://hacker-news.firebaseio.com/v0",
-    category: "tech",
-    subcategory: "overseas-community",
-    enabled: false,
-  },
-  {
-    id: "lobsters",
-    name: "Lobsters",
-    type: "rss",
-    url: "https://lobste.rs/rss",
-    category: "tech",
-    subcategory: "overseas-community",
-    enabled: false,
-  },
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const CONFIG_PATH = path.resolve(__dirname, "../..", "sources.config.json");
 
-  // ============================================================
-  // 技术动态 — 二级：AI 资讯（全英文，统一加中文摘要）
-  // ============================================================
-  {
-    id: "qbitai",
-    name: "量子位",
-    type: "rss",
-    url: "https://www.qbitai.com/feed",
-    category: "tech",
-    subcategory: "ai-news",
-    lang: "zh",
-    enabled: false, // 单一中文源在英文 timeline 里太抢位
-  },
-  {
-    id: "openai-news",
-    name: "OpenAI News",
-    type: "rss",
-    url: "https://openai.com/news/rss.xml",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "deepmind-blog",
-    name: "DeepMind Blog",
-    type: "rss",
-    url: "https://deepmind.google/blog/rss.xml",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "huggingface-blog",
-    name: "Hugging Face Blog",
-    type: "rss",
-    url: "https://huggingface.co/blog/feed.xml",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "tldr-ai",
-    name: "TLDR AI",
-    type: "rss",
-    url: "https://tldr.tech/api/rss/ai",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "smol-ai-news",
-    name: "Smol AI News",
-    type: "rss",
-    url: "https://news.smol.ai/rss.xml",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "latent-space",
-    name: "Latent Space",
-    type: "rss",
-    url: "https://www.latent.space/feed",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
-  {
-    id: "mit-tech-review-ai",
-    name: "MIT Tech Review AI",
-    type: "rss",
-    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    category: "tech",
-    subcategory: "ai-news",
-    enabled: true,
-  },
+function loadAndValidate(): SourceDef[] {
+  if (!fs.existsSync(CONFIG_PATH)) {
+    throw new Error(`Source config missing: ${CONFIG_PATH}`);
+  }
+  let raw: string;
+  try {
+    raw = fs.readFileSync(CONFIG_PATH, "utf8");
+  } catch (e) {
+    throw new Error(`Cannot read ${CONFIG_PATH}: ${(e as Error).message}`);
+  }
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`Invalid JSON in ${CONFIG_PATH}: ${(e as Error).message}`);
+  }
+  if (!Array.isArray(parsed)) {
+    throw new Error(`${CONFIG_PATH}: top-level must be an array of sources`);
+  }
 
-  // ============================================================
-  // 技术动态 — 二级：X 推文（AI 类 viral 推文，按热度排序）
-  // 数据来自 attentionvc.ai 公开 REST API。
-  // ============================================================
-  {
-    id: "attentionvc-ai",
-    name: "X 推文 (AttentionVC)",
-    type: "api",
-    url: "https://reply-vc-90459984647.us-central1.run.app/v1/articles/leaderboard?window=7d&category=ai&lang=en",
-    category: "tech",
-    subcategory: "x-viral",
-    enabled: true,
-  },
+  const validTypes = new Set(["rss", "api", "scrape"]);
+  const validCategories = new Set(["tech", "finance", "politics"]);
+  const seenIds = new Set<string>();
 
-  // ============================================================
-  // 技术动态 — 二级：海外科技（已禁用 — 用户偏好仅看社区讨论）
-  // ============================================================
-  {
-    id: "solidot",
-    name: "Solidot 奇客",
-    type: "rss",
-    url: "https://www.solidot.org/index.rss",
-    category: "tech",
-    subcategory: "overseas-news",
-    enabled: false,
-  },
-  {
-    id: "ars-technica",
-    name: "Ars Technica",
-    type: "rss",
-    url: "https://feeds.arstechnica.com/arstechnica/index",
-    category: "tech",
-    subcategory: "overseas-news",
-    enabled: false,
-  },
+  for (let i = 0; i < parsed.length; i++) {
+    const s = parsed[i] as Record<string, unknown>;
+    const at = `sources.config.json[${i}]`;
+    if (typeof s.id !== "string" || !s.id) throw new Error(`${at}: missing string 'id'`);
+    if (seenIds.has(s.id)) throw new Error(`${at}: duplicate id '${s.id}'`);
+    seenIds.add(s.id);
+    if (typeof s.name !== "string") throw new Error(`${at} (${s.id}): missing 'name'`);
+    if (typeof s.url !== "string") throw new Error(`${at} (${s.id}): missing 'url'`);
+    if (!validTypes.has(s.type as string)) {
+      throw new Error(`${at} (${s.id}): invalid 'type' '${String(s.type)}'`);
+    }
+    if (!validCategories.has(s.category as string)) {
+      throw new Error(`${at} (${s.id}): invalid 'category' '${String(s.category)}'`);
+    }
+    if (s.locales !== undefined) {
+      if (!Array.isArray(s.locales) || s.locales.some((l) => l !== "zh" && l !== "en")) {
+        throw new Error(`${at} (${s.id}): 'locales' must be an array of "zh" | "en"`);
+      }
+    }
+  }
+  return parsed as SourceDef[];
+}
 
-  // ============================================================
-  // 技术动态 — 二级：博客周刊（已全部禁用 — 用户偏好聚焦 AI 资讯）
-  // ============================================================
-  {
-    id: "ruanyf-blog",
-    name: "阮一峰的网络日志",
-    type: "rss",
-    url: "https://www.ruanyifeng.com/blog/atom.xml",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
-  {
-    id: "hellogithub",
-    name: "HelloGitHub 月刊",
-    type: "rss",
-    url: "https://hellogithub.com/rss/all",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
-  {
-    id: "martinfowler",
-    name: "Martin Fowler",
-    type: "rss",
-    url: "https://martinfowler.com/feed.atom",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
-  {
-    id: "simonwillison",
-    name: "Simon Willison",
-    type: "rss",
-    url: "https://simonwillison.net/atom/everything/",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
-  {
-    id: "cloudflare-blog",
-    name: "Cloudflare Blog",
-    type: "rss",
-    url: "https://blog.cloudflare.com/rss/",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
-  {
-    id: "github-engineering",
-    name: "GitHub Engineering",
-    type: "rss",
-    url: "https://github.blog/engineering/feed/",
-    category: "tech",
-    subcategory: "blog-weekly",
-    enabled: false,
-  },
+function filterByLocale(all: SourceDef[]): SourceDef[] {
+  return all.filter((s) => {
+    const locales = s.locales ?? ["zh", "en"];
+    return locales.includes(REPORT_LOCALE);
+  });
+}
 
-  // ============================================================
-  // 技术动态 — 备用池
-  // ============================================================
-  {
-    id: "techcrunch",
-    name: "TechCrunch",
-    type: "rss",
-    url: "https://techcrunch.com/feed/",
-    category: "tech",
-    subcategory: "overseas",
-    enabled: false,
-  },
-  {
-    id: "theverge",
-    name: "The Verge",
-    type: "rss",
-    url: "https://www.theverge.com/rss/index.xml",
-    category: "tech",
-    subcategory: "overseas",
-    enabled: false,
-  },
-  {
-    id: "bbc-tech",
-    name: "BBC Technology",
-    type: "rss",
-    url: "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    category: "tech",
-    subcategory: "overseas",
-    enabled: false,
-  },
+export const sources: SourceDef[] = filterByLocale(loadAndValidate());
 
-  // ============================================================
-  // 财经 — 二级：财经新闻
-  // ============================================================
-  {
-    id: "bloomberg-markets",
-    name: "Bloomberg Markets",
-    type: "rss",
-    url: "https://feeds.bloomberg.com/markets/news.rss",
-    category: "finance",
-    subcategory: "news",
-    enabled: true,
-  },
-  {
-    id: "wsj-markets",
-    name: "WSJ Markets",
-    type: "rss",
-    url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-    category: "finance",
-    subcategory: "news",
-    enabled: true,
-  },
-  {
-    id: "cnbc-topnews",
-    name: "CNBC",
-    type: "rss",
-    url: "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // 编辑深度低于 BBG/WSJ/FT，剔除以提升信噪比
-  },
-  {
-    id: "ft-companies",
-    name: "Financial Times",
-    type: "rss",
-    url: "https://www.ft.com/companies?format=rss",
-    category: "finance",
-    subcategory: "news",
-    enabled: true,
-  },
-  {
-    id: "ftchinese-news",
-    name: "FT中文网",
-    type: "rss",
-    url: "https://www.ftchinese.com/rss/news",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // 走全英文顶级方案；需要中文视角时再开
-  },
-  {
-    id: "yahoo-finance",
-    name: "Yahoo Finance",
-    type: "rss",
-    url: "https://finance.yahoo.com/news/rssindex",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // 聚合站，原创编辑薄
-  },
-  {
-    id: "marketwatch-top",
-    name: "MarketWatch",
-    type: "rss",
-    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // Dow Jones 聚合，重要内容已在 WSJ 覆盖
-  },
-  {
-    id: "bbc-business",
-    name: "BBC Business",
-    type: "rss",
-    url: "https://feeds.bbci.co.uk/news/business/rss.xml",
-    category: "finance",
-    subcategory: "news",
-    enabled: true,
-  },
-  {
-    id: "economist-finance",
-    name: "The Economist Finance",
-    type: "rss",
-    url: "https://www.economist.com/finance-and-economics/rss.xml",
-    category: "finance",
-    subcategory: "news",
-    enabled: true,
-  },
-
-  // ============================================================
-  // 财经 — 二级：社区讨论（已全部禁用 — Reddit 信噪比过低）
-  // ============================================================
-  {
-    id: "reddit-wallstreetbets",
-    name: "r/wallstreetbets",
-    type: "rss",
-    url: "https://www.reddit.com/r/wallstreetbets/.rss",
-    category: "finance",
-    subcategory: "community",
-    useCurl: true,
-    enabled: false,
-  },
-  {
-    id: "reddit-investing",
-    name: "r/investing",
-    type: "rss",
-    url: "https://www.reddit.com/r/investing/.rss",
-    category: "finance",
-    subcategory: "community",
-    useCurl: true,
-    enabled: false,
-  },
-  {
-    id: "reddit-stocks",
-    name: "r/stocks",
-    type: "rss",
-    url: "https://www.reddit.com/r/stocks/.rss",
-    category: "finance",
-    subcategory: "community",
-    useCurl: true,
-    enabled: false,
-  },
-  {
-    id: "reddit-chinastocks",
-    name: "r/ChinaStocks",
-    type: "rss",
-    url: "https://www.reddit.com/r/ChinaStocks/.rss",
-    category: "finance",
-    subcategory: "community",
-    useCurl: true,
-    enabled: false,
-  },
-
-  // ============================================================
-  // 财经 — 备用池
-  // ============================================================
-  {
-    id: "people-finance",
-    name: "人民网财经",
-    type: "rss",
-    url: "http://www.people.com.cn/rss/finance.xml",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // feed 死，pubDate 锁 2025-06-05
-  },
-  {
-    id: "wallstreetcn",
-    name: "华尔街见闻",
-    type: "rss",
-    url: "https://rsshub.app/wallstreetcn/news/global",
-    category: "finance",
-    subcategory: "news",
-    enabled: false, // 公共 RSSHub 限流
-  },
-
-  // ============================================================
-  // 时政 — 合并为一个时间线（subcategory: world）
-  // ============================================================
-  {
-    id: "bbc-world",
-    name: "BBC World",
-    type: "rss",
-    url: "https://feeds.bbci.co.uk/news/world/rss.xml",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "guardian-world",
-    name: "The Guardian",
-    type: "rss",
-    url: "https://www.theguardian.com/world/rss",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "nyt-world",
-    name: "NYT World",
-    type: "rss",
-    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "npr-world",
-    name: "NPR World",
-    type: "rss",
-    url: "https://feeds.npr.org/1004/rss.xml",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "dw-chinese",
-    name: "DW 中文",
-    type: "rss",
-    url: "https://rss.dw.com/rdf/rss-chi-all",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "aljazeera",
-    name: "Al Jazeera",
-    type: "rss",
-    url: "https://www.aljazeera.com/xml/rss/all.xml",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-  {
-    id: "the-diplomat",
-    name: "The Diplomat",
-    type: "rss",
-    url: "https://thediplomat.com/feed/",
-    category: "politics",
-    subcategory: "world",
-    enabled: true,
-  },
-
-  // ============================================================
-  // 时政 — 备用池
-  // ============================================================
-  {
-    id: "peoples-daily",
-    name: "人民网时政",
-    type: "rss",
-    url: "http://www.people.com.cn/rss/politics.xml",
-    category: "politics",
-    enabled: false,
-  },
-  {
-    id: "people-world",
-    name: "人民网国际",
-    type: "rss",
-    url: "http://www.people.com.cn/rss/world.xml",
-    category: "politics",
-    enabled: false,
-  },
-  {
-    id: "xinhua-politics",
-    name: "新华网时政",
-    type: "rss",
-    url: "http://www.xinhuanet.com/politics/news_politics.xml",
-    category: "politics",
-    enabled: false,
-  },
-  {
-    id: "rfa-chinese",
-    name: "RFA 中文",
-    type: "rss",
-    url: "https://www.rfa.org/mandarin/RSS",
-    category: "politics",
-    enabled: false,
-  },
-];
+/**
+ * The full unfiltered list — used by `npm run sources` so the CLI can
+ * show entries that are filtered out in the current locale.
+ */
+export function loadAllSources(): SourceDef[] {
+  return loadAndValidate();
+}

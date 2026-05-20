@@ -26,6 +26,19 @@ export interface SourceDef {
    * in Chinese, so an LLM summary would just be a slightly-shorter rewrite.
    */
   lang?: "zh" | "en";
+  /**
+   * Report locales this source participates in. Defaults to ["zh", "en"]
+   * (both) when omitted. Set to ["zh"] for Chinese-only sources whose
+   * content is meaningless to English-mode readers (V2EX/LinuxDo/etc.),
+   * or ["en"] for English-community sources used to replace Chinese ones
+   * when REPORT_LOCALE=en. The registry filters by REPORT_LOCALE at load.
+   */
+  locales?: ("zh" | "en")[];
+  /**
+   * Optional human-readable note explaining why a source is disabled or
+   * any context useful for fork users. Ignored at runtime.
+   */
+  notes?: string;
 }
 
 export interface RawArticle {

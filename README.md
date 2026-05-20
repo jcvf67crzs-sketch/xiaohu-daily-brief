@@ -1,6 +1,15 @@
 # daily-brief · 每日 AI/科技/财经/时政简报
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node 20+](https://img.shields.io/badge/node-20%2B-brightgreen.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6.svg)](https://www.typescriptlang.org/)
+[![LLM: pluggable](https://img.shields.io/badge/LLM-pluggable%20(5%20backends)-orange.svg)](#llm-后端配置)
+[![Demo: live](https://img.shields.io/badge/demo-daily.leiting.tech-brightgreen.svg)](https://daily.leiting.tech)
+[![Stars](https://img.shields.io/github/stars/leiting-eric/DailyBrief?style=social)](https://github.com/leiting-eric/DailyBrief)
+
 > **每天自动跑一份你的私人中文简报** — 22 个数据源 · LLM 摘要 · 股票/加密**技术指标 + AI 中文交易点评** · 5 个 LLM 后端可选（Claude CLI / Anthropic / OpenAI / DeepSeek / MiniMax）· 一切本地运行，零云依赖。
+
+> *Local-first daily Chinese-language digest of tech, markets, geopolitics, finance, and developer-community chatter — 22 sources, LLM-summarized to Chinese, with stock/crypto technicals + AI commentary. Pluggable LLM backend (claude-cli / anthropic / openai / deepseek / minimax). [Live demo](https://daily.leiting.tech) · runs on your machine, not in the cloud.*
 
 **[📰 在线 Demo · daily.leiting.tech](https://daily.leiting.tech)**
 
@@ -125,6 +134,58 @@ node scripts/install.mjs --global
 | `npm run regen-enrich <cat:sub> [date]` | 补缺失的中文摘要 | ~30s |
 | `npm run open` | 在 Chrome 打开今日报告 | 即时 |
 | `npm run quota-report` | 看各 LLM backend 用量统计 | 即时 |
+| `npm run sources` | 列出所有数据源（按 locale 标注启用/过滤状态）| 即时 |
+| `npm run sources:check` | 仅校验 `sources.config.json` schema（适合 CI / pre-commit）| 即时 |
+
+## 数据源配置
+
+数据源以 JSON 数组形式集中存储在项目根的 [`sources.config.json`](sources.config.json) — **唯一配置入口**，不需要改 TypeScript 代码即可加/禁/调整源。每条记录的字段：
+
+| 字段 | 必填 | 说明 |
+|---|---|---|
+| `id` | ✓ | 全局唯一短标识（dispatch.ts 用 id 路由到对应 fetcher）|
+| `name` | ✓ | UI 显示名 |
+| `type` | ✓ | `rss` / `api` / `scrape` |
+| `url` | ✓ | RSS feed 或 API endpoint |
+| `category` | ✓ | `tech` / `finance` / `politics`，决定 L1 tab |
+| `subcategory` |   | `tech` 下的 L2 分组（`github-trending` / `ai-news` / `x-viral` / `cn-community`）；`finance` 下统一 `news` |
+| `enabled` |   | 默认 `true`，设 `false` 跳过抓取（保留记录便于回滚）|
+| `useCurl` |   | 若该源被 Cloudflare TLS-fingerprint 拦了 Node undici，设 `true` 让 rss.ts 走 curl 子进程 |
+| `lang` |   | `zh` 表示源内容是中文 — enrich 阶段会跳过它（无需把中文翻译成中文）|
+| `locales` |   | 数组，标明该源出现在哪些 report locale 下。默认 `["zh", "en"]` |
+| `notes` |   | 任意备注（如"被废弃因为 feed 死了"），运行时忽略 |
+
+### 加一个 RSS 源
+
+1. 编辑 `sources.config.json`，追加一条记录
+2. 跑 `npm run sources:check` 校验 schema
+3. `npm run dry-run` 抓一次验证拉取正常
+4. 下次 `npm run daily` 自动包含
+
+### Locale 模式（zh / en）
+
+通过 `REPORT_LOCALE` 环境变量切换：
+
+```bash
+# .env.local
+REPORT_LOCALE=zh    # 默认 — 中文 mode，含 V2EX / LinuxDo / DW 中文等中文源
+# REPORT_LOCALE=en  # 英文 mode — 自动过滤掉 zh-only 源，挂上 en-only 源
+```
+
+每个源在 JSON 里的 `locales` 字段决定它在哪些模式下出现：
+
+- `["zh"]` — **仅中文 mode**（V2EX / LinuxDo / DW 中文 / 阮一峰等中文专属源）。英文 mode 用户读不懂这些，自动 drop。
+- `["en"]` — **仅英文 mode**（Hacker News / Reddit / Lobsters 等英文社区源，用于替代中文社区源）。zh mode 不显示，避免跟 GH Trending 等重复。
+- `["zh", "en"]`（默认）— 两 mode 都参与（BBC / Bloomberg / WSJ / NYT 等全球英文源 + 各 AI 资讯源）
+
+当前实际启用源（`enabled: true`）按 locale 分布：
+
+| Locale | 启用源数 | 主要构成 |
+|---|---|---|
+| `zh` | 19 | 16 个英文源（含中文摘要）+ 3 个中文社区源（V2EX / LinuxDo / DW 中文）|
+| `en` | 16 | 仅英文源；切到 en 时建议 enable `hackernews` / `reddit-stocks` 等 en-only 源 |
+
+> **当前状态**：HTML 报告 UI 文案 + LLM enrichment 提示词都还是中文写死的。`REPORT_LOCALE=en` **目前只切换源集合**，UI/prompt 文案改造留作下一轮（见 [TODO](#TODO)）。
 
 ## LLM 后端配置
 
