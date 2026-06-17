@@ -6,20 +6,20 @@
       "title": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "excerpt": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "meta": "C · ★ 5,168 · 🍴 481 · 📈 718 stars today",
+      "meta": "C · ★ 5,172 · 🍴 481 · 📈 718 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "高性能 MCP 服务器，将代码库索引为持久知识图谱，平均仓库毫秒级处理，支持 158 种语言，亚毫秒查询，减少 99% token。编译为单静态二进制，适合需要快速理解大型代码库的 AI 编码助手和开发者。"
+      "summary": "高性能代码库智能 MCP 服务器。它将整个代码库索引为持久化知识图谱，平均仓库索引在毫秒级完成。支持 158 种编程语言，查询响应低于毫秒，减少 99% 的 token 消耗。单静态二进制文件部署。适合需要快速理解大型代码库的开发者或 AI 代码分析工具。"
     },
     {
       "sourceId": "github-trending",
       "title": "n0-computer/iroh",
       "url": "https://github.com/n0-computer/iroh",
       "excerpt": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
-      "meta": "Rust · ★ 9,627 · 🍴 448 · 📈 422 stars today",
+      "meta": "Rust · ★ 9,629 · 🍴 448 · 📈 422 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "模块化 Rust 网络栈，用密钥（dial keys）替代 IP 地址作为标识，解决网络脆弱性问题。适用于去中心化应用、P2P 通信和自组织网络场景。"
+      "summary": "Rust 实现的模块化网络栈，核心思想是用“拨号键”取代 IP 地址。它提供了去中心化、隐私优先的连接方案，适合构建点对点应用或需要绕过传统 IP 寻址局限的场景。开发者可直接集成到 Rust 项目中。"
     },
     {
       "sourceId": "github-trending",
@@ -29,37 +29,37 @@
       "meta": "Python · ★ 33,119 · 🍴 2,668 · 📈 1,154 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "通过 CLI 赋予 AI 代理读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等全网内容的能力，零 API 费用。适合需要实时网络信息采集的智能代理应用。"
+      "summary": "让你的 AI 代理能“看见”整个互联网。通过单一 CLI 即可读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需支付任何 API 费用。适合需要大规模社交媒体数据用于 AI 训练或自动化研究的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "meshery/meshery",
       "url": "https://github.com/meshery/meshery",
       "excerpt": "Meshery, the cloud native manager",
-      "meta": "TypeScript · ★ 11,007 · 🍴 3,458 · 📈 199 stars today",
+      "meta": "TypeScript · ★ 11,008 · 🍴 3,458 · 📈 199 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "云原生管理平台，提供服务网格管理、可观测性和自动化能力。适用于 Kubernetes 环境下的服务网格运维与开发团队。"
+      "summary": "云原生管理器 Meshery，提供可扩展的 Kubernetes 和云基础设施管理平台。支持服务网格、API 网关和云原生应用的部署、配置与运维。适用于 DevOps 工程师管理多云环境，降低操作复杂性。"
     },
     {
       "sourceId": "github-trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "excerpt": "An agentic skills framework & software development methodology that works.",
-      "meta": "Shell · ★ 231,006 · 🍴 20,538 · 📈 1,205 stars today",
+      "meta": "Shell · ★ 231,009 · 🍴 20,539 · 📈 1,205 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "代理技能框架与软件开发方法论，提供可复用的技能集合和结构化开发流程。适合构建具备自主能力的 AI 代理的开发者。"
+      "summary": "一套 agentic 技能框架和软件开发方法论。它定义了可组合的“技能”单元，让 AI agent 能执行复杂任务，同时提供一套可落地的协作流程。适合构建企业级 AI 助手或自动化工作流的团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "google-research/timesfm",
       "url": "https://github.com/google-research/timesfm",
       "excerpt": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "meta": "Python · ★ 21,852 · 🍴 2,128 · 📈 712 stars today",
+      "meta": "Python · ★ 21,857 · 🍴 2,128 · 📈 712 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google Research 开发的预训练时间序列基础模型，专用于时间序列预测任务。适用于金融、气象、能源等领域的时序数据分析与预测。"
+      "summary": "Google Research 开发的时间序列基础模型 TimesFM，专为时间序列预测任务设计。它经过大规模预训练，可直接用于金融、气象、IoT 数据预测等场景。研究人员和工程师可快速微调或零样本使用，减少时序模型训练成本。"
     },
     {
       "sourceId": "github-trending",
@@ -69,37 +69,37 @@
       "meta": "TypeScript · ★ 45,566 · 🍴 13,655 · 📈 15 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向关键任务操作的开源安全通信平台（CommsOS™），提供聊天、文件共享、团队协作功能。适合需要高安全性和可控性的企业及机构。"
+      "summary": "安全通讯操作系统，面向关键任务的企业级开源聊天平台。支持端到端加密、自托管、多协议集成。适用于政府、军事、医疗等对安全性和合规性要求高的组织，替代 Slack 或 Microsoft Teams。"
     },
     {
       "sourceId": "github-trending",
       "title": "continuedev/continue",
       "url": "https://github.com/continuedev/continue",
       "excerpt": "open-source coding agent",
-      "meta": "TypeScript · ★ 33,876 · 🍴 4,693 · 📈 38 stars today",
+      "meta": "TypeScript · ★ 33,879 · 🍴 4,693 · 📈 38 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源编码代理，集成在 IDE 中提供代码补全、生成、重构等智能辅助功能。适合希望提升编码效率的开发者。"
+      "summary": "开源编码 agent，可无缝集成到 VS Code 或 JetBrains IDE 中。它自动理解代码上下文，生成补全、重构建议，甚至执行跨文件修改。开发者无需切换工具即可获得 AI 辅助编程体验。"
     },
     {
       "sourceId": "github-trending",
       "title": "penpot/penpot",
       "url": "https://github.com/penpot/penpot",
       "excerpt": "Penpot: The open-source design tool for design and code collaboration",
-      "meta": "Clojure · ★ 50,059 · 🍴 3,233 · 📈 94 stars today",
+      "meta": "Clojure · ★ 50,063 · 🍴 3,233 · 📈 94 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源设计工具，支持 UI/UX 设计与前端代码协作，内置矢量编辑、原型和设计系统功能。适合设计师和开发者共同使用的替代 Figma 方案。"
+      "summary": "开源设计工具 Penpot，支持设计与代码协作。它提供矢量图形编辑、原型设计功能，原生支持 SVG/ CSS，让设计师和开发者在同一平台上工作。适合团队希望替代 Figma 或 Sketch 的开源方案。"
     },
     {
       "sourceId": "github-trending",
       "title": "krahets/hello-algo",
       "url": "https://github.com/krahets/hello-algo",
       "excerpt": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
-      "meta": "Java · ★ 127,427 · 🍴 15,175 · 📈 109 stars today",
+      "meta": "Java · ★ 127,429 · 🍴 15,175 · 📈 109 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "《Hello 算法》教程，以动画图解和一键运行的方式讲解数据结构与算法，支持多语言，提供 Python、Java、C++ 等十余种语言代码实现。适合初学者和进阶者复习数据结构。"
+      "summary": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持中英日等多语言，并提供 Python、Java、Go 等 13 种语言实现。适合自学算法或作为教学辅助材料，降低入门门槛。"
     },
     {
       "sourceId": "github-trending",
@@ -109,27 +109,27 @@
       "meta": "Rust · ★ 7,625 · 🍴 327 · 📈 465 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "跨平台 GUI 工具，使用 Rust 编写并通过 ADB 连接安卓设备，帮助移除非 root 安卓手机上的预装应用，提升隐私、安全和电池续航。"
+      "summary": "跨平台 GUI 工具，通过 ADB 移除非 root 安卓设备的预装应用（bloatware）。提升隐私、安全性和电池续航。用 Rust 编写，支持 Windows/macOS/Linux。适合不想 root 但需要清理手机的普通用户。"
     },
     {
       "sourceId": "github-trending",
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "excerpt": "Skills for Real Engineers. Straight from my .claude directory.",
-      "meta": "Shell · ★ 133,468 · 🍴 11,599 · 📈 1,570 stars today",
+      "meta": "Shell · ★ 133,472 · 🍴 11,599 · 📈 1,570 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "工程师技能集合，来自作者的 .claude 配置文件，定义了一系列可复用的技能配置，适用于 AI 编码代理或开发环境定制。"
+      "summary": "真实工程师所需技能，直接来自作者 .claude 目录。这是一套可执行的 AI agent 技能定义，涵盖代码审查、重构、测试等实战能力。开发者可将其注入 Claude 或其他 AI 工具，获得专业级编码辅助。"
     },
     {
       "sourceId": "github-trending",
       "title": "yairm210/Unciv",
       "url": "https://github.com/yairm210/Unciv",
       "excerpt": "Open-source Android/Desktop remake of Civ V",
-      "meta": "Kotlin · ★ 10,640 · 🍴 1,843 · 📈 41 stars today",
+      "meta": "Kotlin · ★ 10,641 · 🍴 1,843 · 📈 41 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源文明5复刻，支持安卓和桌面平台。保留了原作的核心策略玩法，适合在移动设备或电脑上体验经典回合制策略游戏。"
+      "summary": "开源 Civ V 重制版，可在 Android 和桌面端运行。完整还原文明系列核心玩法（科技树、征服、外交），无需官方许可。适合策略游戏爱好者离线游玩。"
     },
     {
       "sourceId": "github-trending",
@@ -139,7 +139,7 @@
       "meta": "TypeScript · ★ 449,121 · 🍴 45,088 · 📈 764 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "免费编程学习平台的开源代码库与课程，覆盖数学、编程和计算机科学，提供交互式挑战和项目认证。适合零基础自学者。"
+      "summary": "freeCodeCamp.org 开源代码库和课程体系，免费教授数学、编程和计算机科学。提供交互式学习、真实项目认证。适合零基础转行程序员或希望系统提升技能的自学者。"
     },
     {
       "sourceId": "github-trending",
@@ -149,37 +149,37 @@
       "meta": "TypeScript · ★ 36,681 · 🍴 3,700 · 📈 148 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源多模态 AI 代理栈，连接前沿 AI 模型与代理基础设施，支持桌面端的视觉理解与任务执行。适合构建基于视觉的桌面自动化代理。"
+      "summary": "开源多模态 AI agent 栈，连接前沿视觉模型和 agent 基础设施。支持通过截图理解 UI、自动执行操作，可用于自动化测试、RPA 或智能助手。开发者可以在此基础上构建跨应用工作流。"
     },
     {
       "sourceId": "github-trending",
       "title": "nautechsystems/nautilus_trader",
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "excerpt": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "meta": "Rust · ★ 23,794 · 🍴 3,015 · 📈 86 stars today",
+      "meta": "Rust · ★ 23,794 · 🍴 3,016 · 📈 86 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "生产级 Rust 原生交易引擎，采用确定性事件驱动架构，低延迟高可靠。适合高频量化交易系统的开发与部署。"
+      "summary": "生产级 Rust 原生交易引擎，采用确定性事件驱动架构。提供高速回测和实盘执行能力，适合量化交易团队开发高频或算法策略。强调性能和可靠性。"
     },
     {
       "sourceId": "github-trending",
       "title": "chatwoot/chatwoot",
       "url": "https://github.com/chatwoot/chatwoot",
       "excerpt": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-      "meta": "Ruby · ★ 32,351 · 🍴 7,712 · 📈 310 stars today",
+      "meta": "Ruby · ★ 32,353 · 🍴 7,712 · 📈 310 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源全渠道客服平台，支持实时聊天、邮件工单和多平台整合，可替代 Intercom、Zendesk 等商业产品。适合中小型企业的客户支持场景。"
+      "summary": "开源的全渠道客服平台，支持在线聊天、邮件、社交媒体消息等。作为 Intercom、Zendesk 等商业产品的替代方案，适合中小型企业或自建客服系统的团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "excerpt": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "meta": "Python · ★ 5,264 · 🍴 1,003 · 📈 71 stars today",
+      "meta": "Python · ★ 5,267 · 🍴 1,004 · 📈 71 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "全球首个开源代理式视频制作系统，内置 12 条流水线、52 个工具和 500+ 代理技能，可将 AI 编码助手转变为完整视频工作室。适合内容创作者和自动化视频制作者。"
+      "summary": "世界上首个开源 agentic 视频制作系统。包含 12 条管线、52 个工具和 500+ agent 技能，可将 AI 编码助手转化为完整视频制作工作室。适合内容创作者或需要自动生成视频的团队。"
     },
     {
       "sourceId": "github-trending",
@@ -189,17 +189,17 @@
       "meta": "Python · ★ 4,905 · 🍴 821 · 📈 37 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "通用即插即用推理库，支持递归语言模型（RLM）的部署与测试，提供多种沙盒环境。适合研究和实验 RLM 的开发者。"
+      "summary": "通用即插即用推理库，支持递归语言模型（RLMs）和多种沙盒环境。它封装了 RLM 的循环推理逻辑，使研究者能快速实验和部署。适合 NLP 研究人员或需要复杂推理能力的 AI 应用开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "makeplane/plane",
       "url": "https://github.com/makeplane/plane",
       "excerpt": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "meta": "TypeScript · ★ 51,247 · 🍴 4,559 · 📈 68 stars today",
+      "meta": "TypeScript · ★ 51,250 · 🍴 4,560 · 📈 68 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源项目管理平台，支持任务、冲刺、文档和分类管理，可替代 Jira、Linear、Monday 等商业工具。适合团队使用自托管项目管理方案。"
+      "summary": "开源项目管理平台，可替代 Jira、Linear、Monday、ClickUp。支持任务、冲刺、文档和分类管理，界面现代简洁。适合追求自托管或定制化的技术团队管理项目和迭代。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -430,7 +430,7 @@
       "sourceId": "linuxdo",
       "title": "「君の公益」 gpt 复活（今日签到618刀～）",
       "url": "https://linux.do/t/topic/2425120",
-      "excerpt": "仅限codex调用，能活多久未知 目前的约束措施主要有 限制调用客户端为codex cli/Claude code cli 对色情和政治敏感词汇进行关键词拦截 限制单ip请求速率为一分钟一百次，超过即封禁ip 限制新注册必须为LD用户，再也不敢开邮箱注册了 不定期数据库拉ip清单去查分发，封号 所谓有求而不得，人心欲壑，可填沧海～ 告诉大家一个好消息，告别单身了，嘿嘿 274 个帖子 - 247 位参与者 阅读完整话题",
+      "excerpt": "仅限codex调用，能活多久未知 目前的约束措施主要有 限制调用客户端为codex cli/Claude code cli 对色情和政治敏感词汇进行关键词拦截 限制单ip请求速率为一分钟一百次，超过即封禁ip 限制新注册必须为LD用户，再也不敢开邮箱注册了 不定期数据库拉ip清单去查分发，封号 所谓有求而不得，人心欲壑，可填沧海～ 告诉大家一个好消息，告别单身了，嘿嘿 277 个帖子 - 250 位参与者 阅读完整话题",
       "publishedAt": "2026-06-17T16:27:45.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -439,7 +439,7 @@
       "sourceId": "linuxdo",
       "title": "「富可敌国」「星辰AI」x 「阿里云百炼」联动，上架 glm-5.2",
       "url": "https://linux.do/t/topic/2420128",
-      "excerpt": "官网地址 https://ai.centos.hk 使用文档 https://doc.centos.hk 目前已经和阿里云签订直供合同，glm模型来源为阿里云百炼平台，价格为阿里云官网八五折，其他国产模型来源也是阿里云百炼，大家使用过程有什么问题可以和我反馈，我去和阿里云掰头。 CCMAX也在持续特惠中，一元一刀，分组倍率低至0.51（仅限claude code调用） 售后群 46 个帖子 - 38 位参与者 阅读完整话题",
+      "excerpt": "官网地址 https://ai.centos.hk 使用文档 https://doc.centos.hk 目前已经和阿里云签订直供合同，glm模型来源为阿里云百炼平台，价格为阿里云官网八五折，其他国产模型来源也是阿里云百炼，大家使用过程有什么问题可以和我反馈，我去和阿里云掰头。 CCMAX也在持续特惠中，一元一刀，分组倍率低至0.51（仅限claude code调用） 售后群 47 个帖子 - 39 位参与者 阅读完整话题",
       "publishedAt": "2026-06-17T03:00:57.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -592,7 +592,7 @@
       "sourceId": "linuxdo",
       "title": "rawchat公益站火力全开活动，恢复100刀额度，公益站加入独立pro号池！",
       "url": "https://linux.do/t/topic/2425491",
-      "excerpt": "公益站恢复100刀，同时提高限速额度！并且公益站有独立的pro号池了！ https://new.sharedchat.cc/ 付费站所有套餐额度已全部翻倍，付费站也是独立的pro号池 https://rawchat.cn/ 按量计费站：https://newapi.sharedchat.top/ 31 个帖子 - 30 位参与者 阅读完整话题",
+      "excerpt": "公益站恢复100刀，同时提高限速额度！并且公益站有独立的pro号池了！ https://new.sharedchat.cc/ 付费站所有套餐额度已全部翻倍，付费站也是独立的pro号池 https://rawchat.cn/ 按量计费站：https://newapi.sharedchat.top/ 33 个帖子 - 32 位参与者 阅读完整话题",
       "publishedAt": "2026-06-17T20:46:09.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -655,7 +655,7 @@
       "sourceId": "hackernews",
       "title": "Lore – Open source version control system designed for scalability",
       "url": "https://lore.org/",
-      "excerpt": "885 points · 494 comments",
+      "excerpt": "888 points · 494 comments",
       "publishedAt": "2026-06-17T14:30:27.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -673,7 +673,7 @@
       "sourceId": "hackernews",
       "title": "Storied Colors – a catalogue of named colors",
       "url": "https://storiedcolors.com/",
-      "excerpt": "35 points · 4 comments",
+      "excerpt": "40 points · 5 comments",
       "publishedAt": "2026-06-17T21:49:03.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -682,7 +682,7 @@
       "sourceId": "hackernews",
       "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
       "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
-      "excerpt": "134 points · 76 comments",
+      "excerpt": "141 points · 82 comments",
       "publishedAt": "2026-06-17T21:31:35.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -691,7 +691,7 @@
       "sourceId": "hackernews",
       "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
       "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "excerpt": "738 points · 369 comments",
+      "excerpt": "740 points · 371 comments",
       "publishedAt": "2026-06-17T09:12:00.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -700,8 +700,17 @@
       "sourceId": "hackernews",
       "title": "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
       "url": "https://browser-use.com/posts/firecracker-browser-infra",
-      "excerpt": "170 points · 111 comments",
+      "excerpt": "172 points · 112 comments",
       "publishedAt": "2026-06-16T15:15:01.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "Loreline – Tools for writing interactive fiction",
+      "url": "https://loreline.app/en/",
+      "excerpt": "36 points · 3 comments",
+      "publishedAt": "2026-06-17T20:29:15.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -716,28 +725,10 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "Loreline – Tools for writing interactive fiction",
-      "url": "https://loreline.app/en/",
-      "excerpt": "35 points · 3 comments",
-      "publishedAt": "2026-06-17T20:29:15.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
       "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
       "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
-      "excerpt": "128 points · 107 comments",
+      "excerpt": "132 points · 110 comments",
       "publishedAt": "2026-06-17T21:00:07.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
-      "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
-      "excerpt": "91 points · 35 comments",
-      "publishedAt": "2026-06-17T21:00:53.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -745,8 +736,17 @@
       "sourceId": "hackernews",
       "title": "U.S. science is in chaos",
       "url": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
-      "excerpt": "584 points · 664 comments",
+      "excerpt": "587 points · 669 comments",
       "publishedAt": "2026-06-17T09:54:21.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "excerpt": "92 points · 37 comments",
+      "publishedAt": "2026-06-17T21:00:53.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -763,8 +763,17 @@
       "sourceId": "hackernews",
       "title": "RFC 10008: The new HTTP Query Method",
       "url": "https://www.rfc-editor.org/info/rfc10008/",
-      "excerpt": "305 points · 138 comments",
+      "excerpt": "305 points · 139 comments",
       "publishedAt": "2026-06-17T10:51:17.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "Gliderboy Reinvents Humble Weather Balloon with Flight Home",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-15/-gliderboy-reinvents-weather-balloon-with-return-flight-home",
+      "excerpt": "8 points · 0 comments",
+      "publishedAt": "2026-06-15T14:55:12.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -772,7 +781,7 @@
       "sourceId": "hackernews",
       "title": "Volkswagen started blocking GrapheneOS users",
       "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
-      "excerpt": "438 points · 300 comments",
+      "excerpt": "439 points · 301 comments",
       "publishedAt": "2026-06-17T15:04:47.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -781,7 +790,7 @@
       "sourceId": "hackernews",
       "title": "The Return of Rigorous Full-System Timing Simulation",
       "url": "https://www.sigarch.org/the-return-of-rigorous-full-system-timing-simulation/",
-      "excerpt": "20 points · 0 comments",
+      "excerpt": "22 points · 0 comments",
       "publishedAt": "2026-06-16T05:49:51.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -799,17 +808,8 @@
       "sourceId": "hackernews",
       "title": "The Competitive Moat That AI Can't Replicate",
       "url": "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
-      "excerpt": "96 points · 81 comments",
+      "excerpt": "97 points · 82 comments",
       "publishedAt": "2026-06-17T17:14:21.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "Why thinking out loud with someone beats thinking alone",
-      "url": "https://www.thesignalist.io/s/the-dialogue-dividend/",
-      "excerpt": "140 points · 66 comments",
-      "publishedAt": "2026-06-17T13:00:38.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -824,9 +824,18 @@
     },
     {
       "sourceId": "hackernews",
+      "title": "Why thinking out loud with someone beats thinking alone",
+      "url": "https://www.thesignalist.io/s/the-dialogue-dividend/",
+      "excerpt": "140 points · 67 comments",
+      "publishedAt": "2026-06-17T13:00:38.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
       "title": "Hacker News but for independent blogs",
       "url": "https://bubbles.town/",
-      "excerpt": "514 points · 168 comments",
+      "excerpt": "516 points · 168 comments",
       "publishedAt": "2026-06-17T07:49:44.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -844,7 +853,7 @@
       "sourceId": "hackernews",
       "title": "Want your images back? That'll be $5",
       "url": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
-      "excerpt": "586 points · 240 comments",
+      "excerpt": "587 points · 240 comments",
       "publishedAt": "2026-06-17T13:05:03.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -853,17 +862,8 @@
       "sourceId": "hackernews",
       "title": "Kirkland Roundabouts",
       "url": "https://kirklandroundabouts.com",
-      "excerpt": "145 points · 114 comments",
+      "excerpt": "145 points · 116 comments",
       "publishedAt": "2026-06-14T21:41:56.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "Gliderboy Reinvents Humble Weather Balloon with Flight Home",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-15/-gliderboy-reinvents-weather-balloon-with-return-flight-home",
-      "excerpt": "6 points · 0 comments",
-      "publishedAt": "2026-06-15T14:55:12.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -871,7 +871,7 @@
       "sourceId": "hackernews",
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
       "url": "https://github.com/rxi/microui",
-      "excerpt": "170 points · 58 comments",
+      "excerpt": "170 points · 61 comments",
       "publishedAt": "2026-06-17T12:04:28.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -889,7 +889,7 @@
       "sourceId": "hackernews",
       "title": "Image Compression",
       "url": "https://www.makingsoftware.com/chapters/image-compression",
-      "excerpt": "145 points · 20 comments",
+      "excerpt": "145 points · 21 comments",
       "publishedAt": "2026-06-14T00:26:02.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -898,7 +898,7 @@
       "sourceId": "hackernews",
       "title": "The founder's playbook: Building an AI-native startup",
       "url": "https://claude.com/blog/the-founders-playbook",
-      "excerpt": "199 points · 151 comments",
+      "excerpt": "199 points · 152 comments",
       "publishedAt": "2026-06-17T07:04:42.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -907,7 +907,7 @@
       "sourceId": "hackernews",
       "title": "Why do commercial spaces sit vacant? (2025)",
       "url": "https://www.freerange.city/p/why-do-commercial-spaces-sit-vacant",
-      "excerpt": "102 points · 150 comments",
+      "excerpt": "102 points · 151 comments",
       "publishedAt": "2026-06-17T06:59:29.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -916,7 +916,7 @@
       "sourceId": "hackernews",
       "title": "AI demands more engineering discipline. Not less",
       "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
-      "excerpt": "317 points · 152 comments",
+      "excerpt": "320 points · 155 comments",
       "publishedAt": "2026-06-17T14:20:44.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -929,7 +929,7 @@
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 与 Molecule.one 合作，展示了一种使用 GPT-5.4 的近乎自主的 AI 化学家，改进了药物制造中的关键反应，推进了药物化学研究。"
+      "summary": "OpenAI与Molecule.one使用GPT-5.4开发近自主AI化学家，改进了药物化学中的关键合成反应。"
     },
     {
       "sourceId": "openai-news",
@@ -939,7 +939,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 推出 LifeSciBench，这是一个由专家编写和审核的基准，用于评估 AI 系统处理真实世界生命科学研究任务和决策的能力。"
+      "summary": "OpenAI发布LifeSciBench，由专家编写和审核的基准，评估AI在生命科学研究任务中的表现。"
     },
     {
       "sourceId": "openai-news",
@@ -949,7 +949,7 @@
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 推出部署模拟方法，利用真实对话数据在发布前预测 AI 模型行为，提升安全性和评估准确性。"
+      "summary": "OpenAI引入部署模拟方法，用真实对话数据预测模型行为，提升安全评估准确性。"
     },
     {
       "sourceId": "openai-news",
@@ -1202,7 +1202,7 @@
       "publishedAt": "2026-06-16T21:29:50.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "英国政府与谷歌 DeepMind 合作，构建基于 AI 的原型系统，旨在加速住房建设决策。"
+      "summary": "英国政府联合Google DeepMind开发AI原型，加速住房建设规划决策。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -1473,7 +1473,7 @@
       "publishedAt": "2026-06-17T15:26:44.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "AllenAI 推出 MolmoMotion，一种语言引导的 3D 运动预测模型。"
+      "summary": "MolmoMotion：一种语言引导的3D运动预测模型，由Allen AI团队发布在Hugging Face博客。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1483,7 +1483,7 @@
       "publishedAt": "2026-06-17T10:18:05.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Strands Agents 和 LeRobot 实现从 Hugging Face Hub 到机器人硬件的部署。"
+      "summary": "Amazon与Hugging Face合作，通过Strands Agents和LeRobot实现从Hub到机器人硬件的部署。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1493,7 +1493,7 @@
       "publishedAt": "2026-06-17T09:01:25.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "ZAI 组织发布 GLM-5.2 模型，专为长周期任务设计。"
+      "summary": "GLM-5.2模型发布，专为长时程任务设计，强调在复杂推理场景中的能力。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1503,7 +1503,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 推出 Agentic Resource Discovery，使 AI 代理能够自主搜索资源。"
+      "summary": "Agentic Resource Discovery：让AI代理自主搜索资源，提升数据发现效率。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1748,7 +1748,7 @@
       "meta": "👍 113",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Looped Transformer 顺序循环增加延迟和 KV-cache 内存，LoopCoder-v2 提出 Parallel Loop Transformers (PLT)，利用跨循环位置偏移和共享 KV 门控滑动窗口注意力实现单次并行循环，显著降低推理开销。"
+      "summary": "LoopCoder-v2 通过并行循环 Transformer（PLT）使用跨循环位置偏移和共享 KV 门控滑动窗口注意力，将多次循环压缩为单次并行计算，显著降低推理延迟和 KV 缓存开销，实现高效测试时计算扩展。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1759,7 +1759,7 @@
       "meta": "👍 95",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "DreamX-World 1.0 是一个通用交互式世界模型，支持文本/图像到可控长视频生成，具备相机控制、区域重访和事件提示能力，覆盖写实、游戏等多风格领域。"
+      "summary": "DreamX-World 1.0 是通用交互式文本/图像到视频世界模型，支持可控长时程生成。结合数据引擎实现相机导航、区域重访和事件提示，适用于逼真、游戏及风格化域。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1770,7 +1770,7 @@
       "meta": "👍 68",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Ling-2.6 和 Ring-2.6 模型族专为万亿参数级智能体设计，兼顾低延迟响应与强推理能力，在高效训练和服务部署上取得平衡。"
+      "summary": "报告 Ling-2.6 和 Ring-2.6 模型族，旨在万亿参数规模实现低延迟响应与强推理能力。设计兼顾训练、服务与部署效率，推动即时智能体智能落地。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1781,7 +1781,7 @@
       "meta": "👍 40",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "ACE-Ego-0 统一第一人称人类视频与机器人轨迹数据用于 VLA 预训练，降低机器人数据采集成本，提升多源自我中心数据联合训练效果。"
+      "summary": "ACE-Ego-0 统一第一人称人类视频与机器人数据用于 VLA 预训练。通过联合训练解决跨域差异，利用大规模人类自我中心数据补充机器人轨迹，降低采集成本，提升具身模型泛化能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1792,7 +1792,7 @@
       "meta": "👍 40",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "传统知识蒸馏在小模型上易过拟合教师尖锐模式。ZPPO 将教师能力编码到提示中而非梯度，提升小模型在未见基准上的泛化。"
+      "summary": "提出“最近发展区策略优化”（ZPPO），将知识蒸馏从梯度模仿转为提示引导。教师通过提示提供指导而非强制学生拟合 logit，缓解小模型对教师尖锐模式的过拟合，提升跨分布泛化能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1803,7 +1803,7 @@
       "meta": "👍 36",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "GameCraft-Bench 基准测试评估编码智能体在真实游戏引擎中端到端将自然语言规范转化为可玩交互系统的能力，涵盖脚本、场景、资产等全流程。"
+      "summary": "GameCraft-Bench 评估智能体在真实游戏引擎中端到端生成可玩游戏的基准。要求模型将自然语言说明转化为包含脚本、场景、资源、渲染和运行时交互的完整系统，测试编码智能体的综合能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1814,7 +1814,7 @@
       "meta": "👍 31",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "LectūraAgents 多智能体框架实现自适应个性化学习，通过多智能体协作动态生成学习者特定内容并调整教学策略，超越单纯讲义自动化。"
+      "summary": "LectūraAgents 是多智能体框架，支持自适应个性化 AI 辅助教学。包含生成学习材料、动态调整教学策略和具身教学能力，超越传统的讲座内容自动化，实现实时学习者差异化指导。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1825,7 +1825,7 @@
       "meta": "👍 25",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "TRIAGE 结合 LLM 辩证推理对不规则采样医疗时间序列进行可解释风险预测，同时输出校准的风险评分和临床可验证理由。"
+      "summary": "TRIAGE 使用 LLM 对不规则采样医疗时间序列进行可解释风险预测。通过辩证推理生成校准的风险评分和可验证的临床理由，兼顾分诊准确性与可解释性，适用于电子健康记录预警系统。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1836,7 +1836,7 @@
       "meta": "👍 24",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对扩散 LLM 提出 on-policy 自蒸馏方法，利用未来信息进行自蒸馏，克服自回归前缀条件限制，提升扩散模型后训练效果。"
+      "summary": "将在线自蒸馏（OPSD）扩展到扩散 LLM（dLLM）。提出从自未来学习的方法，通过非自回归的扩散过程注入特权信息，克服传统自回归前缀条件限制，提升 dLLM 后训练效率。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1847,7 +1847,7 @@
       "meta": "👍 21",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "OPD-Evolver 通过 on-policy 蒸馏训练智能体从经验中学习如何进化，超越简单存储轨迹，培养选择有用经验并整体进化的能力。"
+      "summary": "OPD-Evolver 通过在线策略蒸馏培养智能体全面进化能力。超越简单的经验存储，学习如何选择有用经验、反思并重组技能，实现动态自我改进。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1858,7 +1858,7 @@
       "meta": "👍 13",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "MVEB 大规模视频嵌入基准涵盖 23 个任务（分类、检索、聚类等），评估 33 个模型，发现无单一模型全面最优，MLLM 表现突出。"
+      "summary": "MVEB 是包含 23 个任务的视频嵌入基准，涵盖分类、零样本、聚类、检索和视频问答。评估 33 个模型发现无单一模型独占鳌头：MLLM 在某些任务领先，但专用模型在特定任务仍有优势。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1869,7 +1869,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Self-Evolving Visual Questioner 让 VLM 学会主动提出多样、视觉中心、有深度的问题，通过自进化循环突破高质量训练数据瓶颈。"
+      "summary": "提出自进化视觉提问器，让 VLM 主动提出多样化、视觉核心且具象的问题。通过自生成训练数据并迭代优化，突破高质量数据瓶颈，提升提问质量与多样性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1880,7 +1880,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出文本-视觉联合指令图像编辑，融合文本的语义表达与视觉提示（拖拽、点）的空间精细控制，克服单一模态的局限。"
+      "summary": "提出文本-视觉协同指导的图像编辑方法，融合文本的语义表达与拖拽、点涂等视觉提示的精细空间控制，实现更精确、灵活的编辑效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1891,7 +1891,7 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "GD^2PO 通过组动态奖励解耦策略优化，解决多维度奖励冲突，同时优化多样且竞争的目标，提升 LLM 后训练综合能力。"
+      "summary": "GD^2PO 通过群体动态奖励解耦策略优化，解决多维度奖励间的冲突。将目标分组并动态调整优化权重，在保持性能的同时协调竞争目标，提升 LLM 后训练 RL 的全面能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1902,7 +1902,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "EgoCS-400K 大规模第一人称游戏数据集包含时序对齐的视频、动作、语言轨迹，支撑交互式世界模型训练，填补数据空白。"
+      "summary": "EgoCS-400K 是大型第一人称游戏数据集，包含时间对齐的视频-动作-语言轨迹，提供动作、相机运动、状态和事件标注，专为交互式世界模型训练设计。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1913,7 +1913,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Track2View 通过配对 3D 点轨迹实现 4D 一致的相机可控视频生成，保持原场景外貌和动态，避免每帧位姿嵌入或噪声点云渲染的局限。"
+      "summary": "Track2View 通过成对 3D 点轨迹实现 4D 一致的相机控制视频生成。将原始视频与新视角轨迹对齐，保持每帧外观和动态，无需逐帧姿态嵌入或嘈杂点云渲染。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1924,7 +1924,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Dr-DCI 通过动态工作空间扩展让智能体直接与文档交互，超越传统检索结果或受限视图，提升大规模语料上的智能体搜索和重组能力。"
+      "summary": "Dr-DCI 通过动态工作区扩展实现智能体对大规模语料的直接交互。允许智能体超越检索器返回的排序结果，自主重组和探索文档内容，提升检索-推理一体化能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1935,7 +1935,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "UniAR 采用统一自回归框架，共享上下文和视觉分词器，实现视觉理解和生成的真正统一，避免表示空间分裂。"
+      "summary": "UniAR 提出共享上下文-视觉分词器，统一视觉理解与生成。摒弃双分词器分裂表示空间的局限，使用单一自回归框架实现真正的多模态统一建模。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1946,7 +1946,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "本文提出基于时间差异的视觉表示学习方法，利用时序信号作为弱监督，无需强假设，在大数据计算下具有可扩展性。"
+      "summary": "利用时间差分进行视觉表示学习，无需强归纳偏置。借鉴强化学习中的 TD 方法，从连续帧的差异中学习，以更弱假设获得更好泛化性能。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1957,7 +1957,7 @@
       "meta": "👍 6",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "ChLogic 英-中逻辑推理对齐基准，测试 LLM 在中文表达下维持推理性能的鲁棒性，揭示语言对推理能力的影响。"
+      "summary": "ChLogic 是英中对照的逻辑推理基准，测试 LLM 从英文迁移到中文时的鲁棒性。评估相同逻辑命题在不同语言表达下性能是否保持一致。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -2067,7 +2067,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "GLM-5.2 发布，DeepSeek 获 74 亿美元融资，Android MCP 推出。"
+      "summary": "GLM-5.2模型发布，DeepSeek融资74亿美元，Android MCP工具推出。"
     },
     {
       "sourceId": "tldr-ai",
@@ -2077,7 +2077,7 @@
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "Meta 推出 AI 模式，Factory 2.0 发布，Sakana 展示自主研究员。"
+      "summary": "Meta推出AI模式，Factory 2.0发布，Sakana推出自主研究人员。"
     },
     {
       "sourceId": "tldr-ai",
@@ -2519,7 +2519,7 @@
       "publishedAt": "2026-06-17T17:58:06.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Radical AI 的 Joseph Krause 认为，材料领域的护城河在于实验室而非模型。"
+      "summary": "Radical AI的Joseph Krause认为材料领域护城河在于实验室而非模型，阐述自驱动实验室理念。"
     },
     {
       "sourceId": "latent-space",
@@ -2529,7 +2529,7 @@
       "publishedAt": "2026-06-17T05:37:40.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "GLM-5.2 成为全球顶尖的前端编码开源模型，同时引入 IndexShare 用于推测解码。"
+      "summary": "GLM-5.2成为全球顶级前端编码模型，同时引入IndexShare用于投机解码，被称为新的顶级开源模型。"
     },
     {
       "sourceId": "latent-space",
@@ -2539,7 +2539,7 @@
       "publishedAt": "2026-06-16T02:29:29.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Satya（微软 CEO）发表关于 Loopcraft 构建前沿生态系统的文章。"
+      "summary": "Satya在Loopcraft文章中讨论如何构建前沿生态系统，强调平台化思维。"
     },
     {
       "sourceId": "latent-space",
@@ -2702,7 +2702,7 @@
       "publishedAt": "2026-06-16T09:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "文章探讨通过赋予数据中心灵活性（如需求响应）来更快并网，以加速数据中心上线。"
+      "summary": "为快速上线数据中心，需赋予电网灵活性；例如英国球迷烧水泡茶导致瞬时负荷激增。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2712,7 +2712,7 @@
       "publishedAt": "2026-06-15T18:46:08.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "文章探讨韩国人对 AI 的热爱，从无人入境检查等应用场景入手分析原因。"
+      "summary": "韩国人对AI热情高涨，首尔机场已实现无人入境检查，反映社会对AI的广泛接纳。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2795,7 +2795,7 @@
       "category": "tech",
       "meta": "@zodchiii · 22.7K 粉丝 · 1.2M 阅 · 500 赞 · 71 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "搭建可循环运行的 Claude Code 智能体团队：3 个文件分别定义智能体、循环驱动逻辑和验证机制，让团队持续工作直至任务通过，而非一次输出。"
+      "summary": "介绍构建循环运行的Claude Code代理团队的方法，通过3个文件（agents、loop driver等）实现，让代理持续迭代直到任务通过，而非一次性输出。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2806,7 +2806,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 67.2K 粉丝 · 1.2M 阅 · 510 赞 · 73 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用 Obsidian 构建自动运转的第二大脑完整教程，覆盖 Zettelkasten、PARA 等方法，解决阅读大量文章后无法有效留存的问题。"
+      "summary": "分享在Obsidian中搭建自动化第二大脑的完整课程，涵盖Zettelkasten、PARA、图谱视图等方法，帮你自动整理阅读笔记，无需手动维护。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2817,7 +2817,7 @@
       "category": "tech",
       "meta": "@lqiao · 95.4K 粉丝 · 501.6K 阅 · 509 赞 · 86 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "以 Mythos 被关停事件反思平台风险：构建于不受自己控制的智能之上，一旦上游切断，业务立即暴露。强调「拥有」而非「租用」智能的重要性。"
+      "summary": "以Mythos关闭事件为例，讨论「拥有vs租借智能」的风险——依赖他人底层模型的公司，在服务中断时毫无掌控力，引发对AI供应链依赖的反思。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2828,7 +2828,7 @@
       "category": "tech",
       "meta": "@mattepstein · 35.6K 粉丝 · 393.3K 阅 · 504 赞 · 26 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "利用 Claude 95% 自动化复现 Mr. Beast 式病毒传播框架，拆解爆款发帖背后的可重复科学，实现 X 平台增长。"
+      "summary": "揭露如何利用Claude 95%自动化复制Mr. Beast式病毒传播框架，将推文发布流程拆解为可重复的科学方法，实现X平台爆款。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2839,7 +2839,7 @@
       "category": "tech",
       "meta": "@mikenevermiss · 10.8K 粉丝 · 261.4K 阅 · 568 赞 · 67 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "设计循环而非单次提示：Anthropic 的 Boris Cherny 分享如何打造关闭电脑后仍持续工作的系统，从 prompt 设计转向循环架构。"
+      "summary": "Anthropic的Claude Code负责人Boris Cherny强调：从写单次prompt转向设计循环（loop），让系统在你关机后持续工作，构建自动化的代理流程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2850,7 +2850,7 @@
       "category": "tech",
       "meta": "@athcanft · 19.1K 粉丝 · 205.6K 阅 · 514 赞 · 23 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用 AI 批量生成 TikTok 幻灯片，每月仅花 2 美元自动排程 600 条内容，零拍摄零剪辑零每日发布，完全自动化运营流程。"
+      "summary": "分享用AI批量生成TikTok幻灯片视频的懒人方法，零拍摄零剪辑，提前数周排期发布，每月600条成本仅2美元，附完整步骤。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2861,7 +2861,7 @@
       "category": "tech",
       "meta": "@jxnlco · 105.9K 粉丝 · 204.4K 阅 · 504 赞 · 47 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Codex 控制电脑的三种方式：Computer Use、Chrome 扩展和应用内浏览器，三者功能重叠但各有侧重，适用于不同自动化场景。"
+      "summary": "OpenAI Codex的三种计算机使用方式：Computer Use、Chrome扩展和内置浏览器，三者功能重叠但各有侧重，现已支持EU/UK地区。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2872,7 +2872,7 @@
       "category": "tech",
       "meta": "@matanSF · 20.2K 粉丝 · 123.1K 阅 · 529 赞 · 60 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Factory 从编码智能体升级为「软件工厂」，部署自主 Droid 跨工程任务自动化，目标不再仅是加速编码，而是实现全流程自主。"
+      "summary": "Factory 2.0发布，从辅助编码代理升级为自动化软件工厂，部署自主Droids贯穿整个开发流程，目标是实现软件工程的全面自主化。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2883,7 +2883,7 @@
       "category": "tech",
       "meta": "@jxmnop · 50.7K 粉丝 · 114.1K 阅 · 504 赞 · 57 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "入门 AI 研究的实用路径：结合阅读论文、动手实践和持续迭代，直指「没人直接教你」的困境，给出可落地的起步组合策略。"
+      "summary": "给想进入AI研究的人提供实用入门指南，核心是阅读与实验结合，强调没有直接的教学路径，但方法本身并不复杂。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2894,7 +2894,7 @@
       "category": "tech",
       "meta": "@OracleMindAI · 21.0K 粉丝 · 105.0K 阅 · 2.8K 赞 · 582 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "2026 年自主 AI 智能体已成 Polymarket 最有效策略之一，超 30% 活动来自算法钱包。Oracle 发布官方代理直接在预测市场上交易。"
+      "summary": "ORACLE项目推出官方AI代理在Polymarket上交易，预测市场30%+活动已由算法/AI钱包驱动，自主代理成为盈利策略。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2905,7 +2905,7 @@
       "category": "tech",
       "meta": "@sydneyrunkle · 7.9K 粉丝 · 74.7K 阅 · 565 赞 · 87 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "智能体循环工程的艺术：要让代理可靠地完成有价值工作，关键在于精心设计验证、状态管理和错误恢复，而非仅依赖好模型。"
+      "summary": "探讨循环工程（loop engineering）的艺术：仅靠好模型不够，需要精心设计的反馈循环、验证机制和工作流，才能让代理稳定完成有价值的真实任务。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2916,7 +2916,7 @@
       "category": "tech",
       "meta": "@0xCodez · 8.2K 粉丝 · 72.8K 阅 · 508 赞 · 79 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "从单智能体到自改进系统的 14 步路线图，重点在于循环运行的底层框架（规则、子代理、钩子、记忆），而非表面循环本身。"
+      "summary": "指出90%的构建者只使用默认harness，缺乏规则、子代理、钩子和记忆。提供14步路线图，从单个代理演进为可自我改进的系统，核心是harness工程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2927,7 +2927,7 @@
       "category": "tech",
       "meta": "@AndrewCurran_ · 53.9K 粉丝 · 62.8K 阅 · 569 赞 · 61 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "反思 Fable 被关停：该工具在基准测试之外有独特价值，但窗口已关闭。提醒关注那些无法被指标捕捉的真正特殊之处。"
+      "summary": "以Fable的关闭为例，讨论AI工具窗口已关闭——有些独特体验无法用基准测试衡量，但商业化失败意味着好产品也难生存，引发对AI产品可持续性的思考。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2938,7 +2938,7 @@
       "category": "tech",
       "meta": "@addyosmani · 400.1K 粉丝 · 52.9K 阅 · 522 赞 · 41 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "编程智能体极强之后，工程难点从写代码转向判断是否信任代码。提出「智能体代码审查」新范式，重点评估 AI 输出的可靠性。"
+      "summary": "编程代理能力飞跃后，工程难点从写代码转向「是否信任代码」。提出代理式代码审查的重要性，需要新的验证和信任机制来确保输出质量。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2949,7 +2949,7 @@
       "category": "tech",
       "meta": "@heynavtoor · 143.5K 粉丝 · 47.7K 阅 · 538 赞 · 70 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "斯坦福 STORM 研究方法：让 Claude 像博士一样在几分钟内完成深度调研，超越简单问答，系统化生成研究报告。"
+      "summary": "介绍斯坦福STORM研究系统，能让Claude在几分钟内进行博士级深度调研。经同行评议测试，效果远超简单问答，呼吁用户打开Claude的隐藏能力。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2960,7 +2960,7 @@
       "category": "tech",
       "meta": "@unicity_labs · 125.6K 粉丝 · 47.6K 阅 · 534 赞 · 659 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Claude Agent SDK 计费拆分：程序化代理使用移至独立计量积分。AstridOS 正在构建管控功能，解析变更对构建者的影响。"
+      "summary": "Claude Agent SDK于2026年6月15日进行计费拆分，程序化代理使用将单独计量。AstridOS正在构建管控工具，对代理构建者而言成本模型将产生重要变化。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2971,7 +2971,7 @@
       "category": "tech",
       "meta": "@israfill · 8.8K 粉丝 · 46.5K 阅 · 508 赞 · 59 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "AI 内容创作完整入门指南：按顺序操作，每个命令、文件、决策均有文档，适合零基础用户从零开始搭建工作流。"
+      "summary": "一份面向新手的AI内容创作完整指南，按顺序逐步骤执行，涵盖命令、文件、决策细节，适合零基础入门。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2982,7 +2982,7 @@
       "category": "tech",
       "meta": "@zachlloydtweets · 10.6K 粉丝 · 43.5K 阅 · 512 赞 · 53 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "构建技能自改进循环：澄清「循环」概念并给出具体实现，驱动力来自验证反馈，而非简单重复调用。"
+      "summary": "澄清「循环」（loop）在代理中的实际含义，并分享如何为个人技能构建自我改进循环，让技能不断提升而不只是重复执行。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2993,7 +2993,7 @@
       "category": "tech",
       "meta": "@samueljmcd · 857 粉丝 · 42.2K 阅 · 511 赞 · 52 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "循环工程的核心难点始终是验证。即使技术标签更新，确保输出正确性仍是关键，可用 Claude 提炼文章核心见解。"
+      "summary": "认为循环工程本质仍是验证问题。提示可将文章粘贴到Claude获取最佳洞见，核心观点：循环容易建，但确保输出正确才是真正的难点。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -3004,7 +3004,17 @@
       "category": "tech",
       "meta": "@kvnkld · 7.2K 粉丝 · 42.0K 阅 · 531 赞 · 25 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "10 条规则打造精致 UI：抛光不是靠提示词，而是通过组件分解、像素对齐、动效设计和迭代细致的工程思维实现。"
+      "summary": "分享用Claude开发精致UI的10条规则，强调精美不是靠prompt提示出来的，而是需要精心设计交互逻辑、视觉细节和迭代流程。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "New Zealand’s Economy Accelerated Before War Sapped Momentum",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/new-zealand-s-economy-grew-0-8-before-iran-war-sapped-momentum",
+      "excerpt": "New Zealand’s economy sparked into life in the first three months of the year, responding to low interest rates and a lift in spending that largely pre-dated the Iran war.",
+      "publishedAt": "2026-06-17T22:47:21.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "新西兰经济在第一季度增长0.8%，受益于低利率和支出增加，但伊朗战争削弱了后续增长动力。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3014,7 +3024,7 @@
       "publishedAt": "2026-06-17T22:03:01.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "原油价格回落，因美伊临时和平协议生效，市场关注霍尔木兹海峡通行能否增加以及海湾生产商重启停产油田。"
+      "summary": "由于美伊临时和平协议生效，霍尔木兹海峡运输前景改善，国际油价下跌，产油国重启此前关闭的油田。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3024,7 +3034,7 @@
       "publishedAt": "2026-06-17T23:00:14.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "OT集团CEO庄田良治表示，鬼冢虎将从亚瑟士分拆为独立品牌，并阐述品牌愿景。"
+      "summary": "OT集团总裁兼CEO庄田良二表示，Onitsuka Tiger正寻求从Asics分拆，成为独立品牌，并阐述了品牌未来愿景。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3034,7 +3044,7 @@
       "publishedAt": "2026-06-17T22:57:44.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "金价延续跌势，因美联储维持利率不变但暗示年内可能加息，市场加息押注增加。"
+      "summary": "在美联储维持利率不变并暗示年内可能加息后，黄金延续跌势，市场对加息的押注增加。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3047,23 +3057,13 @@
     },
     {
       "sourceId": "bloomberg-markets",
-      "title": "New Zealand’s Economy Grew 0.8% Before Iran War Sapped Momentum",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/new-zealand-s-economy-grew-0-8-before-iran-war-sapped-momentum",
-      "excerpt": "New Zealand’s economy sparked into life in the first three months of the year, responding to low interest rates and a lift in spending that largely pre-dated the Iran war.",
-      "publishedAt": "2026-06-17T22:47:21.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "新西兰第一季度GDP增长0.8%，低利率和支出增加推动经济回暖，但伊朗战争爆发后势头减弱。"
-    },
-    {
-      "sourceId": "bloomberg-markets",
       "title": "BWX Agrees to License Nuclear Reactor Design After Activist Push",
       "url": "https://www.bloomberg.com/news/articles/2026-06-17/bwx-agrees-to-license-nuclear-reactor-design-after-activist-push",
       "excerpt": "BWX Technologies Inc. has struck a deal to license its design for a small modular reactor, after activist investor Ananym Capital Management pushed the nuclear technology company to consider commercializing it.",
       "publishedAt": "2026-06-17T22:32:49.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "BWX技术公司同意授权其小型模块化反应堆设计，此前激进投资者Ananym资本管理公司推动其商业化。"
+      "summary": "BWX Technologies在激进投资者Ananym Capital Management推动下，达成协议许可其小型模块化反应堆设计。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3073,7 +3073,7 @@
       "publishedAt": "2026-06-17T22:31:28.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "太平洋投资管理公司看好5至10年期澳大利亚国债，押注澳洲联储将被迫转向降息以支持放缓的经济。"
+      "summary": "太平洋投资管理公司（Pimco）偏好5至10年期澳大利亚债券，押注央行明年将因经济放缓而被迫降息。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3083,7 +3083,7 @@
       "publishedAt": "2026-06-17T22:17:32.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美联储新主席凯文·沃什首次亮相即震动债市，引发加息押注激增。"
+      "summary": "美联储主席凯文·沃什首次亮相即震动债券市场，引发加息押注飙升，交易员迅速调整预期。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3093,7 +3093,7 @@
       "publishedAt": "2026-06-17T22:11:45.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "亚洲股市和债市预计跟随美国下跌，因美联储暗示可能需要进一步加息以遏制通胀。"
+      "summary": "亚洲股市和债券预计将下跌，因美联储暗示可能需要进一步加息以遏制通胀，鹰派信号打击市场情绪。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3103,7 +3103,7 @@
       "publishedAt": "2026-06-17T22:09:16.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美联储主席凯文·沃什在其上任后的首次新闻发布会上表示，联邦公开市场委员会决定维持利率不变，并承诺实现物价稳定。"
+      "summary": "美联储主席凯文·沃什在首次记者会上表示，联邦公开市场委员会决定维持利率不变，并承诺实现价格稳定。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3122,7 +3122,7 @@
       "publishedAt": "2026-06-17T21:54:29.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "詹姆斯·比尔德奖得主、厨师Kwame Onwuachi谈及他在拉斯维加斯新开的餐厅Maroon，以及其非洲加勒比文化如何融入餐厅。"
+      "summary": "詹姆斯·比尔德奖得主、名厨Kwame Onwuachi在拉斯维加斯开设新餐厅Maroon，并分享其非裔加勒比文化融入餐饮的体验。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3699,7 +3699,7 @@
       "publishedAt": "2026-06-17T23:01:11.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "英国央行预计维持利率不变。该行上次降息在去年12月，但中东动荡阻碍了进一步降息。"
+      "summary": "英国央行预计将维持利率不变。去年12月曾降息，但中东局势动荡令进一步降息暂停。"
     },
     {
       "sourceId": "bbc-business",
@@ -3745,7 +3745,7 @@
       "publishedAt": "2026-06-17T23:02:05.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "美国街头配送机器人增多，引发广泛反弹，多地出现禁令和抗议团体。"
+      "summary": "美国多地出现针对送货机器人的抗议活动，部分城市甚至颁布禁令。机器人公司表示正积极与社区沟通。"
     },
     {
       "sourceId": "bbc-business",
@@ -4300,7 +4300,7 @@
       "sourceId": "reddit-stocks",
       "title": "What do you think of \"forgotten\" tech stocks that are past their peak/cultural popularity?",
       "url": "https://www.reddit.com/r/stocks/comments/1u8p834/what_do_you_think_of_forgotten_tech_stocks_that/",
-      "excerpt": "MongoDB was hot in 2017 era? Dropbox was big around 2010-2015? Cloud kind of took over after that. When did Roku peak? Now, it's just the norm? Snapchat peaked in 2017? Stock peaked in 2021. Peloton & Zoom was hot in 2020-2022.Paypal was innovative in 2005, when Ebay was big (pre-Amazon shopping) Ho",
+      "excerpt": "MongoDB was hot in 2017 era? Dropbox was big around 2010-2015? Cloud kind of took over after that. When did Roku peak? Now, it's just the norm? Snapchat peaked in 2017? Stock peaked in 2021. Peloton & Zoom was hot in 2020-2022. Paypal was innovative in 2005, when Ebay was big (pre-Amazon shopping) H",
       "publishedAt": "2026-06-17T22:48:55.000Z",
       "category": "tech",
       "source": "r/stocks"
@@ -4646,7 +4646,7 @@
       "publishedAt": "2026-06-17T22:57:46.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "美伊协议留下核心未决点及3000亿美元问题。特朗普声称协议确保伊朗永不发展核武器，但协议文本未达此目标。"
+      "summary": "特朗普坚称美伊协议确保伊朗永不发展核武器，但协议文本未达此目标，核心问题未解决，3000亿美元重建费用存疑。"
     },
     {
       "sourceId": "bbc-world",
@@ -4782,7 +4782,7 @@
       "publishedAt": "2026-06-17T22:30:46.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "研究显示，大麻商业化而非非刑事化增加了使用率。在商业销售大麻的国家，用户数量和精神疾病发病率上升。"
+      "summary": "研究显示，大麻商业化销售导致使用人数增加及精神疾病发病率上升，而除罪化或严格管制并未推高使用率。"
     },
     {
       "sourceId": "guardian-world",
@@ -4873,7 +4873,7 @@
       "publishedAt": "2026-06-17T23:08:33.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "澳航“日出计划”悉尼至伦敦直飞航班再次推迟，首飞预计2027年11月；南澳大利亚州反堕胎法案被阻止。"
+      "summary": "澳航“日出计划”悉尼直飞伦敦航班再次推迟，首航预计2027年11月。南澳大利亚州阻止反堕胎法案通过。"
     },
     {
       "sourceId": "guardian-world",
@@ -4883,7 +4883,7 @@
       "publishedAt": "2026-06-17T23:01:46.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "新南威尔士大学在QS世界大学排名中升至第19位，首次超越墨尔本大学，9所澳大利亚大学排名创历史新高。"
+      "summary": "新南威尔士大学在QS世界大学排名中位列第19，首次超越墨尔本大学。九所澳大利亚大学创历史最高排名。"
     },
     {
       "sourceId": "guardian-world",
@@ -4965,7 +4965,7 @@
       "publishedAt": "2026-06-17T23:08:54.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "美伊总统签署谅解备忘录，伊朗称在60天谈判期结束后将对过往霍尔木兹海峡的船只收费。"
+      "summary": "美伊总统签署谅解备忘录。伊朗首席谈判代表称，60天谈判期结束后将对通过霍尔木兹海峡的船只收费。"
     },
     {
       "sourceId": "guardian-world",
@@ -4975,7 +4975,7 @@
       "publishedAt": "2026-06-17T22:28:32.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "共和党参议员卡西迪批评特朗普的伊朗协议是“几十年来最严重的外交政策失误”，称“里根在坟墓里辗转反侧”，多名共和党人质疑该协议。"
+      "summary": "共和党参议员比尔·卡西迪批评特朗普伊朗协议是“数十年来最严重外交政策失误”，称“里根在坟墓里辗转反侧”。党内其他成员也持怀疑态度。"
     },
     {
       "sourceId": "guardian-world",
@@ -4985,7 +4985,7 @@
       "publishedAt": "2026-06-17T22:17:12.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "评论指出，特朗普的伊朗协议源于对一场不可持续战争的过高期望。美国以最大化目标开战，最终务实结束冲突。"
+      "summary": "分析称，特朗普伊朗协议是“不可持续的战争”之结果。美国以最大化目标参战，最终务实结束冲突，付出政治代价。"
     },
     {
       "sourceId": "guardian-world",
@@ -5010,10 +5010,10 @@
       "title": "Live Updates: U.S. Details Agreement With Iran as Trump Departs G7 Summit",
       "url": "https://www.nytimes.com/live/2026/06/17/world/g7-summit-trump-france",
       "excerpt": "A U.S. official provided what was described as the text of the preliminary agreement, which outlined a $300 billion plan for Iran’s reconstruction and 60 days of talks on its nuclear program.",
-      "publishedAt": "2026-06-17T22:53:00.000Z",
+      "publishedAt": "2026-06-17T23:16:42.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "美国官员公布美伊初步协议文本，包括3000亿美元伊朗重建计划及60天核问题谈判安排，特朗普离开G7峰会。"
+      "summary": "美国官员公布与伊朗初步协议文本，内容涉及3000亿美元重建计划及60天核项目谈判。特朗普在G7峰会期间离开。"
     },
     {
       "sourceId": "nyt-world",
@@ -5032,7 +5032,7 @@
       "publishedAt": "2026-06-17T22:30:59.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "特朗普愤怒辩护其伊朗协议，否认美国参与3000亿美元重建基金，并称他的协议优于奥巴马2015年达成的协议。"
+      "summary": "特朗普愤怒辩护其伊朗协议，否认美国参与3000亿美元重建基金，并声称其协议优于奥巴马2015年签署的协议。"
     },
     {
       "sourceId": "nyt-world",
@@ -5141,7 +5141,7 @@
       "publishedAt": "2026-06-17T22:35:37.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "分析特朗普与奥巴马的伊朗协议差异：当前谅解备忘录仅为临时安排，旨在为更全面协议铺路，两者难以直接比较。"
+      "summary": "特朗普的伊朗协议与奥巴马2015年协议难以比较，当前谅解备忘录仅为临时安排，旨在为全面协议铺路。"
     },
     {
       "sourceId": "nyt-world",
@@ -5151,7 +5151,7 @@
       "publishedAt": "2026-06-17T22:47:03.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "法国队组建了一支“非洲梦之队”并击败塞内加尔。评论认为法塞对决反映了殖民遗产，同时欧洲球队的非洲裔球员越来越多。"
+      "summary": "法国队拥有多名非洲裔球员，被称为“非洲梦之队”，塞内加尔无法阻止。法塞对决被视为殖民遗产的延续，欧洲球队非洲化趋势显著。"
     },
     {
       "sourceId": "nyt-world",
@@ -5161,7 +5161,7 @@
       "publishedAt": "2026-06-17T22:04:41.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "特朗普回击批评者，称其伊朗协议不逊于奥巴马协议，并威胁若伊朗违约将再次轰炸。协议细节陆续公布。"
+      "summary": "特朗普抨击批评者称其协议不如奥巴马2015年协议，并威胁若伊朗违反协议将再次轰炸。"
     },
     {
       "sourceId": "nyt-world",
@@ -5243,7 +5243,7 @@
       "publishedAt": "2026-06-17T21:34:24.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "据报埃隆·马斯克可能推动SpaceX与特斯拉大规模合并。法律专家称部分股东可能反对，但无力阻止。"
+      "summary": "埃隆·马斯克可能推动SpaceX与特斯拉大规模合并。法律专家称，部分股东可能反对，但能采取的措施有限。"
     },
     {
       "sourceId": "nyt-world",
@@ -5262,7 +5262,7 @@
       "publishedAt": "2026-06-17T22:52:58.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "G7峰会在法国举行，特朗普、卡尼等领导人的麦克风意外捕捉到私下对话片段，曝光了幕后讨论内容。"
+      "summary": "在法国举行的七国集团峰会上，话筒捕捉到特朗普、卡尼等领导人的私下交谈片段，暴露幕后对话内容。"
     },
     {
       "sourceId": "nyt-world",
@@ -5644,13 +5644,13 @@
     },
     {
       "sourceId": "aljazeera",
-      "title": "Iran confirms that MoU has been signed electronically by both sides",
+      "title": "Diplomat confirms that US and Iran have signed MoU electronically",
       "url": "https://www.aljazeera.com/news/2026/6/17/iran-confirms-that-mou-has-been-signed-electronically-by-both-sides?traffic_source=rss",
-      "excerpt": "Foreign Ministry spokesperson Esmaeil Baghaei says agreement has been finalised and signed with the US.",
+      "excerpt": "Foreign Ministry spokesperson Esmaeil Baghaei says the agreement has been finalised and signed with the US.",
       "publishedAt": "2026-06-17T23:02:47.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "伊朗外交部发言人巴加埃证实，伊朗与美国已通过电子方式签署并最终确定谅解备忘录。"
+      "summary": "伊朗外交部发言人埃斯梅尔·巴加埃确认，美伊双方已通过电子方式签署谅解备忘录，协议最终确定。"
     },
     {
       "sourceId": "aljazeera",
@@ -6140,22 +6140,23 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Framer 3.0",
-      "url": "https://www.producthunt.com/products/framer",
+      "title": "NotchSpace（新品发布）",
+      "url": "https://www.producthunt.com/products/notchspace-2",
       "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T09:01:17.000Z",
+      "publishedAt": "2026-06-17T01:59:33.000Z",
       "category": "tech",
       "source": "Product Hunt",
-      "summary": "Framer 3.0 是设计工具 Framer 的重大版本更新，可能带来更强大的交互和组件能力。对 UI/UX 设计师和前端开发者有直接帮助。"
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
-      "title": "Tyto by ai-coustics",
-      "url": "https://www.producthunt.com/products/tyto",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T07:04:43.000Z",
+      "title": "Mirlo（新品发布）",
+      "url": "https://www.producthunt.com/products/mirlo",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T08:44:36.000Z",
       "category": "tech",
-      "source": "Product Hunt"
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
@@ -6168,125 +6169,20 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "AudienceCue",
-      "url": "https://www.producthunt.com/products/audiencecue",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-14T03:51:59.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "ClipDone",
+      "title": "ClipDone（新品发布）",
       "url": "https://www.producthunt.com/products/clipdone",
       "excerpt": "讨论 | 链接",
       "publishedAt": "2026-06-17T04:57:46.000Z",
       "category": "tech",
       "source": "Product Hunt",
-      "summary": "ClipDone 是 Product Hunt 上的一款新产品，具体功能尚未披露。独立开发者可关注其后续更新以判断适用性。"
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
-      "title": "Typerino",
-      "url": "https://www.producthunt.com/products/typerino",
+      "title": "Tyto by ai-coustics",
+      "url": "https://www.producthunt.com/products/tyto",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-01T16:05:45.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Wolfram Language 15",
-      "url": "https://www.producthunt.com/products/wolfram-mathematica",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T06:06:57.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Wolfram Language 15 是 Wolfram 语言的最新版本，专注于提升计算和数据处理能力。对数据科学家和工程师有参考价值，但具体新特性需查看官方案例。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "MCP 2000",
-      "url": "https://www.producthunt.com/products/mcp-2000",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T19:02:31.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "MCP 2000 是 Product Hunt 上的一款硬件或软件产品，具体规格未披露。独立开发者可留意后续详细说明。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Cilantro",
-      "url": "https://www.producthunt.com/products/cilantro",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T20:29:47.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Redactify",
-      "url": "https://www.producthunt.com/products/redactify",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T01:07:19.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Redactify 是 Product Hunt 上的一款产品，功能尚未说明。对隐私安全感兴趣的开发者可保持关注。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "PaneFlow",
-      "url": "https://www.producthunt.com/products/paneflow",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T22:00:06.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "ClawEase",
-      "url": "https://www.producthunt.com/products/clawease",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-09T03:54:09.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Snapchat SPECS",
-      "url": "https://www.producthunt.com/products/snapchat",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T22:04:05.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Snapchat SPECS 是 Snapchat 推出的智能眼镜系列，主打拍照和社交功能。适合追求新奇体验的用户和 AR 应用开发者。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Mirlo",
-      "url": "https://www.producthunt.com/products/mirlo",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T08:44:36.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Mirlo 是 Product Hunt 上的一款待发布产品，尚无功能描述。个人创业者可等待测试版体验。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Android 17",
-      "url": "https://www.producthunt.com/products/android",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T04:27:25.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Android 17 是 Android 系统的最新版本，带来性能优化和新 API。对移动应用开发者而言，需及时适配新特性以提升用户体验。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Dopami",
-      "url": "https://www.producthunt.com/products/dopami",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T14:32:16.000Z",
+      "publishedAt": "2026-06-16T07:04:43.000Z",
       "category": "tech",
       "source": "Product Hunt"
     },
@@ -6301,19 +6197,20 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "memi",
-      "url": "https://www.producthunt.com/products/memoire",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-05-09T17:02:43.000Z",
+      "title": "Redactify（新品发布）",
+      "url": "https://www.producthunt.com/products/redactify",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T01:07:19.000Z",
       "category": "tech",
-      "source": "Product Hunt"
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
-      "title": "Swytchcode CLI",
-      "url": "https://www.producthunt.com/products/swytchcode",
+      "title": "Tapfree for Chrome",
+      "url": "https://www.producthunt.com/products/tapfree-for-android-2",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-13T14:10:46.000Z",
+      "publishedAt": "2026-06-13T15:07:03.000Z",
       "category": "tech",
       "source": "Product Hunt"
     },
@@ -6328,12 +6225,31 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Dualora",
-      "url": "https://www.producthunt.com/products/dualora-dual-size-recorder",
+      "title": "Swytchcode CLI",
+      "url": "https://www.producthunt.com/products/swytchcode",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T07:38:31.000Z",
+      "publishedAt": "2026-06-13T14:10:46.000Z",
       "category": "tech",
       "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Typerino",
+      "url": "https://www.producthunt.com/products/typerino",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-01T16:05:45.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Wolfram Language 15（新品发布）",
+      "url": "https://www.producthunt.com/products/wolfram-mathematica",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T06:06:57.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
@@ -6346,19 +6262,29 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Polygram Coding Agent",
-      "url": "https://www.producthunt.com/products/polygram-4",
+      "title": "Framer 3.0（新品发布）",
+      "url": "https://www.producthunt.com/products/framer",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T09:01:17.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Dualora",
+      "url": "https://www.producthunt.com/products/dualora-dual-size-recorder",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-11T22:58:09.000Z",
+      "publishedAt": "2026-06-16T07:38:31.000Z",
       "category": "tech",
       "source": "Product Hunt"
     },
     {
       "sourceId": "producthunt",
-      "title": "Tapfree for Chrome",
-      "url": "https://www.producthunt.com/products/tapfree-for-android-2",
+      "title": "ClawEase",
+      "url": "https://www.producthunt.com/products/clawease",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-13T15:07:03.000Z",
+      "publishedAt": "2026-06-09T03:54:09.000Z",
       "category": "tech",
       "source": "Product Hunt"
     },
@@ -6373,6 +6299,100 @@
     },
     {
       "sourceId": "producthunt",
+      "title": "memi",
+      "url": "https://www.producthunt.com/products/memoire",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-05-09T17:02:43.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "StickerWords（新品发布）",
+      "url": "https://www.producthunt.com/products/stickerwords",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T04:15:35.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "AudienceCue",
+      "url": "https://www.producthunt.com/products/audiencecue",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-14T03:51:59.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "MCP 2000（新品发布）",
+      "url": "https://www.producthunt.com/products/mcp-2000",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T19:02:31.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Cilantro",
+      "url": "https://www.producthunt.com/products/cilantro",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T20:29:47.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "PaneFlow",
+      "url": "https://www.producthunt.com/products/paneflow",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T22:00:06.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Snapchat SPECS（新品发布）",
+      "url": "https://www.producthunt.com/products/snapchat",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T22:04:05.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Android 17（新品发布）",
+      "url": "https://www.producthunt.com/products/android",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T04:27:25.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Dopami",
+      "url": "https://www.producthunt.com/products/dopami",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T14:32:16.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Polygram Coding Agent",
+      "url": "https://www.producthunt.com/products/polygram-4",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-11T22:58:09.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
       "title": "Docfarm",
       "url": "https://www.producthunt.com/products/docfarm",
       "excerpt": "Discussion | Link",
@@ -6382,163 +6402,143 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "SolonGate",
+      "title": "SolonGate（新品发布）",
       "url": "https://www.producthunt.com/products/solongate",
       "excerpt": "讨论 | 链接",
       "publishedAt": "2026-06-16T14:36:07.000Z",
       "category": "tech",
       "source": "Product Hunt",
-      "summary": "SolonGate 是 Product Hunt 上的新产品，功能未知。小团队可关注其是否解决特定痛点。"
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
-      "title": "StickerWords",
-      "url": "https://www.producthunt.com/products/stickerwords",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T04:15:35.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "StickerWords 是 Product Hunt 上的创意工具，具体用途未公开。独立开发者可探索其可能的应用场景。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Henji",
+      "title": "Henji（新品发布）",
       "url": "https://www.producthunt.com/products/henji",
       "excerpt": "讨论 | 链接",
       "publishedAt": "2026-06-17T04:24:48.000Z",
       "category": "tech",
       "source": "Product Hunt",
-      "summary": "Henji 是 Product Hunt 上的一款新品，功能描述暂缺。个人创业者可等待官方说明再做评估。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Wario Synth",
-      "url": "https://www.producthunt.com/products/wario-style",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T14:20:11.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "Wario Synth 是 Product Hunt 上的一款合成器或音乐工具，详情待补充。音乐制作人和独立开发者可探索其创意可能性。"
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "yc-blog",
       "title": "Christopher Golda 和 Grey Baker 加入 YC 担任 General Partners",
       "url": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners/",
-      "excerpt": "我们很高兴地宣布，Christopher Golda 和 Grey Baker 将加入 YC 担任 General Partners。",
+      "excerpt": "我们很高兴宣布 Christopher Golda 和 Grey Baker 加入 Y Combinator 担任 General Partners。",
       "publishedAt": "2026-06-16T16:14:22.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 新增两位 General Partners，增强其投资与创业辅导团队。对创业者意味着更多元化的行业经验和资源，有助于申请 YC 时获得针对性建议。"
+      "summary": "YC 宣布两位新任 General Partners，他们将为创业加速器带来丰富的投资和运营经验。对创业者而言，了解 YC 团队变化有助于把握潜在的合作与指导机会。"
     },
     {
       "sourceId": "yc-blog",
       "title": "Diana Hu 成为 YC 新任 Managing Partner",
       "url": "https://www.ycombinator.com/blog/diana-hu-managing-partner/",
-      "excerpt": "我们激动地宣布，Diana Hu 升任 Y Combinator 的 Managing Partner。很少有人既从零创建过初创公司，又向一亿用户交付过技术。Diana 做到了。",
+      "excerpt": "我们激动地宣布 Diana Hu 晋升为 Y Combinator 的 Managing Partner。很少有人能从零创业并同时将技术带给 1 亿用户，Diana 两者兼备。",
       "publishedAt": "2026-06-11T17:01:59.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Diana Hu 从零创业并打造过亿级产品，如今成为 YC 最高管理层之一。这对创业者是积极信号：YC 高层拥有实战经验，能提供更接地气的指导。"
+      "summary": "Diana Hu 晋升为 YC 管理合伙人，她兼具创业成功和大规模技术落地的经验。这对创业者是一个积极信号，表明 YC 重视既懂产品又懂大规模部署的人才，也为投资人提供参考。"
     },
     {
       "sourceId": "yc-blog",
       "title": "Harshita Arora 加入 YC 担任 General Partner",
       "url": "https://www.ycombinator.com/blog/welcome-harshita/",
-      "excerpt": "我们激动地宣布，Harshita Arora 将加入 Y Combinator 担任 General Partner。她拥有深厚的金融科技和基础设施经验、创始人本能的产品嗅觉，以及自少年时期就开始创业的独特视角。",
+      "excerpt": "我们激动地宣布 Harshita Arora 加入 Y Combinator 担任 General Partner。她拥有深厚的金融科技和基础设施经验、创始人的产品直觉以及从青少年时期就开始创业的视角。",
       "publishedAt": "2026-04-06T16:00:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Harshita Arora 作为少年创业者转型投资人的代表，将强化 YC 在金融科技和基础设施领域的支持。相关方向的初创公司有机会获得更专业的评估和指导。"
+      "summary": "青年创始人 Harshita Arora 加入 YC 任 General Partner，背景涵盖金融科技和基础设施。早期创业者可期待她在这些领域提供直接指导，尤其适合构建 B2B 或支付相关产品的团队。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC 重新将加拿大列入可注册公司的国家名单",
+      "title": "将加拿大重新加入公司注册地接受列表",
       "url": "https://www.ycombinator.com/blog/adding-canada-back/",
-      "excerpt": "在听取了我们网络中加拿大创始人的反馈后，我们将加拿大重新列入可注册公司的国家名单。",
+      "excerpt": "在听取加拿大创始人的反馈后，我们决定将加拿大重新加入公司注册地接受列表。",
       "publishedAt": "2026-02-05T17:00:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 再次接受加拿大注册的初创公司申请，消除此前的地域限制。对加拿大创业者是重大利好，可直接参与 YC 项目，获得投资和全球网络支持。"
+      "summary": "YC 重新接受加拿大作为公司注册地，为加拿大创业者消除了注册障碍。个人创业者和团队如计划申请 YC，可更灵活地选择加拿大公司架构，简化税务和法律流程。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "祝贺 EquipmentShare 成功上市",
+      "title": "祝贺 EquipmentShare 上市",
       "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-      "excerpt": "今天，EquipmentShare（YC W15 期）上市。从密苏里州到全国373个地点，他们构建了建筑业一直缺少的操作系统——由承包商为承包商打造。祝贺 Jabbok、Willy 和 EquipmentShare 团队取得这一重要里程碑。",
+      "excerpt": "今天，EquipmentShare（YC W15）上市。从密苏里州到全国 373 个地点，他们构建了建筑业缺失的操作系统——由承包商为承包商打造。祝贺 Jabbok、Willy 和 EquipmentShare 团队。",
       "publishedAt": "2026-01-23T15:59:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "EquipmentShare 从建筑设备共享切入，成长为上市企业。启示创业者：深耕垂直行业、解决真实痛点，从小市场起步也能做大，并在 YC 支持下快速扩张。"
+      "summary": "EquipmentShare 是 YC 孵化的建筑行业 SaaS 平台，成功上市。它展示了如何从细分领域切入，通过深度理解行业需求构建操作系统。对 B2B 创业者是一个深耕垂直行业的典型范本。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC 推出 AI Stack，为学生提供大量免费额度",
+      "title": "推出 YC AI 技术栈",
       "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/",
-      "excerpt": "我们与近二十家公司合作，为参加 YC 活动的学生提供价值超过25,000美元的 AI 开发工具免费额度。",
+      "excerpt": "我们与近二十家公司合作，为参加 YC 活动的学生提供总值超过 25,000 美元的 AI 开发工具免费积分。",
       "publishedAt": "2026-01-16T20:40:39.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 联合多家 AI 公司为学生提供免费工具包，大幅降低 AI 项目开发成本。对个人开发者或学生创业者是绝佳资源，可无风险尝试多种前沿工具，加速原型验证。"
+      "summary": "YC 联合多家公司推出 AI 技术栈，为学生提供高价值免费工具额度。学生开发者和早期初创团队可大幅降低 AI 项目开发成本，快速实验和迭代，是一个难得的资源机会。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC 公布 2026 年 Demo Day 日期",
+      "title": "2026 年 Demo Day 日期",
       "url": "https://www.ycombinator.com/blog/2026-demo-days/",
-      "excerpt": "我们很高兴分享 2026 年 Demo Day 的日期，以便创始人、投资者和更广泛的社区提前规划。",
+      "excerpt": "我们很高兴分享 2026 年的 Demo Day 日期，以便创始人、投资者和更广泛的社区提前规划。",
       "publishedAt": "2025-12-18T19:44:54.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 提前一年公布 Demo Day 日程，方便创业者和投资者安排融资节奏。对计划申请 YC 的团队，可据此倒推产品开发与团队准备时间线。"
+      "summary": "YC 公布 2026 年 Demo Day 安排，便于创业者和投资人提前调整日程。对于计划申请 YC 的团队，可据此制定准备计划；投资人也可提前留出时间关注优质项目。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "Meesho 成功上市",
+      "title": "Meesho 上市",
       "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
-      "excerpt": "Meesho 今天上市。从 S16 到 IPO，他们构建了印度最大的电子商务平台之一——赋能数百万小商家发展业务。祝贺 Vidit 和 Sanjeev 十年不懈的建设和倾听用户！",
+      "excerpt": "Meesho 今天上市。从 S16 到 IPO，他们打造了印度最大的电商平台之一——赋能数百万小商家发展业务。祝贺 Vidit 和 Sanjeev 十年的不懈建设和倾听用户！",
       "publishedAt": "2025-12-10T04:32:10.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Meesho 从社交电商起步，赋能小商家，最终上市。对创业者启示：聚焦低线城市、以用户需求为导向，可以从小众市场爆发为国民级平台。"
+      "summary": "印度电商平台 Meesho（YC 孵化）上市，专注于服务小商家。对新兴市场创业者而言，它展示了如何通过赋能小微卖家实现高速增长，重视用户反馈是成功的关键因素。"
     },
     {
       "sourceId": "yc-blog",
       "title": "祝贺 Groww 上市",
       "url": "https://www.ycombinator.com/blog/groww/",
-      "excerpt": "今天，印度领先的数字投资平台 Groww 上市。数千万用户通过 Groww 简单、自信地投资股票、共同基金和 ETF。作为 YC 在印度第一家上市公司，我们无比自豪。",
+      "excerpt": "今天，印度领先的数字投资平台 Groww 上市。数千万用户使用 Groww 简单自信地投资股票、共同基金和 ETF。作为 YC 在印度第一家上市的公司，我们无比自豪。",
       "publishedAt": "2025-11-12T03:47:51.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Groww 是 YC 在印度的首家上市企业，证明金融科技在新兴市场的巨大潜力。创始人们可借鉴其简化投资体验的策略，降低用户门槛以获取海量用户。"
+      "summary": "Groww 是 YC 在印度首个上市企业，专注于数字投资服务。它验证了印度庞大的投资理财需求。金融科技创业者可从中学习如何简化投资流程、获取大众用户并实现规模化。"
     },
     {
       "sourceId": "yc-blog",
       "title": "BillionToOne 上市——让基因检测普及的创业公司",
       "url": "https://www.ycombinator.com/blog/billiontoone/",
-      "excerpt": "今天，BillionToOne 上市，成为 YC 第四家上市的生物科技公司。更重要的是，他们开发了美国最重要的基因检测之一。如今，美国每11个新生儿中就有1个接受了 BillionToOne 的胎儿基因检测。",
+      "excerpt": "今天，BillionToOne 上市，成为 YC 第四家上市的生物科技公司。更重要的是，他们打造了美国最重要的基因检测之一。如今，美国每 11 名新生儿中就有 1 名接受了 BillionToOne 的胎儿基因检测。",
       "publishedAt": "2025-11-06T15:52:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "BillionToOne 以无创产前基因检测切入市场，实现大规模应用。启示生物科技创业者：聚焦高需求医疗场景，结合技术规模化，可同时创造社会价值和商业回报。"
+      "summary": "BillionToOne 是 YC 孵化的生物科技公司，其基因检测在美国广泛应用。它展示了如何将科研转化为大规模临床产品。健康科技创业者可借鉴其产品验证和市场渗透策略。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC 公布最新 Visiting Partners 名单",
+      "title": "认识 YC 新任 Visiting Partners",
       "url": "https://www.ycombinator.com/blog/ycs-newest-visiting-partners/",
-      "excerpt": "我们很高兴地宣布，九位杰出创始人将以 Visiting Partners 身份加入 YC：Matt Riley、Harshita Arora、Grey Baker、Christopher Golda、Raphael Schaad、Christina Gilbert、Francois Chaubard、Vivian Shen 和 James Evans。",
+      "excerpt": "我们兴奋地宣布九位杰出创始人加入 YC 担任 Visiting Partners：Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert, Francois Chaubard, Vivian Shen, James Evans。",
       "publishedAt": "2025-10-14T17:17:44.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 引入九位成功创始人作为 Visiting Partners，为初创公司提供多样化实战指导。创业者有机会与这些来自不同领域的创始人交流，获得切实可行的建议。"
+      "summary": "YC 引入九位 Visiting Partners，均为经验丰富的创始人。他们将直接指导创业团队。创业者可通过了解每位合伙人的背景，寻求特定领域的建议，同时扩展人脉网络。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC 与 Coinbase 联合发布 RFS：构建链上应用",
+      "title": "YC x Coinbase 联合 RFS：构建链上应用",
       "url": "https://www.ycombinator.com/blog/build-onchain/",
-      "excerpt": "我们正进入金融科技3.0时代。监管清晰、消费者采纳增长以及低成本链为加密货币构建的黄金时代铺平了道路——在 YC、Base 和 Coinbase，我们希望资助构建者抓住这一时刻。",
+      "excerpt": "我们正进入金融科技 3.0 时代。监管清晰、消费者采用增长和低成本链为加密领域建设创造了黄金时代——在 YC、Base 和 Coinbase，我们想资助建设者抓住这一时刻。",
       "publishedAt": "2025-09-23T15:00:58.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 联合 Coinbase 推出链上构建 RFS，鼓励开发者利用加密技术创新。对创业者：可关注金融科技3.0机会，借助 Base 等低成本链开发去中心化应用，并申请 YC 资助。"
+      "summary": "YC 与 Coinbase 联合发布创业需求（RFS），鼓励开发链上应用。这为加密货币和区块链创业者提供了明确方向与潜在资金支持。适合想进入链上金融赛道的团队参考。"
     },
     {
       "sourceId": "yc-blog",

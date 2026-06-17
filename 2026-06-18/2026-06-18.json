@@ -1,118 +1,118 @@
 {
-  "hero_headline": "美伊停火框架协议签署 全球聚焦后续博弈",
-  "daily_overview": "美伊签署停火框架协议，涉及3000亿美元重建与60天核谈判，全球聚焦后续博弈。AI领域多点突破：OpenAI展示近自主AI化学家改进药物合成，DeepMind携手英国政府用AI加速住房规划；Anthropic发布Claude Fable 5，但财务泄露显示OpenAI年亏数十亿。财经方面，美联储按兵不动但暗示年内加息，金价承压；美国牛市步入狂热阶段，油价高位预期未减；英国通胀意外持稳。G7峰会上领导人间私下对话遭热麦泄露，外界关注美伊协议对国际格局的深层影响。",
+  "hero_headline": "美伊签停火框架协议，核心争议未解",
+  "daily_overview": "今日全球焦点围绕美伊框架协议落地，但核心核问题与海峡通行费仍未解决，市场反应复杂。AI领域进展密集：OpenAI与Molecule.one实现近自主AI化学家改进药物反应，DeepMind与英国政府合作加速住房规划审批，DeepSeek获74亿美元融资。财经方面，美联储维持利率不变并暗示年内可能加息，美股牛市的「狂热阶段」引发关注，油价因供需预期仍维持高位。技术板块关注高性能代码智能MCP服务器、并行循环Transformer及更快的文本生成模型。整体来看，结构性技术突破与宏观不确定性并存。",
   "tech_briefs": [
     {
-      "title": "OpenAI财务文件泄露：年亏数十亿美元",
-      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
-      "source": "Hacker News",
-      "summary": "泄露文件显示OpenAI每年亏损数十亿美元，引发对其商业模式可持续性的担忧。",
+      "title": "OpenAI近自主AI化学家改进药物合成反应",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI News",
+      "summary": "OpenAI与Molecule.one合作，利用GPT-5.4实现近乎自主的AI化学家，成功改进一项关键药物合成反应，推动医药化学研究进展。",
       "importance": 9
     },
     {
-      "title": "OpenAI与Molecule.one开发近自主AI化学家",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI News",
-      "summary": "利用GPT-5.4的AI化学家在无需人工干预下成功改进了一项关键药物合成反应，加速药物研发。",
+      "title": "DeepMind联合英国政府以AI加速住房规划审批",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "source": "DeepMind Blog",
+      "summary": "英国政府与Google DeepMind合作开发AI原型，旨在通过智能化分析加快住房建设规划决策，缓解住房供应短缺。",
       "importance": 8
     },
     {
-      "title": "英国政府携手DeepMind用AI加速住房规划",
-      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "source": "DeepMind Blog",
-      "summary": "英国政府与DeepMind合作开发AI原型系统，旨在加快住房决策，破解建房审批瓶颈。",
-      "importance": 7
-    },
-    {
-      "title": "Anthropic发布Claude Fable 5与Mythos 5模型",
-      "url": "https://news.smol.ai/issues/26-06-09-anthropic-claude-fable-5/",
-      "source": "Smol AI News",
-      "summary": "Anthropic推出新一代模型Claude Fable 5（公开）及Mythos 5（受限），并设置Opus 4.8作为敏感查询回退。",
-      "importance": 7
-    },
-    {
-      "title": "Codebase Memory MCP：高性能代码智能工具",
+      "title": "高性能代码库知识图谱MCP服务器",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "GitHub Trending",
-      "summary": "将代码库索引为持久知识图谱，支持158种语言，毫秒级查询，大幅降低Token消耗，适合开发者和AI辅助编程场景。",
-      "importance": 6
+      "summary": "DeusData开源Codebase Memory MCP，将代码库索引为持久知识图谱，支持158种语言、亚毫秒查询，大幅减少LLM调用token数，适合开发者用于代码智能。",
+      "importance": 7
+    },
+    {
+      "title": "并行循环Transformer加速推理效率",
+      "url": "https://huggingface.co/papers/2606.18023",
+      "source": "HuggingFace Trending Papers",
+      "summary": "提出LoopCoder-v2算法，通过并行化循环块降低延迟和KV缓存内存，实现循环Transformer更高效的测试时计算扩展。",
+      "importance": 7
+    },
+    {
+      "title": "DiffusionGemma实现4倍文本生成加速",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind发布DiffusionGemma，基于扩散模型实现文本生成速度提升4倍，为轻量部署提供新方案。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "美联储维持利率不变，但释放年内加息信号",
-      "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo",
+      "title": "美联储维持利率不变，暗示年内可能加息",
+      "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美联储在首次由沃什主持的会议上将利率维持在3.5%-3.75%，暗示年内可能加息，金价承压下行。",
-      "importance": 9
-    },
-    {
-      "title": "分析称油价未来数月将持续高位",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-high-for-months",
-      "source": "The Economist Finance",
-      "summary": "尽管美伊签署停火协议，但多家分析机构预计油价仍将在高位运行，60美元/桶时代短期难回归。",
-      "importance": 8
+      "summary": "美联储将利率维持在3.5%-3.75%区间，新任主席Kevin Warsh首次主持会议后，市场对年内加息预期升温。",
+      "importance": 10
     },
     {
       "title": "美国牛市进入「狂热阶段」",
       "url": "https://www.economist.com/finance-and-economics/2026/06/16/americas-bull-market-has-entered-its-manic-phase",
       "source": "The Economist Finance",
-      "summary": "期权市场显示乐观情绪正转为狂热，分析师警示市场可能进入危险阶段。",
-      "importance": 7
+      "summary": "《经济学人》分析指出，期权市场数据显示乐观情绪已转为狂热，美股牛市可能接近顶部。",
+      "importance": 9
     },
     {
-      "title": "英国5月通胀意外持稳，食品涨价放缓",
-      "url": "https://www.bbc.com/news/articles/cyv0qpn9zvjo",
+      "title": "泄露文件显示OpenAI每年亏损数十亿美元",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "source": "Hacker News",
+      "summary": "Ars Technica报道泄露的财务文件，OpenAI仍处于巨额亏损状态，引发对其商业可持续性的讨论。",
+      "importance": 9
+    },
+    {
+      "title": "油价数月内将维持高位",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-high-for-months",
+      "source": "The Economist Finance",
+      "summary": "《经济学人》预测，即使伊朗局势缓和，60美元以下的低油价时代短期内不会回归。",
+      "importance": 8
+    },
+    {
+      "title": "英国通胀意外持稳，食品涨价放缓",
+      "url": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "英国5月通胀率未如预期下降，因汽油价格上涨被食品价格涨速放缓所抵消，经济前景复杂。",
-      "importance": 6
-    },
-    {
-      "title": "BWX授权小型模块化核反应堆设计",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/bwx-agrees-to-license-nuclear-reactor-design-after-activist-push",
-      "source": "Bloomberg Markets",
-      "summary": "BWX Technologies与活跃投资者合作，授权其小型核反应堆设计，推动商业化核能发展。",
-      "importance": 6
+      "summary": "英国国家统计局数据显示，5月通胀率保持稳定，汽油涨价被肉类、乳制品和蔬菜价格涨速放缓所抵消。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美伊签署停火框架协议：3000亿美元重建与60天核谈判",
-      "url": "https://www.bbc.com/news/articles/cgmd8dgklzzo",
+      "title": "美伊签署停火框架协议，核心问题未解",
+      "url": "https://www.bbc.com/news/articles/cgmd8dgklzzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "美国总统特朗普与伊朗总统签署谅解备忘录，内容涉及3000亿美元重建资金及60天核问题谈判，细节引发争议（多家报道）。",
+      "summary": "美伊总统签署谅解备忘录，包含伊朗重建3000亿美元计划及60天核谈判期，但伊朗声称将收取霍尔木兹海峡通行费，协议文本被指对伊重大让步。（多家报道）",
       "importance": 10
     },
     {
-      "title": "G7峰会热麦捕捉领导人私下对话",
+      "title": "G7峰会「热麦克风」曝光领导人私下对话",
       "url": "https://www.nytimes.com/2026/06/17/world/europe/g7-summit-hot-mic-trump-meloni-greenland-carney.html",
       "source": "NYT World",
-      "summary": "G7峰会上麦克风意外曝光了特朗普、卡尼等领导人关于格陵兰等话题的私下交流，外交细节外泄。",
-      "importance": 6
+      "summary": "在法国举行的G7峰会上，多国领导人的私下交谈被现场麦克风捕捉，内容涉及格陵兰、关税等敏感话题。",
+      "importance": 8
     },
     {
-      "title": "前尼日利亚石油部长在英国受贿案中被判无罪",
-      "url": "https://www.bbc.com/news/articles/c872pwx4x2vo",
-      "source": "BBC World",
-      "summary": "Diezani Alison-Madueke被控收受石油大亨贿赂，伦敦南华克刑事法院陪审团裁定其无罪。",
-      "importance": 5
+      "title": "亚洲加速布局AI，欧洲仍在追赶",
+      "url": "https://thediplomat.com/2026/06/asia-is-sprinting-on-ai-europe-is-still-tying-its-laces/",
+      "source": "The Diplomat",
+      "summary": "中国、韩国、日本、印度和新加坡正制定雄心勃勃的AI目标，而欧盟因监管与投资不足落后。",
+      "importance": 8
     }
   ],
-  "editor_note": "美伊协议为中东紧张局势按下暂停键，但60天谈判与巨额重建资金成新变量。AI加速渗透至药物研发与公共治理，科技与地缘政治交织加剧。",
+  "editor_note": "美伊框架协议的风险敞口与油价高企并存，AI领域自主实验室与代码智能工具为小团队提供新杠杆，但OpenAI的亏损警示商业模型未成熟。",
   "keywords": [
     "美伊协议",
-    "G7峰会",
-    "AI化学家",
-    "美联储",
-    "油价",
+    "美联储利率",
+    "人工智能",
     "OpenAI亏损",
-    "Claude Fable 5",
-    "英国通胀"
+    "DeepSeek融资",
+    "油价高企",
+    "牛市狂热",
+    "代码智能MCP"
   ],
   "trading": {
-    "market_overview": "今日宏观市场避险情绪浓厚。美股三大指数全线下跌，标普500跌1.21%，道指跌0.98%，纳指跌1.34%；VIX恐慌指数跳升12.37%至18.44，波动率显著抬升。A股上证指数逆势微涨0.28%，5日累计反弹2.44%，RSI位于52.9中性区间，短期走势相对独立。加密市场承压，比特币下跌1.84%，RSI仅38.5偏弱，趋势偏空；加密恐慌贪婪指数降至22（极度恐慌），市场风险偏好极低。总体来看，风险资产分化但整体偏向谨慎，波动率上升和加密极度恐慌指向市场温度偏冷。",
+    "market_overview": "今日美股三大指数全线回调，标普500、道指、纳指分别下跌1.21%至1.34%，但5日仍累计上涨2%~3.4%，且均维持多头排列，RSI处于中性区间，整体风险偏好温和偏高。VIX恐慌指数单日飙升12.37%至18.44，波动率有所抬头但仍处于52周低位附近，未进入恐慌区间。A股上证指数微涨0.28%，5日涨幅2.44%，价格稳守均线，走势平稳。BTC下跌1.73%，RSI降至38.7，趋势偏空，加密恐慌贪婪指数仅22（极度恐慌），反映加密市场情绪极度悲观，总市值缩水至2.30万亿美元，BTC主导率56.1%。",
     "watchlist": [],
-    "risk_caveat": "本说明不构成投资建议，仅用于宏观市场温度观察。任何交易决策请自行评估风险。",
+    "risk_caveat": "本内容不构成投资建议，仅用于宏观市场温度观察。所有描述基于公开指标，不预示未来走势，请独立决策。",
     "tickers": [
       {
         "symbol": "^GSPC",
@@ -274,18 +274,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64396.7,
-        "pct1Day": -1.8352574205520618,
-        "pct5Day": 1.3431819482550549,
-        "pct52WeekHigh": -48.97172357707214,
-        "pct52WeekLow": 8.94582776832423,
-        "sma20": 65564.1248046875,
-        "sma50": 73198.245546875,
-        "sma200": 77262.0014453125,
-        "rsi14": 38.526791403611284,
-        "macd": -2451.197786431643,
-        "macdSignal": -3054.5415603941174,
-        "macdHistogram": 603.3437739624742,
+        "currentPrice": 64467.91,
+        "pct1Day": -1.7267066513498648,
+        "pct5Day": 1.455247442085265,
+        "pct52WeekHigh": -48.91529640667247,
+        "pct52WeekLow": 9.066300283148484,
+        "sma20": 65567.6853515625,
+        "sma50": 73199.669765625,
+        "sma200": 77262.3575,
+        "rsi14": 38.70834835143205,
+        "macd": -2445.5171418447426,
+        "macdSignal": -3053.4054314767372,
+        "macdHistogram": 607.8882896319947,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -308,13 +308,13 @@
       "timestamp": "2026-06-17T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2296393584342.756,
-      "total24hVolumeUsd": 85623847771.01189,
-      "marketCapChangePct24h": -1.7008382837605738,
-      "btcDominance": 56.09186185160655,
-      "ethDominance": 9.150807360659192,
+      "totalMarketCapUsd": 2301891612130.03,
+      "total24hVolumeUsd": 85880325357.44728,
+      "marketCapChangePct24h": -1.4654903337111895,
+      "btcDominance": 56.08923683029783,
+      "ethDominance": 9.16265940972124,
       "activeCryptocurrencies": 17432
     },
-    "generated_at": "2026-06-17T23:19:51.224Z"
+    "generated_at": "2026-06-17T23:26:37.288Z"
   }
 }
