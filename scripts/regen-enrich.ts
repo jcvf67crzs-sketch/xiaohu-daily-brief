@@ -88,15 +88,25 @@ async function main() {
     for (const article of selected) {
       const item = localized.get(article.url);
       if (!item) continue;
-      article.title = item.title;
-      article.excerpt =
+      const productHuntPlaceholder =
         article.sourceId === "producthunt" &&
-        /discussion\s*\|\s*link/i.test(article.excerpt ?? "")
-          ? REPORT_LOCALE === "zh"
-            ? "讨论 | 链接"
-            : "Discussion | Link"
-          : item.excerpt;
-      article.summary = item.summary;
+        /discussion\s*\|\s*link/i.test(article.excerpt ?? "");
+      if (productHuntPlaceholder) {
+        article.title =
+          REPORT_LOCALE === "zh" && !/[\u3400-\u9fff]/.test(item.title)
+            ? `${item.title}（新品发布）`
+            : item.title;
+        article.excerpt =
+          REPORT_LOCALE === "zh" ? "讨论 | 链接" : "Discussion | Link";
+        article.summary =
+          REPORT_LOCALE === "zh"
+            ? "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+            : "This product was published on Product Hunt, but the RSS feed provides no feature description. Open the original page to review its use case, target users, and demo before evaluating it.";
+      } else {
+        article.title = item.title;
+        article.excerpt = item.excerpt;
+        article.summary = item.summary;
+      }
       patched++;
     }
     fs.writeFileSync(sidecarPath, JSON.stringify(data, null, 2), "utf8");
