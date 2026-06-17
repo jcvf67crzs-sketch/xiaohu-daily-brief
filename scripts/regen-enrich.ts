@@ -3,7 +3,10 @@ import "./_env";
 import fs from "node:fs";
 import path from "node:path";
 
-import { enrichFinanceNewsSummaries } from "../lib/ai/enrich";
+import {
+  enrichFinanceNewsSummaries,
+  enrichSoloBusinessArticles,
+} from "../lib/ai/enrich";
 import { validateBackendCredentials } from "../lib/ai/llm";
 import type { ArticleInput } from "../lib/ai/pipeline";
 import { sources, REPORT_LOCALE } from "../lib/sources/registry";
@@ -58,6 +61,51 @@ async function main() {
     date: string;
     articles: ArticleInput[];
   };
+
+  if (target === "tech:solo-business") {
+    const sourceIds = new Set(["producthunt", "yc-blog"]);
+    const candidates = data.articles
+      .filter((a) => sourceIds.has(a.sourceId))
+      .sort((a, b) => {
+        const at = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+        const bt = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+        return bt - at;
+      });
+    const selected = [...sourceIds].flatMap((sourceId) =>
+      candidates.filter((a) => a.sourceId === sourceId).slice(0, 12),
+    );
+    console.log(
+      `[regen-enrich] ${target}: localizing ${selected.length} displayed articles`,
+    );
+    if (selected.length === 0) {
+      console.log("[regen-enrich] nothing to do.");
+      return;
+    }
+
+    const t0 = Date.now();
+    const localized = await enrichSoloBusinessArticles(selected);
+    let patched = 0;
+    for (const article of selected) {
+      const item = localized.get(article.url);
+      if (!item) continue;
+      article.title = item.title;
+      article.excerpt =
+        article.sourceId === "producthunt" &&
+        /discussion\s*\|\s*link/i.test(article.excerpt ?? "")
+          ? REPORT_LOCALE === "zh"
+            ? "讨论 | 链接"
+            : "Discussion | Link"
+          : item.excerpt;
+      article.summary = item.summary;
+      patched++;
+    }
+    fs.writeFileSync(sidecarPath, JSON.stringify(data, null, 2), "utf8");
+    console.log(
+      `[regen-enrich] localization done in ${((Date.now() - t0) / 1000).toFixed(1)}s, patched ${patched}/${selected.length}`,
+    );
+    console.log(`[regen-enrich] now run \`npm run render -- ${date}\`.`);
+    return;
+  }
 
   const subSources = sources.filter(
     (s) =>

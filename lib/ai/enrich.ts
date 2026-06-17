@@ -10,6 +10,12 @@ interface EnrichInput {
   source?: string;
 }
 
+export interface LocalizedArticle {
+  title: string;
+  excerpt: string;
+  summary: string;
+}
+
 const GH_SYSTEM_PROMPT_ZH = `你是一名技术编辑，负责为 GitHub Trending 项目写中文介绍。
 
 输入：每个项目有 owner/repo 名 + 一行英文 description（可能没有）。
@@ -207,12 +213,68 @@ Output STRICTLY a JSON object, no markdown:
 
 **Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.`;
 
+const SOLO_BUSINESS_SYSTEM_PROMPT_ZH = `你是一名中文创业与产品编辑，为 Product Hunt 和 YC Blog 条目生成中文展示内容。
+
+输入：每条内容有 url、title、excerpt 和 source。
+
+任务：为每条内容输出：
+  1. title：准确、简洁的中文标题；产品名、公司名和专有名词可保留英文
+  2. excerpt：将原始英文简介准确翻译或改写为通顺中文
+  3. summary：补充一段 50-100 字中文摘要，说明产品/文章讲什么、解决什么问题，以及对个人创业者、小团队或独立开发者有什么参考价值
+
+特殊规则：
+  - Product Hunt 的 excerpt 若只有 "Discussion | Link" 等导航占位文字，统一输出"讨论 | 链接"，不要据此虚构产品功能
+  - 信息不足时明确保持简短，不根据产品名猜测不存在的功能
+  - YC Blog 保留人物、公司、地区、数字和职务等关键信息
+  - 中文表达自然、中性，不使用营销腔或标题党
+
+输出严格 JSON 对象，不要 markdown：
+{
+  "articles": [
+    {
+      "url": "<原 url，从输入中精确复制>",
+      "title": "<中文标题>",
+      "excerpt": "<中文简介或摘译>",
+      "summary": "<50-100 字中文摘要>"
+    }
+  ]
+}
+
+所有字符串内部引用使用中文全角引号「」，不要使用未转义的英文双引号。`;
+
+const SOLO_BUSINESS_SYSTEM_PROMPT_EN = `You are an English-language startup and product editor preparing Product Hunt and YC Blog entries.
+
+Input: each item has url, title, excerpt, and source.
+
+For every item, output:
+  1. title: a concise, accurate English title
+  2. excerpt: a fluent English rendering of the source excerpt
+  3. summary: a 50-100 word factual summary explaining the product/article and its relevance to solo founders, small teams, or independent developers
+
+Special rules:
+  - If a Product Hunt excerpt only contains navigation text such as "Discussion | Link", preserve it as "Discussion | Link" and do not invent product features
+  - If information is sparse, stay brief rather than guessing
+  - Preserve important names, companies, regions, numbers, and roles from YC Blog
+  - Use a neutral, non-promotional tone
+
+Output STRICTLY a JSON object, no markdown:
+{
+  "articles": [
+    {
+      "url": "<exact url from input>",
+      "title": "<English title>",
+      "excerpt": "<English excerpt>",
+      "summary": "<50-100 word English summary>"
+    }
+  ]
+}`;
+
 // Pick the right localized prompt set at module init. Each enricher reaches
 // in via PROMPTS.<key> so the call sites stay locale-agnostic.
 const PROMPTS =
   REPORT_LOCALE === "en"
-    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN }
-    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH };
+    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_EN }
+    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_ZH };
 
 const USER_PROMPT_HEADER =
   REPORT_LOCALE === "en"
@@ -297,6 +359,68 @@ async function runEnrichment(
   return result;
 }
 
+async function runArticleLocalization(
+  payload: EnrichInput[],
+): Promise<Map<string, LocalizedArticle>> {
+  const langHeader =
+    REPORT_LOCALE === "en"
+      ? "**Output language: ENGLISH ONLY.** Every title, excerpt, and summary must be written in English."
+      : "**输出语言：仅中文。** title、excerpt 和 summary 必须使用中文；产品名、公司名和专有名词可保留原文。";
+  const userPrompt = [
+    langHeader,
+    "",
+    USER_PROMPT_HEADER(payload.length),
+    JSON.stringify(payload),
+    "",
+    REPORT_LOCALE === "en"
+      ? `Output {"articles": [{"url": ..., "title": ..., "excerpt": ..., "summary": ...}, ...]}; copy every url exactly.`
+      : `请输出 {"articles": [{"url": ..., "title": ..., "excerpt": ..., "summary": ...}, ...]}，url 必须精确回填输入值。`,
+  ].join("\n");
+  const result = new Map<string, LocalizedArticle>();
+
+  try {
+    const { text } = await runLlm({
+      systemPrompt: PROMPTS.soloBusiness,
+      userPrompt,
+      timeoutMs: 240_000,
+    });
+    const cleaned = extractJson(text);
+    let parsed: {
+      articles?: Array<{
+        url?: string;
+        title?: string;
+        excerpt?: string;
+        summary?: string;
+      }>;
+    };
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch {
+      parsed = JSON.parse(jsonrepair(cleaned));
+    }
+
+    for (const article of parsed.articles ?? []) {
+      if (
+        article.url &&
+        article.title &&
+        article.excerpt &&
+        article.summary
+      ) {
+        result.set(article.url, {
+          title: article.title.trim(),
+          excerpt: article.excerpt.trim(),
+          summary: article.summary.trim(),
+        });
+      }
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[enrich] solo-business localization failed: ${msg}`);
+  }
+
+  return result;
+}
+
 /**
  * Generate Chinese summaries for a batch of GitHub Trending repos in
  * a single Claude CLI call. Failures are non-fatal — caller gets an
@@ -365,4 +489,17 @@ export async function enrichTrendingPapersSummaries(
     excerpt: (it.excerpt ?? "").slice(0, 300),
   }));
   return runEnrichment(payload, PROMPTS.papers, "papers summaries");
+}
+
+export async function enrichSoloBusinessArticles(
+  items: EnrichInput[],
+): Promise<Map<string, LocalizedArticle>> {
+  if (items.length === 0) return new Map();
+  const payload = items.map((it) => ({
+    url: it.url,
+    title: it.title,
+    excerpt: (it.excerpt ?? "").slice(0, 300),
+    source: it.source ?? "",
+  }));
+  return runArticleLocalization(payload);
 }

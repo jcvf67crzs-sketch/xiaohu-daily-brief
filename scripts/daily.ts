@@ -13,6 +13,7 @@ import { getModelTag, validateBackendCredentials } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
+  enrichSoloBusinessArticles,
   enrichTrendingPapersSummaries,
   enrichXViralSummaries,
 } from "../lib/ai/enrich";
@@ -82,6 +83,42 @@ async function enrichPolitics(articles: ArticleInput[]): Promise<void> {
 
 async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "tech", "ai-news");
+}
+
+async function enrichSoloBusiness(articles: ArticleInput[]): Promise<void> {
+  const sourceIds = new Set(["producthunt", "yc-blog"]);
+  const candidates = articles
+    .filter((a) => sourceIds.has(a.sourceId))
+    .sort(
+      (a, b) =>
+        (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
+    );
+  const selected = [...sourceIds].flatMap((sourceId) =>
+    candidates.filter((a) => a.sourceId === sourceId).slice(0, 12),
+  );
+  if (selected.length === 0) return;
+
+  console.log(
+    `[daily] localizing ${selected.length} solo-business items into ${REPORT_LOCALE}…`,
+  );
+  const t0 = Date.now();
+  const localized = await enrichSoloBusinessArticles(selected);
+  for (const article of selected) {
+    const item = localized.get(article.url);
+    if (!item) continue;
+    article.title = item.title;
+    article.excerpt =
+      article.sourceId === "producthunt" &&
+      /discussion\s*\|\s*link/i.test(article.excerpt ?? "")
+        ? REPORT_LOCALE === "zh"
+          ? "讨论 | 链接"
+          : "Discussion | Link"
+        : item.excerpt;
+    article.summary = item.summary;
+  }
+  console.log(
+    `[daily] solo-business localization done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${localized.size}/${selected.length}`,
+  );
 }
 
 /**
@@ -258,6 +295,7 @@ async function main() {
   await enrichPolitics(articles);
   await enrichAiNews(articles);
   await enrichXViral(articles);
+  await enrichSoloBusiness(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.
