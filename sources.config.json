@@ -58,6 +58,7 @@
     "subcategory": "overseas-community",
     "enabled": true,
     "locales": [
+      "zh",
       "en"
     ]
   },
@@ -498,6 +499,7 @@
     "useCurl": true,
     "enabled": true,
     "locales": [
+      "zh",
       "en"
     ],
     "notes": "Lives in tech:overseas-community so it shares the L1 'Community' panel with Hacker News in en mode (mirrors cn-community in zh mode)."
@@ -672,5 +674,114 @@
     "locales": [
       "zh"
     ]
+  },
+  {
+    "id": "producthunt",
+    "name": "Product Hunt",
+    "type": "rss",
+    "url": "https://www.producthunt.com/feed",
+    "category": "tech",
+    "subcategory": "solo-business",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "New product launches; useful for AI tools, SaaS, agent products, and small-company opportunities."
+  },
+  {
+    "id": "yc-blog",
+    "name": "YC Blog",
+    "type": "rss",
+    "url": "https://www.ycombinator.com/blog/rss",
+    "category": "tech",
+    "subcategory": "solo-business",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "Y Combinator essays and startup advice; useful for founder thinking and startup direction."
+  },
+  {
+    "id": "acquire-blog",
+    "name": "Acquire Blog",
+    "type": "rss",
+    "url": "https://blog.acquire.com/rss/",
+    "category": "tech",
+    "subcategory": "solo-business",
+    "useCurl": true,
+    "enabled": false,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "Disabled for v1: feed is publicly reachable but currently fails XML parsing in rss-parser."
+  },
+  {
+    "id": "baijing",
+    "name": "白鲸出海",
+    "type": "rss",
+    "url": "https://www.baijing.cn/rss",
+    "category": "tech",
+    "subcategory": "solo-business",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "AI",
+      "agent",
+      "automation",
+      "workflow",
+      "SaaS",
+      "creator",
+      "indie",
+      "出海",
+      "副业",
+      "创业",
+      "一人公司",
+      "独立开发",
+      "小团队",
+      "工具",
+      "自动化",
+      "增长",
+      "获客"
+    ],
+    "notes": "Chinese coverage of overseas growth, cross-border products, and new-market opportunities."
+  },
+  {
+    "id": "sspai",
+    "name": "少数派",
+    "type": "rss",
+    "url": "https://sspai.com/feed",
+    "category": "tech",
+    "subcategory": "solo-business",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "AI",
+      "agent",
+      "automation",
+      "workflow",
+      "SaaS",
+      "creator",
+      "indie",
+      "出海",
+      "副业",
+      "创业",
+      "一人公司",
+      "独立开发",
+      "小团队",
+      "工具",
+      "自动化",
+      "增长",
+      "获客"
+    ],
+    "notes": "Productivity tools and workflows; useful for AI tools and one-person company operating systems."
   }
 ]

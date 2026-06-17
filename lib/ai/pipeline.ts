@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { jsonrepair } from "jsonrepair";
 import { runLlm } from "./llm";
 import { extractJson } from "./json-util";
@@ -7,6 +10,14 @@ import type { Category, RawArticle } from "../sources/types";
 
 const SYSTEM_PROMPT_DIGEST =
   REPORT_LOCALE === "en" ? SYSTEM_PROMPT_DIGEST_EN : SYSTEM_PROMPT_DIGEST_ZH;
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DAILY_PROFILE_PATH = path.resolve(
+  __dirname,
+  "../..",
+  "profile",
+  "daily-profile.md",
+);
 
 export interface BriefItem {
   title: string;
@@ -51,6 +62,24 @@ const PER_CATEGORY_LIMIT: Record<Category, number> = {
 };
 
 const MAX_AGE_DAYS = 14;
+
+function loadDailyProfile(): string {
+  try {
+    if (!fs.existsSync(DAILY_PROFILE_PATH)) return "";
+    return fs.readFileSync(DAILY_PROFILE_PATH, "utf8").trim();
+  } catch {
+    return "";
+  }
+}
+
+function profilePromptBlock(dailyProfile: string): string[] {
+  if (!dailyProfile) return [];
+  const heading =
+    REPORT_LOCALE === "en"
+      ? "Reader profile and briefing goals (prioritization guidance only, not hard filters):"
+      : "读者画像与日报目标（仅作为排序权重，不作为硬过滤条件）：";
+  return ["", heading, dailyProfile, ""];
+}
 
 /**
  * Pick `limit` items from `items` so every source gets a fair shot.
@@ -102,7 +131,10 @@ function selectRoundRobin(
   return out;
 }
 
-async function callOnce(userPayloadJson: string): Promise<DailyReport> {
+async function callOnce(
+  userPayloadJson: string,
+  dailyProfile: string,
+): Promise<DailyReport> {
   // Claude Code CLI's built-in system prompt biases the model toward
   // conversational markdown output. Anchor the format expectation in the
   // user message (instruction recency wins) *and* explicitly demand every
@@ -127,6 +159,7 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
           "BriefItem fields: title, url (copied verbatim from candidate), source, summary, importance (1-10).",
           "**Quote rule (important!)**: For any quotation INSIDE a JSON string, use single quotes ' or curly quotes '\" — **never** raw double quotes \", which break JSON parsing.",
           "No trailing commas.",
+          ...profilePromptBlock(dailyProfile),
           "",
           `Candidate news (JSON array, ${userPayloadJson.length} chars):`,
           userPayloadJson,
@@ -146,6 +179,7 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
           "BriefItem 字段：title、url（必须从候选条目原样选取）、source、summary、importance(1-10)。",
           "**引号规则（重要！）**：JSON 字符串内的中文引用请使用**中文全角引号**「」或者 “”，**绝对不要**用英文双引号 \" —— 那会导致 JSON 解析失败。例：写 商务部回应「内卷」 而不是 商务部回应\"内卷\"。",
           "不要使用单引号、不要末尾多余逗号。",
+          ...profilePromptBlock(dailyProfile),
           "",
           "候选新闻（JSON 数组，共 " + userPayloadJson.length + " 字符）：",
           userPayloadJson,
@@ -217,10 +251,11 @@ export async function generateDailyReport(
     published: a.publishedAt?.toISOString() ?? "",
   }));
   const userPayloadJson = JSON.stringify(userPayload);
+  const dailyProfile = loadDailyProfile();
 
   let report: DailyReport;
   try {
-    report = await callOnce(userPayloadJson);
+    report = await callOnce(userPayloadJson, dailyProfile);
   } catch (firstErr) {
     // One retry — claude CLI occasionally wraps in narration on the first
     // pass but obeys when the same prompt is repeated.
@@ -229,7 +264,7 @@ export async function generateDailyReport(
         firstErr instanceof Error ? firstErr.message : String(firstErr)
       }`,
     );
-    report = await callOnce(userPayloadJson);
+    report = await callOnce(userPayloadJson, dailyProfile);
   }
 
   // Max subscription has no per-call token meter — we expose 0 for schema

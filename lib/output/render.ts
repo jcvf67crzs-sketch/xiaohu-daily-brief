@@ -30,8 +30,10 @@ const TEXTS_ZH = {
   catPolitics: "时政观察",
   catTrading: "市场行情",
   catCommunity: "社区讨论",
+  catSoloBusiness: "小镇青年 / 一人公司",
   subAiNews: "AI 媒体",
   subTrendingPapers: "热门论文",
+  subSoloBusiness: "小镇青年 / 一人公司",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
   subCnCommunity: "中文社区",
@@ -79,8 +81,10 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   catPolitics: "World",
   catTrading: "Markets",
   catCommunity: "Community",
+  catSoloBusiness: "Solo Business",
   subAiNews: "AI Media",
   subTrendingPapers: "Trending Papers",
+  subSoloBusiness: "Solo Business",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
   subCnCommunity: "Chinese Community",
@@ -171,19 +175,21 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "solo-business", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
 };
 
 const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "x-viral", "ai-news"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
+const TECH_SOLO_BUSINESS_SUBS = new Set(["solo-business"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
   "github-trending": "GitHub Trending",
   "trending-papers": STR.subTrendingPapers,
   "cn-community": STR.subCnCommunity,
   "overseas-community": STR.subOverseasCommunity,
+  "solo-business": STR.subSoloBusiness,
   "ai-news": STR.subAiNews,
   "x-viral": STR.subXViral,
   "blog-weekly": STR.subBlogWeekly,
@@ -202,6 +208,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
 const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
+  "tech:solo-business": 12,
   "tech:x-viral": 20,
   "tech:trending-papers": 20,
 };
@@ -534,12 +541,11 @@ export function renderHtml(
 ): string {
   const trading = report.trading;
 
-  // Split tech raw subgroups: "tech" L1 panel (github-trending + ai-news)
-  // vs. "community" L1 panel (cn-community). Keeps the registry simple
-  // (V2EX/LinuxDo still live under category=tech) while exposing the
-  // forums as their own top-level tab per UX preference.
+  // Split tech raw subgroups into separate top-level tabs while keeping
+  // the registry simple: these sources still use category=tech.
   const techMainSubs = raw.tech.filter((s) => TECH_MAIN_SUBS.has(s.id));
   const techCommunitySubs = raw.tech.filter((s) => TECH_COMMUNITY_SUBS.has(s.id));
+  const techSoloBusinessSubs = raw.tech.filter((s) => TECH_SOLO_BUSINESS_SUBS.has(s.id));
 
   const sumItems = (subs: SubGroup[]) =>
     subs.reduce(
@@ -551,6 +557,7 @@ export function renderHtml(
     finance: sumItems(raw.finance),
     politics: sumItems(raw.politics),
     community: sumItems(techCommunitySubs),
+    soloBusiness: sumItems(techSoloBusinessSubs),
   };
 
   return `<!doctype html>
@@ -1203,6 +1210,7 @@ export function renderHtml(
     ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
     <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
+    ${techSoloBusinessSubs.length > 0 ? `<button class="tab" data-tab="solo-business">${STR.catSoloBusiness}<span class="count">${counts.soloBusiness}</span></button>` : ""}
     ${techCommunitySubs.length > 0 ? `<button class="tab" data-tab="community">${STR.catCommunity}<span class="count">${counts.community}</span></button>` : ""}
   </nav>
 
@@ -1216,6 +1224,9 @@ export function renderHtml(
   <section class="panel" data-panel="finance">
     ${renderRawCategoryPanel("finance", raw.finance)}
   </section>
+  ${techSoloBusinessSubs.length > 0 ? `<section class="panel" data-panel="solo-business">
+    ${renderRawCategoryPanel("tech", techSoloBusinessSubs)}
+  </section>` : ""}
   ${techCommunitySubs.length > 0 ? `<section class="panel" data-panel="community">
     ${renderRawCategoryPanel("tech", techCommunitySubs)}
   </section>` : ""}
@@ -1441,12 +1452,14 @@ function renderTradingPanel(trading: TradingSection): string {
   };
   for (const t of tickers) groupCounts[t.group as AssetGroup] = (groupCounts[t.group as AssetGroup] ?? 0) + 1;
 
-  const groupTabs = ASSET_GROUP_ORDER.map(
+  const visibleGroups = ASSET_GROUP_ORDER.filter((g) => (groupCounts[g] ?? 0) > 0);
+
+  const groupTabs = visibleGroups.map(
     (g, i) =>
       `<button class="trading-group-tab${i === 0 ? " active" : ""}" data-group="${g}">${escapeHtml(ASSET_GROUP_LABELS_LOCALIZED[g])}<span class="count">${groupCounts[g] ?? 0}</span></button>`,
   ).join("");
 
-  const groupPanels = ASSET_GROUP_ORDER.map((g, i) => {
+  const groupPanels = visibleGroups.map((g, i) => {
     const groupTickers = tickers.filter((t) => t.group === g);
     // Crypto sub-tab carries an extra header widget panel (F&G + global stats)
     const cryptoWidgets =
@@ -1464,17 +1477,6 @@ function renderTradingPanel(trading: TradingSection): string {
     <span class="eyebrow">${STR.tradingMarketOverview}</span>
     <p class="overview-text trading-overview-text">${overview}</p>
   </section>
-
-  ${
-    trading.watchlist.length > 0
-      ? `<section class="trading-watchlist">
-    <h2 class="category-title trading-section-title">${STR.tradingTodayFocus}</h2>
-    <div class="trading-picks">
-      ${trading.watchlist.map(renderPickCard).join("\n")}
-    </div>
-  </section>`
-      : ""
-  }
 
   <section class="trading-tickers">
     <h2 class="category-title trading-section-title">${STR.tradingAllAssets}</h2>
