@@ -1,0 +1,333 @@
+{
+  "hero_headline": "美伊签署临时协议，中东局势现转折",
+  "daily_overview": "美伊签署临时框架协议，伊朗获准恢复石油出口并启动3000亿美元经济计划，国际油价应声下跌至3月以来低点。美国牛市情绪转为狂热，期权市场显示乐观正走向狂热；英国通胀意外持稳，食品价格放缓抵消了汽油上涨。科技领域，OpenAI推出部署模拟新方法提升AI安全评估，DeepMind与英国政府合作以AI加速住房规划，Anthropic发布Claude Fable 5模型，中国开源模型GLM-5.2成为世界最佳前端编码模型。地缘政治方面，伊朗威胁若以色列不停止黎巴嫩攻击将影响协议，俄罗斯军舰在英吉利海峡向游艇警告射击引发外交风波，UN秘书长访问海地推动新安全部署。全球市场与地缘格局正经历多重关键变化。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI推部署模拟提升AI安全评估",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI News",
+      "summary": "OpenAI提出部署模拟方法，利用真实对话数据在模型发布前预测行为，用于改进安全性和评估准确性，是AI安全领域的重要进展。",
+      "importance": 9
+    },
+    {
+      "title": "DeepMind与英政府合作AI加速住房规划",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "source": "DeepMind Blog",
+      "summary": "英国政府与Google DeepMind合作开发AI原型系统，旨在更快做出住房建设决策，应对长期住房短缺问题。",
+      "importance": 8
+    },
+    {
+      "title": "Anthropic发布Claude Fable 5模型",
+      "url": "https://news.smol.ai/issues/26-06-09-anthropic-claude-fable-5/",
+      "source": "Smol AI News",
+      "summary": "Anthropic发布两款新模型：Claude Fable 5（通用可用）和Claude Mythos 5（限制访问），敏感查询回退至Opus 4.8，提升能力与安全控制。",
+      "importance": 8
+    },
+    {
+      "title": "GLM-5.2成为世界最佳前端编码模型",
+      "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+      "source": "Latent Space",
+      "summary": "智谱AI推出GLM-5.2，在Frontend Coding基准测试中登顶，成为目前全球最强的开源前端编码模型。",
+      "importance": 7
+    },
+    {
+      "title": "OpenAI投资1.5亿美元建合作伙伴网络",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News",
+      "summary": "OpenAI推出合作伙伴网络，首期投入1.5亿美元，帮助全球伙伴加速企业AI采用、部署和转型，拓展生态系统。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "伊朗与美临时协议：石油出口与3000亿经济计划",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/iran-to-gain-major-financial-relief-under-interim-deal-with-us",
+      "source": "Bloomberg Markets",
+      "summary": "伊朗在临时协议下可立即恢复石油出口，并获准参与3000亿美元经济发展计划，油价应声走低。",
+      "importance": 10
+    },
+    {
+      "title": "美国牛市进入狂热阶段",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/16/americas-bull-market-has-entered-its-manic-phase",
+      "source": "The Economist Finance",
+      "summary": "《经济学人》指出美国期权市场显示乐观情绪正转向狂热，牛市进入高风险阶段。",
+      "importance": 9
+    },
+    {
+      "title": "英国通胀持稳，食品价格放缓抵消汽油上涨",
+      "url": "https://www.bbc.com/news/articles/cyv0qpn9zvjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "英国5月通胀率意外持平，肉、奶、蔬价格涨幅减慢，抵消了汽油涨价压力。",
+      "importance": 7
+    },
+    {
+      "title": "SpaceX超越亚马逊成世界第五大公司",
+      "url": "https://www.bbc.com/news/articles/cvgd5g7d7gyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "Elon Musk旗下SpaceX股价飙升，市值超越亚马逊，成为全球市值第五大企业。",
+      "importance": 8
+    },
+    {
+      "title": "油价持续下跌，地缘缓和与霍尔木兹海峡重开预期",
+      "url": "https://www.aljazeera.com/economy/2026/6/17/oil-prices-continue-slide-amid-hopes-for-peace-opening-of-strait-of-hormuz?traffic_source=rss",
+      "source": "Al Jazeera",
+      "summary": "布伦特原油跌至3月初以来最低，市场预期美伊和平协议将推动霍尔木兹海峡重新开放。",
+      "importance": 9
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美伊签署临时框架协议，周五启动新会谈",
+      "url": "https://www.nytimes.com/live/2026/06/16/world/iran-war-trump-us-deal",
+      "source": "NYT World",
+      "summary": "特朗普表示希望将战争“置于后视镜”，伊朗外长称周五开启核与制裁新谈判，协议签署后即生效。",
+      "importance": 10
+    },
+    {
+      "title": "俄军舰在英吉利海峡向游艇警告射击，英国调查",
+      "url": "https://www.bbc.com/news/articles/c20yzm84r7lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "一对退休夫妇称在英吉利海峡试图转向后，仍遭俄罗斯军舰鸣枪警告，英国政府正在调查该事件。",
+      "importance": 8
+    },
+    {
+      "title": "UN秘书长访问海地，新镇压帮派部队将部署",
+      "url": "https://www.npr.org/2026/06/17/g-s1-128536/un-chief-visits-haiti",
+      "source": "NPR World",
+      "summary": "联合国秘书长古特雷斯访问太子港，今年已有2300人在海地帮派暴力中丧生，一支新的打击帮派部队即将部署。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "美伊临时协议为全球市场带来短期利好，但执行细节与地区矛盾仍存变数；AI领域多个方向并行推进，安全与开源竞争加速行业演进。",
+  "keywords": [
+    "美伊协议",
+    "中东局势",
+    "油价",
+    "AI安全",
+    "Claude Fable 5",
+    "GLM-5.2",
+    "美国牛市",
+    "SpaceX市值"
+  ],
+  "trading": {
+    "market_overview": "今日美股三大指数分化，道指小涨0.64%且逼近52周高，纳指下跌1.15%但仍近高，标普500微跌0.57%，周线均录得2%左右涨幅；VIX跌至16.21，波动率显著回落，市场风险偏好总体中性偏积极。A股上证指数小幅涨0.4%，周线涨2.88%并接近52周高，MACD金叉显示短期偏强。比特币价格持平微跌，5日反弹3%但距历史高位仍跌48%，RSI 41.5偏弱，加密恐慌贪婪指数仅22（极度恐慌），总市值2.33T，BTC主导率56.2%，加密市场情绪极度悲观，避险情绪浓厚。",
+    "watchlist": [],
+    "risk_caveat": "以上内容不构成投资建议，仅用于宏观市场温度观察。请独立评估风险，据此操作风险自担。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7511.35,
+        "pct1Day": -0.568419253701683,
+        "pct5Day": 1.688182048761829,
+        "pct52WeekHigh": -1.4374942592082205,
+        "pct52WeekLow": 26.384979211640825,
+        "sma20": 7478.559033203125,
+        "sma50": 7285.211826171875,
+        "sma200": 6892.406748046875,
+        "rsi14": 56.56701142265341,
+        "macd": 44.518150974516175,
+        "macdSignal": 61.87660083637589,
+        "macdHistogram": -17.358449861859718,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 51999.67,
+        "pct1Day": 0.6360212715901586,
+        "pct5Day": 2.2164613161374307,
+        "pct52WeekHigh": -0.3652403540965237,
+        "pct52WeekLow": 23.864359090772663,
+        "sma20": 50792.35234375,
+        "sma50": 49768.493828125,
+        "sma200": 48092.171875,
+        "rsi14": 64.111203472407,
+        "macd": 490.0540130931913,
+        "macdSignal": 458.83111358022654,
+        "macdHistogram": 31.222899512964773,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 0
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 26376.344,
+        "pct1Day": -1.1527362879283405,
+        "pct5Day": 2.716338519493665,
+        "pct52WeekHigh": -2.993231755105967,
+        "pct52WeekLow": 36.417746488488746,
+        "sma20": 26355.54912109375,
+        "sma50": 25394.57953125,
+        "sma200": 23479.620380859375,
+        "rsi14": 54.639830743690936,
+        "macd": 164.485754028854,
+        "macdSignal": 271.9486512963246,
+        "macdHistogram": -107.46289726747062,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 16.21,
+        "pct1Day": -1.2187681247519873,
+        "pct5Day": -27.04770251609507,
+        "pct52WeekHigh": -54.079320113314445,
+        "pct52WeekLow": 21.15097159940209,
+        "sma20": 17.307500076293945,
+        "sma50": 17.80740001678467,
+        "sma200": 18.548350081443786,
+        "rsi14": 44.90450910078287,
+        "macd": -0.16257609672800655,
+        "macdSignal": -0.07445575257811157,
+        "macdHistogram": -0.08812034414989497,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "death-cross",
+            "label": "死叉(SMA50↓SMA200)",
+            "daysAgo": 5
+          },
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4108.076,
+        "pct1Day": 0.3955116557550277,
+        "pct5Day": 2.876118798350772,
+        "pct52WeekHigh": -3.540545915658716,
+        "pct52WeekLow": 22.715181480984732,
+        "sma20": 4066.4472900390624,
+        "sma50": 4080.121787109375,
+        "sma200": 3992.327774658203,
+        "rsi14": 54.75562661017718,
+        "macd": -10.61374759147293,
+        "macdSignal": -16.341279378806444,
+        "macdHistogram": 5.727531787333515,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 1
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 65472.28,
+        "pct1Day": -0.19566977361358834,
+        "pct5Day": 3.035857188444449,
+        "pct52WeekHigh": -48.11942845084715,
+        "pct52WeekLow": 10.765485505926536,
+        "sma20": 65617.90390625,
+        "sma50": 73219.7571875,
+        "sma200": 77267.37935546874,
+        "rsi14": 41.46430188610159,
+        "macd": -2365.3963708333467,
+        "macdSignal": -3037.381277274458,
+        "macdHistogram": 671.9849064411114,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 4
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 22,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-06-17T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2331961079555.3057,
+      "total24hVolumeUsd": 74325415772.70006,
+      "marketCapChangePct24h": -0.9215017474298544,
+      "btcDominance": 56.210477257084875,
+      "ethDominance": 9.22811215485278,
+      "activeCryptocurrencies": 17443
+    },
+    "generated_at": "2026-06-17T08:00:13.179Z"
+  }
+}
