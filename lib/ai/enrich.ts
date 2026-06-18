@@ -630,7 +630,27 @@ export async function enrichOverseasCommunityArticles(
     excerpt: (it.excerpt ?? "").slice(0, 300),
     source: it.source ?? "",
   }));
-  return runCommunityLocalization(payload);
+  const batches: EnrichInput[][] = [];
+  let batch: EnrichInput[] = [];
+  let batchChars = 0;
+  for (const item of payload) {
+    const itemChars = item.title.length + (item.excerpt?.length ?? 0);
+    if (batch.length > 0 && batchChars + itemChars > 4_500) {
+      batches.push(batch);
+      batch = [];
+      batchChars = 0;
+    }
+    batch.push(item);
+    batchChars += itemChars;
+  }
+  if (batch.length > 0) batches.push(batch);
+
+  const result = new Map<string, LocalizedCommunityArticle>();
+  for (const current of batches) {
+    const localized = await runCommunityLocalization(current);
+    for (const [url, article] of localized) result.set(url, article);
+  }
+  return result;
 }
 
 export function localizeHackerNewsStats(
