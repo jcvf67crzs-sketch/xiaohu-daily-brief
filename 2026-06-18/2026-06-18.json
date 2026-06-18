@@ -1,111 +1,111 @@
 {
-  "hero_headline": "美伊签署临时和平协议，霍尔木兹海峡将重开",
-  "daily_overview": "美伊签署临时和平协议，霍尔木兹海峡恢复通行，油价高位回落但核心分歧未解；美联储维持利率不变，英国失业率下降但央行料按兵不动，美国牛市进入狂热阶段，苹果因AI芯片成本上涨提价。科技方面，OpenAI推出近乎自主的AI化学家改进药物合成，DeepMind与英国政府合作加速住房规划审批，开源项目Codebase Memory MCP实现极速代码索引。时政层面，加沙停火期间冲突仍造成逾千人死亡，亚洲多国在AI竞赛中加速，欧盟面临落后风险。",
+  "hero_headline": "美伊签署停火框架协议 中东局势现转机",
+  "daily_overview": "今日全球焦点集中在中东和平进程：美伊在凡尔赛宫签署14点框架备忘录，结束超过100天的冲突，但核心问题未解，伊朗宣布60天后将对霍尔木兹海峡船只收费，油价预计持续高位。经济方面，美联储在新主席沃什主持下维持利率不变，苹果因AI芯片成本上涨预警提价，英国失业率下降但消费者信心疲软。科技领域，OpenAI推出近乎自主的AI化学家改进药物合成，并发布生命科学基准LifeSciBench；DeepMind开源4倍速文本生成模型DiffusionGemma，并助力英国住房规划AI。",
   "tech_briefs": [
     {
-      "title": "OpenAI 推出近乎自主 AI 化学家，改进药物合成反应",
+      "title": "近乎自主AI化学家改进药物合成反应",
       "url": "https://openai.com/index/ai-chemist-improves-reaction",
       "source": "OpenAI News",
-      "summary": "OpenAI 与 Molecule.one 合作展示了一种近乎自主的 AI 化学家，利用 GPT-5.4 改进关键药物合成反应，有望加速药物研发进程。",
-      "importance": 9
-    },
-    {
-      "title": "DeepMind 与英国政府合作，用 AI 加速住房规划审批",
-      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "source": "DeepMind Blog",
-      "summary": "英国政府与 Google DeepMind 合作开发 AI 原型，旨在加快住房规划决策，解决住房建设审批瓶颈问题。",
+      "summary": "OpenAI联合Molecule.one使用GPT-5.4打造近乎自主的AI化学家，成功改进一个关键的药物合成反应，加速医药化学研究。",
       "importance": 8
     },
     {
-      "title": "Codebase Memory MCP：极速代码索引知识图谱服务器",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "source": "GitHub Trending",
-      "summary": "开源项目将代码库索引为持久知识图谱，支持158种语言，查询亚毫秒级，显著减少 token 消耗，适合小团队和独立开发者提升代码理解效率。",
+      "title": "DeepMind开源4倍速文本生成模型DiffusionGemma",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind发布DiffusionGemma，基于扩散模型实现比传统自回归生成快4倍的文本生成速度，降低推理成本。",
       "importance": 7
     },
     {
-      "title": "LifeSciBench：评估 AI 处理生命科学研究任务的基准",
+      "title": "DeusData开源高性能代码知识图谱MCP",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source": "GitHub Trending",
+      "summary": "该MCP服务器将代码库索引为持久知识图谱，支持158种语言、亚毫秒级查询，平均仓库处理仅毫秒级，减少99%的token消耗，是AI编程助手的高效后端。",
+      "importance": 7
+    },
+    {
+      "title": "OpenAI发布生命科学AI基准LifeSciBench",
       "url": "https://openai.com/index/introducing-life-sci-bench",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布由专家编写和评审的 LifeSciBench 基准，用于评估 AI 系统在真实生命科学研究任务中的决策与执行能力。",
-      "importance": 7
+      "summary": "OpenAI推出LifeSciBench，由专家撰写和评审，评估AI系统处理真实生命科学研究任务的能力，推动AI在实验设计等环节的应用。",
+      "importance": 6
     }
   ],
   "finance_briefs": [
     {
-      "title": "美伊签署临时和平协议，霍尔木兹海峡将重开",
-      "url": "https://www.bloomberg.com/news/videos/2026-06-18/us-and-iran-sign-interim-peace-deal-video",
-      "source": "Bloomberg Markets",
-      "summary": "特朗普签署结束美伊战争的临时协议，各方同意重开霍尔木兹海峡，伊朗获3000亿美元重建资金，但核问题等核心争议未解决。（多家报道）",
+      "title": "美联储维持利率不变，新主席沃什首会",
+      "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "美联储将利率维持在3.5%-3.75%，为新主席沃什上任后首次决策。中东局势不确定性导致暂停降息。（多家报道）",
       "importance": 9
     },
     {
-      "title": "美联储维持利率不变，Warsh 首次会议按兵不动",
-      "url": "https://www.bbc.com/news/articles/cdjkl78vd7lo",
+      "title": "苹果预警涨价：AI芯片成本攀升",
+      "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美联储在 Kevin Warsh 任主席后的首次会议上决定维持利率在 3.5%-3.75% 不变，因美伊协议不确定性仍存。",
+      "summary": "苹果即将卸任CEO库克表示，AI需求推高芯片成本，未来将对部分产品提价，具体时间和范围未披露。",
       "importance": 8
     },
     {
-      "title": "英国失业率下降，薪资增长超预期，但央行料维持利率",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-06-18/ftse-100-live-boe-rate-decision-bailey-pound-gilts-jobs-data-trump-iran-oil-priceswhat-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg Markets",
-      "summary": "英国失业率意外下降，平均薪资增长快于预期，但英格兰银行预计维持利率不变，因中东动荡仍是主要风险。",
-      "importance": 7
+      "title": "分析：油价未来数月将保持高位",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-high-for-months",
+      "source": "The Economist Finance",
+      "summary": "经济学家文章指出，即使达成停火协议，油价短期内难以回归战前60美元水平，供应风险持续。",
+      "importance": 8
     },
     {
-      "title": "美国牛市进入狂热阶段，期权市场显示乐观转为狂喜",
+      "title": "美国牛市进入狂热阶段",
       "url": "https://www.economist.com/finance-and-economics/2026/06/16/americas-bull-market-has-entered-its-manic-phase",
       "source": "The Economist Finance",
-      "summary": "《经济学人》分析指出，期权市场数据显示投资者乐观情绪正演变为狂喜，美国牛市进入风险较高的狂热阶段。",
+      "summary": "期权市场数据显示乐观情绪转向狂热，投资者需警惕回调风险。",
       "importance": 7
     },
     {
-      "title": "苹果因 AI 芯片成本上涨将提高产品价格",
-      "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo",
-      "source": "BBC Business",
-      "summary": "苹果即将离任的 CEO 蒂姆·库克表示，AI 热潮推动芯片成本上升，公司计划上调产品价格，但未说明具体时间和产品。",
+      "title": "Thoma Bravo创2008年以来最大PE亏损",
+      "url": "https://www.ft.com/content/6c3706b4-3862-4ea6-8c1a-8baf8df371f6",
+      "source": "Financial Times",
+      "summary": "私募巨头Thoma Bravo在Medallia投资中损失全部50亿美元，将公司交予债权人，反映软件投资风险。",
       "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美伊停火协议细节曝光：14点备忘录包含3000亿美元重建",
-      "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo",
+      "title": "美伊在凡尔赛宫签署停火框架协议",
+      "url": "https://www.bbc.com/news/videos/crm03y1xx2no?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "媒体公布美伊14点备忘录文本，包括停止敌对、伊朗不拥核承诺、3000亿美元重建资金等内容，但批评称核问题未获彻底解决。（多家报道）",
+      "summary": "特朗普与伊朗总统在G7晚宴后签署14点谅解备忘录，结束超过100天的冲突，但核心核问题未完全解决。（多家报道）",
       "importance": 9
     },
     {
-      "title": "加沙停火期间逾千人丧生，巴勒斯坦称以色列行动持续",
-      "url": "https://www.npr.org/2026/06/18/g-s1-128734/over-1-000-people-killed-during-gaza-ceasefire-palestinian-authorities-say",
-      "source": "NPR World",
-      "summary": "加沙卫生部称，自去年10月停火以来，以色列在加沙的行动已造成1005名巴勒斯坦人死亡，停火协议名存实亡。",
+      "title": "伊朗宣布60天后向霍尔木兹海峡船舶收费",
+      "url": "https://www.theguardian.com/world/live/2026/jun/18/middle-east-crisis-live-us-iran-presidents-sign-peace-deal-mou-trump-tehran-strait-of-hormuz-toll-lebanon-israel",
+      "source": "The Guardian",
+      "summary": "伊朗首席谈判代表表示，60天宽限期后霍尔木兹海峡不会恢复战前状态，将向通行船舶收费，影响全球能源运输。",
       "importance": 8
     },
     {
-      "title": "亚洲多国在 AI 竞赛中加速，欧盟被甩在后面",
-      "url": "https://thediplomat.com/2026/06/asia-is-sprinting-on-ai-europe-is-still-tying-its-laces/",
-      "source": "The Diplomat",
-      "summary": "中国、韩国、日本、印度和新加坡等国纷纷设定雄心勃勃的 AI 目标，而欧盟在监管和投资方面明显落后，面临竞争力下滑风险。",
+      "title": "加沙停火期间超1000人遇难",
+      "url": "https://www.npr.org/2026/06/18/g-s1-128734/over-1-000-people-killed-during-gaza-ceasefire-palestinian-authorities-say",
+      "source": "NPR World",
+      "summary": "加沙卫生部称，自去年10月停火以来，以色列行动已造成1005名巴勒斯坦人死亡，停火脆弱性凸显。",
       "importance": 7
     }
   ],
-  "editor_note": "美伊停火落地但核心未解，AI在科研与规划领域加速渗透，市场狂热与成本压力并存，需警惕长期风险与结构性变化。",
+  "editor_note": "美伊停火虽缓解短期冲突，但框架模糊、霍尔木兹海峡收费威胁能源安全；科技领域自主研究工具加速迭代，值得长期跟踪。",
   "keywords": [
-    "美伊协议",
-    "美联储利率",
-    "AI化学家",
-    "英国失业率",
-    "牛市狂热",
-    "苹果涨价",
-    "加沙停火",
-    "亚洲AI竞赛"
+    "美伊停火",
+    "伊朗",
+    "美联储",
+    "油价",
+    "AI化学",
+    "芯片成本",
+    "代码知识图谱",
+    "宽松监管"
   ],
   "trading": {
-    "market_overview": "今日宏观市场温度偏冷。美股三大指数昨日回调1%-1.3%，但五日涨幅仍达2%-3.4%，标普500距52周高仅差2.6%，RSI约50，多空均衡。VIX单日飙升12.4%至18.44，接近52周低，波动率短期回升但绝对水平不高。A股上证指数微跌0.2%，五日涨2.9%，站上20日均线，RSI 53.7，温和偏多。BTC下跌2.7%，距52周高已跌49%，RSI 37，处于空头排列，加密恐慌指数15（极度恐慌），总市值24h缩水2.4%，BTC主导率56.1%，风险偏好极低。整体呈现美股技术性高位震荡、A股小幅反弹、加密资产极度恐慌的分化格局。",
+    "market_overview": "今日宏观市场呈现温和偏谨慎的基调。美股三大指数同步回调，标普500、道指、纳指分别下跌1.21%、0.98%、1.34%，但五日均线仍录得正涨幅，显示短期调整未破坏中期升势。VIX恐慌指数单日飙升12.37%至18.44，市场避险情绪明显抬头，不过仍低于52周高点，波动率尚处可控范围。上证指数微跌0.29%，于均线附近震荡，MACD金叉与多头排列提示多头格局未变。比特币延续弱势，单日下跌2.64%，当前价格较52周高点折让近50%，RSI仅37.2，加密恐慌贪婪指数仅15（极度恐慌），反映加密市场风险情绪极度低迷。综合来看，全球风险偏好分化：A股偏稳，美股短线承压，加密显著悲观。",
     "watchlist": [],
-    "risk_caveat": "以上内容仅基于公开量化指标描述市场温度，不构成投资建议，仅用于宏观市场温度观察。",
+    "risk_caveat": "以上内容仅为宏观市场温度观察，不构成投资建议。投资者需独立判断，审慎决策。数据基于公开指标，仅用于反映当前市场状态。",
     "tickers": [
       {
         "symbol": "^GSPC",
@@ -239,18 +239,18 @@
         "group": "china-equity",
         "currency": "CNY",
         "exchangeName": "SHH",
-        "currentPrice": 4101.013,
-        "pct1Day": -0.17193380987812407,
-        "pct5Day": 2.8592345524990073,
-        "pct52WeekHigh": -3.706388301290752,
-        "pct52WeekLow": 22.504197719535284,
-        "sma20": 4067.6340942382812,
-        "sma50": 4084.5401123046877,
-        "sma200": 3994.192705078125,
-        "rsi14": 53.738731482323644,
-        "macd": -6.678368240909549,
-        "macdSignal": -14.408697079276639,
-        "macdHistogram": 7.73032883836709,
+        "currentPrice": 4096.094,
+        "pct1Day": -0.2916735565185752,
+        "pct5Day": 2.7358590414329047,
+        "pct52WeekHigh": -3.821888612054443,
+        "pct52WeekLow": 22.357258865992907,
+        "sma20": 4067.3881225585938,
+        "sma50": 4084.4417236328127,
+        "sma200": 3994.1681079101563,
+        "rsi14": 53.05248556439283,
+        "macd": -7.070801689983455,
+        "macdSignal": -14.48718376909142,
+        "macdHistogram": 7.416382079107965,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -271,18 +271,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 63846.92,
-        "pct1Day": -2.6733285045568134,
-        "pct5Day": 0.4779752750635475,
-        "pct52WeekHigh": -49.40737207787726,
-        "pct52WeekLow": 8.015714312347928,
-        "sma20": 65536.6359375,
-        "sma50": 73187.25,
-        "sma200": 77259.25255859375,
-        "rsi14": 37.180426641088,
-        "macd": -2495.0546685528752,
-        "macdSignal": -3063.3129368167524,
-        "macdHistogram": 568.2582682638772,
+        "currentPrice": 63867.02,
+        "pct1Day": -2.642688559872586,
+        "pct5Day": 0.5096072990206723,
+        "pct52WeekHigh": -49.39144473445593,
+        "pct52WeekLow": 8.049719333383837,
+        "sma20": 65537.6408203125,
+        "sma50": 73187.651953125,
+        "sma200": 77259.353046875,
+        "rsi14": 37.22798512504318,
+        "macd": -2493.4514367152588,
+        "macdSignal": -3062.992290449229,
+        "macdHistogram": 569.5408537339704,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -305,13 +305,13 @@
       "timestamp": "2026-06-18T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2280565722625.131,
-      "total24hVolumeUsd": 88112756541.53795,
-      "marketCapChangePct24h": -2.3982074145089216,
-      "btcDominance": 56.12805566811618,
-      "ethDominance": 9.13789177836096,
+      "totalMarketCapUsd": 2281523682454.0317,
+      "total24hVolumeUsd": 88288951438.19937,
+      "marketCapChangePct24h": -2.357209430720099,
+      "btcDominance": 56.11441553351493,
+      "ethDominance": 9.128271189511631,
       "activeCryptocurrencies": 17432
     },
-    "generated_at": "2026-06-18T06:18:21.301Z"
+    "generated_at": "2026-06-18T06:25:56.727Z"
   }
 }

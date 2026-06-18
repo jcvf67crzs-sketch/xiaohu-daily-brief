@@ -6,30 +6,30 @@
       "title": "DeusData/codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "excerpt": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "meta": "C · ★ 5,845 · 🍴 504 · 📈 371 stars today",
+      "meta": "C · ★ 5,873 · 🍴 504 · 📈 371 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "基于 MCP 协议的高性能代码智能服务器，将代码库索引为持久化知识图谱，常用仓库在毫秒内完成。支持 158 种语言，查询延迟亚毫秒，令牌消耗减少 99%。提供单个静态二进制文件，适合开发者在 IDE 或工具中实现快速代码理解和搜索。"
+      "summary": "高性能代码智能 MCP 服务器，将代码库索引为持久知识图谱，支持 158 种语言，毫秒级索引、亚毫秒查询，令牌消耗减少 99%。单个静态二进制部署，适合代码理解、文档生成和 AI 辅助编程。"
     },
     {
       "sourceId": "github-trending",
       "title": "n0-computer/iroh",
       "url": "https://github.com/n0-computer/iroh",
       "excerpt": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
-      "meta": "Rust · ★ 9,737 · 🍴 456 · 📈 421 stars today",
+      "meta": "Rust · ★ 9,738 · 🍴 456 · 📈 421 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "用 Rust 实现的模块化网络栈，以“拨号键”替代易变的 IP 地址，解决去中心化通信中寻址不稳定的问题。适用于构建 p2p 应用、分布式存储等场景，强调安全与性能。"
+      "summary": "基于内容寻址的模块化网络栈，使用密钥代替 IP 地址，解决网络不稳定问题。Rust 实现，适合去中心化应用和对等网络通信，提供高可靠、低延迟的连接。"
     },
     {
       "sourceId": "github-trending",
       "title": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "excerpt": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "meta": "Python · ★ 33,566 · 🍴 2,690 · 📈 1,161 stars today",
+      "meta": "Python · ★ 33,579 · 🍴 2,690 · 📈 1,161 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "给 AI Agent 赋予“眼睛”以读取和搜索整个互联网，包括 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台。单一 CLI 工具，无需 API 费用。适合构建能自主搜集网络信息的智能代理。"
+      "summary": "CLI 工具，让 AI agent 无需 API 密钥即可搜索并读取 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等全网内容。适合智能助手、舆情监控和内容聚合场景。"
     },
     {
       "sourceId": "github-trending",
@@ -39,147 +39,147 @@
       "meta": "TypeScript · ★ 11,064 · 🍴 3,460 · 📈 196 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "云原生管理平台，用于 Kubernetes 服务网格的配置、性能测试和可视化。运维人员可跨多个网格（如 Istio、Linkerd）统一管理，加速云原生应用的交付和优化。"
+      "summary": "云原生管理平面，统一管理服务网格和基础设施的配置、性能与可观测性。支持多种网格和多云环境，适合 Kubernetes 运维人员，提升微服务架构的管理效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "excerpt": "An agentic skills framework & software development methodology that works.",
-      "meta": "Shell · ★ 231,407 · 🍴 20,569 · 📈 1,129 stars today",
+      "meta": "Shell · ★ 231,426 · 🍴 20,570 · 📈 1,129 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一套 Agentic 技能框架与软件开发方法论，旨在为 AI 代理定义可复用技能，提升开发效率。适合构建面向任务的 AI 辅助系统，将复杂工作流拆解为明确步骤。"
+      "summary": "面向 AI agent 的技能框架与软件开发方法论，提供结构化实践，帮助构建更智能、更可靠的 Agent 应用。适合探索 AI 辅助编程和自动化开发的技术团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "google-research/timesfm",
       "url": "https://github.com/google-research/timesfm",
       "excerpt": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "meta": "Python · ★ 22,069 · 🍴 2,147 · 📈 606 stars today",
+      "meta": "Python · ★ 22,072 · 🍴 2,147 · 📈 606 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google Research 开发的时间序列基础模型 TimesFM，在大量数据上预训练，可直接用于预测任务。适用于金融、气象、物联网等领域的时序数据分析，无需从零训练。"
+      "summary": "Google Research 开发的时间序列基础模型，预训练用于多领域时序预测。采用 Transformer 架构，支持零样本与微调，适合金融、气象、物联网等预测任务。"
     },
     {
       "sourceId": "github-trending",
       "title": "RocketChat/Rocket.Chat",
       "url": "https://github.com/RocketChat/Rocket.Chat",
       "excerpt": "The Secure CommsOS™ for mission-critical operations",
-      "meta": "TypeScript · ★ 45,627 · 🍴 13,659 · 📈 22 stars today",
+      "meta": "TypeScript · ★ 45,627 · 🍴 13,658 · 📈 22 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向任务关键型操作的安全通讯操作系统，提供即时消息、文件共享、视频会议等功能。支持自托管，可替代 Slack 和 Microsoft Teams，适合政府、军事、企业等对隐私和合规性要求高的场景。"
+      "summary": "开源安全通信平台，提供即时消息、文件共享、机器人等功能，适用于企业级和关键任务场景。强调安全性与自托管，可作为 Slack 或 Teams 的替代。"
     },
     {
       "sourceId": "github-trending",
       "title": "continuedev/continue",
       "url": "https://github.com/continuedev/continue",
       "excerpt": "open-source coding agent",
-      "meta": "TypeScript · ★ 33,979 · 🍴 4,710 · 📈 49 stars today",
+      "meta": "TypeScript · ★ 33,980 · 🍴 4,710 · 📈 49 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的编码代理，集成在 VS Code 和 JetBrains 等 IDE 中，提供代码补全、上下文问答、自动重构等 AI 辅助功能。开发者可在本地运行，保护代码隐私。"
+      "summary": "开源编码 AI agent，集成 IDE 实现代码补全、重构、解释等功能。支持自定义模型与本地运行，适合开发者提升编码效率，典型场景为 AI 辅助编程。"
     },
     {
       "sourceId": "github-trending",
       "title": "penpot/penpot",
       "url": "https://github.com/penpot/penpot",
       "excerpt": "Penpot: The open-source design tool for design and code collaboration",
-      "meta": "Clojure · ★ 50,190 · 🍴 3,239 · 📈 70 stars today",
+      "meta": "Clojure · ★ 50,191 · 🍴 3,239 · 📈 70 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的设计与代码协作工具，支持矢量图形、原型设计和设计系统管理。输出标准化的 SVG/CSS，方便前端直接复用，适合跨职能团队工作。"
+      "summary": "开源设计与原型工具，基于 SVG 矢量设计，强调设计与开发协作。支持自托管，适合 UI/UX 设计师和前端开发者，是 Figma 的开源替代。"
     },
     {
       "sourceId": "github-trending",
       "title": "krahets/hello-algo",
       "url": "https://github.com/krahets/hello-algo",
       "excerpt": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
-      "meta": "Java · ★ 127,557 · 🍴 15,180 · 📈 96 stars today",
+      "meta": "Java · ★ 127,561 · 🍴 15,180 · 📈 96 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "《Hello 算法》是动画图解、一键运行的数据结构与算法教程。支持简中、繁中、英文、日文四种语言，提供 Python、Java、C++ 等 15 种语言的代码实现。适合编程初学者和面试准备者。"
+      "summary": "动画图解的数据结构与算法教程，覆盖常见算法，支持 Python、Java、C++ 等十余种语言一键运行。适合初学者和面试准备，提供交互式学习体验。"
     },
     {
       "sourceId": "github-trending",
       "title": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
       "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
       "excerpt": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
-      "meta": "Rust · ★ 7,703 · 🍴 331 · 📈 457 stars today",
+      "meta": "Rust · ★ 7,704 · 🍴 331 · 📈 457 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "跨平台 GUI 工具（Rust 编写），通过 ADB 对未 Root 的 Android 设备进行去臃肿（删除预装应用）。提升隐私安全性、延长续航。操作直观，用户可自行选择要卸载的包。"
+      "summary": "跨平台 Android 去 bloatware 工具，通过 ADB 连接无需 root 即可卸载预装应用。Rust 编写，提升隐私、安全性和电池续航，适合注重设备控制的用户。"
     },
     {
       "sourceId": "github-trending",
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "excerpt": "Skills for Real Engineers. Straight from my .claude directory.",
-      "meta": "Shell · ★ 134,084 · 🍴 11,638 · 📈 1,523 stars today",
+      "meta": "Shell · ★ 134,103 · 🍴 11,641 · 📈 1,523 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "来自作者 .claude 目录的真实工程师技能集，可能以结构化提示或 CLI 形式呈现。帮助 AI 代理学习和应用专家级开发技能，适用于构建更智能的编程助手。"
+      "summary": "从 .claude 目录提取的真实工程师技能集，包含实用编程技巧和工作流程，可直接用于 AI 助手配置。适合希望优化 AI 编程辅助质量的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "yairm210/Unciv",
       "url": "https://github.com/yairm210/Unciv",
       "excerpt": "Open-source Android/Desktop remake of Civ V",
-      "meta": "Kotlin · ★ 10,709 · 🍴 1,844 · 📈 24 stars today",
+      "meta": "Kotlin · ★ 10,712 · 🍴 1,844 · 📈 24 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的《文明 V》重制版，支持 Android 和桌面平台。完整实现回合制策略、科技树、外交等核心玩法，无需原生游戏即可体验。社区贡献大量扩展和翻译。"
+      "summary": "开源文明 V 复刻，支持 Android 和桌面平台，使用 LibGDX 开发。提供完整的回合制策略体验，适合文明玩家在移动端或低配设备上游玩。"
     },
     {
       "sourceId": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "excerpt": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "meta": "TypeScript · ★ 449,229 · 🍴 45,099 · 📈 757 stars today",
+      "meta": "TypeScript · ★ 449,231 · 🍴 45,099 · 📈 757 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "免费编程学习平台的开源代码库和课程，涵盖数学、编程和计算机科学。通过交互式挑战和项目实践，帮助零基础用户成为全栈开发者。支持多种语言。"
+      "summary": "开源全栈编程课程平台，提供交互式学习路径，涵盖 HTML、CSS、JavaScript、算法、数据库等。适合零基础自学编程，在线免费学习并获取证书。"
     },
     {
       "sourceId": "github-trending",
       "title": "bytedance/UI-TARS-desktop",
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "excerpt": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "meta": "TypeScript · ★ 36,754 · 🍴 3,706 · 📈 150 stars today",
+      "meta": "TypeScript · ★ 36,755 · 🍴 3,706 · 📈 150 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "字节跳动开源的多模态 AI Agent 桌面框架，连接最新视觉语言模型与自动化操作能力。可理解 GUI 界面并执行点击、输入等动作，用于 UI 测试、流程自动化等场景。"
+      "summary": "字节跳动开源的多模态 AI agent 桌面应用，集成视觉与语言模型，自动化操作 GUI。适合屏幕理解、自动化测试和智能助手等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "nautechsystems/nautilus_trader",
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "excerpt": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "meta": "Rust · ★ 23,873 · 🍴 3,021 · 📈 98 stars today",
+      "meta": "Rust · ★ 23,876 · 🍴 3,021 · 📈 98 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "生产级 Rust 原生交易引擎，采用确定性事件驱动架构。支持回测、实盘、多交易所连接，性能极高。适合量化交易策略的开发者和金融科技公司。"
+      "summary": "Rust 编写的高性能量化交易引擎，采用确定性事件驱动架构，支持回测与实盘。适合算法交易员和量化开发者，提供低延迟、高可靠性的交易系统。"
     },
     {
       "sourceId": "github-trending",
       "title": "chatwoot/chatwoot",
       "url": "https://github.com/chatwoot/chatwoot",
       "excerpt": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-      "meta": "Ruby · ★ 32,444 · 🍴 7,719 · 📈 264 stars today",
+      "meta": "Ruby · ★ 32,448 · 🍴 7,719 · 📈 264 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的全渠道客服平台，集成实时聊天、邮件、社交媒体私信等。支持自动回复、工单管理和知识库，可作为 Intercom、Zendesk 的免费替代。"
+      "summary": "开源全渠道客服平台，支持实时聊天、邮件、社交媒体等多渠道整合。可自托管，适合中小企业和开源项目，替代 Intercom、Zendesk 等商业软件。"
     },
     {
       "sourceId": "github-trending",
       "title": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "excerpt": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "meta": "Python · ★ 5,550 · 🍴 1,019 · 📈 98 stars today",
+      "meta": "Python · ★ 5,552 · 🍴 1,019 · 📈 98 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "首个开源 agentic 视频制作系统，包含 12 条管线、52 个工具和 500 多项 Agent 技能。可将 AI 编程助手转化为完整的视频制作工作室，适合内容创作者和开发者。"
+      "summary": "开源多智能体视频制作系统，集成 12 条管线、52 种工具和 500+ 技能，将 AI 编码助手扩展为视频生产工作室。适合内容创作者和开发者自动化视频制作。"
     },
     {
       "sourceId": "github-trending",
@@ -189,23 +189,23 @@
       "meta": "Python · ★ 4,970 · 🍴 827 · 📈 43 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "通用即插即用的推理库，用于递归语言模型（RLM），支持在多种沙箱环境（如 Python、Docker）中运行。研究者和开发者可快速实验自回归与递归推理的结合。"
+      "summary": "通用递归语言模型推理库，支持即插即用和多种沙箱环境。适合研究人员和开发者探索递归语言模型，用于复杂推理和代码生成等任务。"
     },
     {
       "sourceId": "github-trending",
       "title": "makeplane/plane",
       "url": "https://github.com/makeplane/plane",
       "excerpt": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-      "meta": "TypeScript · ★ 51,436 · 🍴 4,574 · 📈 89 stars today",
+      "meta": "TypeScript · ★ 51,438 · 🍴 4,574 · 📈 89 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源的项目管理平台，对标 Jira、Linear、Monday 和 ClickUp。提供任务管理、Sprint 规划、文档协同和问题分类功能。支持自托管，适合团队协作。"
+      "summary": "开源项目管理平台，替代 Jira、Linear 等，支持任务管理、Sprint、文档和工单分类。界面现代，适合敏捷开发团队自托管使用。"
     },
     {
       "sourceId": "v2ex-hot",
       "title": "🔥「送码」高颜值的截图/录屏应用，开发会喜欢吗？",
       "url": "https://www.v2ex.com/t/1221276",
-      "excerpt": "61 回复 · Apple 节点",
+      "excerpt": "71 回复 · Apple 节点",
       "publishedAt": "2026-06-18T03:08:20.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -284,19 +284,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "[开源] 我正在用 Python 复刻经典游戏红色警戒 2",
-      "url": "https://www.v2ex.com/t/1209881",
-      "excerpt": "16 回复 · Python 节点",
-      "publishedAt": "2026-05-01T12:15:43.000Z",
+      "title": "现在已经没办法修改苹果地图的位置了吗？",
+      "url": "https://www.v2ex.com/t/1221086",
+      "excerpt": "17 回复 · Apple 节点",
+      "publishedAt": "2026-06-17T07:36:31.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "现在已经没办法修改苹果地图的位置了吗？",
-      "url": "https://www.v2ex.com/t/1221086",
-      "excerpt": "16 回复 · Apple 节点",
-      "publishedAt": "2026-06-17T07:36:31.000Z",
+      "title": "[开源] 我正在用 Python 复刻经典游戏红色警戒 2",
+      "url": "https://www.v2ex.com/t/1209881",
+      "excerpt": "16 回复 · Python 节点",
+      "publishedAt": "2026-05-01T12:15:43.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -430,7 +430,7 @@
       "sourceId": "linuxdo",
       "title": "「君の公益」 gpt 复活（今日签到618刀～）",
       "url": "https://linux.do/t/topic/2425120",
-      "excerpt": "仅限codex调用，能活多久未知 地址 muyuan.do 目前的约束措施主要有 限制调用客户端为codex cli/Claude code cli 对色情和政治敏感词汇进行关键词拦截 限制单ip请求速率为一分钟一百次，超过即封禁ip 限制新注册必须为LD用户，再也不敢开邮箱注册了 不定期数据库拉ip清单去查分发，封号 所谓有求而不得，人心欲壑，可填沧海～ 告诉大家一个好消息，告别单身了，嘿嘿 1023 个帖子 - 901 位参与者 阅读完整话题",
+      "excerpt": "仅限codex调用，能活多久未知 地址 muyuan.do 目前的约束措施主要有 限制调用客户端为codex cli/Claude code cli 对色情和政治敏感词汇进行关键词拦截 限制单ip请求速率为一分钟一百次，超过即封禁ip 限制新注册必须为LD用户，再也不敢开邮箱注册了 不定期数据库拉ip清单去查分发，封号 所谓有求而不得，人心欲壑，可填沧海～ 告诉大家一个好消息，告别单身了，嘿嘿 1032 个帖子 - 908 位参与者 阅读完整话题",
       "publishedAt": "2026-06-17T16:27:45.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -592,7 +592,7 @@
       "sourceId": "linuxdo",
       "title": "Dario Amodei呼吁建立美国领导的AI联盟以排除中国",
       "url": "https://linux.do/t/topic/2425464",
-      "excerpt": "这个人怎么这么烦啊，什么时候国模能赶超Claude，好想看到那一天 97 个帖子 - 68 位参与者 阅读完整话题",
+      "excerpt": "这个人怎么这么烦啊，什么时候国模能赶超Claude，好想看到那一天 98 个帖子 - 68 位参与者 阅读完整话题",
       "publishedAt": "2026-06-17T20:01:51.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -628,7 +628,7 @@
       "sourceId": "linuxdo",
       "title": "草台字节疑似未给豆包agent沙盒设置访问隔离，可以直接读写s3文件系统根目录",
       "url": "https://linux.do/t/topic/2427590",
-      "excerpt": "已确认并非幻觉，这些应该是真实的别的用户的文件 选择办公任务模式要求豆包检查/目录即可看到 刑！ 56 个帖子 - 40 位参与者 阅读完整话题",
+      "excerpt": "已确认并非幻觉，这些应该是真实的别的用户的文件 选择办公任务模式要求豆包检查/目录即可看到 刑！ 58 个帖子 - 41 位参与者 阅读完整话题",
       "publishedAt": "2026-06-18T04:32:33.000Z",
       "category": "tech",
       "source": "LinuxDo"
@@ -653,9 +653,9 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "Midjourney 医疗",
+      "title": "Midjourney Medical",
       "url": "https://www.midjourney.com/medical/blogpost",
-      "excerpt": "https:&#x2F;&#x2F;www.midjourney.com&#x2F;medicalVideo: https:&#x2F;&#x2F;x.com&#x2F;midjourney&#x2F;status&#x2F;2067422898407837797",
+      "excerpt": "https://www.midjourney.com/medicalVideo: https://x.com/midjourney/status/2067422898407837797",
       "publishedAt": "2026-06-18T01:59:51.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -664,8 +664,17 @@
       "sourceId": "hackernews",
       "title": "我讨厌编译器",
       "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
-      "excerpt": "29 积分 · 24 条评论",
+      "excerpt": "35 积分 · 24 条评论",
       "publishedAt": "2026-06-18T05:10:28.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "本地Qwen不是更差的Opus，它是不同的工具",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "excerpt": "102 积分 · 30 条评论",
+      "publishedAt": "2026-06-18T03:04:20.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -673,25 +682,16 @@
       "sourceId": "hackernews",
       "title": "Lore – 为可扩展性设计的开源版本控制系统",
       "url": "https://lore.org/",
-      "excerpt": "1076 积分 · 571 条评论",
+      "excerpt": "1079 积分 · 572 条评论",
       "publishedAt": "2026-06-17T14:30:27.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "本地 Qwen 不是更差的 Opus，而是不同的工具",
-      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
-      "excerpt": "95 积分 · 29 条评论",
-      "publishedAt": "2026-06-18T03:04:20.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "苹果CEO蒂姆·库克称存储芯片成本上涨将导致价格上涨",
+      "title": "苹果CEO蒂姆·库克表示内存芯片成本导致价格上涨",
       "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo",
-      "excerpt": "21 积分 · 8 条评论",
+      "excerpt": "27 积分 · 12 条评论",
       "publishedAt": "2026-06-18T03:34:54.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -700,23 +700,23 @@
       "sourceId": "hackernews",
       "title": "美国暂缓将DeepSeek列入黑名单，超过100家公司被视为安全风险",
       "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
-      "excerpt": "https:&#x2F;&#x2F;archive.ph&#x2F;MlU1U",
+      "excerpt": "https://archive.ph/MlU1U",
       "publishedAt": "2026-06-17T03:55:16.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Occlupanida 分类学（面包袋标签上的寄生体）",
+      "title": "Occlupanida分类学（面包袋标签上的寄生虫）",
       "url": "https://www.horg.com/horg/?page_id=921",
-      "excerpt": "122 积分 · 23 条评论",
+      "excerpt": "123 积分 · 23 条评论",
       "publishedAt": "2026-06-17T23:20:38.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Nim Conf 2026（在线，6月20日周六）",
+      "title": "Nim Conf 2026（线上，6月20日周六）",
       "url": "https://conf.nim-lang.org/",
       "excerpt": "21 积分 · 2 条评论",
       "publishedAt": "2026-06-18T03:38:31.000Z",
@@ -734,7 +734,7 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "[x86] 人工智能计算扩展（ACE）规范",
+      "title": "[x86] AI计算扩展（ACE）规范",
       "url": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
       "excerpt": "26 积分 · 12 条评论",
       "publishedAt": "2026-06-18T02:32:01.000Z",
@@ -743,9 +743,9 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "托管在 Go 上的 Clojure",
+      "title": "Clojure运行在Go上",
       "url": "https://github.com/glojurelang/glojure",
-      "excerpt": "89 积分 · 12 条评论",
+      "excerpt": "91 积分 · 12 条评论",
       "publishedAt": "2026-06-17T23:14:49.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -761,7 +761,7 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "我们如何在 EC2 内运行 Firecracker VM 并在不到1秒内启动浏览器",
+      "title": "我们如何在EC2内运行Firecracker虚拟机并在不到1秒内启动浏览器",
       "url": "https://browser-use.com/posts/firecracker-browser-infra",
       "excerpt": "251 积分 · 163 条评论",
       "publishedAt": "2026-06-16T15:15:01.000Z",
@@ -770,28 +770,28 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "Launch HN: Adam (YC W25) – 开源 AI CAD",
+      "title": "Launch HN: Adam (YC W25) – 开源AI CAD",
       "url": "https://github.com/Adam-CAD/CADAM",
-      "excerpt": "嘿 HN！我是 Zach，来自 Adam (https://adam.new/)。我们正在为机械 CAD 软件构建 AI 代理。我们基于两个基本信念建立了公司：- AI 将成为创建机械设计的主要媒介，就像今天在软件中一样。- 最好的范式是「",
+      "excerpt": "嘿 HN！我是 Adam 的 Zach (https://adam.new/)。我们正在构建用于机械CAD软件的AI智能体。我们创建这家公司基于两个基本信念：- AI 将成为创建机械设计的主要媒介，就像今天在软件中一样。- 最好的范式是",
       "publishedAt": "2026-06-17T16:14:04.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Show HN: 我们作为大二电子工程学生构建了一个8位CPU",
-      "url": "https://github.com/c0rRupT9/STEPLA-1",
-      "excerpt": "嗨！我和朋友们一起用 Logisim 从头实现了一个8位CPU。该系统的控制单元没有实现通用的微码ROM或任何RAM。它完全由离散逻辑门构成，并编码了系统以运行不同程序。主要特性：C",
-      "publishedAt": "2026-06-15T20:22:48.000Z",
+      "title": "马德里如何廉价建设其地铁（2024）",
+      "url": "https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/",
+      "excerpt": "85 积分 · 41 条评论",
+      "publishedAt": "2026-06-17T19:59:27.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "马德里如何廉价建造地铁（2024）",
-      "url": "https://worksinprogress.co/issue/how-madrid-built-its-metro-cheaply/",
-      "excerpt": "83 积分 · 39 条评论",
-      "publishedAt": "2026-06-17T19:59:27.000Z",
+      "title": "Show HN: 作为大二电子工程学生，我们构建了一个8位CPU",
+      "url": "https://github.com/c0rRupT9/STEPLA-1",
+      "excerpt": "嗨！我和朋友们一起构建了一个8位CPU，完全从头在Logisim中实现。该系统的控制单元没有实现通用的微码ROM或任何类型的RAM。它是纯粹由分立逻辑门构建的，并对系统进行编码以运行不同的程序。关键特性：C",
+      "publishedAt": "2026-06-15T20:22:48.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
@@ -799,23 +799,23 @@
       "sourceId": "hackernews",
       "title": "SteamOS Linux 3.8 稳定版发布",
       "url": "https://store.steampowered.com/news/app/1675200/view/697641379212298072",
-      "excerpt": "61 积分 · 2 条评论",
+      "excerpt": "64 积分 · 3 条评论",
       "publishedAt": "2026-06-18T04:05:06.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "RFC 10008: 新的 HTTP 查询方法",
+      "title": "RFC 10008: 新的HTTP Query Method",
       "url": "https://www.rfc-editor.org/info/rfc10008/",
-      "excerpt": "350 积分 · 148 条评论",
+      "excerpt": "350 积分 · 149 条评论",
       "publishedAt": "2026-06-17T10:51:17.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Magic Buffers 和 io_uring 注册缓冲区",
+      "title": "Magic Buffers和io_uring注册缓冲区",
       "url": "https://www.mindfruit.co.uk/posts/2025/10/magic-buffers-and-io-uring-write-fixed/",
       "excerpt": "12 积分 · 1 条评论",
       "publishedAt": "2026-06-15T09:10:56.000Z",
@@ -824,90 +824,90 @@
     },
     {
       "sourceId": "hackernews",
-      "title": "生物进化与信息获取",
-      "url": "https://www.construction-physics.com/p/biological-evolution-and-information",
-      "excerpt": "31 积分 · 3 条评论",
-      "publishedAt": "2026-06-11T23:33:17.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "为什么和别人大声思考比独自思考更好",
-      "url": "https://www.thesignalist.io/s/the-dialogue-dividend/",
-      "excerpt": "225 积分 · 100 条评论",
-      "publishedAt": "2026-06-17T13:00:38.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "Show HN: 一个8位直播棒球比赛转播",
-      "url": "https://ribbie.tv/watch",
-      "excerpt": "嘿 HN，我建了一个网站，可以用8位广播观看实时棒球比赛。它获取实时 MLB 数据流，并将其转换为近乎实时的像素艺术比赛转播。一直在等待有好的比赛日程时分享这个，因为否则网站就没什么内容。这里是「",
-      "publishedAt": "2026-06-17T16:44:15.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "碳酸氢钠用于院内心脏骤停——一项随机临床试验",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/2850405",
-      "excerpt": "6 积分 · 0 条评论",
-      "publishedAt": "2026-06-13T00:37:06.000Z",
-      "category": "tech",
-      "source": "Hacker News"
-    },
-    {
-      "sourceId": "hackernews",
-      "title": "Show HN: 旋转实验室",
+      "title": "Show HN: Spin Lab",
       "url": "https://srijanshukla.com/artifacts/spin-lab/",
-      "excerpt": "嘿 HN，我构建了 Spin Lab：一个基于浏览器的乒乓球旋转交互式解释器。它可视化上旋/下旋、旋转率、球轨迹、弹跳行为，以及为什么对手的回球会有那样的反应。我构建它是因为旋转是乒乓球的核心，但大多数解释都是",
+      "excerpt": "嘿 HN，我构建了 Spin Lab：一个基于浏览器的交互式乒乓球旋转解释器。它可视化了上旋/下旋、旋转速率、球轨迹、弹跳行为，以及为什么对手的回球会有那样的反应。我构建它是因为旋转是乒乓球的核心，但大多数解释都是",
       "publishedAt": "2026-06-16T12:16:11.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "大众开始阻止 GrapheneOS 用户",
+      "title": "为什么与他人一起大声思考胜过独自思考",
+      "url": "https://www.thesignalist.io/s/the-dialogue-dividend/",
+      "excerpt": "226 积分 · 100 条评论",
+      "publishedAt": "2026-06-17T13:00:38.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "生物进化与信息获取",
+      "url": "https://www.construction-physics.com/p/biological-evolution-and-information",
+      "excerpt": "32 积分 · 3 条评论",
+      "publishedAt": "2026-06-11T23:33:17.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "Show HN: 一个8位实时棒球游戏直播",
+      "url": "https://ribbie.tv/watch",
+      "excerpt": "嘿 HN，我建立了一个网站，以8位广播形式观看实时棒球比赛。它获取实时MLB数据流，并将其转换为接近实时的像素艺术游戏直播。一直等到有好的比赛日程才分享，因为否则网站相当空旷。这里是",
+      "publishedAt": "2026-06-17T16:44:15.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "碳酸氢钠用于院内心脏骤停 – 一项随机临床试验",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2850405",
+      "excerpt": "8 积分 · 2 条评论",
+      "publishedAt": "2026-06-13T00:37:06.000Z",
+      "category": "tech",
+      "source": "Hacker News"
+    },
+    {
+      "sourceId": "hackernews",
+      "title": "大众开始屏蔽GrapheneOS用户",
       "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
-      "excerpt": "595 积分 · 364 条评论",
+      "excerpt": "597 积分 · 365 条评论",
       "publishedAt": "2026-06-17T15:04:47.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Tesco 在 Broadcom 滥权行为下将4万个服务器工作负载移出 VMware",
+      "title": "Tesco因Broadcom的滥用行为将4万个服务器工作负载从VMware迁移",
       "url": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
-      "excerpt": "261 积分 · 145 条评论",
+      "excerpt": "262 积分 · 145 条评论",
       "publishedAt": "2026-06-17T21:00:53.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "Show HN: Inkwash，一款水彩素描应用及解释",
+      "title": "Show HN: Inkwash，一个水彩速写应用及解释",
       "url": "https://johnowhitaker.github.io/inkwash/about",
-      "excerpt": "我基于我的实体素描实践制作了一款绘图应用，使用流体模拟和一些着色器技巧来模仿水彩风格的墨染。最好在 iPad 或绘图板上使用。链接的文章展示了核心引擎的工作原理，并包含许多小互动演示。制作它很有趣",
+      "excerpt": "我根据我的实体速写实践制作了一个绘图应用，使用流体模拟和一些着色器技巧来模拟水彩风格的墨染。最好在iPad或绘图板上使用。链接的文章展示了核心引擎的工作原理，附带许多小交互式演示。制作起来很有趣",
       "publishedAt": "2026-06-14T02:14:43.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "MicroUI – 一个用 ANSI C 编写的微型便携即时模式 UI 库",
+      "title": "MicroUI – 一个用ANSI C编写的小巧、可移植的即时模式UI库",
       "url": "https://github.com/rxi/microui",
-      "excerpt": "222 积分 · 73 条评论",
+      "excerpt": "222 积分 · 74 条评论",
       "publishedAt": "2026-06-17T12:04:28.000Z",
       "category": "tech",
       "source": "Hacker News"
     },
     {
       "sourceId": "hackernews",
-      "title": "GLM-5.2 是 Artificial Analysis 上新的领先开放权重模型",
+      "title": "GLM-5.2是Artificial Analysis上领先的新开源权重模型",
       "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "excerpt": "833 积分 · 401 条评论",
+      "excerpt": "834 积分 · 402 条评论",
       "publishedAt": "2026-06-17T09:12:00.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -916,7 +916,7 @@
       "sourceId": "hackernews",
       "title": "美国科学陷入混乱",
       "url": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
-      "excerpt": "788 积分 · 937 条评论",
+      "excerpt": "790 积分 · 936 条评论",
       "publishedAt": "2026-06-17T09:54:21.000Z",
       "category": "tech",
       "source": "Hacker News"
@@ -929,7 +929,7 @@
       "publishedAt": "2026-06-17T10:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 与 Molecule.one 展示近乎自主的 AI 化学家，使用 GPT-5.4 改进了一项药物合成反应，加速医药化学研究。"
+      "summary": "OpenAI与Molecule.one合作展示近自主AI化学家（使用GPT-5.4）改进了一项关键药物合成反应，推动药物化学研究。"
     },
     {
       "sourceId": "openai-news",
@@ -939,7 +939,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 发布 LifeSciBench，一个由领域专家撰写并审核的基准测试，用于评估 AI 系统在真实生命科学研究中的任务与决策能力。"
+      "summary": "OpenAI推出LifeSciBench，一个由专家编写和评审的基准，用于评估AI系统处理真实生命科学研究任务的能力。"
     },
     {
       "sourceId": "openai-news",
@@ -949,7 +949,7 @@
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 推出部署模拟方法，利用真实对话数据预测模型发布后的行为，以提高安全性并改进评估准确性。"
+      "summary": "OpenAI推出部署模拟方法，利用真实对话数据预测AI模型发布后的行为，以提高安全性和评估准确性。"
     },
     {
       "sourceId": "openai-news",
@@ -1202,7 +1202,7 @@
       "publishedAt": "2026-06-16T21:29:50.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "英国政府与 Google DeepMind 合作开发 AI 规划原型，旨在利用人工智能加速住房建设审批流程，提高决策效率。"
+      "summary": "英国政府与Google DeepMind合作开发AI驱动的原型，旨在加速房屋建设规划审批。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -1473,7 +1473,7 @@
       "publishedAt": "2026-06-17T15:26:44.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Allen AI 发布 MolmoMotion，一种语言引导的3D运动预测模型，能根据文本描述预测物体运动轨迹，拓展人机交互能力。"
+      "summary": "MolmoMotion：语言引导的3D运动预测模型发布。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1483,7 +1483,7 @@
       "publishedAt": "2026-06-17T10:18:05.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Amazon 与 Hugging Face 合作，通过 Strands Agents 和 LeRobot 框架将 Hub 中的 AI 模型部署到实体机器人上，打通软件到硬件的链路。"
+      "summary": "Strands Agents与LeRobot将Hugging Face Hub模型部署到机器人硬件的方案介绍。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1493,7 +1493,7 @@
       "publishedAt": "2026-06-17T09:01:25.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "智谱 AI 发布 GLM-5.2 模型，专为长周期任务设计，在规划与推理方面进行了优化，适用于复杂多步场景。"
+      "summary": "GLM-5.2模型发布，专为长周期任务设计。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1503,7 +1503,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 推出 Agentic Resource Discovery，允许 AI 代理自主搜索和发现资源，增强自动化工作流的灵活性。"
+      "summary": "Agentic Resource Discovery：让AI代理自主搜索资源。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1748,7 +1748,7 @@
       "meta": "👍 127",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "LoopCoder-v2 提出并行循环 Transformer（PLT），通过跨循环位置偏移和共享 KV 门控滑动窗口注意力，降低循环推理延迟和 KV 缓存消耗，实现高效测试时计算扩展。"
+      "summary": "提出并行循环Transformer（PLT），通过跨循环位置偏移与共享KV门控滑动窗口注意力，减少顺序循环带来的延迟和KV缓存开销，实现仅需一次循环即可高效扩展测试时计算。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1756,10 +1756,10 @@
       "url": "https://huggingface.co/papers/2606.18195",
       "excerpt": "On-policy self-distillation (OPSD) has proven effective for post-training large language models (LLMs), yet its application to diffusion LLMs (dLLMs) remains unexplored. Existing OPSD methods are inherently autoregressive-centric. They inject privileged information via left-to-right prefix condition",
       "publishedAt": "2026-06-16T00:00:00.000Z",
-      "meta": "👍 59",
+      "meta": "👍 60",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "将在线策略自蒸馏（OPSD）扩展到扩散 LLM（dLLM），解决自回归中心化方法无法直接应用于扩散模型的问题，通过自未来学习提升后训练效果。"
+      "summary": "将on-policy自我蒸馏（OPSD）应用于扩散LLM（dLLM），解决自回归中心化OPSD无法直接迁移的问题，通过从未来目标学习来提升dLLM的后训练效果。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1770,7 +1770,7 @@
       "meta": "👍 43",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出「最近发展区策略优化」（ZPPO），通过 prompt 而非梯度传递教师知识，避免小模型强行模仿大模型 logits 导致的泛化退化，提升小模型在多种基准上的表现。"
+      "summary": "提出近端策略优化区域（ZPPO），教师仅以提示形式提供知识而非梯度，避免小模型对教师logits过拟合，提升小模型在训练外基准上的泛化能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1781,7 +1781,7 @@
       "meta": "👍 41",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "ACE-Ego-0 统一第一人称人类与机器人数据，用于 VLA 模型预训练。利用大规模人类视频提供真实世界监督，克服机器人轨迹采集成本高的问题，提升模型泛化能力。"
+      "summary": "统一第一人称人类与机器人数据用于VLA预训练，通过大规模人类视频补充机器人轨迹稀缺问题，联合训练避免分布迁移。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1792,7 +1792,7 @@
       "meta": "👍 40",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "GameCraft-Bench 评估代码智能体在真实游戏引擎中端到端构建可玩游戏的能力，要求模型将自然语言说明转化为可交互系统，涉及脚本、场景、资产、渲染和运行时交互。"
+      "summary": "提出GameCraft-Bench基准，评估代码智能体在真实游戏引擎（如Unity）中端到端生成可玩游戏的能力，覆盖脚本、场景、资产、渲染及运行时交互。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1803,7 +1803,7 @@
       "meta": "👍 34",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "LectūraAgents 提出多智能体框架，实现自适应个性化 AI 辅助学习和具身教学，动态调整教学材料与策略，超越传统自动化内容生成，支持不同学习者需求。"
+      "summary": "提出多智能体框架LectūraAgents，实现自适应个性化AI辅助学习，集成动态教学与内容生成，突破仅自动化讲稿的局限。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1814,7 +1814,7 @@
       "meta": "👍 27",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "TRIAGE 利用 LLM 的辩证推理对不规则采样医疗时间序列进行可解释风险预测，输出校准风险分数和可验证依据，提升临床早期预警系统的可靠性与可解释性。"
+      "summary": "利用LLM进行辩证推理，对不规则采样医疗时间序列（ISMTS）进行可解释风险预测，同时输出校准风险评分和医生可验证的推理依据。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1825,7 +1825,7 @@
       "meta": "👍 24",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "OPD-Evolver 通过在线策略蒸馏培养智能体的整体演化能力，使其能自主选择有用经验并适应新任务，超越单纯存储轨迹或技能的现有记忆方法。"
+      "summary": "通过on-policy蒸馏培养整体性智能体演进器，使其不仅存储经验，还能学习如何选择有效经验并演进，超越现有仅积累技能的记忆体。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1836,7 +1836,7 @@
       "meta": "👍 18",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Guava 提出通用具身操作工具架，利用大规模视觉语言模型通过外部模块进行高层推理与操作，作为端到端 VLA 系统的替代方案，提升灵活性和泛化性。"
+      "summary": "提出Guava框架，语言模型通过具身工具使用实现通用操作，结合高层推理与外部执行模块，替代端到端VLA系统。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1847,7 +1847,7 @@
       "meta": "👍 13",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出文本-视觉协同指令图像编辑方法，融合文本指令的语义表达力与视觉提示（如拖拽点）的空间控制粒度，实现更精确且语义一致的编辑结果。"
+      "summary": "提出文本与视觉共同指导的图像编辑方法，融合文本指令的语义表达与视觉提示（如拖拽）的精细空间控制，实现精准编辑。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1858,7 +1858,7 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Self-Evolving Visual Questioner 让 VLM 主动提出多样化、视觉中心且基于场景的问题，通过自我进化生成高质量训练数据，突破被动回答范式。"
+      "summary": "提出自演进视觉提问器，让VLM从被动回答转为主动提出多样、视觉中心且有据可依的问题，通过自演进突破训练数据瓶颈。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1869,7 +1869,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "EgoCS-400K 提供第一人称游戏数据集，包含时间对齐的视频、动作和语言轨迹，支持世界模型训练，满足对交互式场景变化驱动数据的需求。"
+      "summary": "构建第一人称游戏数据集EgoCS-400K，包含时间对齐的视频-动作-语言轨迹，支持世界模型从视频生成到交互式建模的转变。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1880,7 +1880,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "UniAR 提出统一多模态自回归建模，采用共享上下文-视觉分词器，避免两种分离分词器导致的表示空间分裂，实现视觉理解与生成的真正统一。"
+      "summary": "提出UniAR，使用共享上下文-视觉分词器统一多模态自回归建模，同时实现视觉理解与生成，消除分离分词器带来的表示空间分裂。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1891,7 +1891,7 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出双路径推理策略增强空间 VLM，针对不同空间查询（如深度、距离、场景关系）分别采用不同推理路径，提升多步空间推理的准确性。"
+      "summary": "增强空间VLM中的双路径推理，分别优化深度/距离推理与场景关系推理路径，提升多步空间推理的准确性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1902,7 +1902,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "通过时序差异进行视觉表示学习，避免强假设，利用弱归纳偏置在大规模数据下学习通用视觉特征，超越传统方法。"
+      "summary": "提出基于时间差分的视觉表示学习方法，遵循弱假设原则，通过预测时序差异而非强监督信号，在大规模数据上超越传统对比学习。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1913,7 +1913,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Track2View 利用配对 3D 点轨迹实现 4D 一致的摄像机控制视频生成，在保持原场景外观和动态的同时遵循指定摄像机路径，克服逐帧嵌入与点云渲染的缺陷。"
+      "summary": "提出Track2View，利用成对3D点轨迹引导4D一致的相机控制视频生成，保持原视频外观与动态，遵循指定相机路径。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1924,7 +1924,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "Dr-DCI 通过动态工作区扩展实现大规模语料库的直接交互，超越传统检索器（BM25/ColBERT）的排名结果和受限文档视图，增强智能体重组证据的能力。"
+      "summary": "提出Dr-DCI，通过动态工作区扩展实现直接语料交互，突破检索器仅提供排序结果或受限文档视图的局限，增强智能体对证据的整理能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1935,7 +1935,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "提出跨语言 BrowseComp-Plus 基准，评估深度研究智能体在查询与证据语言不同时的检索与推理能力，揭示单语假设下的性能差距。"
+      "summary": "提出跨语言BrowseComp-Plus基准，评估深度研究智能体和检索器在用户查询与支持证据不同语言下的搜索与推理能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1946,7 +1946,7 @@
       "meta": "👍 6",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "ChLogic 构建英中对照逻辑推理基准，测试 LLM 在中文表达下保持推理鲁棒性的能力，揭示模型在非英语环境中的逻辑性能变异性。"
+      "summary": "推出英中对照逻辑推理基准ChLogic，测试模型在中文表达下保持逻辑推理能力的鲁棒性，揭示语言迁移导致的性能下降。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1957,7 +1957,7 @@
       "meta": "👍 6",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "从梯度视角分析 RLVR（GRPO）训练的不稳定性，提出获胜者优势策略优化（WAPO），通过 token 级梯度动力学避免概率崩溃，提升推理稳定性。"
+      "summary": "从token级梯度动力学分析GRPO不稳定原因，提出胜者优势策略优化（WAPO），稳定RLVR训练并防止策略崩溃。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -2067,7 +2067,7 @@
       "publishedAt": "2026-06-17T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "GLM-5.2 模型发布；DeepSeek 完成 74 亿美元融资；Android MCP 协议推出，推动移动端 AI 交互。"
+      "summary": "GLM-5.2发布；DeepSeek获74亿美元融资；Android MCP（模型上下文协议）推出。"
     },
     {
       "sourceId": "tldr-ai",
@@ -2077,7 +2077,7 @@
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "Meta 推出 AI 模式；Factory 2.0 更新；Sakana 发布自主研究员系统，利用 AI 自动完成科研实验。"
+      "summary": "Meta推出AI模式；Factory 2.0发布；Sakana推出自主研究者。"
     },
     {
       "sourceId": "tldr-ai",
@@ -2519,7 +2519,7 @@
       "publishedAt": "2026-06-18T04:23:05.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Midjourney 推出医疗扫描产品，号称可像站秤一样快速扫描器官。这是该自筹资金前沿实验室的第二款产品，延续其独立研发路线。"
+      "summary": "Midjourney推出第二款产品Medical，能像称重一样扫描器官。该公司是目前唯一自筹资金的前沿实验室。"
     },
     {
       "sourceId": "latent-space",
@@ -2529,7 +2529,7 @@
       "publishedAt": "2026-06-17T17:58:06.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Radical AI 的 Joseph Krause 认为材料领域的护城河在于实验室而非模型，并阐述了“自动驾驶实验室”概念，即利用 AI 自动化实验流程。"
+      "summary": "Radical AI的Joseph Krause认为，材料领域的护城河在于实验室而非模型，并介绍了自动化实验室理念。"
     },
     {
       "sourceId": "latent-space",
@@ -2539,7 +2539,7 @@
       "publishedAt": "2026-06-17T05:37:40.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "GLM-5.2 成为全球顶尖的前端编码开源模型，同时引入 IndexShare 投机解码技术，提升推理效率。"
+      "summary": "GLM-5.2成为全球顶尖的前端编码开源模型，同时推出IndexShare用于推测解码。"
     },
     {
       "sourceId": "latent-space",
@@ -2549,7 +2549,7 @@
       "publishedAt": "2026-06-16T02:29:29.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "微软 CEO Satya Nadella 发表关于 Loopcraft 的文章，探讨如何构建前沿生态系统，强调协作与平台化战略。"
+      "summary": "Satya Namella发表热门文章《Loopcraft：构建前沿生态系统》，探讨如何打造前沿技术生态。"
     },
     {
       "sourceId": "latent-space",
@@ -2703,7 +2703,7 @@
       "publishedAt": "2026-06-16T09:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "英国球迷在半场同时烧水导致电网波动，凸显数据中心快速上线需具备灵活负载调节能力，以适应电网实时变化。"
+      "summary": "文章探讨如何通过灵活用电加速数据中心上线，以英国球迷集体烧水泡茶导致电网负荷变化为例。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2795,7 +2795,7 @@
       "category": "tech",
       "meta": "@zodchiii · 22.7K 粉丝 · 1.2M 阅 · 500 赞 · 71 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Claude Code agent 团队以循环模式持续运行直到工作通过。作者用 3 个文件搭建：agent 定义、驱动循环和验证逻辑，告别单次执行即交付的低效流程。"
+      "summary": "构建Claude Code代理团队循环工作的完整设置，提供3个文件：代理定义、驱动循环和校验逻辑，让代理持续运行直到任务通过，实现自主迭代。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2806,18 +2806,7 @@
       "category": "tech",
       "meta": "@eng_khairallah1 · 67.2K 粉丝 · 1.2M 阅 · 510 赞 · 73 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用 Obsidian 搭建自动化第二大脑的完整教程，覆盖 Zettelkasten、PARA 等方法，解决信息过载问题，强调系统自主运转而非手动整理。"
-    },
-    {
-      "sourceId": "attentionvc-ai",
-      "title": "Owning vs. Renting Intelligence",
-      "url": "https://x.com/lqiao/status/2066403957824688462",
-      "excerpt": "Mythos got shut down this week. Whether you agreed with the decision or not is almost beside the point. A company built on top of intelligence it didn't control suddenly found itself exposed to",
-      "publishedAt": "2026-06-15T06:14:30.000Z",
-      "category": "tech",
-      "meta": "@lqiao · 95.4K 粉丝 · 501.6K 阅 · 509 赞 · 86 转",
-      "source": "X 推文 (AttentionVC)",
-      "summary": "以 Mythos 关停事件切入，探讨「租用」 vs 「拥有」智能的风险——依赖第三方模型的公司面临暴露危机，暗示自主控制权的重要性。"
+      "summary": "完整教程教你用Obsidian搭建自动化第二大脑，对比Zettelkasten、PARA等经典方法，提供从输入到输出的全流程指南，让知识体系自主运转。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2828,7 +2817,7 @@
       "category": "tech",
       "meta": "@mattepstein · 35.6K 粉丝 · 393.3K 阅 · 504 赞 · 26 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用 Claude 自动化 Mr. Beast 式内容传播框架，95% 可复用。拆解可重复的病毒式发布策略，包括模板化结构和 timing 优化。"
+      "summary": "揭秘X平台病毒式传播的可重复框架，基于Mr. Beast方法论，用Claude实现95%自动化，从内容生成到发布全流程，附具体步骤和提示词。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2839,7 +2828,7 @@
       "category": "tech",
       "meta": "@athcanft · 19.1K 粉丝 · 205.6K 阅 · 514 赞 · 23 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "AI 批量生产 TikTok 幻灯片短视频，月产 600 条成本仅 2 美元。零拍摄零剪辑，提前数周排期发布，完全自动化流程详解。"
+      "summary": "分享用AI批量生产TikTok幻灯片的方法：零拍摄零编辑，每周产出600个仅花2美元，通过提前排期实现自动化，详细分解系统流程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2850,7 +2839,7 @@
       "category": "tech",
       "meta": "@jxnlco · 105.9K 粉丝 · 204.4K 阅 · 504 赞 · 47 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Codex 控制电脑的三种方式：原生 Computer Use、Chrome 扩展和内置浏览器。三者各有重叠与差异，适用场景不同，EU/UK 用户现已可用。"
+      "summary": "对比Codex操控电脑的三种方式：Computer Use原生交互、Chrome扩展、应用内浏览器，分析各自优势、适用场景和重叠点，帮助开发者选择。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2861,7 +2850,7 @@
       "category": "tech",
       "meta": "@matanSF · 20.2K 粉丝 · 123.1K 阅 · 529 赞 · 60 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Factory 2.0 将编码 agent 升级为软件工厂，部署自主 Droids 贯穿整个开发流程。区别于加快编码速度，目标在端到端工程自动化。"
+      "summary": "Factory 2.0从编码代理升级为软件工厂，部署自主Droids覆盖需求分析、编码、测试、部署全流程，实现端到端的软件开发自动化。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2872,7 +2861,7 @@
       "category": "tech",
       "meta": "@jxmnop · 50.7K 粉丝 · 114.1K 阅 · 504 赞 · 57 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "AI 研究入门指南：阅读 + 动手实验 + 开放探索。没有标准教学路径，但组合这三点即可起步，强调持续实践而非理论学习。"
+      "summary": "AI研究入门方法论：通过阅读论文、动手复现、写作总结的组合循环，从模仿到创新，提供可持续成长的实用路径，强调实践与反思。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2883,7 +2872,7 @@
       "category": "tech",
       "meta": "@OracleMindAI · 21.0K 粉丝 · 105.0K 阅 · 2.8K 赞 · 582 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "自主 AI agent 已成为预测市场 Polymarket 最有效策略之一，贡献超 30% 交易量。ORACLE 官方 agent 正式入驻，算法钱包主导市场。"
+      "summary": "ORACLE官方AI代理在Polymarket上自主交易，占据平台30%以上活动量，展示算法策略在预测市场中的高效回报和实时决策能力。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2894,7 +2883,7 @@
       "category": "tech",
       "meta": "@sydneyrunkle · 7.9K 粉丝 · 74.7K 阅 · 565 赞 · 87 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "循环工程的艺术：让 agent 可靠地完成实际任务，不仅需要好模型，还需要精心设计的反馈循环和验证机制，而非简单重复。"
+      "summary": "聚焦代理循环工程的核心：让代理可靠运行不止靠好模型，更需要精心设计的循环结构、状态管理和验证机制，实现稳定自动化。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2905,7 +2894,7 @@
       "category": "tech",
       "meta": "@0xCodez · 8.2K 粉丝 · 72.8K 阅 · 508 赞 · 79 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "从单个 agent 到自改进系统的 14 步路线图，强调 harness 工程（规则、子代理、钩子、记忆）比循环本身更重要。90% 开发者忽视此基础。"
+      "summary": "Claude Code代理从单一到自改进系统的14步路线图，强调定制harness（规则、子代理、记忆、钩子）而非默认配置，避开9/10的人踩的坑。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2916,7 +2905,7 @@
       "category": "tech",
       "meta": "@addyosmani · 400.1K 粉丝 · 52.9K 阅 · 522 赞 · 41 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "编码 agent 能力飙升后，工程难点从写代码转向代码审查——信任 agent 的输出比编写更关键。讨论 agentic code review 的范式转变。"
+      "summary": "当编码代理越来越强时，工程难点从写代码转向是否信任代码，提出代理驱动代码审查方法，提升对AI输出质量的验证和信心。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2927,7 +2916,7 @@
       "category": "tech",
       "meta": "@heynavtoor · 143.5K 粉丝 · 47.7K 阅 · 538 赞 · 70 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "斯坦福 STORM 方法：让 Claude 像博士一样在几分钟内完成深度研究，经同行评审测试。替代简单问答，实现多角度文献综合与报告生成。"
+      "summary": "斯坦福STORM研究系统：让Claude模拟多轮对话、自动搜集资料、生成结构化报告，几分钟内完成博士级深度研究，摆脱简单问答。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2938,7 +2927,7 @@
       "category": "tech",
       "meta": "@unicity_labs · 125.6K 粉丝 · 47.6K 阅 · 534 赞 · 659 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Claude Agent SDK 于 6 月 15 日将程序化 agent 用量独立计费。AstridOS 正构建对应控制工具，影响 agent 开发者的成本模型与资源管理。"
+      "summary": "解读Claude Agent SDK 2026年6月15日的计费拆分：程序化使用进入独立计量，AstridOS为此构建精细化控制工具，帮助开发者管理成本。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2949,7 +2938,7 @@
       "category": "tech",
       "meta": "@israfill · 8.8K 粉丝 · 46.5K 阅 · 508 赞 · 59 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "AI 内容创作完整入门指南，按步执行不跳跃。涵盖每条命令、每个文件和决策，面向零基础新手，强调可复现性。"
+      "summary": "面向新手的AI内容创作完整指南，按顺序逐步操作，涵盖每个命令、文件创建和决策点，不跳步，提供可复现的起点。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2960,7 +2949,7 @@
       "category": "tech",
       "meta": "@zachlloydtweets · 10.6K 粉丝 · 43.5K 阅 · 512 赞 · 53 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "澄清「循环」概念并构建技能自改进循环：agent 驱动系统通过执行-反馈-调整不断优化，而非简单重复。关注实际定义与实现路径。"
+      "summary": "澄清代理循环概念：不只是技术轮询，而是通过持续反馈和调整让代理自我改进，提供构建技能提升循环的具体方法论。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2971,7 +2960,7 @@
       "category": "tech",
       "meta": "@samueljmcd · 857 粉丝 · 42.2K 阅 · 511 赞 · 52 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "循环工程虽然热门，但核心难点从未改变——验证。作者建议直接将文章喂给 Claude 提取关键洞察，强调验证可靠性的根本地位。"
+      "summary": "指出循环工程的真正挑战是验证（verification）而非循环本身，建议将文章喂给Claude提取最佳见解，强调结果可靠性。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2982,7 +2971,7 @@
       "category": "tech",
       "meta": "@kvnkld · 7.2K 粉丝 · 42.0K 阅 · 531 赞 · 25 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "用 Claude 做出精致 UI 的 10 条规则：抛光不是靠提示词一次完成，而是通过反复迭代、样式一致性、组件化等工程实践实现。"
+      "summary": "用Claude打造精致UI的10条规则：精致不是靠提示词，而是通过结构设计、样式分离、逐步迭代调优，实现可复用的高质量组件。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2993,7 +2982,7 @@
       "category": "tech",
       "meta": "@ActionModelAI · 57.8K 粉丝 · 5.7K 阅 · 501 赞 · 366 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "列举 10 个 AI 惊人事实，如 PwC 预测 AI 到 2030 年将为全球经济贡献 15.7 万亿美元，强调 AI 仍处早期但潜力巨大。"
+      "summary": "列出10个关于AI的惊人事实，包括PwC预测2030年AI贡献15.7万亿美元、产业变革速度等，展示AI发展潜力和当前早期阶段。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -3004,7 +2993,38 @@
       "category": "tech",
       "meta": "@OptimaiNetwork · 99.4K 粉丝 · 5.3K 阅 · 511 赞 · 360 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "自主互联网需要全新基础设施：实时上下文、可验证信号、许可执行等。区别于为人类设计的旧网络，构建 agent 时代的「神经系统」。"
+      "summary": "探讨自治互联网所需的新型基础设施：实时上下文、验证信号、许可执行，构建类似神经系统的网络，支撑自主代理间的协作。"
+    },
+    {
+      "sourceId": "attentionvc-ai",
+      "title": "ORACLE: Official AI Agents Trade on Polymarket  ",
+      "url": "https://x.com/Trade_OracleAI/status/2067151120351240507",
+      "excerpt": "In 2026, autonomous AI agents have become one of the most effective strategies on prediction markets. Over 30% of all activity on Polymarket now comes from algorithmic and AI-powered wallets. We",
+      "publishedAt": "2026-06-17T07:43:27.000Z",
+      "category": "tech",
+      "meta": "@Trade_OracleAI · 21.1K 粉丝 · 60 阅 · 2.8K 赞 · 584 转",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "ORACLE官方AI代理在Polymarket自主交易，通过算法策略实现高频预测，已占平台30%以上活动量，展示AI在预测市场中的竞争力。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Indoor Playground Price Rises Add to Costs for British Families",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/soft-play-price-rises-hit-families-as-labour-policies-pile-pressure-on-firms",
+      "excerpt": "After recovering from the pandemic, soft-play centers are hiking prices to cushion the blow of soaring costs.",
+      "publishedAt": "2026-06-18T06:15:15.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "英国室内游乐场在疫情复苏后上调价格，以应对成本飙升。价格上涨进一步加重英国家庭的支出负担。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Tesco Sales Disappoint as Higher Prices Deter UK Shoppers",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/tesco-sales-disappoint-as-higher-prices-deter-uk-shoppers",
+      "excerpt": "Tesco Plc’s sales rose less than expected in the fiscal first quarter as the UK’s biggest supermarket grapples with weaker consumer sentiment.",
+      "publishedAt": "2026-06-18T06:12:24.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "英国最大超市Tesco第一财季销售额增幅不及预期，因价格上涨抑制消费者情绪，购物意愿减弱。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3050,7 +3070,7 @@
       "publishedAt": "2026-06-18T04:14:08.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "铜价下跌超1%，回吐本周早些时候涨幅。美联储主席凯文·沃什在首次新闻发布会上发表鹰派言论，引发加息猜测。"
+      "summary": "铜价下跌逾1%，抹平本周早些时候涨幅。美联储主席凯文·沃什在首次记者会上发表鹰派言论，引发加息猜测。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3060,7 +3080,7 @@
       "publishedAt": "2026-06-18T05:46:13.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "交易员削减对南非储备银行进一步加息的押注，因通胀低于预期。但AG Capital市场策略师Casey Sprake表示，预计年底前可能加息。"
+      "summary": "南非通胀低于预期后，交易员减少对南非央行加息的押注。但AG Capital策略师Casey Sprake预计，南非央行仍可能在年底前加息。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3070,7 +3090,7 @@
       "publishedAt": "2026-06-18T05:44:20.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "特朗普签署谅解备忘录结束伊朗战争并重新开放霍尔木兹海峡。RANE高级分析师Ryan Bohl认为，伊朗在谈判中成功利用了霍尔木兹海峡这一筹码。"
+      "summary": "特朗普签署谅解备忘录以结束伊朗冲突并重新开放霍尔木兹海峡。RANE分析师Ryan Bohl认为，伊朗成功利用霍尔木兹海峡作为谈判筹码。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3080,7 +3100,7 @@
       "publishedAt": "2026-06-18T05:43:12.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "英国失业率下降，工资增长超预期。"
+      "summary": "英国失业率下降，工资增长快于预期。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3099,7 +3119,7 @@
       "publishedAt": "2026-06-18T04:51:47.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "中国内地投资者推动建滔层板控股有限公司股价暴涨570%，其持股比例今年翻倍至13%，该公司成为AI新宠。"
+      "summary": "建滔积层板控股股价暴涨570%，中国内地投资者推动其股价飙升，持股比例今年翻倍至13%。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3109,7 +3129,7 @@
       "publishedAt": "2026-06-18T04:43:57.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "美国总统特朗普签署临时和平协议，结束与伊朗的战争并重新开放霍尔木兹海峡，加速协议生效时间。"
+      "summary": "美国总统特朗普签署临时和平协议，结束与伊朗的战争并重新开放霍尔木兹海峡，协议生效时间提前。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3119,7 +3139,7 @@
       "publishedAt": "2026-06-18T04:17:18.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "文远知行创始人兼CEO韩旭表示，在马德里和苏黎世与优步合作后，计划拓展更多欧洲城市。他对中国恢复发放无人驾驶牌照持乐观态度。"
+      "summary": "文远知行创始人兼CEO韩旭表示，在马德里和苏黎世与Uber合作后，计划进一步拓展欧洲城市，并看好中国恢复发放自动驾驶许可。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3129,7 +3149,7 @@
       "publishedAt": "2026-06-18T04:13:43.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "信实工业旗下数字部门Jio的上市本周迎来关键节点，投资者关注亿万富翁穆克什·安巴尼能否兑现去年对投资者的承诺。"
+      "summary": "信实工业旗下数字子公司Jio的上市进程本周迎来关键节点，投资者关注董事长穆克什·安巴尼能否兑现去年承诺。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -3263,24 +3283,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-06-18/goldman-s-kaplan-says-fed-may-hike-by-fall-sees-risk-of-more",
       "excerpt": "The Federal Reserve may need to raise interest rates as soon as September if inflation remains elevated, according to Rob Kaplan, vice chairman at Goldman Sachs Group Inc. and former Dallas Fed president.",
       "publishedAt": "2026-06-18T02:13:15.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "India Draws $3 Billion in Days as Bond Tax Cut Sways Pictet, M&amp;G",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-18/pictet-neuberger-to-boost-india-bond-exposure-on-policy-support",
-      "excerpt": "Global funds are piling into Indian government bonds after New Delhi removed taxes on debt for foreign investors and eased ownership caps, along with moves that have helped stabilize the rupee.",
-      "publishedAt": "2026-06-18T02:43:57.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "NSE Filing Puts India IPO Market Back in Focus",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-18/nse-filing-puts-india-ipo-market-back-in-focus",
-      "excerpt": "NSE is currently valued at about $53 billion in the unlisted market.",
-      "publishedAt": "2026-06-18T02:40:12.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -3472,7 +3474,7 @@
       "publishedAt": "2026-06-18T04:32:02.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "美联储新主席凯文·沃什开启新纪元。今日简报还涉及梅克菲尔德补选及美伊协议。"
+      "summary": "凯文·沃什开启美联储新时代。今日通讯还涵盖梅克菲尔德补选及美伊协议进展。"
     },
     {
       "sourceId": "ft-companies",
@@ -3482,7 +3484,7 @@
       "publishedAt": "2026-06-18T04:00:29.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "私募股权公司Thoma Bravo将全部损失投资于Medallia的50亿美元，因将该软件公司交给债权人。这将是自2008年以来最大的私募股权亏损。"
+      "summary": "私募股权公司Thoma Bravo向债权人移交软件集团Medallia，其投资的50亿美元将全部损失，创2008年以来最大私募股权亏损。"
     },
     {
       "sourceId": "ft-companies",
@@ -3491,8 +3493,7 @@
       "excerpt": "Banks press for further gains even after winning their largest lobbying victory since the financial crisis",
       "publishedAt": "2026-06-18T04:00:29.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "华尔街银行正推动美国监管机构进一步放宽巴塞尔资本规则，即使在赢得金融危机以来最大的游说胜利之后。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -3501,8 +3502,7 @@
       "excerpt": "Intervention by UK environment secretary has raised prospect of utility entering government’s special administration regime",
       "publishedAt": "2026-06-18T04:00:28.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "英国环境大臣的干预提高了泰晤士水务公司进入政府特别管理制度的可能性，即国有化前景。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -4235,225 +4235,225 @@
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "评价我的投资组合 - r/Stocks 季度讨论帖 2026年6月",
+      "title": "评估我的投资组合 - r/Stocks 季度讨论帖 2026年6月",
       "url": "https://www.reddit.com/r/stocks/comments/1ttmg2b/rate_my_portfolio_rstocks_quarterly_thread_june/",
-      "excerpt": "请使用此帖讨论您的投资组合，了解沃伦·巴菲特等其他股票代码和投资组合，并通过提供建设性批评来帮助用户。为什么是季度？上市公司每季度报告收益；许多投资者借此机会重新平衡他们的投资组合。",
+      "excerpt": "请使用此帖子讨论您的投资组合，了解其他股票代码和类似 Warren Buffet 的投资组合，并通过给出建设性批评来帮助其他用户。为什么是季度？上市公司每季度报告收益；许多投资者将此视为重新平衡投资组合的机会。",
       "publishedAt": "2026-06-01T09:00:12.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "r/Stocks 每日讨论 星期三 - 2026年6月17日",
+      "title": "r/Stocks 每日讨论 周三 - 2026年6月17日",
       "url": "https://www.reddit.com/r/stocks/comments/1u82w92/rstocks_daily_discussion_wednesday_jun_17_2026/",
-      "excerpt": "这些每日讨论从周一到周五进行，包括在我们的主题帖子期间。一些有用的链接：Finviz 用于图表、基本面和分析师对个股的聚合新闻；Bloomberg 市场新闻；StreetInsider 新闻；Market Check —— 可能解释市场为何如此变动，包括突发……",
+      "excerpt": "这些每日讨论从周一至周五进行，包括我们的主题帖期间。一些有用的链接：Finviz 用于图表、基本面分析和个股聚合新闻，Bloomberg 市场新闻，StreetInsider 新闻，市场检查 - 可能解释市场为何如此表现，包括突然",
       "publishedAt": "2026-06-17T07:01:07.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "我的逻辑有多糟糕？我不认为我们接近 AI 泡沫，因为 AI 色情内容极其糟糕。",
+      "title": "我的逻辑有多糟糕：我认为我们离AI泡沫还很远，因为AI色情内容绝对糟糕？",
       "url": "https://www.reddit.com/r/stocks/comments/1u8sr16/how_terrible_is_my_logic_that_i_dont_think_we_are/",
-      "excerpt": "49岁女性。我不认为我们接近 AI 泡沫。五年后再说。有一点我可以相信，那就是总会有忠实的色情内容粉丝群，但你无法购买 Pornhub 或 OnlyFans 的股票。我看了 AI 色情内容，太糟糕了。就图形而言，并不令我印象深刻。",
+      "excerpt": "49岁女性。我不认为我们接近AI泡沫。五年后见分晓。有一点我可以相信，色情内容总会有一批忠实粉丝，但你无法购买Pornhub或OnlyFans的股票。我看了AI色情，效果很差。至于画质，不怎么样。",
       "publishedAt": "2026-06-18T01:26:51.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Jeffrey Gundlach 表示美联储的 Warsh 不会成为许多人期待的「宽松货币」主席",
+      "title": "Jeffrey Gundlach 表示美联储的 Warsh 不会成为许多人期望的「宽松货币」主席",
       "url": "https://www.reddit.com/r/stocks/comments/1u8l1z2/jeffrey_gundlach_says_feds_warsh_is_not_going_to/",
-      "excerpt": "DoubleLine Capital 首席执行官 Jeffrey Gundlach 表示，新美联储主席 Kevin Warsh 的语气比许多投资者预期的更为鹰派，强调了他恢复价格稳定的承诺，并显示出对宽松货币政策的兴趣减弱。「他绝对是在告诉你，他计划……",
+      "excerpt": "DoubleLine Capital CEO Jeffrey Gundlach 表示，新任美联储主席 Kevin Warsh 的措辞比许多投资者预期的更为鹰派，强调了他恢复价格稳定的承诺，并表明对宽松货币政策的意愿较低。「他明确告诉你，他计划」",
       "publishedAt": "2026-06-17T20:06:10.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "你怎么看待那些已过巅峰/文化热度的「被遗忘」的科技股？",
+      "title": "你怎么看那些已过顶峰/文化流行的「被遗忘」科技股？",
       "url": "https://www.reddit.com/r/stocks/comments/1u8p834/what_do_you_think_of_forgotten_tech_stocks_that/",
-      "excerpt": "MongoDB 在2017年很火？Dropbox 在2010-2015年左右很火？云之后接管了。Roku 何时达到顶峰？现在，这只是常态？Snapchat 在2017年达到顶峰？股票在2021年达到顶峰。Peloton 和 Zoom 在2020-2022年很火。Paypal 在2005年创新，当时 Ebay 很大（亚马逊购物之前）……",
+      "excerpt": "MongoDB 在2017年左右很火？Dropbox 在2010-2015年很火？之后云技术占据了主导。Roku何时达到顶峰？现在，它只是常态？Snapchat在2017年达到顶峰？股票在2021年达到顶峰。Peloton 和 Zoom 在2020-2022年很火。Paypal 在2005年具有创新性，当时eBay很大（在Amazon购物之前）",
       "publishedAt": "2026-06-17T22:48:55.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "我在2025年将所有资金从股市撤出，现在市场处于历史高位，我无法重新入场",
+      "title": "我在2025年把所有资金撤出了股市，现在面对历史高位，我无法重新入场",
       "url": "https://www.reddit.com/r/stocks/comments/1u80mp7/i_pulled_all_my_money_out_of_the_stock_market_in/",
-      "excerpt": "我二十多岁，单身，无房（希望在未来几年内既脱单又买房），犯了一个大错误：在2025年听信父母的话，将所有的钱从指数基金撤出，转回富达货币市场账户，当时一些主要大师正警告所有人……",
+      "excerpt": "我二十多岁，单身，不是房主（希望在未来几年内既非单身又是房主），犯了一个大错误，让我的父母在2025年将我的所有资金从指数基金转入Fidelity货币市场账户，当时一些主要大师警告所有人",
       "publishedAt": "2026-06-17T04:54:56.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "SK Hynix —— 轻松赚钱还是我傻？",
+      "title": "SK Hynix - 轻松赚钱还是我蠢？",
       "url": "https://www.reddit.com/r/stocks/comments/1u8ocw0/sk_hynix_easy_money_or_am_i_dumb/",
-      "excerpt": "嘿，朋友们，关注内存交易已经有一段时间了。随着 SK Hynix 今年夏天登陆美国交易所，仅凭可及性增加就一定会大涨吗？如果「韩国折价」是真的，现在买入，在美国上市之前，如果你看好内存，那是有道理的……",
+      "excerpt": "嘿，朋友们，我关注存储芯片交易已经有一段时间了。随着SK Hynix今年夏天在美国交易所上市，仅凭可及性提高，它是否一定会暴涨？如果「韩国折价」是真的，那么如果你看好内存",
       "publishedAt": "2026-06-17T22:13:15.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "今天下午FOMC相当鹰派。鉴于鹰派程度超出预期，对市场似乎不太有利。",
+      "title": "今天下午FOMC相当鹰派。鉴于鹰派程度出乎意料，对市场似乎不太有利。",
       "url": "https://www.reddit.com/r/stocks/comments/1u8nl9p/pretty_hawkish_fomc_this_afternoon_doesnt_seem/",
-      "excerpt": "回顾今天的FOMC报告，半数投票的美联储成员呼吁年底前加息。年底加息概率从60%升至90%，两次加息成为基本情景。9月加息概率从30%升至近70%。我个人承认，鹰派程度……",
+      "excerpt": "回顾今天的FOMC报告，半数拥有投票权的美联储成员呼吁在年底前加息。年底加息概率从60%升至90%，目前基本预期为加息两次。9月加息概率从30%升至近70%。我个人承认，鹰派程度出乎意料",
       "publishedAt": "2026-06-17T21:42:49.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "对半导体股票止盈？",
+      "title": "兑现半导体股票利润？",
       "url": "https://www.reddit.com/r/stocks/comments/1u8hn10/taking_profit_on_semi_stocks/",
-      "excerpt": "我重仓半导体股票，对如何处理犹豫不决。我通常计划长期持有（3-5年以上），但在当前这些高估的价格下很难不卖出。例如，我持有 MRVL、ALAB、ASML，未实现收益在200%-500%之间。我相信这些公司的未来，但是……",
+      "excerpt": "我重仓半导体股票，纠结该怎么做。我一般计划长期持有（3-5年以上），但很难不趁这些高价卖出。例如，我持有MRVL、ALAB、ASML，未实现收益在200-500%之间。我相信这些公司的未来，但",
       "publishedAt": "2026-06-17T18:03:06.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "需要帮助理解FOMC期间今天的市场转变",
+      "title": "需要帮助理解今天FOMC期间的市场转变",
       "url": "https://www.reddit.com/r/stocks/comments/1u8ksf8/help_needed_in_understanding_todays_market_shift/",
-      "excerpt": "嘿，各位，刚入股市，今天跟着联邦会议关注半导体。这是我第一次听会议，很多都不懂，但我觉得要点是 Warsh 希望降低利率，并将在未来以此为目标……",
+      "excerpt": "嘿，各位，我是股市新手，今天关注联邦会议期间的半导体板块。这是我第一次听这类会议，很多内容没听懂，但我认为概要意思是Warsh希望降低利率，并将在未来致力于此",
       "publishedAt": "2026-06-17T19:56:28.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "SK hynix 交付 HBM4E 样品，与三星一起加入下一代 AI 内存竞赛",
+      "title": "SK hynix 出货 HBM4E 样品，与三星一同加入下一代AI内存竞赛",
       "url": "https://www.reddit.com/r/stocks/comments/1u8t16y/sk_hynix_ships_hbm4e_samples_joining_samsung_in/",
-      "excerpt": "SK hynix 周四表示，已向主要客户交付了其12层 HBM4E 样品，这是用于人工智能的下一代高带宽内存，从而使公司进入客户认证阶段，大约在竞争对手三星电子声称业界首个……之后三周",
+      "excerpt": "SK hynix 周四表示，已向主要客户出货其12层HBM4E样品，这是用于人工智能的下一代高带宽内存，使该公司进入客户验证阶段，大约比竞争对手三星电子声称行业首次出货晚三周",
       "publishedAt": "2026-06-18T01:40:03.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Citi initiates Figma(FIG) with a Buy and $36 price target, stating AI may actually strengthen Figma's moat",
+      "title": "花旗首次覆盖Figma(FIG)，给予买入评级和36美元目标价，称AI实际上可能加强Figma的护城河",
       "url": "https://www.reddit.com/r/stocks/comments/1u8smo9/citi_initiates_figmafig_with_a_buy_and_36_price/",
-      "excerpt": "A Citi analyst initiated coverage on Figma today with a Buy rating and a $36 price target, implying roughly 80% upside from current levels. The market has largely treated AI as a threat to Figma, but Citi argues that as AI lowers the barrier to creating designs and prototypes, it actually increases ",
+      "excerpt": "花旗一位分析师今日首次覆盖Figma，给予买入评级和36美元目标价，意味着较当前水平约有80%上涨空间。市场普遍将AI视为对Figma的威胁，但花旗认为，随着AI降低设计和原型制作的门槛，它实际上增加了",
       "publishedAt": "2026-06-18T01:21:02.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Interactive Broker Desktop Platform is awful",
+      "title": "Interactive Broker桌面平台糟糕透顶",
       "url": "https://www.reddit.com/r/stocks/comments/1u8w5og/interactive_broker_desktop_platform_is_awful/",
-      "excerpt": "I’ve been using the Thinkorswim platform for the past 10 years, and today I decided to experiment with Interactive Brokers. It’s awful. During After Hours trading, when you try to buy or sell, the bid and ask numbers disappear as soon as you click the buy or sell buttons. How are you supposed to tra",
+      "excerpt": "过去10年我一直使用Thinkorswim平台，今天我决定尝试一下Interactive Brokers。太糟糕了。在盘后交易中，当你尝试买入或卖出时，点击买入或卖出按钮后买卖价格就消失了。你怎么能",
       "publishedAt": "2026-06-18T04:13:13.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Interest Take on Booz Allen Hamilton - Trump Buys After Cutting Ties",
+      "title": "关于Booz Allen Hamilton的有趣看法——特朗普在切断关系后买入",
       "url": "https://www.reddit.com/r/stocks/comments/1u8y176/interest_take_on_booz_allen_hamilton_trump_buys/",
-      "excerpt": "CBS news just created a great list of all the trades that Trump has done recently and specially row 725. Feel free to look at the entire list: https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/405E4EC4E27BE8D185258DF7002DD1C0/%24FILE/Trump%2C%20Donald%20J.-05.08.2026-278T(2).pdf.pdf) (sourced from",
+      "excerpt": "CBS新闻刚刚整理了一份特朗普近期所有交易的大清单，特别是第725行。欢迎查看完整列表：(链接) (来源于",
       "publishedAt": "2026-06-18T05:55:39.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Fed policy analysis by citi group",
+      "title": "花旗集团的联储政策分析",
       "url": "https://www.reddit.com/r/stocks/comments/1u8o2pk/fed_policy_analysis_by_citi_group/",
-      "excerpt": "I watch Bloomberg religiously and today there was a guest from citi group that was asked on what would warsh do in the upcoming meeting? He talked about how oil prices fell and the inflation was only short term so this would give warsh something to hold onto and move the fed towards rate cuts and th",
+      "excerpt": "我每天都看彭博社，今天有一位花旗集团的嘉宾被问到Warsh在即将到来的会议上会怎么做？他谈到油价下跌，通胀只是短期的，所以这会给Warsh一些支撑，推动联储走向降息，并且",
       "publishedAt": "2026-06-17T22:01:56.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Selling stocks and buying ETF",
+      "title": "卖出个股买入ETF",
       "url": "https://www.reddit.com/r/stocks/comments/1u8083n/selling_stocks_and_buying_etf/",
-      "excerpt": "Well folks, I’ve decided I’m going to sell all of my AMZN, META, and MSFT, and buy however much VUG that’ll get me. My portfolio is doing well at the moment, and I’ve decided to walk away from the risks associated with heavy positions in individual stocks. Another part of the reasoning is that I wou",
+      "excerpt": "各位，我决定卖掉我所有的AMZN、META和MSFT，买入尽可能多的VUG。我的投资组合目前表现不错，我决定远离重仓个股带来的风险。另一个原因是，我",
       "publishedAt": "2026-06-17T04:33:36.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "SPCX - Beware, institutional money is NOT buying this trash on the open market",
+      "title": "SPCX——警惕，机构资金并不在公开市场买入这个垃圾",
       "url": "https://www.reddit.com/r/stocks/comments/1u7jhyx/spcx_beware_institutional_money_is_not_buying/",
-      "excerpt": "Market-makers are aggressively propping up the quotes over and over (no longing involved) so that: retail FOMOs and starts chasing (both with commons and calls); to attract bears/short-sellers (because fUnDaMeNtAlS) - their liquidity is used to fuel the next legs up as always; institutions who bough",
+      "excerpt": "做市商正在激进地反复支撑报价（不涉及做多），以便：散户FOMO并开始追涨（无论是正股还是看涨期权）；吸引空头/卖空者（因为「fUnDaMeNtAlS」）——他们的流动性像往常一样被用来推动下一轮上涨；那些买入的机构",
       "publishedAt": "2026-06-16T17:06:12.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "WeRide and Uber Plan to Launch Commercial Robotaxi Service in Zurich, Expanding European Partnership",
+      "title": "WeRide与Uber计划在苏黎世推出商业自动驾驶出租车服务，扩大欧洲合作伙伴关系",
       "url": "https://www.reddit.com/r/stocks/comments/1u88ia6/weride_and_uber_plan_to_launch_commercial/",
-      "excerpt": "WRD and UBER are planning to launch robotaxis in Zurich, Switzerland after announcing their move in Madrid. At this point, Europe is moving faster and becoming a major market for AVs. Switzerland is an ideal country because it has high labor costs, making these rides highly profitable. Having approv",
+      "excerpt": "在宣布进军马德里之后，WRD和UBER计划在瑞士苏黎世推出自动驾驶出租车。目前，欧洲正在加快步伐，成为自动驾驶汽车的主要市场。瑞士是一个理想的国家，因为它劳动力成本高，使得这些出行服务利润丰厚。已经获得批准",
       "publishedAt": "2026-06-17T12:14:40.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "SpaceX surges past Amazon and Microsoft in market cap, becoming fourth-biggest U.S. company",
+      "title": "SpaceX市值超越亚马逊和微软，成为美国第四大公司",
       "url": "https://www.reddit.com/r/stocks/comments/1u7eoli/spacex_surges_past_amazon_and_microsoft_in_market/",
-      "excerpt": "SpaceX shares surged about 13% on Tuesday, as Elon Musk’s rocket-builder continued its meteoric rise following a record-breaking IPO on Friday. With the skyrocketing share price, SpaceX overtook Microsoft in market cap, becoming the fourth-largest company in the U.S. SpaceX’s market cap stood at $2.",
+      "excerpt": "SpaceX股价周二飙升约13%，此前这家埃隆·马斯克的火箭制造公司在周五创纪录的IPO后继续暴涨。随着股价飞涨，SpaceX市值超越微软，成为美国第四大公司。SpaceX市值达到2",
       "publishedAt": "2026-06-16T14:11:18.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Strategy Based on Shrinking Middle Class",
+      "title": "基于中产阶级萎缩的投资策略",
       "url": "https://www.reddit.com/r/stocks/comments/1u8neep/strategy_based_on_shrinking_middle_class/",
-      "excerpt": "I want to share a medium‑ to long‑term value‑stock strategy built around a simple idea: the middle class is shrinking, in the U.S. and around the world. Since the pandemic, inflation has pushed up the cost of living almost everywhere. Disrupted supply chains and loose monetary policy started the pro",
+      "excerpt": "我想分享一个中长期价值股策略，它基于一个简单的想法：中产阶级正在萎缩，在美国和世界各地都是如此。自疫情以来，通胀几乎推高了各地的生活成本。供应链中断和宽松的货币政策开始了这个过程",
       "publishedAt": "2026-06-17T21:35:20.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "SpaceX to acquire Cursor for $60billion",
+      "title": "SpaceX将以600亿美元收购Cursor",
       "url": "https://www.reddit.com/r/stocks/comments/1u7nuyb/spacex_to_acquire_cursor_for_60billion/",
-      "excerpt": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/ June 16 (Reuters) - Elon Musk's SpaceX is buying the startup behind the popular AI coding agent Cursor, Anysphere, for $60 billion in an all-stock deal to boost its presence in the lucrative enterprise AI tools m",
+      "excerpt": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/ 6月16日（路透社）——埃隆·马斯克的SpaceX正在以600亿美元的全股票交易收购热门AI编程代理Cursor背后的初创公司Anysphere，以扩大其在利润丰厚的企业AI工具市场的存在",
       "publishedAt": "2026-06-16T19:40:17.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "AVGO - When is the next catalyst and will it break 400 soon?",
+      "title": "AVGO——下一个催化剂是什么，它会很快突破400吗？",
       "url": "https://www.reddit.com/r/stocks/comments/1u7yv43/avgo_when_is_the_next_catalyst_and_will_it_break/",
-      "excerpt": "So the fundamentals of AVGO is very strong. In short: - Strong earnings - Strong demand on products - Solid footing in AI race But after earnings Broadcom dropped hard. Although it’s maintaining 375-380 level which is a good sign. Some negatives that I have read are that Broadcom has done massive la",
+      "excerpt": "AVGO的基本面非常强劲。简而言之：- 强劲的盈利 - 产品需求强劲 - 在AI竞赛中根基稳固。但财报后博通大幅下跌。虽然它维持在375-380水平，这是一个好迹象。我读到的一些负面因素是博通进行了大规模",
       "publishedAt": "2026-06-17T03:24:39.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "Shorting ETSY - Long Chewy - Major Evergreen Differences",
+      "title": "做空ETSY——做多Chewy——重大长青差异",
       "url": "https://www.reddit.com/r/stocks/comments/1u8k22f/shorting_etsy_long_chewy_major_evergreen/",
-      "excerpt": "Etsy is a company continues to face slowing growth in its core marketplace as consumers pull back on discretionary spending and competition from platforms like Amazon, Temu, and Shopify merchants intensifies. Gross merchandise sales have struggled to return to pandemic-era levels, while active buyer",
+      "excerpt": "Etsy是一家继续面临核心市场增长放缓的公司，因为消费者削减可自由支配支出，来自Amazon、Temu和Shopify商家等平台的竞争加剧。商品销售总额难以恢复到疫情时期的水平，而活跃买家",
       "publishedAt": "2026-06-17T19:29:53.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "EINRIDE: The next freight giant (or not)",
+      "title": "EINRIDE：下一个货运巨头（或者不是）",
       "url": "https://www.reddit.com/r/stocks/comments/1u8g040/einride_the_next_freight_giant_or_not/",
-      "excerpt": "Alright regards, let me talk to you about a company that I think has great potential: EINRIDE. This won't be a super long DD, you can investigate the stock on your own if I manage to get you interested. Also I'm a full regard so don't take my word for it. This is a super volatile stock and I don't p",
+      "excerpt": "好了各位，让我跟你们聊聊一家我认为潜力巨大的公司：EINRIDE。这不会是一篇超级长的尽职调查，如果我成功引起了你的兴趣，你可以自己去研究这只股票。另外，我是个完全的小白，所以别只听我的。这是一只波动性极大的股票，而且我不",
       "publishedAt": "2026-06-17T17:03:05.000Z",
       "category": "tech",
       "source": "r/stocks"
     },
     {
       "sourceId": "reddit-stocks",
-      "title": "bought hood, should i ride ?",
+      "title": "买了HOOD，我应该继续持有吗？",
       "url": "https://www.reddit.com/r/stocks/comments/1u8vvgw/bought_hood_should_i_ride/",
-      "excerpt": "yesterday i broke my own rule and bought a stock that already ran. zero regrets so far. grabbed HOOD around 99 in the morning. it had already gapped on the workforce cut + record trading volume news so my brain was screaming youre late, youre chasing the top. bought it anyway cause the tape would no",
+      "excerpt": "昨天我打破了自己的规则，买了一只已经涨过的股票。目前为止零后悔。早上大约99美元入手了HOOD。它已经因裁员+创纪录交易量的新闻而跳空高开，我的大脑在尖叫：你来晚了，你在追顶。但还是买了，因为成交量不会",
       "publishedAt": "2026-06-18T03:58:40.000Z",
       "category": "tech",
       "source": "r/stocks"
@@ -4868,10 +4868,10 @@
       "title": "Australia news live: Jackie O pursues claim against Kiis FM after Kyle Sandilands settles; press gallery objects to One Nation threats to ban journalists",
       "url": "https://www.theguardian.com/australia-news/live/2026/jun/18/australia-news-live-non-stop-sydney-london-flights-qantas-one-nation-pauline-hanson-labor-anthony-albanese-economy-cost-of-living-ntwnfb",
       "excerpt": "Get our breaking news email, free app or daily news podcast Coalition says it’s good Hanson and One Nation getting the scrutiny of a party on the rise Kevin Hogan, the shadow assistant treasurer, says he thinks it’s good Hanson was able to speak at the press club yesterday as One Nation “needs to be",
-      "publishedAt": "2026-06-18T05:52:52.000Z",
+      "publishedAt": "2026-06-18T06:05:06.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "澳大利亚新闻：Jackie O在Kyle Sandilands和解后继续索赔；媒体抗议一国党威胁禁记者；联盟党称赞一国党获得关注。"
+      "summary": "澳大利亚新闻直播：主持人Jackie O在Kyle Sandilands和解后继续向Kiis FM索赔；记者团反对一国党威胁禁止记者。影子助理财长Kevin Hogan称一国党接受审查是好事。"
     },
     {
       "sourceId": "guardian-world",
@@ -4881,7 +4881,7 @@
       "publishedAt": "2026-06-18T05:51:29.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "墨尔本网红在家无医护分娩死亡案之死因调查因新手机证据暂停，验尸官称新材料意义重大，需延期分析后方可作出结论。"
+      "summary": "对墨尔本一位网红因自由分娩（无专业医疗支持）死亡事件的调查听证会被叫停，因发现新的手机证据。验尸官称该材料意义重大，需分析后才能做出结论。"
     },
     {
       "sourceId": "guardian-world",
@@ -4890,7 +4890,8 @@
       "excerpt": "Startups and testamentary trusts to receive carve outs after criticism of Labor’s CGT changes Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast All of Australia’s 2.7m small businesses will receive “generous” exemptions from capital ga",
       "publishedAt": "2026-06-18T05:08:52.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "澳大利亚总理阿尔巴尼斯宣布对小企业给予慷慨的资本利得税豁免，初创企业和遗嘱信托也将获得减免。此前工党的资本利得税改革遭到批评，270万小企业将受益。"
     },
     {
       "sourceId": "guardian-world",
@@ -4899,7 +4900,8 @@
       "excerpt": "Coroner overturned initial police finding of suicide, saying their investigation was ‘deeply flawed, superficial and inadequate from the outset’ •Warning: This article contains images of and references to Indigenous Australians who have died Follow our Australia news live blog for latest updates Get",
       "publishedAt": "2026-06-18T04:53:18.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "调查发现，种族主义阻碍了新南威尔士州警方对1988年原住民少年Mark Haines死亡案的调查。验尸官推翻了警方最初的自杀结论，称调查从一开始就存在严重缺陷、表面化且不充分。"
     },
     {
       "sourceId": "guardian-world",
@@ -4908,7 +4910,8 @@
       "excerpt": "Testing confirms spread of deadly H5N1 virus on the subantarctic Heard Island, about 4,000km south-west of Perth Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast More than 13,000 seal pups have died on an Australian territory, as test",
       "publishedAt": "2026-06-18T04:51:04.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "澳大利亚偏远亚南极地区赫德岛爆发禽流感，确认致命H5N1病毒传播，已导致超过1.3万只海豹幼崽死亡。该岛位于珀斯西南约4000公里。"
     },
     {
       "sourceId": "guardian-world",
@@ -4917,7 +4920,8 @@
       "excerpt": "Mayor of Russian capital claims ‌about 180 drones heading to the city were shot down as flames and smoke billow over outskirts Ukrainian drones hit Moscow’s ⁠oil refinery for the second time ⁠this week, sending out flames and plumes ⁠of smoke over the south-eastern district of Kapotnya on Thursday m",
       "publishedAt": "2026-06-18T05:47:49.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "乌克兰发动大规模无人机袭击，莫斯科一家炼油厂起火，浓烟滚滚。莫斯科市长称约180架飞往市区的无人机被击落，这是本周第二次袭击。"
     },
     {
       "sourceId": "guardian-world",
@@ -4926,6 +4930,16 @@
       "excerpt": "Kyiv is not taking any risks amid Moscow’s efforts to integrate Minsk ever more closely into its war Russian spy drones flying into Ukraine from Belarusian airspace have sharply increased since the beginning of the year, as senior officials in Kyiv express mounting concern over Belarus’s involvement",
       "publishedAt": "2026-06-18T05:00:03.000Z",
       "category": "politics",
+      "source": "The Guardian",
+      "summary": "乌克兰加强北部防御，担忧白俄罗斯被拖入战争。自今年初以来，从白俄罗斯领空进入乌克兰的俄军侦察无人机数量急剧增加。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Western Europeans believe crime is rising despite fall in overall rates, poll finds",
+      "url": "https://www.theguardian.com/world/2026/jun/18/western-europeans-crime-rising-despite-fall-overall-rates-poll-finds",
+      "excerpt": "YouGov survey of six countries shows respondents think crime is increasing – though most trust their national police Western Europeans believe crime is rising in their country, according to a survey, despite long-term overall crime rates falling across the region since the mid-1990s. The YouGov poll",
+      "publishedAt": "2026-06-18T04:00:02.000Z",
+      "category": "politics",
       "source": "The Guardian"
     },
     {
@@ -4933,15 +4947,6 @@
       "title": "Rejoining customs union would not fix damage caused by Brexit, research finds",
       "url": "https://www.theguardian.com/politics/2026/jun/18/brexit-customs-union-exports-single-market-research",
       "excerpt": "Exclusive: Economists find Brexit caused 12% depression in UK exports, most of which is due to leaving single market Brexit has depressed UK exports to the EU by 12%, and rejoining the customs union would undo only a fraction of the damage, research shared with the Guardian shows. With the UK’s futu",
-      "publishedAt": "2026-06-18T04:00:02.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Western Europeans believe crime is rising despite fall in overall rates, poll finds",
-      "url": "https://www.theguardian.com/world/2026/jun/18/western-europeans-crime-rising-despite-fall-overall-rates-poll-finds",
-      "excerpt": "YouGov survey of six countries shows respondents think crime is increasing – though most trust their national police Western Europeans believe crime is rising in their country, according to a survey, despite long-term overall crime rates falling across the region since the mid-1990s. The YouGov poll",
       "publishedAt": "2026-06-18T04:00:02.000Z",
       "category": "politics",
       "source": "The Guardian"
@@ -4960,9 +4965,10 @@
       "title": "Middle East crisis live: Tehran says it will charge ships in strait of Hormuz after 60 days; US-Iran presidents sign peace deal",
       "url": "https://www.theguardian.com/world/live/2026/jun/18/middle-east-crisis-live-us-iran-presidents-sign-peace-deal-mou-trump-tehran-strait-of-hormuz-toll-lebanon-israel",
       "excerpt": "Chief Iranian negotiator says key waterway will ‘not return to prewar conditions’ after 60-day window; both sides sign memorandum of understanding extending truce Reaction: Donald Trump’s Iran deal met with anger, relief and incredulity Analysis: Trump’s Iran deal is result of unrealistic ambitions ",
-      "publishedAt": "2026-06-18T05:45:56.000Z",
+      "publishedAt": "2026-06-18T06:04:30.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "伊朗称60天后将对霍尔木兹海峡过往船只收费，该海峡将不再恢复战前状态；美伊总统签署谅解备忘录延长停火。特朗普达成的伊朗协议引发愤怒、宽慰和怀疑。"
     },
     {
       "sourceId": "guardian-world",
@@ -4971,7 +4977,8 @@
       "excerpt": "Sellers of luxury villas have wiped tens of millions of pounds off asking prices, with sales down 19% in May from the previous month Property sales in Dubai have fallen “off a cliff”, a leading market watcher has said, after war in the Middle East forced a dramatic slowdown in one of the world’s mos",
       "publishedAt": "2026-06-18T05:00:04.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "专家称中东战争以来迪拜房地产销售暴跌。豪华别墅卖家降低要价数千万英镑，5月销量环比下降19%。"
     },
     {
       "sourceId": "guardian-world",
@@ -5133,7 +5140,8 @@
       "excerpt": "Homeowners and businesses in the region, which relies heavily on imported oil, are installing rooftop solar panels to reduce the sting of soaring energy costs.",
       "publishedAt": "2026-06-18T04:01:13.000Z",
       "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "在严重依赖进口石油的东南亚，家庭和企业纷纷安装屋顶太阳能板，以缓解由伊朗战争导致的能源危机和高涨的能源成本。"
     },
     {
       "sourceId": "nyt-world",
@@ -5142,7 +5150,8 @@
       "excerpt": "Here is what to know about the by-election on Thursday in Makerfield, the outcome of which could lead to Prime Minister Keir Starmer’s ouster.",
       "publishedAt": "2026-06-18T04:01:09.000Z",
       "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "英国梅克菲尔德选区周四举行补选，其结果可能导致首相基尔·斯塔默下台，对英国产生重大影响。"
     },
     {
       "sourceId": "nyt-world",
@@ -5205,7 +5214,8 @@
       "excerpt": "Australia barred children from social media in December. Since then, young people have found plenty of ways to skirt the measure.",
       "publishedAt": "2026-06-18T04:38:41.000Z",
       "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "澳大利亚自去年12月起禁止儿童使用社交媒体，但年轻人已找到多种方法规避这一措施。"
     },
     {
       "sourceId": "nyt-world",
@@ -5278,7 +5288,7 @@
       "publishedAt": "2026-06-18T05:56:49.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "加沙卫生部称，自去年10月以色列与哈马斯达成停火协议以来，以色列在加沙地带的行动已导致1005人死亡。"
+      "summary": "巴勒斯坦当局称，自去年10月以色列与哈马斯停火以来，以色列在加沙的行动已造成1005名巴勒斯坦人死亡。"
     },
     {
       "sourceId": "npr-world",
@@ -5635,7 +5645,7 @@
       "sourceId": "aljazeera",
       "title": "Luis Diaz dazzles as Colombia beat World Cup 2026 debutants Uzbekistan 3-1",
       "url": "https://www.aljazeera.com/sports/2026/6/18/colombia-uzbekistan-fifa-world-cup-2026-luis-diaz-munoz-campaz-fayzullaev?traffic_source=rss",
-      "excerpt": "Winger Luis Diaz scores a goal and sets up another, as Colombia make a winning return to the FIFA World Cup.",
+      "excerpt": "Winger Luis Diaz scored a goal and set up another, as Colombia made a winning return to the FIFA World Cup.",
       "publishedAt": "2026-06-18T05:17:18.000Z",
       "category": "politics",
       "source": "Al Jazeera"
@@ -5647,7 +5657,8 @@
       "excerpt": "Emotions seesawed across London and Zagreb as England met Croatia in a thrilling World Cup grudge match.",
       "publishedAt": "2026-06-18T04:58:10.000Z",
       "category": "politics",
-      "source": "Al Jazeera"
+      "source": "Al Jazeera",
+      "summary": "英格兰与克罗地亚在世界杯宿敌对决中，伦敦和萨格勒布两地球迷情绪跌宕起伏。"
     },
     {
       "sourceId": "aljazeera",
@@ -5665,7 +5676,8 @@
       "excerpt": "Rami Khouri says real policy change will only happen when the US forces Israel’s hand in Lebanon.",
       "publishedAt": "2026-06-18T04:15:29.000Z",
       "category": "politics",
-      "source": "Al Jazeera"
+      "source": "Al Jazeera",
+      "summary": "分析人士Rami Khouri表示，只有美国迫使以色列改变其在黎巴嫩的政策，真正的政策转变才会发生。"
     },
     {
       "sourceId": "aljazeera",
@@ -6128,226 +6140,10 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Wolfram Language 15（新品发布）",
-      "url": "https://www.producthunt.com/products/wolfram-mathematica",
+      "title": "Wario Synth（新品发布）",
+      "url": "https://www.producthunt.com/products/wario-style",
       "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T06:06:57.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Restaurant Menu Visualizer",
-      "url": "https://www.producthunt.com/products/a-bit-differently",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T07:31:37.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "MCP 2000（新品发布）",
-      "url": "https://www.producthunt.com/products/mcp-2000",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T19:02:31.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Framer 3.0",
-      "url": "https://www.producthunt.com/products/framer",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T09:01:17.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Tapfree for Chrome",
-      "url": "https://www.producthunt.com/products/tapfree-for-android-2",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-13T15:07:03.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "ClipDone（新品发布）",
-      "url": "https://www.producthunt.com/products/clipdone",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T04:57:46.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Tyto by ai-coustics",
-      "url": "https://www.producthunt.com/products/tyto",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T07:04:43.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "NotchSpace（新品发布）",
-      "url": "https://www.producthunt.com/products/notchspace-2",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T01:59:33.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Deep Work Plan",
-      "url": "https://www.producthunt.com/products/deep-work-plan",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T00:19:27.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Android 17（新品发布）",
-      "url": "https://www.producthunt.com/products/android",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T04:27:25.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Mirlo",
-      "url": "https://www.producthunt.com/products/mirlo",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-16T08:44:36.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Docfarm",
-      "url": "https://www.producthunt.com/products/docfarm",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-05-26T13:42:32.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "idmly（新品发布）",
-      "url": "https://www.producthunt.com/products/idmly",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T20:51:00.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "SolonGate（新品发布）",
-      "url": "https://www.producthunt.com/products/solongate",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T14:36:07.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Spanly",
-      "url": "https://www.producthunt.com/products/spanly",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T16:36:42.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Henji（新品发布）",
-      "url": "https://www.producthunt.com/products/henji",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-17T04:24:48.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Locus Founder",
-      "url": "https://www.producthunt.com/products/locus-founder",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-14T19:19:27.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "ClawEase",
-      "url": "https://www.producthunt.com/products/clawease",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-09T03:54:09.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "PaneFlow",
-      "url": "https://www.producthunt.com/products/paneflow",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T22:00:06.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Typerino",
-      "url": "https://www.producthunt.com/products/typerino",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-01T16:05:45.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Cilantro",
-      "url": "https://www.producthunt.com/products/cilantro",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T20:29:47.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Quartz",
-      "url": "https://www.producthunt.com/products/quartz-3",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-05-27T16:02:04.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Infinite（新品发布）",
-      "url": "https://www.producthunt.com/products/infinite-the-growth-engineering-agent",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T22:51:24.000Z",
-      "category": "tech",
-      "source": "Product Hunt",
-      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "BrainFlow（新品发布）",
-      "url": "https://www.producthunt.com/products/brainflow-2",
-      "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T09:18:05.000Z",
+      "publishedAt": "2026-06-16T14:20:11.000Z",
       "category": "tech",
       "source": "Product Hunt",
       "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
@@ -6363,10 +6159,176 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Wilson（新品发布）",
-      "url": "https://www.producthunt.com/products/wilson-3",
+      "title": "Locus Founder",
+      "url": "https://www.producthunt.com/products/locus-founder",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-14T19:19:27.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Cilantro",
+      "url": "https://www.producthunt.com/products/cilantro",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T20:29:47.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Snapchat SPECS（新品发布）",
+      "url": "https://www.producthunt.com/products/snapchat",
       "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T11:23:59.000Z",
+      "publishedAt": "2026-06-16T22:04:05.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Tyto by ai-coustics",
+      "url": "https://www.producthunt.com/products/tyto",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-16T07:04:43.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Framer 3.0",
+      "url": "https://www.producthunt.com/products/framer",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-16T09:01:17.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Typerino",
+      "url": "https://www.producthunt.com/products/typerino",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-01T16:05:45.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "ClipDone（新品发布）",
+      "url": "https://www.producthunt.com/products/clipdone",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T04:57:46.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Mirlo",
+      "url": "https://www.producthunt.com/products/mirlo",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-16T08:44:36.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "BrainFlow",
+      "url": "https://www.producthunt.com/products/brainflow-2",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-16T09:18:05.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Daemons by Charlie Labs",
+      "url": "https://www.producthunt.com/products/daemons-by-charlie-labs",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-05T20:18:53.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "MCP 2000（新品发布）",
+      "url": "https://www.producthunt.com/products/mcp-2000",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T19:02:31.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Quartz",
+      "url": "https://www.producthunt.com/products/quartz-3",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-05-27T16:02:04.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Deep Work Plan",
+      "url": "https://www.producthunt.com/products/deep-work-plan",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T00:19:27.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Swytchcode CLI",
+      "url": "https://www.producthunt.com/products/swytchcode",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-13T14:10:46.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Docfarm",
+      "url": "https://www.producthunt.com/products/docfarm",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-05-26T13:42:32.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "ClawEase",
+      "url": "https://www.producthunt.com/products/clawease",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-09T03:54:09.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Vitrine（新品发布）",
+      "url": "https://www.producthunt.com/products/vitrine",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T10:47:30.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Dopami",
+      "url": "https://www.producthunt.com/products/dopami",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-15T14:32:16.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Infinite（新品发布）",
+      "url": "https://www.producthunt.com/products/infinite-the-growth-engineering-agent",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T22:51:24.000Z",
       "category": "tech",
       "source": "Product Hunt",
       "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
@@ -6382,151 +6344,201 @@
     },
     {
       "sourceId": "producthunt",
-      "title": "Dopami",
-      "url": "https://www.producthunt.com/products/dopami",
-      "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-15T14:32:16.000Z",
-      "category": "tech",
-      "source": "Product Hunt"
-    },
-    {
-      "sourceId": "producthunt",
-      "title": "Wario Synth（新品发布）",
-      "url": "https://www.producthunt.com/products/wario-style",
+      "title": "SolonGate（新品发布）",
+      "url": "https://www.producthunt.com/products/solongate",
       "excerpt": "讨论 | 链接",
-      "publishedAt": "2026-06-16T14:20:11.000Z",
+      "publishedAt": "2026-06-16T14:36:07.000Z",
       "category": "tech",
       "source": "Product Hunt",
       "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
     },
     {
       "sourceId": "producthunt",
-      "title": "Polygram Coding Agent",
-      "url": "https://www.producthunt.com/products/polygram-4",
+      "title": "NotchSpace（新品发布）",
+      "url": "https://www.producthunt.com/products/notchspace-2",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T01:59:33.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Wilson（新品发布）",
+      "url": "https://www.producthunt.com/products/wilson-3",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-16T11:23:59.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Redactify（新品发布）",
+      "url": "https://www.producthunt.com/products/redactify",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T01:07:19.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "AudienceCue",
+      "url": "https://www.producthunt.com/products/audiencecue",
       "excerpt": "Discussion | Link",
-      "publishedAt": "2026-06-11T22:58:09.000Z",
+      "publishedAt": "2026-06-14T03:51:59.000Z",
+      "category": "tech",
+      "source": "Product Hunt"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Android 17（新品发布）",
+      "url": "https://www.producthunt.com/products/android",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T04:27:25.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Henji（新品发布）",
+      "url": "https://www.producthunt.com/products/henji",
+      "excerpt": "讨论 | 链接",
+      "publishedAt": "2026-06-17T04:24:48.000Z",
+      "category": "tech",
+      "source": "Product Hunt",
+      "summary": "该产品已在 Product Hunt 发布，但 RSS 未提供功能介绍。建议打开原文查看具体用途、目标用户和实际演示，再判断是否值得持续关注或借鉴。"
+    },
+    {
+      "sourceId": "producthunt",
+      "title": "Restaurant Menu Visualizer",
+      "url": "https://www.producthunt.com/products/a-bit-differently",
+      "excerpt": "Discussion | Link",
+      "publishedAt": "2026-06-16T07:31:37.000Z",
       "category": "tech",
       "source": "Product Hunt"
     },
     {
       "sourceId": "yc-blog",
-      "title": "Christopher Golda 和 Grey Baker 加入 YC 担任 General Partners",
+      "title": "Christopher Golda 和 Grey Baker 加入 YC 担任普通合伙人",
       "url": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners/",
-      "excerpt": "我们激动地宣布 Christopher Golda 和 Grey Baker 加入 YC 担任 General Partners。",
+      "excerpt": "我们激动地宣布 Christopher Golda 和 Grey Baker 将加入 YC 担任普通合伙人。",
       "publishedAt": "2026-06-16T16:14:22.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 宣布 Christopher Golda 和 Grey Baker 成为新的 General Partners。两位新合伙人将带来丰富的创业和投资经验，帮助 YC 识别和支持更多优秀初创公司。对创业者来说，这意味着 YC 投资团队的扩展和更多合作机会。"
+      "summary": "YC 引入两位新的普通合伙人，强化投资与管理团队。对创业者的意义：YC 继续扩大合伙人阵容，可能带来更多行业经验和人脉资源。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "Diana Hu 成为 YC 最新 Managing Partner",
+      "title": "Diana Hu 升任 YC 管理合伙人",
       "url": "https://www.ycombinator.com/blog/diana-hu-managing-partner/",
-      "excerpt": "我们非常激动地宣布 Diana Hu 晋升为 Y Combinator 的 Managing Partner。很少有人既从零创建过初创公司，又将技术交付给 1 亿用户。Diana 做到了这两点。",
+      "excerpt": "我们激动地宣布 Diana Hu 晋升为 Y Combinator 管理合伙人。很少有人能同时从零创立公司并向 1 亿用户交付技术，而 Diana 做到了。",
       "publishedAt": "2026-06-11T17:01:59.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Diana Hu 被提升为 YC 的 Managing Partner。她曾作为创始人建立公司，并领导技术产品触及 1 亿用户。她的晋升反映了 YC 对实战型领导者的重视，对创业者而言，这意味着 YC 管理层拥有深厚的产品与创业见解。"
+      "summary": "Diana Hu 晋升体现 YC 对兼具创业实践与规模化产品经验的人才的重视。对创业者而言，意味着 YC 管理团队拥有更贴近实战的视角。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "Harshita Arora 加入 YC 担任 General Partner",
+      "title": "Harshita Arora 加入 YC 担任普通合伙人",
       "url": "https://www.ycombinator.com/blog/welcome-harshita/",
-      "excerpt": "我们非常激动地宣布 Harshita Arora 加入 Y Combinator 担任 General Partner。她拥有深厚的金融科技和基础设施经验，具备创始人的产品直觉，以及从青少年时期就开始创业的独特视角。",
+      "excerpt": "我们激动地宣布 Harshita Arora 将加入 Y Combinator 担任普通合伙人。她带来了深厚的金融科技和基础设施经验、创始人的产品直觉，以及从青少年时期就开始创业的独特视角。",
       "publishedAt": "2026-04-06T16:00:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Harshita Arora 成为 YC 的 General Partner，带来金融科技、基础设施和早期创业的深度经验。她将从青少年时期开始的创业者视角带入 YC，有助于 YC 更好地评估和指导相关领域的初创公司，对金融科技创业者尤其有益。"
+      "summary": "Harshita Arora 的加入强化了 YC 在金融科技与基础设施领域的投资能力。年轻创业者的经验分享值得个人开发者借鉴。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "将加拿大重新列入 YC 认可的注册国家名单",
+      "title": "加拿大重新加入 YC 接受注册国家名单",
       "url": "https://www.ycombinator.com/blog/adding-canada-back/",
-      "excerpt": "在听取网络内加拿大创始人的反馈后，我们将加拿大重新列入 YC 认可的注册国家名单。",
+      "excerpt": "在听取了网络内加拿大创始人的反馈后，我们决定将加拿大重新加入 YC 接受注册国家的名单。",
       "publishedAt": "2026-02-05T17:00:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 根据加拿大创始人的反馈，重新允许在加拿大注册的公司申请 YC。这对加拿大创业者是重要利好，消除了注册地的障碍，使得更多加拿大初创公司可以直接参与 YC 而不需要改变注册地。"
+      "summary": "YC 恢复接受加拿大公司注册，为加拿大创业团队打开便利通道。对独立开发者而言，若考虑以加拿大实体加入 YC，现在是好时机。"
     },
     {
       "sourceId": "yc-blog",
       "title": "祝贺 EquipmentShare 上市",
       "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-      "excerpt": "今天，EquipmentShare（YC W15 届）上市。从密苏里州发展到全国 373 个地点，他们构建了建筑行业一直缺少的操作系统——由承包商为承包商打造。祝贺 Jabbok、Willy 和 EquipmentShare 团队取得这一巨大里程碑。",
+      "excerpt": "今天，EquipmentShare（YC W15）上市。从密苏里州到全美 373 个地点，他们构建了建筑行业一直缺少的操作系统——由承包商为承包商打造。祝贺 Jabbok、Willy 及整个 EquipmentShare 团队实现这一里程碑。",
       "publishedAt": "2026-01-23T15:59:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "EquipmentShare 上市，是 YC 毕业的又一家 IPO 公司。他们为建筑业提供设备共享和运营系统，从区域起步扩展到全国。这对创业者的启示：深耕垂直行业、解决真实痛点，可构建有影响力的公司。"
+      "summary": "EquipmentShare 从 YC 毕业到上市，验证了服务传统行业的软件平台模式。创业者可学习其深耕垂直领域的方法。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "推出 YC AI Stack",
+      "title": "YC AI 工具包发布",
       "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack/",
-      "excerpt": "我们与近二十家公司合作，为参加 YC 活动的学生提供价值超过 25,000 美元的 AI 开发工具免费积分套件。",
+      "excerpt": "我们与近二十家公司合作，为参加 YC 活动的学生提供一套价值超过 25,000 美元的 AI 开发工具免费额度。",
       "publishedAt": "2026-01-16T20:40:39.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 宣布与多家公司合作为学生提供 AI 开发工具免费额度，总计超 2.5 万美元。这降低了学生尝试 AI 开发的门槛，鼓励更多年轻开发者探索 AI 创业。独立开发者和小团队也可关注这些工具的机会。"
+      "summary": "YC 为 AI 学生开发者提供免费资源包，降低实验成本。对个人创业者而言，可留意合作伙伴名单获取实用工具。"
     },
     {
       "sourceId": "yc-blog",
       "title": "2026 年 Demo Day 日期公布",
       "url": "https://www.ycombinator.com/blog/2026-demo-days/",
-      "excerpt": "我们很高兴分享 2026 年 Demo Day 的日期，以便创始人、投资者和社区提前规划。",
+      "excerpt": "我们很高兴分享 2026 年 Demo Day 的日期，以便创始人、投资人及社区提前规划。",
       "publishedAt": "2025-12-18T19:44:54.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 公布 2026 年 Demo Day 日期，方便各方提前安排。对于正在准备申请 YC 的创业者，这是一个重要的时间节点，需要据此规划产品和融资准备。"
+      "summary": "YC 提前一年公布 Demo Day 时间，帮助创业者合理安排融资与产品节奏。对独立开发者，可据此规划参与申请。"
     },
     {
       "sourceId": "yc-blog",
       "title": "Meesho 上市",
       "url": "https://www.ycombinator.com/blog/meesho-goes-public/",
-      "excerpt": "Meesho 今天上市。从 S16 到 IPO，他们构建了印度最大的电商平台之一——赋能数百万小商户发展业务。祝贺 Vidit 和 Sanjeev 十年不懈的建设和倾听用户！",
+      "excerpt": "Meesho 今天上市。从 S16 到 IPO，他们构建了印度最大的电商平台之一——赋能数百万小商家发展业务。祝贺 Vidit 和 Sanjeev 十年如一日地坚持构建和倾听用户！",
       "publishedAt": "2025-12-10T04:32:10.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "印度电商平台 Meesho 上市，是 YC 支持的又一成功案例。它专注于小商户赋能，通过社交电商模式服务下沉市场。对创业者启示：找到被忽视的用户群，并持续迭代产品满足需求，可创造巨大价值。"
+      "summary": "Meesho 从 YC 孵化到印度上市，验证了面向小商户的社交电商模式。创业者可研究其下沉市场策略。"
     },
     {
       "sourceId": "yc-blog",
       "title": "祝贺 Groww",
       "url": "https://www.ycombinator.com/blog/groww/",
-      "excerpt": "今天，印度领先的数字投资平台 Groww 上市。数千万用户使用 Groww 简单自信地投资股票、共同基金和 ETF。作为 YC 在印度上市的第一家公司，我们无比自豪。",
+      "excerpt": "今天，印度领先的数字投资平台 Groww 上市。数千万用户通过 Groww 简单自信地投资股票、共同基金和 ETF。作为 YC 在印度上市的首家公司，我们无比自豪。",
       "publishedAt": "2025-11-12T03:47:51.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "Groww 上市，是 YC 首个在印度上市的创业公司。它简化了投资流程，让普通印度人方便地进行投资。对创业者的启示：深耕本土市场，提供易用的金融服务，可以赢得大规模用户。"
+      "summary": "Groww 成为 YC 首家印度上市公司，展示金融科技在印度市场的潜力。个人开发者可关注用户需求与本地化创新。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "BillionToOne 上市 —— 让基因检测普及的创业公司",
+      "title": "BillionToOne 上市——让基因检测普及化的创业公司",
       "url": "https://www.ycombinator.com/blog/billiontoone/",
-      "excerpt": "今天，BillionToOne 上市，成为 YC 第四家上市的生物科技公司。更重要的是，他们构建了美国最重要的基因检测之一。如今，美国每 11 个新生儿中就有 1 个接受了 BillionToOne 的胎儿基因检测。",
+      "excerpt": "今天，BillionToOne 上市，成为 YC 第四家上市的生物科技公司。更重要的是，他们构建了美国最重要的基因检测之一。如今，美国每 11 个新生儿中就有 1 个接受 BillionToOne 的胎儿基因检测。",
       "publishedAt": "2025-11-06T15:52:00.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "BillionToOne 上市，其胎儿基因检测覆盖了美国 1/11 的新生儿。他们通过技术创新降低了基因检测成本，提高了可及性。对创业者的启示：在生命科学领域，解决大规模真实问题可以创造巨大社会价值和商业成功。"
+      "summary": "BillionToOne 将基因检测成本大幅降低并推广，对创业者启示：深科技结合市场刚需可创造巨大社会价值。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "认识 YC 最新的 Visiting Partners",
+      "title": "认识 YC 新任访问合伙人",
       "url": "https://www.ycombinator.com/blog/ycs-newest-visiting-partners/",
-      "excerpt": "我们激动地宣布九位杰出创始人加入 YC 担任 Visiting Partners：Matt Riley、Harshita Arora、Grey Baker、Christopher Golda、Raphael Schaad、Christina Gilbert、Francois Chaubard、Vivian Shen 和 James Evans。",
+      "excerpt": "我们激动地宣布九位杰出的创始人将加入 YC 担任访问合伙人：Matt Riley、Harshita Arora、Grey Baker、Christopher Golda、Raphael Schaad、Christina Gilbert、Francois Chaubard、Vivian Shen 和 James Evans。",
       "publishedAt": "2025-10-14T17:17:44.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 任命九位成功创始人为 Visiting Partners，他们将为当前批次的公司提供指导。这些合伙人来自不同领域，带来多元经验。对创业者的价值：有机会在 YC 期间获得这些实战导师的直接辅导。"
+      "summary": "YC 引入多位成功创始人作为访问合伙人，为创业者提供多元经验。独立开发者可关注这些创始人的领域背景。"
     },
     {
       "sourceId": "yc-blog",
-      "title": "YC x Coinbase RFS: Build Onchain",
+      "title": "YC x Coinbase RFS：建设链上生态",
       "url": "https://www.ycombinator.com/blog/build-onchain/",
-      "excerpt": "我们正在进入金融科技 3.0 时代。监管清晰、消费者采用率增长以及低成本链为加密领域的建设铺平了道路——在 YC、Base 和 Coinbase，我们希望资助建设者抓住这一时刻。",
+      "excerpt": "我们正进入金融科技 3.0 时代。监管清晰、消费者采用增长和低成本链为加密领域建设开创了黄金时代——在 YC、Base 和 Coinbase，我们希望资助建设者抓住这一机遇。",
       "publishedAt": "2025-09-23T15:00:58.000Z",
       "category": "tech",
       "source": "YC Blog",
-      "summary": "YC 与 Coinbase 合作推出「Build Onchain」RFS（Requests for Startups），鼓励创业者在加密领域构建应用。监管和基础设施的成熟为 Web3 创业者创造了机遇。对独立开发者和小团队来说，这是一个寻求 YC 投资和生态支持的明确方向。"
+      "summary": "YC 与 Coinbase 联合发布需求征集，鼓励链上应用开发。对个人开发者，这是进入 Web3 创业的明确信号和资源机会。"
     },
     {
       "sourceId": "yc-blog",
@@ -6554,6 +6566,69 @@
       "publishedAt": "2025-05-21T15:00:00.000Z",
       "category": "tech",
       "source": "YC Blog"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "季度现金消耗超营收一半，OpenAI业绩揭示企业AI应用爆发势头，也暴露算力成本重压",
+      "url": "http://www.baijing.cn/article/55718",
+      "excerpt": "原标题：季度现金消耗超营收一半! OpenAI业绩揭示企业AI应用爆发势头 也暴露算力成本重压作者：智通财经卢梭题图来源 | pexels智通财经 APP 获悉，有媒体援引一份向股东披露的文件报道称，ChatGPT 开发商 OpenAI 2026 年第一季度烧掉 37 亿美元（即第一季度合计现金消耗...",
+      "publishedAt": "2026-06-18T01:47:45.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "英国监管机构出台谷歌搜索新规，意在促进市场竞争",
+      "url": "http://www.baijing.cn/article/55719",
+      "excerpt": "原标题：英国监管机构出台谷歌(GOOGL.US)搜索新规 意在促进市场竞争作者：智通财经赵锦彬题图来源 | pexels智通财经 APP 获悉，英国竞争监管机构已责令谷歌就其搜索排名机制提供更高透明度，这是新出台的一系列要求之一，旨在为企业和用户争取“更公平的待遇”，并改善这家美国科技巨头在英国的服...",
+      "publishedAt": "2026-06-18T02:15:44.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "给汽车做“体检”   ，TikTok一款内视汽配爆卖了600多万",
+      "url": "http://www.baijing.cn/article/55720",
+      "excerpt": "原标题：给汽车做“体检” ，TikTok一款内视汽配爆卖了600多万作者：TT123跨境电商来源：TT123跨境电商题图来源 | pexels盛夏，因高温“罢工”的车辆再次集体出没。夏季高温之下，汽车发动机会长期处于热负荷状态，由此造成的异响或者加剧的车身抖动，想亲自检修一番，但病灶却难...",
+      "publishedAt": "2026-06-18T02:57:19.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "Omdia：Netflix预计到2031年订阅用户将达4亿，在行业整合浪潮中维持全球流媒体领先地位",
+      "url": "http://www.baijing.cn/article/55721",
+      "excerpt": "原标题：Omdia：Netflix预计到2031年订阅用户将达4亿，在行业整合浪潮中维持全球流媒体领先地位作者：Omdia来源：Omdia新消费生态调研-原Canalys题图来源 | pexelsOmdia 据预测，Netflix 到 2031 年底的全球订阅用户将接近 4 亿，在行业整合不断加剧的...",
+      "publishedAt": "2026-06-18T03:39:36.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "1606万美元营收，只靠蒸汽清洁器？国产品牌在TikTok上打爆美区市场",
+      "url": "http://www.baijing.cn/article/55722",
+      "excerpt": "原标题：1606万美元营收，只靠蒸汽清洁器？国产品牌在TikTok上打爆美区市场作者：多栋来源：兔克出海题图来源 | pexels手持式蒸汽清洁机在家电赛道上不算新品类，但在 TikTok 美区，一个名叫 Phueut 的品牌让这款产品创造了数千万美元的销售奇迹。2024 年 3 月才上线的蒸汽清洁...",
+      "publishedAt": "2026-06-18T04:00:02.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "TikTok爆款周榜 | 英国站这款眼影销量狂涨22712.50%",
+      "url": "http://www.baijing.cn/article/55723",
+      "excerpt": "原标题：TikTok爆款周榜 | 英国站这款眼影销量狂涨22712.50%作者：TT123跨境电商来源：TT123跨境电商题图来源 | pexels近日，TT123 整理了一份最新一周（6.8-6.14）TikTok Shop 在当前 15 大站点的商品热销榜单 Top5，了解当前消费者的购物趋势和...",
+      "publishedAt": "2026-06-18T05:42:54.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
+    },
+    {
+      "sourceId": "baijing",
+      "title": "Shopee在巴西上线即时零售",
+      "url": "http://www.baijing.cn/article/55724",
+      "excerpt": "原标题：Shopee在巴西上线即时零售作者：墨腾创投（ID：MomentumWorks）白鲸出海注：本文为墨腾创投发布在白鲸出海专栏的原创文章，转载和使用请前往作者个人主页，联系寻求作者授权。题图来源 | pexelsShopee 巴西的部分试点卖家后台，最近上线了“Entrega Turbo”即时...",
+      "publishedAt": "2026-06-18T06:20:53.000Z",
+      "category": "tech",
+      "source": "白鲸出海"
     },
     {
       "sourceId": "sspai",
