@@ -16,6 +16,11 @@ export interface LocalizedArticle {
   summary: string;
 }
 
+export interface LocalizedCommunityArticle {
+  title: string;
+  excerpt: string;
+}
+
 const GH_SYSTEM_PROMPT_ZH = `你是一名技术编辑，负责为 GitHub Trending 项目写中文介绍。
 
 输入：每个项目有 owner/repo 名 + 一行英文 description（可能没有）。
@@ -269,12 +274,64 @@ Output STRICTLY a JSON object, no markdown:
   ]
 }`;
 
+const OVERSEAS_COMMUNITY_SYSTEM_PROMPT_ZH = `你是一名中文技术社区编辑，负责忠实翻译 Hacker News、Reddit 等海外社区条目。
+
+输入：每条内容有 url、title、excerpt 和 source。
+
+任务：为每条内容输出：
+  1. title：准确、自然的中文标题
+  2. excerpt：忠实翻译已有正文片段；输入为空时必须输出空字符串
+
+严格要求：
+  - 只翻译输入中已有的信息，不总结、不解释、不补充背景、不推测链接内容
+  - 公司名、产品名、人名、股票代码和技术术语可保留英文
+  - 保留数字、金额、百分比和代码等关键信息
+  - 不使用营销腔，不改变原文语气
+
+输出严格 JSON 对象，不要 markdown：
+{
+  "articles": [
+    {
+      "url": "<原 url，从输入中精确复制>",
+      "title": "<中文标题>",
+      "excerpt": "<中文正文片段或空字符串>"
+    }
+  ]
+}
+
+所有字符串内部引用使用中文全角引号「」，不要使用未转义的英文双引号。`;
+
+const OVERSEAS_COMMUNITY_SYSTEM_PROMPT_EN = `You are an English-language technology community editor translating Hacker News, Reddit, and similar community entries.
+
+Input: each item has url, title, excerpt, and source.
+
+For every item, output:
+  1. title: an accurate, natural English title
+  2. excerpt: a faithful English translation of the supplied excerpt; return an empty string when the input is empty
+
+Strict requirements:
+  - Translate only information present in the input; do not summarize, explain, add context, or infer linked content
+  - Preserve company names, product names, people, ticker symbols, and technical terms where appropriate
+  - Preserve numbers, amounts, percentages, and code
+  - Keep the original tone and avoid promotional language
+
+Output STRICTLY a JSON object, no markdown:
+{
+  "articles": [
+    {
+      "url": "<exact url from input>",
+      "title": "<English title>",
+      "excerpt": "<English excerpt or empty string>"
+    }
+  ]
+}`;
+
 // Pick the right localized prompt set at module init. Each enricher reaches
 // in via PROMPTS.<key> so the call sites stay locale-agnostic.
 const PROMPTS =
   REPORT_LOCALE === "en"
-    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_EN }
-    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_ZH };
+    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, papers: PAPERS_SYSTEM_PROMPT_EN, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_EN, overseasCommunity: OVERSEAS_COMMUNITY_SYSTEM_PROMPT_EN }
+    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, papers: PAPERS_SYSTEM_PROMPT_ZH, soloBusiness: SOLO_BUSINESS_SYSTEM_PROMPT_ZH, overseasCommunity: OVERSEAS_COMMUNITY_SYSTEM_PROMPT_ZH };
 
 const USER_PROMPT_HEADER =
   REPORT_LOCALE === "en"
@@ -421,6 +478,65 @@ async function runArticleLocalization(
   return result;
 }
 
+async function runCommunityLocalization(
+  payload: EnrichInput[],
+): Promise<Map<string, LocalizedCommunityArticle>> {
+  const langHeader =
+    REPORT_LOCALE === "en"
+      ? "**Output language: ENGLISH ONLY.** Translate title and excerpt faithfully; do not add information."
+      : "**输出语言：仅中文。** 忠实翻译 title 和 excerpt，不得补充输入中不存在的信息。";
+  const userPrompt = [
+    langHeader,
+    "",
+    USER_PROMPT_HEADER(payload.length),
+    JSON.stringify(payload),
+    "",
+    REPORT_LOCALE === "en"
+      ? `Output {"articles": [{"url": ..., "title": ..., "excerpt": ...}, ...]}; copy every url exactly.`
+      : `请输出 {"articles": [{"url": ..., "title": ..., "excerpt": ...}, ...]}，url 必须精确回填输入值。`,
+  ].join("\n");
+  const result = new Map<string, LocalizedCommunityArticle>();
+
+  try {
+    const { text } = await runLlm({
+      systemPrompt: PROMPTS.overseasCommunity,
+      userPrompt,
+      timeoutMs: 240_000,
+    });
+    const cleaned = extractJson(text);
+    let parsed: {
+      articles?: Array<{
+        url?: string;
+        title?: string;
+        excerpt?: string;
+      }>;
+    };
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch {
+      parsed = JSON.parse(jsonrepair(cleaned));
+    }
+
+    for (const article of parsed.articles ?? []) {
+      if (
+        article.url &&
+        article.title &&
+        typeof article.excerpt === "string"
+      ) {
+        result.set(article.url, {
+          title: article.title.trim(),
+          excerpt: article.excerpt.trim(),
+        });
+      }
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[enrich] overseas-community localization failed: ${msg}`);
+  }
+
+  return result;
+}
+
 /**
  * Generate Chinese summaries for a batch of GitHub Trending repos in
  * a single Claude CLI call. Failures are non-fatal — caller gets an
@@ -502,4 +618,26 @@ export async function enrichSoloBusinessArticles(
     source: it.source ?? "",
   }));
   return runArticleLocalization(payload);
+}
+
+export async function enrichOverseasCommunityArticles(
+  items: EnrichInput[],
+): Promise<Map<string, LocalizedCommunityArticle>> {
+  if (items.length === 0) return new Map();
+  const payload = items.map((it) => ({
+    url: it.url,
+    title: it.title,
+    excerpt: (it.excerpt ?? "").slice(0, 300),
+    source: it.source ?? "",
+  }));
+  return runCommunityLocalization(payload);
+}
+
+export function localizeHackerNewsStats(
+  excerpt: string | undefined,
+): string | undefined {
+  const match = excerpt?.trim().match(
+    /^(\d+)\s+points?\s*·\s*(\d+)\s+comments?$/i,
+  );
+  return match ? `${match[1]} 积分 · ${match[2]} 条评论` : undefined;
 }

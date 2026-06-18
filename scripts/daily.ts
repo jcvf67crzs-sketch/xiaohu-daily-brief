@@ -13,9 +13,11 @@ import { getModelTag, validateBackendCredentials } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
+  enrichOverseasCommunityArticles,
   enrichSoloBusinessArticles,
   enrichTrendingPapersSummaries,
   enrichXViralSummaries,
+  localizeHackerNewsStats,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -129,6 +131,52 @@ async function enrichSoloBusiness(articles: ArticleInput[]): Promise<void> {
   console.log(
     `[daily] solo-business localization done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${localized.size}/${selected.length}`,
   );
+}
+
+async function enrichOverseasCommunity(
+  articles: ArticleInput[],
+): Promise<void> {
+  if (REPORT_LOCALE !== "zh") return;
+
+  const communitySources = sources.filter(
+    (source) =>
+      source.category === "tech" &&
+      source.subcategory === "overseas-community" &&
+      source.enabled !== false &&
+      (source.lang ?? "en") !== REPORT_LOCALE,
+  );
+  if (communitySources.length === 0) return;
+
+  for (const source of communitySources) {
+    const sourceArticles = articles.filter((a) => a.sourceId === source.id);
+    if (sourceArticles.length === 0) continue;
+
+    const payload = sourceArticles.map((article) => ({
+      ...article,
+      excerpt:
+        article.sourceId === "hackernews" &&
+        localizeHackerNewsStats(article.excerpt)
+          ? ""
+          : article.excerpt,
+    }));
+    console.log(
+      `[daily] translating ${sourceArticles.length} ${source.name} community items into zh…`,
+    );
+    const t0 = Date.now();
+    const localized = await enrichOverseasCommunityArticles(payload);
+    for (const article of sourceArticles) {
+      const item = localized.get(article.url);
+      if (!item) continue;
+      article.title = item.title;
+      article.excerpt =
+        article.sourceId === "hackernews"
+          ? localizeHackerNewsStats(article.excerpt) || item.excerpt
+          : item.excerpt;
+    }
+    console.log(
+      `[daily] ${source.name} translation done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${localized.size}/${sourceArticles.length}`,
+    );
+  }
 }
 
 /**
@@ -306,6 +354,7 @@ async function main() {
   await enrichAiNews(articles);
   await enrichXViral(articles);
   await enrichSoloBusiness(articles);
+  await enrichOverseasCommunity(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.

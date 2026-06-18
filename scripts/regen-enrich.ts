@@ -5,7 +5,9 @@ import path from "node:path";
 
 import {
   enrichFinanceNewsSummaries,
+  enrichOverseasCommunityArticles,
   enrichSoloBusinessArticles,
+  localizeHackerNewsStats,
 } from "../lib/ai/enrich";
 import { validateBackendCredentials } from "../lib/ai/llm";
 import type { ArticleInput } from "../lib/ai/pipeline";
@@ -112,6 +114,59 @@ async function main() {
     fs.writeFileSync(sidecarPath, JSON.stringify(data, null, 2), "utf8");
     console.log(
       `[regen-enrich] localization done in ${((Date.now() - t0) / 1000).toFixed(1)}s, patched ${patched}/${selected.length}`,
+    );
+    console.log(`[regen-enrich] now run \`npm run render -- ${date}\`.`);
+    return;
+  }
+
+  if (target === "tech:overseas-community") {
+    if (REPORT_LOCALE !== "zh") {
+      console.log("[regen-enrich] overseas community translation only runs in zh mode.");
+      return;
+    }
+    const communitySources = sources.filter(
+      (source) =>
+        source.category === "tech" &&
+        source.subcategory === "overseas-community" &&
+        source.enabled !== false &&
+        (source.lang ?? "en") !== REPORT_LOCALE,
+    );
+    let patched = 0;
+    for (const source of communitySources) {
+      const sourceArticles = data.articles.filter(
+        (article) => article.sourceId === source.id,
+      );
+      if (sourceArticles.length === 0) continue;
+
+      const payload = sourceArticles.map((article) => ({
+        ...article,
+        excerpt:
+          article.sourceId === "hackernews" &&
+          localizeHackerNewsStats(article.excerpt)
+            ? ""
+            : article.excerpt,
+      }));
+      console.log(
+        `[regen-enrich] translating ${sourceArticles.length} ${source.name} items`,
+      );
+      const localized = await enrichOverseasCommunityArticles(payload);
+      for (const article of sourceArticles) {
+        const item = localized.get(article.url);
+        if (!item) continue;
+        article.title = item.title;
+        article.excerpt =
+          article.sourceId === "hackernews"
+            ? localizeHackerNewsStats(article.excerpt) || item.excerpt
+            : item.excerpt;
+        patched++;
+      }
+      console.log(
+        `[regen-enrich] ${source.name}: matched ${localized.size}/${sourceArticles.length}`,
+      );
+    }
+    fs.writeFileSync(sidecarPath, JSON.stringify(data, null, 2), "utf8");
+    console.log(
+      `[regen-enrich] patched ${patched} overseas community articles in ${sidecarPath}`,
     );
     console.log(`[regen-enrich] now run \`npm run render -- ${date}\`.`);
     return;
