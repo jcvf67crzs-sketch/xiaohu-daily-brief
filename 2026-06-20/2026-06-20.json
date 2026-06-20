@@ -1,0 +1,306 @@
+{
+  "hero_headline": "Subquadratic称解决LLM瓶颈 AI效率有望飞跃",
+  "daily_overview": "今日AI领域，初创公司Subquadratic声称突破注意力机制二次复杂度瓶颈，有望大幅降低大模型推理成本；同时国产开源模型GLM-5.2在网页设计评测中超越闭源模型，显示开源阵营快速追赶。财经方面，中东和平前景推动欧洲股市领跑全球，但油价仍将波动，美国牛市进入狂热阶段需警惕。时政方面，美伊瑞士谈判取消，以色列承诺黎巴嫩停火但军队保留，H5禽流感传至澳大利亚，全球公共卫生再拉警报。",
+  "tech_briefs": [
+    {
+      "title": "Subquadratic宣称突破LLM关键数学瓶颈",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "source": "MIT Tech Review AI",
+      "summary": "Miami初创公司Subquadratic声称解决注意力机制二次复杂度问题，使LLM推理更快更便宜，但尚需业界验证。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "GLM-5.2在网页设计评测中击败Claude Fable 5",
+      "url": "https://x.com/Designarena/status/2068030598028087788",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "开源模型GLM-5.2在单轮HTML网页设计测试中排名第一，超越Claude Fable 5及Opus系列，展示开源模型追赶速度。",
+      "importance": 9
+    },
+    {
+      "title": "Codebase Memory MCP：将代码库索引为知识图谱",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source": "GitHub Trending",
+      "summary": "高性能MCP服务器，支持158种语言，毫秒级查询，单静态二进制，帮助开发者快速理解代码库，减少上下文Token消耗。",
+      "importance": 8
+    },
+    {
+      "title": "DeepMind与英国政府合作AI加速住房规划",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "source": "DeepMind Blog",
+      "summary": "英国政府联手DeepMind开发AI原型，旨在更快处理住房规划审批，缓解住房短缺问题。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "欧洲股市因中东和平前景领跑全球",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-20/europe-s-stocks-are-back-in-the-lead-as-stagflation-risks-ease",
+      "source": "Bloomberg Markets",
+      "summary": "投资者押注中东和平将带动欧洲经济增长，欧洲股市有望成为下半年表现最佳市场。",
+      "importance": 10
+    },
+    {
+      "title": "美国牛市进入狂热阶段，期权市场情绪高涨",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/16/americas-bull-market-has-entered-its-manic-phase",
+      "source": "The Economist Finance",
+      "summary": "《经济学人》指出美国股市乐观情绪转为亢奋，期权市场隐含极端看多，历史模式显示可能接近顶部。",
+      "importance": 9
+    },
+    {
+      "title": "英国5月借款233亿英镑，财政被指脆弱",
+      "url": "https://www.bbc.com/news/articles/cqx1e8nrwgvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "英国5月政府借款同比增长近三分之一至233亿英镑，引发对公共财政可持续性的警告。",
+      "importance": 8
+    },
+    {
+      "title": "油价短期仍将保持波动，和平协议难改格局",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/16/deal-or-no-deal-oil-prices-will-stay-volatile-for-months",
+      "source": "The Economist Finance",
+      "summary": "即使达成和平协议，油价预计不会快速回到60美元以下，地缘风险溢价将持续，交易者需做好准备。",
+      "importance": 8
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美伊瑞士谈判取消，中东和平进程受挫",
+      "url": "https://www.npr.org/2026/06/19/g-s1-129076/up-first-newsletter-vice-president-vance-iran-agreement-obama-presidential-center-judicial-system-dhs-facial-recognition",
+      "source": "NPR World",
+      "summary": "原定在瑞士举行的美伊谈判取消，但仍期望后续磋商；同时以色列与真主党冲突为局势增添变数。",
+      "importance": 10
+    },
+    {
+      "title": "以色列承诺黎巴嫩新停火，但军队继续驻留",
+      "url": "https://www.nytimes.com/live/2026/06/19/world/iran-trump-deal",
+      "source": "NYT World",
+      "summary": "以色列大使表示承诺与黎巴嫩停火，但以军仍将驻扎，真主党尚未回应，停火谈判复杂化。",
+      "importance": 9
+    },
+    {
+      "title": "H5禽流感传至澳大利亚，感染所有大陆",
+      "url": "https://www.bbc.com/news/articles/c4gykxklvl5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "澳大利亚确诊首例H5N1禽流感，至此病毒扩散至全球所有大陆，引发大流行担忧。（多家报道）",
+      "importance": 8
+    }
+  ],
+  "editor_note": "AI基础突破与地缘缓和并行，市场情绪改善但结构性风险未消，投资者应警惕跟风狂欢，关注可持续技术验证。",
+  "keywords": [
+    "AI模型突破",
+    "Subquadratic",
+    "GLM-5.2",
+    "欧洲股市",
+    "伊朗和平",
+    "美国牛市",
+    "H5禽流感",
+    "代码智能"
+  ],
+  "trading": {
+    "market_overview": "今日宏观市场呈现分化：美股三大指数全线上涨，纳指领涨1.91%，标普500和道指涨幅较小，VIX恐慌指数大幅回落9%至16.78，表明市场风险偏好回升，标普500与道指均接近52周高位且呈多头排列。A股上证指数小幅回调0.43%，但周线仍有2.6%涨幅，MACD金叉延续，趋势偏多。BTC日内微涨0.2%，但周线下跌3.11%，价格远低于50日均线与200日均线，RSI仅38.2，加密恐慌贪婪指数为23（极度恐慌），显示数字货币市场情绪极度谨慎。整体而言，权益市场情绪回暖，但加密市场仍处恐慌区间。",
+    "watchlist": [],
+    "risk_caveat": "不构成投资建议，仅用于宏观市场温度观察。所有分析基于公开数据，市场有风险，决策需独立判断。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7500.58,
+        "pct1Day": 1.084620170678974,
+        "pct5Day": 1.4373260230147182,
+        "pct52WeekHigh": -1.5788161503234488,
+        "pct52WeekLow": 26.20376461957556,
+        "sma20": 7485.2640380859375,
+        "sma50": 7315.6322265625,
+        "sma200": 6902.631149902344,
+        "rsi14": 55.07159407334465,
+        "macd": 38.737492187710814,
+        "macdSignal": 53.41563837384895,
+        "macdHistogram": -14.678146186138136,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 51564.7,
+        "pct1Day": 0.14011583744705225,
+        "pct5Day": 1.4079992133533215,
+        "pct52WeekHigh": -1.3704546510896274,
+        "pct52WeekLow": 22.828250971745877,
+        "sma20": 50976.5533203125,
+        "sma50": 49939.751171875,
+        "sma200": 48153.2546875,
+        "rsi14": 58.9465296406846,
+        "macd": 486.53941918333294,
+        "macdSignal": 469.035686744957,
+        "macdHistogram": 17.50373243837595,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 26517.932,
+        "pct1Day": 1.9071490472555568,
+        "pct5Day": 2.7442122037336762,
+        "pct52WeekHigh": -2.4725002123926165,
+        "pct52WeekLow": 37.150035841774866,
+        "sma20": 26375.47509765625,
+        "sma50": 25552.31453125,
+        "sma200": 23528.642421875,
+        "rsi14": 55.63076404992232,
+        "macd": 156.65687158513538,
+        "macdSignal": 227.58419472746633,
+        "macdHistogram": -70.92732314233095,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 16.78,
+        "pct1Day": -9.00217183286785,
+        "pct5Day": -13.683129943322111,
+        "pct52WeekHigh": -52.46458923512747,
+        "pct52WeekLow": 25.411061285500747,
+        "sma20": 17.401000118255617,
+        "sma50": 17.79020004272461,
+        "sma200": 18.559750084877013,
+        "rsi14": 45.9842461808653,
+        "macd": -0.1079469833354274,
+        "macdSignal": -0.052691297318037525,
+        "macdHistogram": -0.05525568601738988,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "death-cross",
+            "label": "死叉(SMA50↓SMA200)",
+            "daysAgo": 6
+          },
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4090.481,
+        "pct1Day": -0.4283068555413135,
+        "pct5Day": 2.595077024028142,
+        "pct52WeekHigh": -3.9536843519033145,
+        "pct52WeekLow": 22.189589058118674,
+        "sma20": 4067.1074829101562,
+        "sma50": 4084.3294677734375,
+        "sma200": 3994.1400439453123,
+        "rsi14": 52.29061700660521,
+        "macd": -7.518545858431025,
+        "macdSignal": -14.576732602780933,
+        "macdHistogram": 7.058186744349907,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 63666.01,
+        "pct1Day": 0.19699782140594702,
+        "pct5Day": -3.1112099243234757,
+        "pct52WeekHigh": -49.55072609272075,
+        "pct52WeekLow": 7.709652205103811,
+        "sma20": 64493.087890625,
+        "sma50": 72670.76890625,
+        "sma200": 77006.95513671875,
+        "rsi14": 38.172001849446474,
+        "macd": -2369.652909101591,
+        "macdSignal": -2840.874302260918,
+        "macdHistogram": 471.2213931593269,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 23,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-06-20T00:00:00.000Z"
+    },
+    "generated_at": "2026-06-20T07:34:54.122Z"
+  }
+}
