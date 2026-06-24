@@ -186,6 +186,7 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WEB_MODE: 'true'
         run: npm run daily
 

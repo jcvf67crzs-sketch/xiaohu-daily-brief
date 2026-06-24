@@ -33,6 +33,8 @@ const TEXTS_ZH = {
   catSoloBusiness: "小镇青年 / 一人公司",
   subAiNews: "AI 媒体",
   subTrendingPapers: "热门论文",
+  subGithubQuantTrading: "交易 / 量化项目",
+  subGithubCreatorCommerce: "外贸 / 视频 / 工具项目",
   subSoloBusiness: "小镇青年 / 一人公司",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
@@ -84,6 +86,8 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   catSoloBusiness: "Solo Business",
   subAiNews: "AI Media",
   subTrendingPapers: "Trending Papers",
+  subGithubQuantTrading: "Trading / Quant Repos",
+  subGithubCreatorCommerce: "Trade / Video / Tool Repos",
   subSoloBusiness: "Solo Business",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
@@ -175,18 +179,20 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "solo-business", "cn-community", "overseas-community"],
+  tech: ["github-trending", "github-quant-trading", "github-creator-commerce", "x-viral", "ai-news", "solo-business", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
 };
 
-const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "x-viral", "ai-news"]);
+const TECH_MAIN_SUBS = new Set(["github-trending", "github-quant-trading", "github-creator-commerce", "x-viral", "ai-news"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
 const TECH_SOLO_BUSINESS_SUBS = new Set(["solo-business"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
   "github-trending": "GitHub Trending",
   "trending-papers": STR.subTrendingPapers,
+  "github-quant-trading": STR.subGithubQuantTrading,
+  "github-creator-commerce": STR.subGithubCreatorCommerce,
   "cn-community": STR.subCnCommunity,
   "overseas-community": STR.subOverseasCommunity,
   "solo-business": STR.subSoloBusiness,
@@ -211,6 +217,8 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:solo-business": 12,
   "tech:x-viral": 20,
   "tech:trending-papers": 20,
+  "tech:github-quant-trading": 20,
+  "tech:github-creator-commerce": 20,
 };
 
 /**

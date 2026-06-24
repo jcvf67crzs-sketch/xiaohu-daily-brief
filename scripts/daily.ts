@@ -52,10 +52,15 @@ async function fetchAll(): Promise<ArticleInput[]> {
 }
 
 async function enrichGhTrending(articles: ArticleInput[]): Promise<void> {
-  const gh = articles.filter((a) => a.sourceId === "github-trending");
+  const githubProjectSourceIds = new Set([
+    "github-trending",
+    "github-quant-trading",
+    "github-creator-commerce",
+  ]);
+  const gh = articles.filter((a) => githubProjectSourceIds.has(a.sourceId));
   if (gh.length === 0) return;
   console.log(
-    `[daily] enriching ${gh.length} GitHub Trending repos with ${REPORT_LOCALE} summaries…`,
+    `[daily] enriching ${gh.length} GitHub project repos with ${REPORT_LOCALE} summaries…`,
   );
   const t0 = Date.now();
   const summaries = await enrichGithubTrendingSummaries(gh);
@@ -346,9 +351,9 @@ async function main() {
     throw new Error("no articles fetched — aborting");
   }
 
-  // Enrich GH Trending, papers, finance news, and politics with summaries.
+  // Enrich GitHub project lists, finance news, politics, and other displayed
+  // source groups with summaries.
   await enrichGhTrending(articles);
-  await enrichTrendingPapers(articles);
   await enrichFinanceNews(articles);
   await enrichPolitics(articles);
   await enrichAiNews(articles);

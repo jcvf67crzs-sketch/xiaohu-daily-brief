@@ -13,6 +13,50 @@
     ]
   },
   {
+    "id": "github-quant-trading",
+    "name": "GitHub 交易与量化项目",
+    "type": "api",
+    "url": "https://api.github.com/search/repositories",
+    "category": "tech",
+    "subcategory": "github-quant-trading",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "algorithmic trading",
+      "backtesting",
+      "quantitative finance",
+      "trading bot",
+      "market data",
+      "risk management"
+    ],
+    "notes": "GitHub repository recommendations for trading systems, quantitative research, backtesting, market data, and risk tooling."
+  },
+  {
+    "id": "github-creator-commerce",
+    "name": "GitHub 外贸 / 视频 / 工具项目",
+    "type": "api",
+    "url": "https://api.github.com/search/repositories",
+    "category": "tech",
+    "subcategory": "github-creator-commerce",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "short video",
+      "video editing",
+      "creator tools",
+      "ecommerce automation",
+      "cross border ecommerce",
+      "AI automation"
+    ],
+    "notes": "GitHub repository recommendations related to creator tools, short-video automation, ecommerce, cross-border trade, and lightweight business tooling."
+  },
+  {
     "id": "v2ex-hot",
     "name": "V2EX",
     "type": "api",
@@ -133,7 +177,7 @@
     "url": "https://huggingface.co/api/daily_papers",
     "category": "tech",
     "subcategory": "trending-papers",
-    "enabled": true,
+    "enabled": false,
     "locales": [
       "zh",
       "en"
