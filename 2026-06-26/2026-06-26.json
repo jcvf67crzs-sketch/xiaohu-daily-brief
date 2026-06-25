@@ -1,0 +1,286 @@
+{
+  "hero_headline": "OpenAI 联合 Broadcom 发布自研 AI 推理芯片",
+  "daily_overview": "今日科技界，OpenAI 发布自研大模型推理芯片 Jalapeño，同时 Gemini 3.5 Flash 新增内置计算机使用能力，AI agent 落地加速；但福特因 AI 检测短板重雇 350 名工程师，警示技术替代需谨慎。财经方面，苹果因芯片成本飙升大幅上调 MacBook/iPad 价格；油价回落至伊朗战前水平带动航空股反弹；特朗普请求 111 亿美元农业援助；最高法院判拜耳除草剂案胜诉。时政方面，委内瑞拉连续强震致 164 死，多国紧急救援；欧洲热浪东移，法国提升最高健康警报；欧盟舆论呼吁反击中国汇率政策。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI 与 Broadcom 推出自研大模型推理芯片 Jalapeño",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News",
+      "summary": "OpenAI 联合 Broadcom 推出定制 AI 芯片 Jalapeño，专为大模型推理优化，旨在提升性能并降低算力成本，设计周期仅 9 个月。",
+      "importance": 9
+    },
+    {
+      "title": "Gemini 3.5 Flash 内置计算机使用功能",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source": "DeepMind Blog",
+      "summary": "Google 将计算机使用能力作为内置工具集成到 Gemini 3.5 Flash 中，可执行打开应用、点击、输入等操作，实现 agentic 任务自动化。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "福特因 AI 检测短板重雇 350 名工程师",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "source": "Hacker News",
+      "summary": "福特汽车在尝试用 AI 替代质检工程师后，发现 AI 未能保留专业知识且无法培训新人，重新雇回 350 名经验丰富的质量检查员。",
+      "importance": 9
+    },
+    {
+      "title": "OpenMontage：全球首个开源智能视频制作系统",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "source": "GitHub Trending",
+      "summary": "开源视频生产系统，包含 12 条流水线、52 个工具和 500+ Agent 技能，可将 AI 编码助手转变为完整视频制作工作室，面向创作者的自动化工具。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "苹果因芯片成本飙升调高 MacBook 和 iPad 价格",
+      "url": "https://www.bbc.co.uk/news/articles/c3ryj81ywlro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "苹果表示从未见过如此大幅且快速的组件涨价，将 MacBook 和 iPad 提价；美光因财报强劲股价大涨，引发科技股调整。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "油价回落至伊朗战争前水平，航空股反弹",
+      "url": "https://www.bbc.co.uk/news/articles/c0jy7d7wzv4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "霍尔木兹海峡航运逐步恢复，油价跌回战前水平；美国航空股指数六年来首次收复疫情以来全部失地。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "特朗普请求国会 111 亿美元援助困境农民",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/trump-requests-11-1-billion-in-new-aid-for-struggling-farmers",
+      "source": "Bloomberg Markets",
+      "summary": "美国总统特朗普在白宫晚宴上宣布向国会申请 111 亿美元农业援助，将成第二次大规模农业救助。",
+      "importance": 8
+    },
+    {
+      "title": "美最高法院判拜耳除草剂案胜诉",
+      "url": "https://www.ft.com/content/4f87f951-a647-497a-90a6-bc28c14fe419",
+      "source": "Financial Times",
+      "summary": "美国最高法院推翻下级法院判决，认定拜耳未能就被指致癌风险充分警告的说法不成立，拜耳获重大胜利。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "委内瑞拉连续强震致 164 死，多国加入救援",
+      "url": "https://www.theguardian.com/world/live/2026/jun/25/venezuela-earthquake-live-updates-quake-aftershocks-terremoto-caracas-latest",
+      "source": "The Guardian",
+      "summary": "委内瑞拉先后遭遇 7.2 级和 7.5 级地震，至少 164 人死亡，数百人失踪，美国、古巴、伊朗等多国参与救援。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "欧洲热浪东移，法国提升最高健康警报",
+      "url": "https://www.bbc.co.uk/news/articles/cwy0pdq89zno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "欧洲热浪向东移动，德国部分地区气温可能达到 40°C，法国报告热浪已导致较年轻人群死亡，启动最高健康警报。",
+      "importance": 7
+    },
+    {
+      "title": "德语媒体：欧盟应反击中国的汇率政策",
+      "url": "https://www.dw.com/zh/德语媒体：欧盟应对中国的汇率政策进行反击/a-77711926?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "德国《商报》评论称人民币汇率被长期人为压低，给欧盟造成严重损失，欧盟应采取措施反击；《法兰克福汇报》报道默茨主张重启广场协定。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "AI 芯片与 agent 能力快速迭代，但福特案例提醒技术替代需平衡专业传承；地缘政治与自然灾害叠加，全球供应链韧性再受考验。",
+  "keywords": [
+    "AI芯片",
+    "Gemini计算机使用",
+    "福特AI",
+    "委内瑞拉地震",
+    "油价",
+    "苹果涨价",
+    "欧盟汇率",
+    "量化交易"
+  ],
+  "trading": {
+    "market_overview": "今日美股分化：道指逼近52周高位（-0.77%），五日上涨1.47%，RSI 64.5偏强；标普500持平，RSI 47.7中性，处于多头排列但距高点-3.18%；纳斯达克最弱，五日跌2.35%，RSI 43.4，趋势中性。VIX 18.87小幅上升，波动率仍处低位。A股上证指数多头排列，距52周高-3.25%，RSI 53.3，温和偏暖。加密市场极度恐慌：恐慌贪婪指数仅12，BTC期货合约大跌2.15%，五日累跌7.09%，RSI 30.4深陷超卖，空头排列且逼近52周低，总市值2.14T，BTC主导率55.8%维持。整体风险偏好谨慎乐观但结构分化，加密端压力显著。",
+    "watchlist": [],
+    "risk_caveat": "本信息不构成投资建议，仅用于宏观市场温度观察，请结合自身风险判断。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7378.71,
+        "pct1Day": 0.278461157154769,
+        "pct5Day": -0.5578105027090355,
+        "pct52WeekHigh": -3.177971105774904,
+        "pct52WeekLow": 20.818467171092806,
+        "sma20": 7466.089526367187,
+        "sma50": 7357.232421875,
+        "sma200": 6920.872102050781,
+        "rsi14": 47.73890121317163,
+        "macd": 11.281050239538672,
+        "macdSignal": 33.965210330043035,
+        "macdHistogram": -22.684160090504363,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52249.71,
+        "pct1Day": 0.7730377589085093,
+        "pct5Day": 1.4704247648685211,
+        "pct52WeekHigh": -0.7709522585036526,
+        "pct52WeekLow": 21.27384901194339,
+        "sma20": 51251.8953125,
+        "sma50": 50232.1821875,
+        "sma200": 48281.60384765625,
+        "rsi14": 64.46199443522266,
+        "macd": 521.5136892382361,
+        "macdSignal": 487.6429310175846,
+        "macdHistogram": 33.87075822065151,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25409.674,
+        "pct1Day": -0.2628550050444531,
+        "pct5Day": -2.351833636191007,
+        "pct52WeekHigh": -6.5484451940606565,
+        "pct52WeekLow": 27.159761951469484,
+        "sma20": 26209.07373046875,
+        "sma50": 25754.1509765625,
+        "sma200": 23608.319638671874,
+        "rsi14": 43.44245783977665,
+        "macd": -26.48715287644518,
+        "macdSignal": 116.45751119119285,
+        "macdHistogram": -142.94466406763803,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 18.87,
+        "pct1Day": 1.2882493292797534,
+        "pct5Day": 2.3318842380085596,
+        "pct52WeekHigh": -46.54390934844192,
+        "pct52WeekLow": 41.03139013452915,
+        "sma20": 17.785000038146972,
+        "sma50": 17.77800003051758,
+        "sma200": 18.62795008659363,
+        "rsi14": 52.560753478683736,
+        "macd": 0.14132770208909662,
+        "macdSignal": 0.009059483774198025,
+        "macdHistogram": 0.1322682183148986,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4120.281,
+        "pct1Day": 0.34167476653472895,
+        "pct5Day": 0.6937844286439623,
+        "pct52WeekHigh": -3.2539670799459937,
+        "pct52WeekLow": 20.472107346192168,
+        "sma20": 4065.5735473632812,
+        "sma50": 4094.9060107421874,
+        "sma200": 3999.717863769531,
+        "rsi14": 53.31783771031744,
+        "macd": 4.616451498322476,
+        "macdSignal": -6.000048343190381,
+        "macdHistogram": 10.616499841512857,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 59682,
+        "pct1Day": -2.1528485174982586,
+        "pct5Day": -7.0947988541689915,
+        "pct52WeekHigh": -52.70767611580748,
+        "pct52WeekLow": 2.684581910542292,
+        "sma20": 63252.346875,
+        "sma50": 70630.16765625,
+        "sma200": 76154.16263671876,
+        "rsi14": 30.38192326974061,
+        "macd": -2223.0153138259775,
+        "macdSignal": -2289.910192815053,
+        "macdHistogram": 66.89487898907555,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-low",
+            "label": "接近 52 周低"
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 12,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-06-25T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2136238885361.015,
+      "total24hVolumeUsd": 112488295450.25175,
+      "marketCapChangePct24h": -0.5988778958639107,
+      "btcDominance": 55.791248176533514,
+      "ethDominance": 8.848433230442563,
+      "activeCryptocurrencies": 17385
+    },
+    "generated_at": "2026-06-25T16:09:43.728Z"
+  }
+}
