@@ -1,0 +1,286 @@
+{
+  "hero_headline": "OpenAI预览GPT-5.6，AI能力再升级",
+  "daily_overview": "今日技术领域，OpenAI正式预览GPT-5.6系列（Sol/Terra/Luna），受美国政府限制仅向信任合作伙伴开放，同时发布AI Agent研究论文揭示自动化新进展；DeepMind推出Gemini 3.5 Flash的计算机使用能力。财经方面，特朗普威胁对欧洲技术税加征100%关税，德国车企因中国竞争宣布历史性裁员，欧洲央行警示通胀上行风险，全球芯片股估值高企。时政方面，美伊冲突在霍尔木兹海峡再度激化，委内瑞拉双地震已致逾900人死亡，欧洲遭遇创纪录热浪。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI预览GPT-5.6 Sol/Terra/Luna系列",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI News",
+      "summary": "OpenAI推出GPT-5.6三种变体，编程、科学和网络安全能力显著提升，美国政府限制仅向信任合作伙伴开放。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "AI Agent正如何改变工作方式",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "summary": "OpenAI研究论文显示AI Agent可执行更复杂、更长时间的任务，提升跨角色生产力。",
+      "importance": 9
+    },
+    {
+      "title": "Gemini 3.5 Flash引入计算机使用功能",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind发布Gemini 3.5 Flash，新增计算机使用能力，可操控浏览器等桌面应用。",
+      "importance": 8
+    },
+    {
+      "title": "ai-berkshire：基于Claude Code的价值投资框架",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "source": "GitHub Trending",
+      "summary": "开源项目融合巴菲特、芒格等四位大师方法论，利用多Agent对抗式研究辅助价值投资决策。",
+      "importance": 7
+    },
+    {
+      "title": "StockSharp：开源量化交易平台",
+      "url": "https://github.com/StockSharp/StockSharp",
+      "source": "GitHub 交易与量化项目",
+      "summary": "支持股票、外汇、加密货币等多市场的算法交易和量化交易机器人开发平台。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "特朗普威胁对欧洲数字税加征100%关税",
+      "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "美国总统特朗普称多个欧洲国家正在讨论数字税，扬言以100%关税报复。",
+      "importance": 9
+    },
+    {
+      "title": "德国车企因中国竞争开启历史性裁员",
+      "url": "https://www.ft.com/content/b68964c9-f3d0-48e8-8873-8f463834936c",
+      "source": "Financial Times",
+      "summary": "中国车企涌入市场冲击德国工业模式，大众等公司宣布大规模裁员，欧洲最大经济体面临威胁。",
+      "importance": 9
+    },
+    {
+      "title": "欧洲央行Schnabel警告通胀上行风险",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-27/ecb-s-schnabel-sees-upside-inflation-risks-despite-peace-deal",
+      "source": "Bloomberg Markets",
+      "summary": "尽管美伊和平协议重开霍尔木兹海峡，但欧洲央行执委认为价格压力可能强于预期。",
+      "importance": 8
+    },
+    {
+      "title": "全球芯片股估值昂贵",
+      "url": "https://www.ft.com/content/e5aa937c-bc52-4973-bf21-bfb6afd1d95d",
+      "source": "Financial Times",
+      "summary": "AI相关市场芯片股估值处于高位，投资者对收益预期需保持谨慎。",
+      "importance": 7
+    },
+    {
+      "title": "AI能否降低利率？",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/25/will-ai-lower-interest-rates",
+      "source": "The Economist Finance",
+      "summary": "文章探讨AI对生产率的影响可能压低利率，但需谨慎借鉴历史经验。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美伊冲突再起，霍尔木兹海峡局势紧张",
+      "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
+      "source": "NYT World",
+      "summary": "美国对伊朗军事地点空袭后，巴林遭伊朗无人机袭击，霍尔木兹海峡再遇袭船事件，停火协议脆弱。",
+      "importance": 10
+    },
+    {
+      "title": "委内瑞拉双地震已致逾900人遇难",
+      "url": "https://www.nytimes.com/live/2026/06/27/world/venezuela-earthquake",
+      "source": "NYT World",
+      "summary": "两次强烈地震袭击委内瑞拉北部，国际救援队加入搜救，一名新生儿从废墟中获救。",
+      "importance": 9
+    },
+    {
+      "title": "欧洲遭遇创纪录热浪，多国高温破纪录",
+      "url": "https://www.theguardian.com/world/live/2026/jun/27/europe-heatwave-germany-poland-france-uk-temperature-heat-latest-news-updates",
+      "source": "The Guardian",
+      "summary": "德国、丹麦、斯洛伐克等国温度记录被打破，意大利面临干旱，强雷暴即将来袭。",
+      "importance": 8
+    }
+  ],
+  "editor_note": "GPT-5.6标志AI能力跃升，但安全限制凸显大国博弈；美伊冲突与委内瑞拉地震考验全球秩序，欧洲经济结构转型阵痛加剧。",
+  "keywords": [
+    "GPT-5.6",
+    "美伊冲突",
+    "委内瑞拉地震",
+    "欧洲热浪",
+    "汽车业裁员",
+    "AI Agent",
+    "量化交易",
+    "通胀风险"
+  ],
+  "trading": {
+    "market_overview": "今日宏观市场呈现分化、偏弱格局。美股三大指数涨跌互现，道指微涨0.05%且接近52周高位，RSI 61.8，趋势偏强；标普500微跌0.06%，窄幅震荡于均线附近，RSI 46.3中性；纳斯达克下跌0.7%，5日累计跌幅2.78%，距52周高回落近7%，RSI降至42.9，接近超卖区域，显示科技板块承压。VIX维持在18.41低位，波动率平稳。A股上证指数下跌2.03%，跌破20日均线，5日累计跌1.97%，距52周高回落5.44%，市场情绪谨慎。加密市场方面，恐慌贪婪指数仅为15（极度恐慌），BTC下跌1%后反弹至60615美元，但5日跌5.22%，RSI 34.7接近超卖，空头排列，趋势弱势。综合来看，整体风险偏好偏弱，波动率不高，但纳指与BTC的下跌信号需关注，A股也有下行压力。",
+    "watchlist": [],
+    "risk_caveat": "以上内容仅为基于公开数据的宏观市场温度观察，不构成投资建议。投资有风险，决策需谨慎，仅用于宏观视角参考。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7354.02,
+        "pct1Day": -0.057081939940808825,
+        "pct5Day": -0.8905553400434849,
+        "pct52WeekHigh": -3.5019485887493498,
+        "pct52WeekLow": 19.094019889975176,
+        "sma20": 7465.028540039062,
+        "sma50": 7356.80802734375,
+        "sma200": 6920.766003417969,
+        "rsi14": 46.298005158275984,
+        "macd": 9.588308152616264,
+        "macdSignal": 33.62666144656004,
+        "macdHistogram": -24.03835329394378,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 51876.11,
+        "pct1Day": 0.05248243129562743,
+        "pct5Day": 0.7448829256476961,
+        "pct52WeekHigh": -1.4804676268420203,
+        "pct52WeekLow": 19.693807296055347,
+        "sma20": 51235.4408203125,
+        "sma50": 50225.600390625,
+        "sma200": 48279.9583984375,
+        "rsi14": 61.786967703207395,
+        "macd": 495.261504064998,
+        "macdSignal": 482.3924890207396,
+        "macdHistogram": 12.86901504425839,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25297.617,
+        "pct1Day": -0.7026971398431838,
+        "pct5Day": -2.7824633474666975,
+        "pct52WeekHigh": -6.960567792598884,
+        "pct52WeekLow": 25.824924734188453,
+        "sma20": 26206.52001953125,
+        "sma50": 25753.1294921875,
+        "sma200": 23608.064267578124,
+        "rsi14": 42.93697009715302,
+        "macd": -30.561450718570995,
+        "macdSignal": 115.64265011114071,
+        "macdHistogram": -146.2041008297117,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 18.41,
+        "pct1Day": -1.1808865844175847,
+        "pct5Day": -0.1626926962513249,
+        "pct52WeekHigh": -47.84702549575071,
+        "pct52WeekLow": 37.59342301943198,
+        "sma20": 17.785999965667724,
+        "sma50": 17.778400001525878,
+        "sma200": 18.6280500793457,
+        "rsi14": 52.61391571235057,
+        "macd": 0.14292303245171212,
+        "macdSignal": 0.009378555441862477,
+        "macdHistogram": 0.13354447700984964,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4027.265,
+        "pct1Day": -2.0323957455476935,
+        "pct5Day": -1.967129344588478,
+        "pct52WeekHigh": -5.438024186267565,
+        "pct52WeekLow": 17.752430329766973,
+        "sma20": 4066.901232910156,
+        "sma50": 4097.587124023437,
+        "sma200": 4001.1904724121096,
+        "rsi14": 54.392055389545426,
+        "macd": 6.783964119100801,
+        "macdSignal": -3.44324587437592,
+        "macdHistogram": 10.227209993476722,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 60615.53,
+        "pct1Day": 0.9982271781568127,
+        "pct5Day": -5.2173035497328675,
+        "pct52WeekHigh": -51.967942140478065,
+        "pct52WeekLow": 4.372913937480457,
+        "sma20": 63080.58203125,
+        "sma50": 69839.665234375,
+        "sma200": 75840.86125,
+        "rsi14": 34.740481826919606,
+        "macd": -2269.195795557818,
+        "macdSignal": -2285.207144933694,
+        "macdHistogram": 16.011349375875852,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 15,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-06-27T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2178583250313.8271,
+      "total24hVolumeUsd": 51072228507.99918,
+      "marketCapChangePct24h": 0.851580056797766,
+      "btcDominance": 55.81394511865304,
+      "ethDominance": 8.864434926965835,
+      "activeCryptocurrencies": 17440
+    },
+    "generated_at": "2026-06-27T16:19:27.755Z"
+  }
+}
