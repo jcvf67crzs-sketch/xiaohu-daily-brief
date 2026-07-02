@@ -1,0 +1,297 @@
+{
+  "hero_headline": "俄大规模空袭基辅致21人死亡",
+  "daily_overview": "今日，俄罗斯对乌克兰首都基辅发动了迄今最大规模的空袭，造成至少21人死亡，战事急剧升级。技术领域，AI竞争持续白热化：ChatGPT全球采用度报告显示增长强劲，Claude Fable模型回归并集成Cursor，谷歌发布Gemini 3.5 Flash计算机控制功能，Hugging Face与Cerebras推出实时语音AI，开源渗透测试工具Strix也受到关注。财经方面，特斯拉Q2交付量受欧洲需求推动增长25%，半导体股三季度开局遇挫，私人信贷基金赎回潮持续，黑石背书的三明治连锁店Jersey Mike‘s申请IPO。时政方面，德国检方指控乌克兰策划北溪管道爆炸案，德国副总理则表态将对华采取更有力路线。",
+  "tech_briefs": [
+    {
+      "title": "ChatGPT全球采用度持续扩大",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News",
+      "summary": "OpenAI发布新数据，显示ChatGPT全球采用度持续增长，用户使用量增加、探索更多功能，在不同地区和语言中驱动增长。",
+      "importance": 8
+    },
+    {
+      "title": "Claude Fable模型回归 开发者探索新用法",
+      "url": "https://x.com/ericzakasson/status/2072639126034137444",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "Anthropic重新启用Claude Fable 5模型并加强网络安全防护，开发者已在Cursor中实践将Fable作为编排器、Composer作为执行者的新模式。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "Gemini 3.5 Flash新增计算机控制能力",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source": "DeepMind Blog",
+      "summary": "谷歌DeepMind推出Gemini 3.5 Flash，模型新增直接操作计算机界面的能力，进一步拓展AI Agent应用场景。",
+      "importance": 7
+    },
+    {
+      "title": "Hugging Face与Cerebras推出实时语音AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face联合Cerebras发布基于Gemma 4的实时语音AI方案，使用Cerebras晶圆级芯片实现低延迟推理。",
+      "importance": 7
+    },
+    {
+      "title": "开源AI渗透测试工具Strix发布",
+      "url": "https://github.com/usestrix/strix",
+      "source": "GitHub Trending",
+      "summary": "Strix是一个开源AI渗透测试工具，可帮助开发者自动发现和修复应用漏洞，降低代码安全门槛。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "特斯拉Q2交付增25% 欧洲需求推动",
+      "url": "https://www.ft.com/content/d4d19d9b-3576-4a28-b972-3007b6cb0bdc",
+      "source": "Financial Times",
+      "summary": "特斯拉第二季度交付量同比增长25%，欧洲和中国市场表现强劲，抵消了美国因税收抵免取消导致的疲软。",
+      "importance": 8
+    },
+    {
+      "title": "半导体股三季度开局遇挫",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/chip-stocks-off-to-rough-start-in-third-quarter-with-2-day-skid",
+      "source": "Bloomberg Markets",
+      "summary": "半导体股票在第三季度前两个交易日遭遇近一个月来最大跌幅，市场对行业前景产生担忧。",
+      "importance": 7
+    },
+    {
+      "title": "私人信贷基金赎回潮持续 Blue Owl遭47亿赎回",
+      "url": "https://www.ft.com/content/b302a86d-f6eb-4d47-b90b-523c1c19b3fa",
+      "source": "Financial Times",
+      "summary": "Blue Owl基金在第二季度面临47亿美元赎回请求，FT追踪的20只私人信贷基金总赎回量超过220亿美元，投资者撤离趋势延续。",
+      "importance": 7
+    },
+    {
+      "title": "黑石背书三明治连锁店Jersey Mike's申请IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-02/blackstone-backed-jersey-mike-s-files-for-ipo-as-listings-jump",
+      "source": "Bloomberg Markets",
+      "summary": "黑石集团支持的三明治连锁品牌Jersey Mike’s提交IPO申请，成为美国上市活动回潮的最新案例。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "俄军大规模空袭基辅致21人死亡",
+      "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "俄罗斯对乌克兰首都基辅发动了迄今最大规模的空袭，造成至少21人死亡，无人机和导弹袭击覆盖多个城区。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "德国检方称乌克兰下令袭击北溪管道",
+      "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-allege-ukraine-ordered-nord-stream-pipeline-attack?traffic_source=rss",
+      "source": "Al Jazeera",
+      "summary": "德国检察官指控一名前乌克兰士兵领导潜水小组炸毁北溪管道，称该行动由乌克兰政府下令，构成「战争罪」。",
+      "importance": 9
+    },
+    {
+      "title": "德副总理表态将对华采取更有力路线",
+      "url": "https://www.dw.com/zh/德副总理：对华采取-更有力路线/a-77805260?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "德国副总理克林拜尔表示将采取更有力的对华路线，总理默茨强调中德之间的依赖性是相互的。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "今日俄乌冲突再度升级，基辅遭规模空袭；AI行业模型迭代加速，竞争白热化；全球金融市场分化，私人信贷风险持续暴露。",
+  "keywords": [
+    "俄乌冲突",
+    "基辅空袭",
+    "特斯拉",
+    "ChatGPT",
+    "半导体",
+    "私人信贷",
+    "Gemini Flash",
+    "对华政策"
+  ],
+  "trading": {
+    "market_overview": "今日宏观市场呈现分化格局。美股方面，道指表现强劲，接近52周高点，RSI 67.8，多头排列；标普500微跌但仍在均线上方，RSI中性；纳斯达克跌幅较大（-1.36%），跌破20日与50日均线，RSI回落到47.4，趋势中性。VIX恐慌指数报16.68，5日跌幅达11.7%，显示波动率回落，市场恐慌情绪有所缓解但整体风险偏好仍不均衡。A股上证指数下跌1.6%，失守20日线，RSI 53.2，趋势中性，但整体处于相对低位。加密货币方面，BTC日涨2.65%但距52周高仍跌51%，RSI 44.1，MACD金叉但空头排列，趋势偏弱。加密恐惧贪婪指数报19（极度恐慌），加密总市值2.22万亿美元，BTC主导率55.8%，ETH占9.3%，表明市场情绪极端悲观，但BTC短期出现企稳反弹。总体看，市场温度偏冷，风险偏好分化，仍需观察后续动能。",
+    "watchlist": [],
+    "risk_caveat": "以上内容仅用于宏观市场温度观察，不构成任何投资建议。请独立判断，谨慎决策。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7442.92,
+        "pct1Day": -0.5386708757309221,
+        "pct5Day": 1.1611264562182204,
+        "pct52WeekHigh": -2.335419701085168,
+        "pct52WeekLow": 20.027737461699726,
+        "sma20": 7430.671044921875,
+        "sma50": 7393.938427734375,
+        "sma200": 6942.707353515625,
+        "rsi14": 51.618582113050344,
+        "macd": 14.340827774214631,
+        "macdSignal": 18.604311407718555,
+        "macdHistogram": -4.263483633503924,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52607.89,
+        "pct1Day": 0.5786260204429502,
+        "pct5Day": 1.323691611872359,
+        "pct52WeekHigh": -0.3735054479565678,
+        "pct52WeekLow": 21.382244117997224,
+        "sma20": 51561.2412109375,
+        "sma50": 50549.7878125,
+        "sma200": 48441.27462890625,
+        "rsi14": 67.84500396277636,
+        "macd": 547.7096624534679,
+        "macdSignal": 509.7271652869964,
+        "macdHistogram": 37.98249716647149,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25687.139,
+        "pct1Day": -1.3551839471906826,
+        "pct5Day": 1.2955738711357672,
+        "pct52WeekHigh": -5.52798599201698,
+        "pct52WeekLow": 26.394300650198637,
+        "sma20": 25913.21337890625,
+        "sma50": 25909.2714453125,
+        "sma200": 23701.86515625,
+        "rsi14": 47.356549134395074,
+        "macd": -35.844582639158034,
+        "macdSignal": 9.317373341154138,
+        "macdHistogram": -45.16195598031217,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 16.68,
+        "pct1Day": 0.5424945544564683,
+        "pct5Day": -11.69930895211939,
+        "pct52WeekHigh": -52.74787535410764,
+        "pct52WeekLow": 24.663677130044835,
+        "sma20": 18.12800006866455,
+        "sma50": 17.639799995422365,
+        "sma200": 18.672600078582764,
+        "rsi14": 46.093583580408556,
+        "macd": -0.20864573183160573,
+        "macdSignal": -0.04418642657678215,
+        "macdHistogram": -0.16445930525482358,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 2
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4028.904,
+        "pct1Day": -1.5995755441798618,
+        "pct5Day": -1.9925252867194168,
+        "pct52WeekHigh": -5.399539736309909,
+        "pct52WeekLow": 16.88234376006317,
+        "sma20": 4067.2993041992186,
+        "sma50": 4101.788515625,
+        "sma200": 4005.751060791016,
+        "rsi14": 53.24344014904573,
+        "macd": 3.324089569761327,
+        "macdSignal": -0.44466874327437433,
+        "macdHistogram": 3.7687583130357014,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 61595,
+        "pct1Day": 2.6519042231860217,
+        "pct5Day": 2.760927006226594,
+        "pct52WeekHigh": -51.19180507277172,
+        "pct52WeekLow": 6.662134774183293,
+        "sma20": 62373.8314453125,
+        "sma50": 67736.99921875,
+        "sma200": 75070.24283203125,
+        "rsi14": 44.14002927804666,
+        "macd": -2045.948202666419,
+        "macdSignal": -2257.3719812436634,
+        "macdHistogram": 211.42377857724432,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 1
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 19,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-07-02T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2216990958249.2705,
+      "total24hVolumeUsd": 94961135618.74239,
+      "marketCapChangePct24h": 2.703011303751306,
+      "btcDominance": 55.76809335323701,
+      "ethDominance": 9.252166548363762,
+      "activeCryptocurrencies": 17407
+    },
+    "generated_at": "2026-07-02T17:02:13.201Z"
+  }
+}
