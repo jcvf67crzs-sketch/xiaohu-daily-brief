@@ -1,0 +1,314 @@
+{
+  "hero_headline": "伊朗最高领袖葬礼首日，以色列被曝暗杀阴谋",
+  "daily_overview": "今日地缘政治方面，伊朗为已故最高领袖哈梅内伊举行六天悼念仪式，外国政要齐聚，权力信号强烈；同时美媒披露以色列曾密谋暗杀伊朗谈判代表，伊核和平前景再受威胁；俄军空袭基辅致多人伤亡，美国独立日庆祝活动则遭创纪录热浪威胁。科技领域，OpenAI发布数据显示ChatGPT全球采用加速，AI工程焦点转向Agent循环，开源AI渗透测试工具Strix及Codex跨平台插件备受关注，Hugging Face与Cerebras协作推动实时语音AI。财经方面，加拿大养老基金大手笔投资EQT AI基建，特朗普政府倾向轻监管，稳定币地位引发讨论，财富管理业收费不透明问题被公开指责。",
+  "tech_briefs": [
+    {
+      "title": "ChatGPT全球采用加速，功能探索增加",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News",
+      "summary": "OpenAI新数据显示ChatGPT在全球各地区的采用持续增长，用户使用频率和功能探索加深，成为推动增长的核心动力。",
+      "importance": 8
+    },
+    {
+      "title": "Hugging Face与Cerebras推出实时语音AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "source": "Hugging Face Blog",
+      "summary": "双方将Gemma 4模型部署于Cerebras硬件，实现低延迟实时语音交互，推动开源语音AI在实用场景中的落地。",
+      "importance": 7
+    },
+    {
+      "title": "AI工程博览会闭幕，聚焦Agent循环",
+      "url": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
+      "source": "Latent Space",
+      "summary": "AI工程师世界博览会最终围绕Agent循环与AI工程状态展开辩论，总结当前进展并展望下一步构建方向。",
+      "importance": 7
+    },
+    {
+      "title": "OpenAI推Codex插件，增强Claude互操作",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "source": "GitHub Trending",
+      "summary": "新插件允许Anthropic的Claude Code调用OpenAI Codex进行代码审查及任务委派，实现跨厂商AI协作。",
+      "importance": 7
+    },
+    {
+      "title": "Strix：开源AI渗透测试工具",
+      "url": "https://github.com/usestrix/strix",
+      "source": "GitHub Trending",
+      "summary": "开源AI渗透测试工具，可自动发现并修复应用漏洞，降低安全测试门槛，适合开发者集成到工作流。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "加拿大养老基金投资17.5亿美元于AI基建",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-03/canada-pension-plan-commits-1-75-billion-to-eqt-eqt-for-ai-infrastructure",
+      "source": "Bloomberg Markets",
+      "summary": "加拿大养老金计划投资局（CPPIB）承诺投资17.5亿美元支持能源公司EQT的AI基础设施建设，显示机构长期看好AI硬件需求。",
+      "importance": 8
+    },
+    {
+      "title": "特朗普将反对严格AI监管",
+      "url": "https://www.ft.com/content/5128e476-db8b-48ac-a8fb-0f16d0f5c2ed",
+      "source": "Financial Times",
+      "summary": "即将离任的技术顾问表示特朗普总统反对设立中央式AI监管机构，预示美国政府将维持宽松的AI监管环境。",
+      "importance": 7
+    },
+    {
+      "title": "稳定币是否应被视为货币？",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/02/are-stablecoins-money",
+      "source": "The Economist Finance",
+      "summary": "经济学人分析稳定币的货币属性，指出政策制定者需在确保安全性与实用性之间寻求平衡，引发对数字货币监管框架的讨论。",
+      "importance": 6
+    },
+    {
+      "title": "人群如何变愚蠢：预测市场失灵",
+      "url": "https://www.ft.com/content/927dde1c-4476-4d22-8fa0-f546506ecd6d",
+      "source": "Financial Times",
+      "summary": "金融时报探讨预测市场因参与者同质性导致群体智慧下降，揭示集体决策中的认知陷阱和偏差。",
+      "importance": 6
+    },
+    {
+      "title": "财富管理费被指故意模糊",
+      "url": "https://www.ft.com/content/9e5b963c-6a5f-41bb-b6af-6d749f217075",
+      "source": "Financial Times",
+      "summary": "Netwealth总裁公开批评同行未透明披露费用结构，英国FCA敦促使用「简明英语」说明收费，推动行业规范化。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "伊朗最高领袖葬礼举行，权力展示与国际关注",
+      "url": "https://www.nytimes.com/2026/07/03/world/middleeast/iran-funeral-supreme-leader.html",
+      "source": "NYT World",
+      "summary": "伊朗为已故最高领袖哈梅内伊举行为期六天的悼念仪式，外国政要出席，仪式充满政治象征和权力信号，旨在向地区释放影响力（多家报道）。",
+      "importance": 9
+    },
+    {
+      "title": "美官员：以色列曾密谋杀害伊朗谈判代表",
+      "url": "https://www.nytimes.com/2026/07/02/us/politics/israel-iran-negotiators-plot.html",
+      "source": "NYT World",
+      "summary": "美国官员认为以色列曾计划暗杀伊朗外长和议长，若成功将破坏伊核和平谈判，美方担忧此举引发地区局势升级。",
+      "importance": 9
+    },
+    {
+      "title": "俄空袭基辅致多人死伤；美国独立日遇热浪",
+      "url": "https://www.npr.org/2026/07/03/g-s1-131920/up-first-newsletter-america-250-heat-wave-ukraine-russia-democratic-party",
+      "source": "NPR World",
+      "summary": "俄罗斯袭击乌克兰首都基辅，造成数人死亡，称系报复行动；同时美国独立日庆典因创纪录热浪面临威胁，多地发布健康预警。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "地缘风险与AI投资热潮并存，安全工具和跨平台互操作成为技术市场新信号，央行保持警惕，投资者需在多重不确定性中寻找平衡。",
+  "keywords": [
+    "伊朗",
+    "以色列",
+    "ChatGPT",
+    "AI安全",
+    "AI基建",
+    "稳定币",
+    "俄罗斯空袭",
+    "热浪"
+  ],
+  "trading": {
+    "market_overview": "今日宏观市场温度呈现分化态势。美股方面，道琼斯工业指数上涨1.14%创近52周新高，但RSI已进入超买区域（70.2），需警惕短期过热风险；标普500基本持平，仍处于多头排列且接近52周高点；纳斯达克综合指数下跌0.80%，RSI回落至49，趋势中性。VIX恐慌指数报15.81，日内下跌2.11%，波动率处于低位。A股上证指数下跌1.67%，MACD死叉，指数位于20日均线下方，整体偏弱。比特币日内微涨0.79%，但价格仍低于50日和200日均线，呈空头排列；加密恐慌贪婪指数仅21（极度恐慌），加密总市值2.23万亿美元，市场情绪低迷。综合来看，美股风险偏好高位分化，A股承压，加密市场情绪极度谨慎。",
+    "watchlist": [],
+    "risk_caveat": "以上内容不构成投资建议，仅用于宏观市场温度观察。市场有风险，请基于自身判断独立决策。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7483.24,
+        "pct1Day": 0.00013389313539651626,
+        "pct5Day": 1.709139416012856,
+        "pct52WeekHigh": -1.8063483315618873,
+        "pct52WeekLow": 20.677955168521205,
+        "sma20": 7432.687060546875,
+        "sma50": 7394.744833984375,
+        "sma200": 6942.908955078125,
+        "rsi14": 54.73743637613171,
+        "macd": 17.55726296465582,
+        "macdSignal": 19.24759845248567,
+        "macdHistogram": -1.6903354878298487,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52900.07,
+        "pct1Day": 1.1372316393083532,
+        "pct5Day": 1.8864352652512895,
+        "pct52WeekHigh": -0.0071450376484865205,
+        "pct52WeekLow": 22.056391362572068,
+        "sma20": 51575.8501953125,
+        "sma50": 50555.63140625,
+        "sma200": 48442.73552734375,
+        "rsi14": 70.18073473095149,
+        "macd": 571.0174436377347,
+        "macdSignal": 514.3887213272009,
+        "macdHistogram": 56.62872231053382,
+        "trend": "bullish",
+        "rsiState": "overbought",
+        "signals": [
+          {
+            "type": "rsi-overbought",
+            "label": "RSI 超买"
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25832.672,
+        "pct1Day": -0.7963020874937563,
+        "pct5Day": 1.8694738586815949,
+        "pct52WeekHigh": -4.992745550696374,
+        "pct52WeekLow": 27.11039993071895,
+        "sma20": 25920.48994140625,
+        "sma50": 25912.1820703125,
+        "sma200": 23702.5928125,
+        "rsi14": 48.996694739039434,
+        "macd": -24.2352520400309,
+        "macdSignal": 11.639239606837842,
+        "macdHistogram": -35.87449164686874,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 15.81,
+        "pct1Day": -2.1052608455802213,
+        "pct5Day": -14.122758658129975,
+        "pct52WeekHigh": -55.212464589235125,
+        "pct52WeekLow": 18.161434977578473,
+        "sma20": 18.122000074386598,
+        "sma50": 17.55920000076294,
+        "sma200": 18.670400075912475,
+        "rsi14": 43.33993970195327,
+        "macd": -0.36157978630568977,
+        "macdSignal": -0.1144297812934004,
+        "macdHistogram": -0.24715000501228937,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 3
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4043.643,
+        "pct1Day": -1.6730151323506304,
+        "pct5Day": -1.8600130950003755,
+        "pct52WeekHigh": -5.053461452035443,
+        "pct52WeekLow": 17.02069226570788,
+        "sma20": 4064.54580078125,
+        "sma50": 4101.338095703125,
+        "sma200": 4006.605946044922,
+        "rsi14": 44.49628533200313,
+        "macd": -1.6588839250289311,
+        "macdSignal": -0.6875117863369982,
+        "macdHistogram": -0.971372138691933,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 61968.2,
+        "pct1Day": 0.7853896990242223,
+        "pct5Day": 4.0916586894504965,
+        "pct52WeekHigh": -50.896079472530765,
+        "pct52WeekLow": 7.308393540279972,
+        "sma20": 62245.690234375,
+        "sma50": 67353.14421875,
+        "sma200": 74947.43642578126,
+        "rsi14": 45.67617597658517,
+        "macd": -1821.8683568064516,
+        "macdSignal": -2171.671405929771,
+        "macdHistogram": 349.8030491233194,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 21,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-07-03T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2233362969045.218,
+      "total24hVolumeUsd": 67568174376.59118,
+      "marketCapChangePct24h": 0.8200301718218586,
+      "btcDominance": 55.65869174302326,
+      "ethDominance": 9.353273331299214,
+      "activeCryptocurrencies": 17387
+    },
+    "generated_at": "2026-07-03T16:46:46.402Z"
+  }
+}
