@@ -1,0 +1,314 @@
+{
+  "hero_headline": "伊朗最高领袖葬礼举行 权力交接开启",
+  "daily_overview": "今日全球地缘政治与技术产业同步震荡。伊朗为最高领袖哈梅内伊举行盛大葬礼，政权过渡进入关键期；北约峰会前夕，俄罗斯对乌克兰发动致命空袭，造成至少21人死亡，泽连斯基呼吁强硬回应。科技界，AI模型系统提示词遭大规模泄露，涉及Anthropic、OpenAI、Google等多款前沿模型，引发安全与隐私讨论；微软宣布裁员4800人并大幅重组Xbox业务，折射游戏行业困境。此外，马士基恢复苏伊士运河航线、Sky以16亿英镑收购ITV等交易揭示了全球经济与媒体格局的深刻变化。整体呈现地缘动荡与技术变革交织的复杂图景。",
+  "tech_briefs": [
+    {
+      "title": "多个AI模型系统提示词遭泄露",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "GitHub Trending",
+      "summary": "公开仓库泄露了Anthropic、OpenAI、Google等公司的AI系统提示词，涵盖Claude Fable 5、ChatGPT 5.5等前沿模型，提示工程安全面临新挑战。",
+      "importance": 10
+    },
+    {
+      "title": "ChatGPT全球采用量持续扩大",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News",
+      "summary": "OpenAI发布数据显示ChatGPT用户量持续增长，使用频率提升，功能探索加深，覆盖更多地区和语言，标志AI消费市场加速渗透。",
+      "importance": 8
+    },
+    {
+      "title": "AI编程代理生产级技能集发布",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "source": "GitHub Trending",
+      "summary": "该项目提供面向AI编码代理的生产级工程技能集，涵盖测试、安全、部署等，旨在提升代理实用性，对独立开发者与团队构建AI工作流有参考价值。",
+      "importance": 9
+    },
+    {
+      "title": "开源量化交易平台StockSharp更新",
+      "url": "https://github.com/Qyxlor/StockSharp",
+      "source": "GitHub 交易与量化项目",
+      "summary": "StockSharp是一个算法交易与量化开源平台，支持股票、外汇、加密货币和期权，为个人交易者与小团队提供开发交易机器人的基础设施。",
+      "importance": 8
+    },
+    {
+      "title": "一键AI高清短视频生成工具上架GitHub",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "source": "GitHub 外贸 / 视频 / 工具项目",
+      "summary": "利用AI大模型一键生成高清短视频，降低视频制作门槛，适用于内容创作与营销，为小团队和个人提供内容变现机会。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "微软裁员4800人并重组Xbox业务",
+      "url": "https://www.bbc.co.uk/news/articles/c36yy27rnpeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "微软宣布裁员4800人（约占员工2.1%），其中Xbox部门裁减1600人，反映游戏行业硬件下滑与利润率压力。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "Sky以16亿英镑收购ITV电视与流媒体业务",
+      "url": "https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "Sky宣布以16亿英镑收购ITV的电视和流媒体频道，热门节目将保持免费。媒体行业整合浪潮持续。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "马士基恢复首趟经苏伊士运河通行",
+      "url": "https://www.ft.com/content/49ef8c90-d7cd-4acc-8d82-3e3c7f56d9c5",
+      "source": "Financial Times",
+      "summary": "马士基将首次发送货轮通过苏伊士运河，自伊朗战争以来首次。航线重开缩短交付时间，但可能导致运费下降，马士基股价跌7%。",
+      "importance": 8
+    },
+    {
+      "title": "洛克希德·马丁35亿美元收购水下技术公司",
+      "url": "https://www.ft.com/content/7f74fbea-89fa-4444-b092-fccfae4c0cea",
+      "source": "Financial Times",
+      "summary": "洛克希德·马丁以35亿美元收购水下技术集团，反映国防技术领域兴趣激增；Thales同时宣布收购法国海军无人机厂商。",
+      "importance": 7
+    },
+    {
+      "title": "霍尼韦尔分拆后以145亿美元收购Element",
+      "url": "https://www.ft.com/content/2d0945c1-570d-4684-b5bd-78392c547c79",
+      "source": "Financial Times",
+      "summary": "霍尼韦尔分拆后计划以145亿美元收购先进材料公司Element，打造估值约290亿美元的先进材料业务，瞄准AI供应链需求。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "伊朗最高领袖哈梅内伊葬礼在德黑兰举行",
+      "url": "https://www.bbc.co.uk/news/videos/c78yyyl2ev4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "伊朗为已故最高领袖哈梅内伊举行葬礼，德黑兰街头挤满送葬人群，部分居民选择逃离。葬礼标志着伊朗政治权力过渡的开始。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "俄罗斯大规模空袭乌克兰致21死，泽连斯基呼吁北约峰会强硬回应",
+      "url": "https://www.theguardian.com/world/2026/jul/06/russia-launches-deadly-missile-drone-attacks-kyiv-ukraine",
+      "source": "The Guardian",
+      "summary": "俄罗斯在北约峰会前夕向乌克兰发动导弹与无人机袭击，造成至少21人死亡。泽连斯基要求峰会采取强硬措施，凸显乌克兰防空缺口。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "特朗普致电FIFA推翻美国球员停赛引发欧洲不满",
+      "url": "https://www.nytimes.com/2026/07/06/world/europe/balogun-red-card-fifa-belgium.html",
+      "source": "NYT World",
+      "summary": "特朗普确认要求FIFA复审美国前锋巴洛贡的世界杯停赛，FIFA随后推翻裁决。比利时强烈谴责此举加剧美欧紧张关系。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "今日地缘政治与技术产业同步震荡：伊朗权力易手、乌克兰战火重燃、AI安全与科技裁员并行，预示下半年不确定性加大。投资者与从业者需保持警惕。",
+  "keywords": [
+    "伊朗最高领袖葬礼",
+    "俄罗斯空袭乌克兰",
+    "微软裁员",
+    "AI系统提示词泄漏",
+    "量化交易工具",
+    "苏伊士运河复航",
+    "媒体行业整合"
+  ],
+  "trading": {
+    "market_overview": "今日全球市场风险偏好有所分化。美股三大指数涨跌互现，标普500和纳斯达克分别上涨0.68%和1.29%，道琼斯微跌0.04%，但三大指数均接近52周高位，整体趋势偏强。VIX恐慌指数降至15.88，5日跌幅达13.74%，表明市场恐慌情绪显著缓解。A股上证指数小幅走高0.31%，但MACD死叉且价格低于50日均线，趋势中性偏弱。比特币小幅回调0.16%，周度仍上涨5.73%，但价格较52周高点折价近50%，加密恐慌贪婪指数仅为24（极度恐慌），总市值2.29万亿美元略有回升，BTC主导率55.8%显示资金向主流币集中。综合来看，美股情绪偏暖，A股震荡等待方向，加密市场极度恐慌但跌幅收窄。",
+    "watchlist": [],
+    "risk_caveat": "本报告不构成投资建议，仅用于宏观市场温度观察。所有结论基于公开指标，不代表未来走势。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7533.77,
+        "pct1Day": 0.6752391215891612,
+        "pct5Day": 2.4442411088270033,
+        "pct52WeekHigh": -1.1433032843889726,
+        "pct52WeekLow": 21.492823738106765,
+        "sma20": 7430.16005859375,
+        "sma50": 7402.662236328125,
+        "sma200": 6947.544006347656,
+        "rsi14": 58.150137423420524,
+        "macd": 23.367269850515186,
+        "macdSignal": 20.0715327758037,
+        "macdHistogram": 3.295737074711486,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 0
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52880,
+        "pct1Day": -0.03794004881550695,
+        "pct5Day": 1.9351694587254311,
+        "pct52WeekHigh": -0.32552537382639735,
+        "pct52WeekLow": 22.010083828864705,
+        "sma20": 51641.7537109375,
+        "sma50": 50623.43078125,
+        "sma200": 48478.34603515625,
+        "rsi14": 69.80562926600155,
+        "macd": 598.8707339971879,
+        "macdSignal": 531.2851239319336,
+        "macdHistogram": 67.58561006525429,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 26166.947,
+        "pct1Day": 1.2940090170158356,
+        "pct5Day": 3.436401878542641,
+        "pct52WeekHigh": -3.763350853119557,
+        "pct52WeekLow": 28.755209609595422,
+        "sma20": 25887.2892578125,
+        "sma50": 25942.369609375,
+        "sma200": 23721.757744140625,
+        "rsi14": 53.02143186692287,
+        "macd": -0.6880170488911972,
+        "macdSignal": 9.173788524555885,
+        "macdHistogram": -9.861805573447082,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 15.88,
+        "pct1Day": -1.6718243028345279,
+        "pct5Day": -13.742530518096393,
+        "pct52WeekHigh": -55.014164305948995,
+        "pct52WeekLow": 18.684603886397607,
+        "sma20": 18.12550005912781,
+        "sma50": 17.560599994659423,
+        "sma200": 18.670750074386596,
+        "rsi14": 43.55515557206814,
+        "macd": -0.35599576552824175,
+        "macdSignal": -0.11331297772503851,
+        "macdHistogram": -0.24268278780320324,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 3
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 4041.2383,
+        "pct1Day": 0.3061439811964213,
+        "pct5Day": 0.34697015951512583,
+        "pct52WeekHigh": -5.1099248790111425,
+        "pct52WeekLow": 16.704621588590943,
+        "sma20": 4063.838903808594,
+        "sma50": 4100.56841796875,
+        "sma200": 4007.4465063476564,
+        "rsi14": 46.17635932891507,
+        "macd": -4.368256591082172,
+        "macdSignal": -1.423660800856434,
+        "macdHistogram": -2.9445957902257383,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 1
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 63443.95,
+        "pct1Day": -0.16355039365616617,
+        "pct5Day": 5.733294568400074,
+        "pct52WeekHigh": -49.726687579294996,
+        "pct52WeekLow": 9.863903653000177,
+        "sma20": 61898.4701171875,
+        "sma50": 66473.737578125,
+        "sma200": 74603.465859375,
+        "rsi14": 51.170066470864604,
+        "macd": -998.3850629874069,
+        "macdSignal": -1693.1516415114074,
+        "macdHistogram": 694.7665785240006,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 24,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-07-06T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2288971041683.958,
+      "total24hVolumeUsd": 80710358085.87828,
+      "marketCapChangePct24h": 1.3146296015031118,
+      "btcDominance": 55.81642570850226,
+      "ethDominance": 9.495751810621206,
+      "activeCryptocurrencies": 17338
+    },
+    "generated_at": "2026-07-06T16:30:26.522Z"
+  }
+}
