@@ -1,0 +1,310 @@
+{
+  "hero_headline": "法国法院有条件允许勒庞参选总统",
+  "daily_overview": "今日科技圈，腾讯开源295B MoE模型Hy3成焦点，ChatGPT全球用户加速扩张；AI编码代理设计模式「Loops」兴起。财经方面，三星利润暴增1800%、SK Hynix美股超募显示AI芯片需求旺盛，对冲基金上半年强劲，英国央行拟放松资本规则。政治领域，法国法院有条件允许勒庞参选总统，北约峰会聚焦军费与乌克兰防空，德国通过2027债务预算增国防开支。",
+  "tech_briefs": [
+    {
+      "title": "腾讯发布295B MoE开源模型Hy3",
+      "url": "https://news.smol.ai/issues/26-07-06-not-much/",
+      "source": "Smol AI News",
+      "summary": "腾讯开源Hy3模型，295B参数、21B激活、192专家，支持256K上下文，可本地部署，为开发者提供强大开源选择。",
+      "importance": 9
+    },
+    {
+      "title": "ChatGPT全球用户增长加速",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News",
+      "summary": "OpenAI数据显示ChatGPT全球用户增长加速，用户探索更多功能，推动各地区和语言市场增长。",
+      "importance": 8
+    },
+    {
+      "title": "AI编码代理设计模式「Loops」兴起",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "source": "X 推文 (AttentionVC)",
+      "summary": "开发者社区热议以「设计循环」替代单次提示控制编码代理，代表AI编码工作流从提示工程转向持续循环模式。",
+      "importance": 7
+    },
+    {
+      "title": "Better Auth 加入 Vercel",
+      "url": "https://better-auth.com/blog/better-auth-joins-vercel",
+      "source": "Hacker News",
+      "summary": "开源身份验证库Better Auth被Vercel收购，将为Vercel平台提供原生认证能力，降低开发者集成成本。",
+      "importance": 7
+    },
+    {
+      "title": "美国公司加速采用中国AI模型",
+      "url": "https://www.v2ex.com/t/1225666",
+      "source": "V2EX",
+      "summary": "CNBC报道美国企业开始更多部署中国开源AI模型，反映中美AI生态融合趋势，降低对单一模型依赖。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "三星利润暴增1800%",
+      "url": "https://www.bbc.co.uk/news/articles/c1kyy8yrpxdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "三星Q2利润同比暴增1800%，受AI芯片需求推动，但股价因未达最高预期下跌。",
+      "importance": 9
+    },
+    {
+      "title": "SK Hynix美股认购数倍超募",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/sk-hynix-us-listing-said-to-be-multiple-times-oversubscribed",
+      "source": "Bloomberg Markets",
+      "summary": "SK Hynix价值280亿美元的美国上市获数倍超额认购，凸显AI芯片需求强劲。",
+      "importance": 9
+    },
+    {
+      "title": "对冲基金上半年表现强劲",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-07/why-hedge-funds-posted-such-a-strong-first-half-video",
+      "source": "Bloomberg Markets",
+      "summary": "Lone Pine Capital上半年涨43%，Appaloosa涨32%，对冲基金整体表现强劲。",
+      "importance": 8
+    },
+    {
+      "title": "欧洲央行警告AI网络攻击风险",
+      "url": "https://www.ft.com/content/304cdbb9-c161-4e40-af4d-6df1d2ff5363",
+      "source": "Financial Times",
+      "summary": "欧洲央行和ESRB警告AI可通过前沿模型在数分钟内利用IT漏洞发起攻击，要求银行加强防御。",
+      "importance": 8
+    },
+    {
+      "title": "英国央行拟放松银行资本规则",
+      "url": "https://www.ft.com/content/5a335f32-e123-4239-934d-bacd876a03d5",
+      "source": "Financial Times",
+      "summary": "英国央行计划放宽银行资本要求，以促进信贷并支持金融市场应对危机。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "巴黎法院有条件允许勒庞参选总统",
+      "url": "https://www.bbc.co.uk/news/articles/cly85qjg45no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "法国极右翼领袖勒庞上诉被驳回但刑期缩短，法院裁定佩戴电子镣铐可参选总统，她表示拒绝。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "北约峰会聚焦军费与乌克兰防空需求",
+      "url": "https://www.npr.org/2026/07/07/nx-s1-5883932/ukraine-to-press-nato-for-anti-ballistic-air-defense-after-latest-russian-attacks",
+      "source": "NPR World",
+      "summary": "北约盟国向特朗普展示军费增加承诺，乌克兰总统泽连斯基要求提供反导防御系统以应对俄导弹袭击。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "德国内阁通过2027预算草案大幅增加债务",
+      "url": "https://www.dw.com/zh/更多债务：联邦内阁制定2027财政预算/a-77866675?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "德国联邦内阁通过2027年预算草案，国防预算大增，其他部门削减，总体债务显著上升。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "AI开源与芯片盈利印证产业加速，欧洲安全格局在勒庞案与北约峰会上裂变，资本聚焦结构性机会需持续跟踪。",
+  "keywords": [
+    "腾讯Hy3",
+    "ChatGPT",
+    "勒庞参选",
+    "NATO峰会",
+    "三星利润",
+    "SK Hynix",
+    "AI芯片",
+    "开源模型"
+  ],
+  "trading": {
+    "market_overview": "今日美股三大指数全线回调，标普500及道指仍运行于52周高位附近，多头排列未改，但纳指日跌超1%，RSI回落至49且趋势转中性，科技股承压。VIX小幅反弹至16.17，绝对值仍处低位，市场情绪未现恐慌。上证指数日跌1.32%，MACD死叉且跌破20日均线，短期弱势未改。加密市场方面，BTC日度微跌0.15%，周度仍涨3.93%，但恐慌贪婪指数仅27（恐慌），加密总市值2.29T基本持平，BTC主导率56%，多头动力不足，整体风险偏好偏谨慎。",
+    "watchlist": [],
+    "risk_caveat": "本内容不构成投资建议，仅用于宏观市场温度观察，数据仅供参考，投资决策请自行判断。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7502.89,
+        "pct1Day": -0.45824869983183103,
+        "pct5Day": 0.8394652290677804,
+        "pct52WeekHigh": -1.5485047697778387,
+        "pct52WeekLow": 20.983328468989406,
+        "sma20": 7436.300561523438,
+        "sma50": 7410.625244140625,
+        "sma200": 6952.075007324219,
+        "rsi14": 55.32349864752438,
+        "macd": 25.415053890779745,
+        "macdSignal": 21.186953523015372,
+        "macdHistogram": 4.228100367764373,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 1
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52863.31,
+        "pct1Day": -0.3630135750810675,
+        "pct5Day": 1.3042085202235099,
+        "pct52WeekHigh": -0.7993912473986432,
+        "pct52WeekLow": 21.971574972981497,
+        "sma20": 51750.3755859375,
+        "sma50": 50698.00875,
+        "sma200": 48513.45052734375,
+        "rsi14": 67.76272044645317,
+        "macd": 623.371245036964,
+        "macdSignal": 551.9475831956759,
+        "macdHistogram": 71.4236618412881,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25852.457,
+        "pct1Day": -1.0286800227964183,
+        "pct5Day": 0.12515956233293565,
+        "pct52WeekHigh": -4.919980390000668,
+        "pct52WeekLow": 26.868529583812613,
+        "sma20": 25892.15126953125,
+        "sma50": 25969.7330078125,
+        "sma200": 23739.484443359375,
+        "rsi14": 49.11626858055834,
+        "macd": -10.13907504628878,
+        "macdSignal": 4.726810539731545,
+        "macdHistogram": -14.865885586020326,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 16.17,
+        "pct1Day": 3.853566582761303,
+        "pct5Day": -8.385267141742364,
+        "pct52WeekHigh": -54.192634560906505,
+        "pct52WeekLow": 20.852017937219735,
+        "sma20": 17.84300003051758,
+        "sma50": 17.503600006103515,
+        "sma200": 18.671550073623656,
+        "rsi14": 45.081134230462126,
+        "macd": -0.4302183938888291,
+        "macdSignal": -0.1806507614702832,
+        "macdHistogram": -0.2495676324185459,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 4
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 3990.235,
+        "pct1Day": -1.3207908197920097,
+        "pct5Day": -2.0537336824416395,
+        "pct52WeekHigh": -6.307505078233325,
+        "pct52WeekLow": 14.839067849487373,
+        "sma20": 4064.5140014648437,
+        "sma50": 4099.691640625,
+        "sma200": 4008.36203125,
+        "rsi14": 45.93203950214696,
+        "macd": -6.633057914702476,
+        "macdSignal": -2.4655402236256423,
+        "macdHistogram": -4.167517691076834,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 2
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 63900.73,
+        "pct1Day": -0.1473327634647277,
+        "pct5Day": 3.9284661342773988,
+        "pct52WeekHigh": -49.36473275700651,
+        "pct52WeekLow": 10.65489529066804,
+        "sma20": 61900.1376953125,
+        "sma50": 66223.690078125,
+        "sma200": 74485.2079296875,
+        "rsi14": 52.85905748108545,
+        "macd": -743.6354938071527,
+        "macdSignal": -1496.2148578417666,
+        "macdHistogram": 752.579364034614,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 27,
+      "classification": "Fear",
+      "classificationCn": "恐慌",
+      "timestamp": "2026-07-07T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2287365499442.7485,
+      "total24hVolumeUsd": 79207720441.19456,
+      "marketCapChangePct24h": 0.10464938839419165,
+      "btcDominance": 55.99664570739692,
+      "ethDominance": 9.469654679795402,
+      "activeCryptocurrencies": 17329
+    },
+    "generated_at": "2026-07-07T16:08:10.834Z"
+  }
+}
