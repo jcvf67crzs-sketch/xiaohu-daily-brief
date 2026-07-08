@@ -1,0 +1,305 @@
+{
+  "hero_headline": "美伊停火濒临崩溃 特朗普称「结束了」",
+  "daily_overview": "地缘风险持续升温，美伊短暂停火濒临瓦解，特朗普威胁进一步打击，避险资金涌入美元；北约峰会在安卡拉举行，特朗普承诺乌克兰可本土制造爱国者导弹。金融市场剧烈震荡，布伦特原油单日飙升8%并可能继续上行，LNG供给面临多重风险。技术侧，编码智能体SWE-1.7性能逼近GPT-5.5，腾讯开源295B参数MoE模型Hy3，AI能力再次迈上新台阶，个人生产力工具与开源生态持续活跃。",
+  "tech_briefs": [
+    {
+      "title": "编码AI智能体SWE-1.7逼近GPT-5.5水平",
+      "url": "https://cognition.com/blog/swe-1-7",
+      "source": "Hacker News",
+      "summary": "Cognition发布最新编码智能体SWE-1.7，在基准测试中达到接近GPT-5.5和Opus的表现，标志着专用AI在代码生成领域取得显著突破。",
+      "importance": 9
+    },
+    {
+      "title": "腾讯开源295B参数MoE模型Hy3",
+      "url": "https://news.smol.ai/issues/26-07-06-not-much/",
+      "source": "Smol AI News",
+      "summary": "腾讯发布Hy3，295B参数MoE模型，21B活跃参数，192专家，支持256K上下文，原生运行于vLLM，为社区提供强大的开源基座模型。",
+      "importance": 8
+    },
+    {
+      "title": "AI求职框架ai-job-search开源：一键自动应聘",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "source": "GitHub Trending",
+      "summary": "开源项目利用Claude Code自动化求职流程，可评估职位、定制简历、撰写求职信并准备面试，大幅降低求职门槛。",
+      "importance": 8
+    },
+    {
+      "title": "澳洲支付平台采用ChatGPT Enterprise加速支付处理",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "source": "OpenAI News",
+      "summary": "Australian Payments Plus使用ChatGPT Enterprise和Codex处理复杂支付业务，节省时间、提升质量，同时保留人工审核环节。",
+      "importance": 7
+    },
+    {
+      "title": "vLLM推出原生Transformer建模后端提升推理速度",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face Blog",
+      "summary": "Hugging Face与vLLM团队发布原生速度vLLM Transformers建模后端，大幅提升推理效率，降低部署成本。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "美元因美伊停火威胁获避险买盘",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-08/dollar-gets-safe-haven-flows-as-us-iran-ceasefire-under-threat",
+      "source": "Bloomberg Markets",
+      "summary": "美元连续第二日上涨，美伊停火濒临破裂引发避险情绪，投资者寻求安全资产。",
+      "importance": 9
+    },
+    {
+      "title": "布伦特原油单日涨8% 期权头寸或进一步助涨",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-08/brent-s-surge-runs-into-options-levels-that-could-fuel-gains",
+      "source": "Bloomberg Markets",
+      "summary": "布伦特原油周三暴涨8%，期货穿越大量未平仓期权水平，可能为涨势提供额外燃料。",
+      "importance": 9
+    },
+    {
+      "title": "LNG市场面临开裂风险 三大因素可能推高气价",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/08/three-ways-the-lng-market-could-crack-before-winter",
+      "source": "The Economist Finance",
+      "summary": "战争、天气和中断三大因素可能使LNG市场在冬季前出现裂痕，天然气价格存在飙升风险。",
+      "importance": 8
+    },
+    {
+      "title": "英国FCA指控车贷机构试图规避赔偿责任",
+      "url": "https://www.ft.com/content/48e129fd-35f3-4543-bd22-be0b116cbb86",
+      "source": "Financial Times",
+      "summary": "英国金融行为监管局在一项法庭文件中指控车贷机构试图自行确定赔偿义务，如同「狐狸看守鸡舍」。",
+      "importance": 7
+    },
+    {
+      "title": "杰富瑞警告加拿大银行股估值过高",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-08/canadian-banks-too-rich-after-searing-66-run-jefferies-says",
+      "source": "Bloomberg Markets",
+      "summary": "杰富瑞分析师指出加拿大大型银行股票在66%大涨后估值已充分体现未来增长，上行空间有限。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美伊停火濒临崩溃 特朗普威胁进一步打击",
+      "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "特朗普称停火「已结束」，美国与伊朗相互攻击，停火协议接近破裂。谈判仍在进行但前景暗淡。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "特朗普在NATO峰会上允诺乌克兰本土生产爱国者导弹",
+      "url": "https://www.theguardian.com/world/2026/jul/08/trump-zelenskyy-vague-promise-licence-manufacture-patriot-missiles",
+      "source": "The Guardian",
+      "summary": "特朗普在与泽连斯基会面时表示美国可能允许乌克兰制造爱国者导弹系统，但过程可能昂贵且复杂。",
+      "importance": 9
+    },
+    {
+      "title": "IOC决定允许俄罗斯运动员重返奥运",
+      "url": "https://www.npr.org/2026/07/08/g-s1-132480/russia-olympics-ioc-decision",
+      "source": "NPR World",
+      "summary": "国际奥委会推翻了长达十年的禁令，允许俄罗斯运动员以中立身份重返国际赛场，引发争议。",
+      "importance": 8
+    }
+  ],
+  "editor_note": "地缘风险与AI能力迭代同日共振：美伊冲突推升避险资产，而编码智能体与开源模型持续加速技术变革。投资者需同时关注宏观风险与技术生态中的结构性机会。",
+  "keywords": [
+    "美伊停火",
+    "北约峰会",
+    "SWE-1.7",
+    "腾讯Hy3",
+    "美元避险",
+    "布伦特原油",
+    "LNG",
+    "俄罗斯重返奥运"
+  ],
+  "trading": {
+    "market_overview": "今日全球市场整体承压：美股三大指数小幅回调，标普500和道指均距52周高点不到2%，趋势仍偏多头，但VIX日内飙升8%至17.44，波动率温和回升；纳斯达克相对落后，距高点已回撤5%以上，RSI回落至47.9。A股上证指数下跌1.74%，MACD死叉且距52周高点已跌6.76%，表现偏弱。加密市场情绪极度恐慌，恐慌贪婪指数仅20，BTC日内下跌2.12%并处于空头排列，加密总市值24小时缩水近3%至2.22万亿美元。整体风险偏好收缩，市场处于调整态势。",
+    "watchlist": [],
+    "risk_caveat": "本文档仅用于宏观市场温度观察，不构成任何投资建议。数据仅供参考，请独立评估风险。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7466.78,
+        "pct1Day": -0.4940143682751434,
+        "pct5Day": -0.4344352568113107,
+        "pct52WeekHigh": -2.0223333202115223,
+        "pct52WeekLow": 20.401058438239218,
+        "sma20": 7439.401049804687,
+        "sma50": 7416.6784375,
+        "sma200": 6956.25390625,
+        "rsi14": 52.240703796633426,
+        "macd": 23.67958152826759,
+        "macdSignal": 21.697731671909104,
+        "macdHistogram": 1.9818498563584868,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 2
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52291.78,
+        "pct1Day": -1.1967249147122454,
+        "pct5Day": -0.052407565787388324,
+        "pct52WeekHigh": -1.8718954837087447,
+        "pct52WeekLow": 20.65288315734778,
+        "sma20": 51828.7560546875,
+        "sma50": 50760.466953125,
+        "sma200": 48544.5065234375,
+        "rsi14": 58.26615054722919,
+        "macd": 582.6853773496478,
+        "macdSignal": 558.8844370849273,
+        "macdHistogram": 23.800940264720452,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25750.809,
+        "pct1Day": -0.262912078663942,
+        "pct5Day": -1.7659137684709294,
+        "pct52WeekHigh": -5.293820827422804,
+        "pct52WeekLow": 25.697214441985356,
+        "sma20": 25881.5203125,
+        "sma50": 25987.3418359375,
+        "sma200": 23755.716044921875,
+        "rsi14": 47.8859991706244,
+        "macd": -24.754999999633583,
+        "macdSignal": -1.6005448894177174,
+        "macdHistogram": -23.154455110215864,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 17.44,
+        "pct1Day": 8.12151833472966,
+        "pct5Day": 6.018232165015688,
+        "pct52WeekHigh": -50.59490084985835,
+        "pct52WeekLow": 30.343796711509718,
+        "sma20": 17.767000007629395,
+        "sma50": 17.491199989318847,
+        "sma200": 18.681300072669984,
+        "rsi14": 49.986019531343814,
+        "macd": -0.36524547845609234,
+        "macdSignal": -0.21808025839153375,
+        "macdHistogram": -0.1471652200645586,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 3970.88,
+        "pct1Day": -1.7410020509383488,
+        "pct5Day": -3.0167317307319608,
+        "pct52WeekHigh": -6.761969098325073,
+        "pct52WeekLow": 13.995027817809138,
+        "sma20": 4066.0588623046874,
+        "sma50": 4097.371186523437,
+        "sma200": 4009.2454223632812,
+        "rsi14": 40.98013915428942,
+        "macd": -12.400494276333575,
+        "macdSignal": -4.452531031799148,
+        "macdHistogram": -7.947963244534427,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 3
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 61956.99,
+        "pct1Day": -2.117629866405074,
+        "pct5Day": -0.9388707923115654,
+        "pct52WeekHigh": -50.904962334210026,
+        "pct52WeekLow": 7.288981533935,
+        "sma20": 61822.9966796875,
+        "sma50": 65915.745,
+        "sma200": 74350.25619140625,
+        "rsi14": 45.19537062832028,
+        "macd": -762.2283318707268,
+        "macdSignal": -1357.1182506559335,
+        "macdHistogram": 594.8899187852066,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 20,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-07-08T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2223143674506.5884,
+      "total24hVolumeUsd": 73816935287.05075,
+      "marketCapChangePct24h": -2.910176015935469,
+      "btcDominance": 55.93751137936874,
+      "ethDominance": 9.41621270702736,
+      "activeCryptocurrencies": 17334
+    },
+    "generated_at": "2026-07-08T16:49:08.504Z"
+  }
+}
