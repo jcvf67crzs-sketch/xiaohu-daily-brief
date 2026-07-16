@@ -19,18 +19,17 @@ name: Daily Brief
 # After first successful run your report is live at:
 #   https://<your-username>.github.io/<repo-name>/
 #
-# Schedule mechanics: cron probes twice per hour because GitHub Actions may
+# Schedule mechanics: cron probes run on Mondays because GitHub Actions may
 # delay or drop scheduled events. The gate builds on the first probe received
 # for an eligible local date when that date's report is missing. Later probes
 # skip once the report exists. workflow_dispatch always bypasses the gate.
 
 on:
   schedule:
-    # Two hourly triggers (at :07 and :37) improve the chance that at least
-    # one probe is delivered each local day. The gate publishes on the first
-    # delivered probe when that day's report is absent.
-    - cron: '7 * * * *'
-    - cron: '37 * * * *'
+    # Monday probes (UTC). With REPORT_TZ=Asia/Shanghai this lands on Monday
+    # daytime, while keeping a second probe in case GitHub drops one event.
+    - cron: '7 0 * * 1'
+    - cron: '37 1 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -65,7 +64,7 @@ jobs:
           fi
 
           TZ_VAL="${REPORT_TZ:-UTC}"
-          DAYS_VAL="${REPORT_DAYS:-*}"
+          DAYS_VAL="${REPORT_DAYS:-1}"
 
           NOW_HOUR=$(TZ="$TZ_VAL" date +%-H)
           NOW_DOW=$(TZ="$TZ_VAL" date +%w)
