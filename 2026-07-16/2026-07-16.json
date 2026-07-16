@@ -1,0 +1,304 @@
+{
+  "hero_headline": "美伊冲突持续升级 霍姆兹海峡危机加剧",
+  "daily_overview": "今日全球焦点集中在美伊冲突第五日，霍姆兹海峡再度关闭，IEA警告全球经济面临严峻威胁。技术领域，OpenAI发布GPT-Red自动化红队系统提升AI安全性，AI代理产品使用量激增2.5倍，开源量化交易平台StockSharp与视频编辑工具OpenCut引发开发者关注。财经方面，SpaceX股价跌破发行价，DeepSeek计划启动新一轮融资并筹备IPO，中国经济增速放缓至近年低位，韩国拟限制波动性杠杆ETF。时政方面，美军对伊朗发动新一轮打击，中国海警巡逻延伸至台湾东侧，美国两党提出新的对俄制裁法案。",
+  "tech_briefs": [
+    {
+      "title": "OpenAI推出自动化红队系统GPT-Red",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "source": "MIT Tech Review AI",
+      "summary": "OpenAI构建了一个名为GPT-Red的LLM超级黑客，通过自我对抗训练提升其他模型的网络防御能力。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "OpenAI呼吁州联邦合作推进AI安全",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News",
+      "summary": "OpenAI提出「反向联邦制」方法，主张州级立法为全国AI安全框架奠基。",
+      "importance": 8
+    },
+    {
+      "title": "AI代理产品周使用量增长2.5倍",
+      "url": "https://news.smol.ai/issues/26-07-14-not-much/",
+      "source": "Smol AI News",
+      "summary": "OpenAI的Codex和ChatGPT Work推动代理产品周使用量增长2.5倍，JetBrains将Codex推荐为代理工具。",
+      "importance": 9
+    },
+    {
+      "title": "开源量化交易平台StockSharp发布",
+      "url": "https://github.com/StockSharp/StockSharp",
+      "source": "GitHub 交易与量化项目",
+      "summary": "StockSharp是一个开源算法交易平台，支持股票、外汇、加密货币和期权，可开发交易机器人，适合个人和团队构建量化系统。",
+      "importance": 7
+    },
+    {
+      "title": "开源CapCut替代品OpenCut发布",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "source": "GitHub Trending",
+      "summary": "OpenCut是一款开源视频编辑工具，作为CapCut的替代方案，面向内容创作者和独立开发者。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "霍姆兹海峡再度关闭 全球燃料危机加剧",
+      "url": "https://www.ft.com/content/6c314457-ce9a-4689-b3e1-ff637de0d6bf",
+      "source": "Financial Times",
+      "summary": "油轮无法通过霍姆兹海峡，库存耗尽，IEA警告全球经济面临严峻挑战。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "SpaceX股价跌破发行价 市值蒸发万亿美元",
+      "url": "https://www.ft.com/content/94959f40-1874-4ece-b629-b18f43aa3ede",
+      "source": "Financial Times",
+      "summary": "SpaceX自6月上市以来股价波动，近日跌破135美元发行价，市值蒸发约1万亿美元。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "DeepSeek计划新一轮融资并筹备IPO",
+      "url": "https://www.dw.com/zh/消息人士：deepseek计划再融资并筹备ipo/a-77971573?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "消息人士称，中国AI初创公司DeepSeek将启动新一轮融资，并计划今年在中国内地IPO。",
+      "importance": 8
+    },
+    {
+      "title": "中国经济增速放缓至近年低位",
+      "url": "https://www.ft.com/content/64c2023f-48d0-409c-9bb0-2980384a98f1",
+      "source": "Financial Times",
+      "summary": "中国二季度经济增速为近年来最低之一，财政紧缩趋势显现。",
+      "importance": 7
+    },
+    {
+      "title": "韩国将出台措施限制单股杠杆ETF",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/korea-to-announce-measures-on-single-stock-leveraged-etfs-soon",
+      "source": "Bloomberg Markets",
+      "summary": "韩国宣布即将针对三星电子和SK海力士等个股的杠杆ETF推出监管措施，以抑制市场波动。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美军对伊朗发动第五日打击 霍姆兹局势紧张",
+      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "美国对伊朗的军事打击进入第五天，特朗普表态尚未决定是否「终结」伊朗，伊方表示不惧战争也不惧谈判。（多家报道）",
+      "importance": 10
+    },
+    {
+      "title": "中国海警巡逻扩展至台湾东侧海域",
+      "url": "https://www.dw.com/zh/德语媒体：北京想让台湾变成-孤岛/a-77971603?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "《法兰克福汇报》报道，中国海警活动已从台湾海峡延伸至台湾东侧，北京借此宣示管辖权。",
+      "importance": 8
+    },
+    {
+      "title": "美国两党提出新对俄制裁法案",
+      "url": "https://www.npr.org/2026/07/15/nx-s1-5893688/sen-shaheen-discusses-new-russia-sanctions-bill",
+      "source": "NPR World",
+      "summary": "参议员Shaheen与已故参议员Graham共同提出两党法案，对俄罗斯实施新制裁。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "地缘冲突与能源危机叠加，AI安全与金融监管同步推进。全球不确定性加剧，投资者需关注结构性风险与机遇。",
+  "keywords": [
+    "美伊冲突",
+    "霍姆兹海峡",
+    "OpenAI",
+    "GPT-Red",
+    "DeepSeek IPO",
+    "SpaceX",
+    "中国海警",
+    "AI安全"
+  ],
+  "trading": {
+    "market_overview": "今日宏观市场温度呈现分化：美股三大指数延续上行，标普500、纳斯达克均接近52周高位，RSI处于正常偏强区间，VIX恐慌指数降至15.67并呈空头排列，显示市场波动预期低迷、风险偏好回升。上证指数连续走弱，五日跌幅2.64%，指数跌破所有主要均线，RSI 39.9处于弱势区域，A股整体氛围偏冷。比特币小幅下跌但五日仍录得涨幅，RSI中性，价格处于短期均线之上但远低于200日线。加密恐慌贪婪指数仅25（极度恐慌），结合加密总市值2.31万亿美元、BTC主导率56.2%，反映加密市场情绪极度保守，风险偏好极低。",
+    "watchlist": [],
+    "risk_caveat": "本报告仅用于宏观市场温度观察，不构成任何投资建议。市场有风险，投资需谨慎，请独立判断。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7572.4,
+        "pct1Day": 0.3819157303981654,
+        "pct5Day": 1.1986304364423404,
+        "pct52WeekHigh": -0.6364077733601019,
+        "pct52WeekLow": 22.104170059613732,
+        "sma20": 7476.0310546875,
+        "sma50": 7454.2484375,
+        "sma200": 6978.796755371094,
+        "rsi14": 58.545395846455875,
+        "macd": 37.609915638314305,
+        "macdSignal": 30.512873894658792,
+        "macdHistogram": 7.097041743655513,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52658.64,
+        "pct1Day": 0.286374832178591,
+        "pct5Day": 0.5926626803534124,
+        "pct52WeekHigh": -1.1834645979586962,
+        "pct52WeekLow": 21.49933965041619,
+        "sma20": 52245.4384765625,
+        "sma50": 51090.93984375,
+        "sma200": 48703.4484765625,
+        "rsi14": 61.686458101306506,
+        "macd": 468.80464092144393,
+        "macdSignal": 521.8826625742154,
+        "macdHistogram": -53.07802165277144,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 4
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 26269.227,
+        "pct1Day": 0.6213550913386863,
+        "pct5Day": 1.5406516780862805,
+        "pct52WeekHigh": -3.3871860496847956,
+        "pct52WeekLow": 28.098454873589862,
+        "sma20": 25962.87021484375,
+        "sma50": 26119.8791796875,
+        "sma200": 23845.6223828125,
+        "rsi14": 54.037785930702945,
+        "macd": 49.80411669827299,
+        "macdSignal": 22.318515043464803,
+        "macdHistogram": 27.48560165480819,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 4
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 15.67,
+        "pct1Day": -5.030303030303031,
+        "pct5Day": -7.278104415941056,
+        "pct52WeekHigh": -55.60906515580736,
+        "pct52WeekLow": 17.115097159940202,
+        "sma20": 16.979499864578248,
+        "sma50": 17.308199977874757,
+        "sma200": 18.674850068092347,
+        "rsi14": 44.99927036704527,
+        "macd": -0.49711294526077765,
+        "macdSignal": -0.40567732794610994,
+        "macdHistogram": -0.0914356173146677,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 3930.0056,
+        "pct1Day": -0.6464865976502856,
+        "pct5Day": -2.6404055482735322,
+        "pct52WeekHigh": -7.7217182144624115,
+        "pct52WeekLow": 12.63546258000187,
+        "sma20": 4038.654260253906,
+        "sma50": 4078.4142919921874,
+        "sma200": 4014.2428344726563,
+        "rsi14": 39.939326903845384,
+        "macd": -35.289868898631994,
+        "macdSignal": -23.569360705032334,
+        "macdHistogram": -11.72050819359966,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 64610.38,
+        "pct1Day": -0.5322567250183683,
+        "pct5Day": 0.753564513075461,
+        "pct52WeekHigh": -48.802402445615854,
+        "pct52WeekLow": 11.883773997421812,
+        "sma20": 62254.5841796875,
+        "sma50": 64110.5728125,
+        "sma200": 73512.80958984375,
+        "rsi14": 54.74383410103426,
+        "macd": 36.40710515571118,
+        "macdSignal": -432.2710821238458,
+        "macdHistogram": 468.678187279557,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 25,
+      "classification": "Extreme Fear",
+      "classificationCn": "极度恐慌",
+      "timestamp": "2026-07-16T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2305816109574.316,
+      "total24hVolumeUsd": 68906843426.59001,
+      "marketCapChangePct24h": 0.40795231706932156,
+      "btcDominance": 56.192962995137684,
+      "ethDominance": 10.04516860572603,
+      "activeCryptocurrencies": 17590
+    },
+    "generated_at": "2026-07-16T02:24:37.391Z"
+  }
+}
