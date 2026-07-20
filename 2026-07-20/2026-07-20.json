@@ -1,0 +1,297 @@
+{
+  "hero_headline": "美伊冲突升级，全球市场承压",
+  "daily_overview": "今日，美伊战事扩大持续扰动全球市场，能源与粮食价格攀升；英国新首相 Andy Burnham 上任在即，其能源政策走向备受关注。技术领域，中国 AI 模型 Kimi K3 发布引发对国产模型实力的重新评估，并触发半导体板块的杰文斯悖论式反弹；OpenAI 推出 AI 记分卡工具，助企业量化投资回报。财经方面，中国交易者以 2016 年以来最快速度削减融资杠杆，显示 AI 行情过热风险；存储器芯片行业面临 AI 投资驱动的繁荣-萧条周期隐忧。欧盟禁止销毁滞销服装的新规生效，或影响时尚产业供应链。",
+  "tech_briefs": [
+    {
+      "title": "中国AI模型Kimi K3发布引发市场重新评估",
+      "url": "https://tldr.tech/ai/2026-07-17",
+      "source": "TLDR AI",
+      "summary": "月之暗面发布 Kimi K3 模型，在代码、Agent 任务等表现突出，引发对国产开源模型与前沿差距的重新评估。该消息导致半导体板块短暂下跌后反弹，符合杰文斯悖论。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "OpenAI发布AI时代实用记分卡工具",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI News",
+      "summary": "OpenAI CFO 介绍 AI 记分卡，通过有用工作量、每次成功任务成本等指标衡量 AI 投资回报，为企业提供量化评估框架。",
+      "importance": 8
+    },
+    {
+      "title": "谷歌DeepMind公布AI生物弹性方法",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind 与 Isomorphic Labs 分享联合方法，利用 AI 模型增强对生物风险的抵御能力，提升生物安全水平。",
+      "importance": 7
+    },
+    {
+      "title": "MIT科技评论警告天气数据破坏风险",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "source": "MIT Tech Review AI",
+      "summary": "气象预报数据面临被破坏的风险，可能影响航空调度、电网运营和农业决策，安全漏洞日益突出。",
+      "importance": 7
+    },
+    {
+      "title": "开源AI Agent体系学习书籍发布",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "source": "GitHub Trending",
+      "summary": "李博杰著作《深入理解AI Agent》开源，包含全书正文、PDF 与配套代码，为独立开发者系统学习 Agent 设计提供资源。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "AI投资热潮引发存储器芯片行业景气担忧",
+      "url": "https://www.ft.com/content/97eeb736-f8af-4839-8511-3d0354c8b34c?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "FT 报道，大规模 AI 投资计划引发投资者担忧存储器芯片行业重现繁荣与萧条周期，风险加剧。",
+      "importance": 9
+    },
+    {
+      "title": "中国股票交易者以2016年以来最快速度削减杠杆",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/chinese-traders-unwind-leveraged-bets-at-fastest-pace-since-2016",
+      "source": "Bloomberg Markets",
+      "summary": "中国股市交易者上周五以 2015-16 年股灾以来最快速度解除融资仓位，反映 AI 驱动行情可能已超买。",
+      "importance": 8
+    },
+    {
+      "title": "美伊冲突升级推动大豆玉米期货持续上涨",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/soybeans-and-corn-extend-gains-as-us-iran-hostilities-escalate",
+      "source": "Bloomberg Markets",
+      "summary": "中东局势升级推动原油跳涨，生物燃料需求预期提振大豆玉米期货连续走高。",
+      "importance": 7
+    },
+    {
+      "title": "新加坡考虑为基金经理减税以与香港竞争",
+      "url": "https://www.ft.com/content/b8fd6341-4191-4fdd-a9c0-7fb7837d1dc7?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "FT 获悉，新加坡正研究减免基金管理人的税务，旨在与香港争夺亚洲资产管理中心地位。",
+      "importance": 7
+    },
+    {
+      "title": "英国候任首相Burnham表示将支持北海油气开发",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3l22ry6wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "即将上任的英国首相 Burnham 预计在上任首日宣布对北海油气的新支持措施，但此前他曾维持勘探许可证禁令。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美伊战争扩大，又一名美军阵亡",
+      "url": "https://www.nytimes.com/live/2026/07/19/world/iran-war-strikes-trump-hormuz",
+      "source": "NYT World",
+      "summary": "五角大楼确认一名美军在伊拉克北部处置伊朗无人机时阵亡，另在约旦发现未确认遗体。冲突持续升级。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "Andy Burnham将成为英国新任首相",
+      "url": "https://www.aljazeera.com/news/2026/7/20/andy-burnham-to-become-uks-pm-on-monday-what-happens-next?traffic_source=rss",
+      "source": "Al Jazeera",
+      "summary": "前曼彻斯特市长 Andy Burnham 接替基尔·斯塔默出任英国首相，权力过渡本周一启动。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "欧盟禁止销毁滞销服装的新规生效",
+      "url": "https://www.dw.com/zh/禁止销毁滞销服装-欧盟新规能奏效吗？/a-78026008?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "欧盟新规即日起禁止大公司销毁滞销服装和鞋类，旨在减少纺织品垃圾，但执行效果存疑。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "Kimi K3 标志着国产 AI 模型逼近前沿，但算力瓶颈持续显现；美伊冲突升级则为全球复苏蒙上阴影，投资者需警惕通胀与地缘风险。",
+  "keywords": [
+    "Kimi K3",
+    "美伊战争",
+    "AI记分卡",
+    "去杠杆",
+    "英国新首相",
+    "存储器芯片",
+    "欧盟环保新规",
+    "天气数据风险"
+  ],
+  "trading": {
+    "market_overview": "今日全球市场风险偏好整体偏谨慎。美股三大指数全线回调，标普500、道指、纳指分别下跌1.01%、0.77%和1.40%，5日跌幅均超1.5%，VIX恐慌指数飙涨12.19%至18.77，波动率显著上升，市场避险情绪升温。A股上证指数逆势上涨1.18%，但5日仍跌2.69%，RSI仅34.7，处于弱势区间，中期趋势尚未转强。比特币微跌0.08%，价格维持在52周高位下方约49%处，RSI 55中性，加密恐慌贪婪指数仅29（恐慌），反映数字货币市场情绪低迷，总市值2.30T下BTC主导率56.6%。综合来看，短期风险资产面临压力，A股独立性需进一步确认。",
+    "watchlist": [],
+    "risk_caveat": "以上内容不构成投资建议，仅用于宏观市场温度观察。市场有风险，决策需谨慎。",
+    "tickers": [
+      {
+        "symbol": "^GSPC",
+        "displayName": "标普 500",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "SNP",
+        "currentPrice": 7457.69,
+        "pct1Day": -1.0098532253309225,
+        "pct5Day": -1.5537171630045148,
+        "pct52WeekHigh": -2.1416105709299433,
+        "pct52WeekLow": 20.039628566691725,
+        "sma20": 7479.03154296875,
+        "sma50": 7464.878232421875,
+        "sma200": 6987.229504394531,
+        "rsi14": 48.336879363508174,
+        "macd": 28.79005186957602,
+        "macdSignal": 31.09416654105291,
+        "macdHistogram": -2.304114671476892,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          },
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          }
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "displayName": "道琼斯工业指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "DJI",
+        "currentPrice": 52146.42,
+        "pct1Day": -0.7735980662367467,
+        "pct5Day": -0.9320280592130319,
+        "pct52WeekHigh": -2.144670693741529,
+        "pct52WeekLow": 20.317493864886288,
+        "sma20": 52305.796875,
+        "sma50": 51220.1246875,
+        "sma200": 48764.1286328125,
+        "rsi14": 52.393305674068934,
+        "macd": 384.5682005770068,
+        "macdSignal": 481.73218601787215,
+        "macdHistogram": -97.16398544086536,
+        "trend": "bullish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "near-52w-high",
+            "label": "接近 52 周高"
+          },
+          {
+            "type": "above-sma50-sma200",
+            "label": "多头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "displayName": "纳斯达克综合指数",
+        "group": "us-equity",
+        "currency": "USD",
+        "exchangeName": "NIM",
+        "currentPrice": 25520.244,
+        "pct1Day": -1.3975192350967383,
+        "pct5Day": -2.896951111845681,
+        "pct52WeekHigh": -6.141791475681874,
+        "pct52WeekLow": 24.124674066410932,
+        "sma20": 25913.0798828125,
+        "sma50": 26140.0444140625,
+        "sma200": 23877.25724609375,
+        "rsi14": 44.214631277856384,
+        "macd": -8.932863481590175,
+        "macdSignal": 17.819151270277533,
+        "macdHistogram": -26.75201475186771,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          }
+        ]
+      },
+      {
+        "symbol": "^VIX",
+        "displayName": "VIX 恐慌指数",
+        "group": "macro",
+        "currency": "USD",
+        "exchangeName": "CXI",
+        "currentPrice": 18.77,
+        "pct1Day": 12.193667146335025,
+        "pct5Day": 24.883568419661373,
+        "pct52WeekHigh": -46.827195467422094,
+        "pct52WeekLow": 40.284005979073235,
+        "sma20": 17.01199984550476,
+        "sma50": 17.322800006866455,
+        "sma200": 18.69035006046295,
+        "rsi14": 55.90465876757774,
+        "macd": -0.22553668075941857,
+        "macdSignal": -0.37496319257630856,
+        "macdHistogram": 0.14942651181688998,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bull-cross",
+            "label": "MACD 金叉",
+            "daysAgo": 0
+          }
+        ]
+      },
+      {
+        "symbol": "000001.SS",
+        "displayName": "上证指数",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 3808.389,
+        "pct1Day": 1.1751367932204377,
+        "pct5Day": -2.693165424274367,
+        "pct52WeekHigh": -10.577330146567292,
+        "pct52WeekLow": 7.503624489353483,
+        "sma20": 4002.2229248046874,
+        "sma50": 4061.712421875,
+        "sma200": 4013.2557470703123,
+        "rsi14": 34.688544820326996,
+        "macd": -60.85460789239323,
+        "macdSignal": -36.31935010713544,
+        "macdHistogram": -24.53525778525779,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 64746.23,
+        "pct1Day": -0.07773796971652991,
+        "pct5Day": -0.3231155169971984,
+        "pct52WeekHigh": -48.69475420662139,
+        "pct52WeekLow": 12.119021192958355,
+        "sma20": 63139.900390625,
+        "sma50": 63357.071875,
+        "sma200": 73044.91275390625,
+        "rsi14": 54.99791740157547,
+        "macd": 253.79466937592952,
+        "macdSignal": -76.15322663108458,
+        "macdHistogram": 329.9478960070141,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 29,
+      "classification": "Fear",
+      "classificationCn": "恐慌",
+      "timestamp": "2026-07-20T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2299653825674.8237,
+      "total24hVolumeUsd": 43924745394.664635,
+      "marketCapChangePct24h": 0.24806059638061026,
+      "btcDominance": 56.55664931258663,
+      "ethDominance": 9.855259331444024,
+      "activeCryptocurrencies": 17660
+    },
+    "generated_at": "2026-07-20T03:58:08.377Z"
+  }
+}
